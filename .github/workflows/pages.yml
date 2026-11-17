@@ -3,8 +3,15 @@
 # Landing page: sample_results/2026-10-15c/index.html
 # It links to report.html, explorer.html and join_paths_demo.html
 # in the same folder, so the whole demo is one static folder.
-# Enable once in the repo: Settings > Pages > Build and deployment
-# > Source: GitHub Actions. Then push, or run this workflow manually.
+#
+# Enable once in the repo, by hand, before this can succeed:
+# Settings > Pages > Build and deployment > Source: GitHub Actions.
+# Until that is done, actions/configure-pages fails with
+# "Get Pages site failed ... Not Found", because no Pages site
+# exists yet. Adding `enablement: true` does NOT fix that here:
+# creating a Pages site is a repo-admin operation and the
+# default GITHUB_TOKEN cannot do it. After enabling it once,
+# push, or run this workflow manually from the Actions tab.
 name: Deploy demo to GitHub Pages
 
 on:

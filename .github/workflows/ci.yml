@@ -3,6 +3,13 @@
 # This is why the install step matters: `python -m unittest discover`
 # fails with ModuleNotFoundError unless the package is installed first
 # (or PYTHONPATH=src is set). Verified locally: 16 tests, 0.034s.
+#
+# Python 3.9 was dropped from CI on 2026-11-17, not because the code
+# stopped working on it (pyproject still says >=3.9), but because
+# GitHub's ubuntu-latest runner is now Ubuntu 26.04, and
+# actions/setup-python has no 3.9 build for it (3.9 reached
+# end-of-life in October 2025). Pinning to ubuntu-24.04 keeps the
+# remaining versions stable instead of moving with ubuntu-latest.
 name: CI
 
 on:
@@ -17,11 +24,11 @@ permissions:
 jobs:
   test:
     name: Tests (Python ${{ matrix.python-version }})
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        python-version: ["3.10", "3.11", "3.12"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

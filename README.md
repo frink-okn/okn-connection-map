@@ -3,7 +3,7 @@
 [![CI](https://github.com/frink-okn/okn-connection-map/actions/workflows/ci.yml/badge.svg)](https://github.com/frink-okn/okn-connection-map/actions/workflows/ci.yml)
 [![Demo](https://github.com/frink-okn/okn-connection-map/actions/workflows/pages.yml/badge.svg)](https://frink-okn.github.io/okn-connection-map/)
 [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/frink-okn/okn-connection-map/blob/master/LICENSE)
-[![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://github.com/frink-okn/okn-connection-map/blob/master/pyproject.toml)
+[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://github.com/frink-okn/okn-connection-map/blob/master/pyproject.toml)
 [![Version: 0.2.0](https://img.shields.io/badge/Version-0.2.0-green.svg)](https://github.com/frink-okn/okn-connection-map/releases/tag/v0.2.0)
 
 **Find out where the Proto-OKN knowledge graphs connect: computed from the data, with evidence, and served to AI agents.**
@@ -92,7 +92,7 @@ The catalog is mostly right. The case for computing the map is speed, evidence a
 
 No programming experience is needed: copy each block into a terminal. On Windows, use **Anaconda Prompt** or **Command Prompt**; on macOS, **Terminal**. Slower, step-by-step help: [docs/02_installation.md](docs/02_installation.md).
 
-**You need:** Python 3.9 or newer ([python.org](https://www.python.org/downloads/) or [Anaconda](https://www.anaconda.com/download)) and Git ([git-scm.com](https://git-scm.com/downloads)), or download this repository as a ZIP from GitHub's green **Code** button.
+**You need:** Python 3.10 or newer ([python.org](https://www.python.org/downloads/) or [Anaconda](https://www.anaconda.com/download)) and Git ([git-scm.com](https://git-scm.com/downloads)), or download this repository as a ZIP from GitHub's green **Code** button.
 
 **1. Get the code and install it** (about 1 minute)
 
