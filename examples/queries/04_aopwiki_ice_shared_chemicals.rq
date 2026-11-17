@@ -1,0 +1,10 @@
+# What this asks: how many chemicals (CAS numbers) appear in both AOP-Wiki and ICE?
+# Why it matters: MCP-OKN's get_join_strategy answers "unknown" for this pair, although catalog entry
+#   E3-cas-aopwiki stores 339 for it as a secondary count.
+# How it is built: the query of catalog crosswalk E3-cas-aopwiki, with ICE in place of ToxCast.
+# expected: 1 row, about 339 (connection map run 2026-10-15c and catalog entry E3)
+SELECT (COUNT(DISTINCT ?c2) AS ?shared_cas) WHERE {
+  GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?s <http://aopkb.org/aop_ontology#has_chemical_entity> ?cas . }
+  BIND(IRI(REPLACE(STR(?cas),'https://identifiers.org/cas/','http://identifiers.org/cas/')) AS ?c2)
+  GRAPH <https://purl.org/okn/frink/kg/biobricks-ice> { ?t <http://edamontology.org/has_identifier> ?c2 . }
+}

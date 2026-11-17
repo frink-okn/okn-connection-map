@@ -1,0 +1,7 @@
+# What this asks: how many diseases appear both in NDE (dataset descriptions) and in rdkg (rare diseases)?
+# Source: the query of MCP-OKN catalog crosswalk A32-mondo-nde-rdkg (added 2026-10-14).
+# expected: 1 row, n = 2907 at the releases measured in October/November 2026
+SELECT (COUNT(DISTINCT ?m) AS ?n) WHERE {
+  { SELECT DISTINCT ?m WHERE { GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?m a <https://w3id.org/biolink/vocab/Disease> } } }
+  GRAPH <https://purl.org/okn/frink/kg/nde> { ?ds <http://schema.org/healthCondition> ?m }
+}

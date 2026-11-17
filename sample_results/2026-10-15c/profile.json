@@ -1,0 +1,3406 @@
+{
+ "at": "2026-10-16T00:00:50+00:00",
+ "kgf_ok": true,
+ "graphs": {
+  "biobricks-aopwiki": {
+   "kgf_version": "v0.0.4",
+   "triples": 184333,
+   "federation": {
+    "version": "v0.0.4",
+    "last_updated": "2026-03-18T17:29:20.631+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 1149,
+     "subject": 800,
+     "object": 1138
+    },
+    {
+     "prefix": "uniprotkb",
+     "namespace": "http://purl.uniprot.org/uniprot/",
+     "distinct_iris": 526,
+     "subject": 0,
+     "object": 526
+    },
+    {
+     "prefix": "mesh",
+     "namespace": "http://id.nlm.nih.gov/mesh/",
+     "distinct_iris": 68,
+     "subject": 25,
+     "object": 68
+    },
+    {
+     "prefix": "sio",
+     "namespace": "http://semanticscience.org/resource/",
+     "distinct_iris": 13,
+     "subject": 11,
+     "object": 11
+    },
+    {
+     "prefix": "aopo",
+     "namespace": "http://aopkb.org/aop_ontology#",
+     "distinct_iris": 15,
+     "subject": 5,
+     "object": 5
+    },
+    {
+     "prefix": "void",
+     "namespace": "http://rdfs.org/ns/void#",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 2
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 22494,
+     "matched": 843,
+     "residual": 21651
+    },
+    "predicate": {
+     "distinct_iris": 68,
+     "matched": 61,
+     "residual": 7
+    },
+    "object": {
+     "distinct_iris": 22812,
+     "matched": 1750,
+     "residual": 21062
+    }
+   }
+  },
+  "biobricks-ice": {
+   "kgf_version": "v0.0.3",
+   "triples": 27386547,
+   "federation": {
+    "version": "v0.0.3",
+    "last_updated": "2026-03-30T19:15:32.854+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "ice-data",
+     "namespace": "http://example.com/ice/",
+     "distinct_iris": 3431071,
+     "subject": 3431071,
+     "object": 3431003
+    },
+    {
+     "prefix": "comptox",
+     "namespace": "https://comptox.epa.gov/dashboard/chemical/details/",
+     "distinct_iris": 538131,
+     "subject": 538131,
+     "object": 199729
+    },
+    {
+     "prefix": "bao",
+     "namespace": "http://www.bioassayontology.org/bao#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 8,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 4509929,
+     "matched": 3969202,
+     "residual": 540727
+    },
+    "predicate": {
+     "distinct_iris": 21,
+     "matched": 19,
+     "residual": 2
+    },
+    "object": {
+     "distinct_iris": 3831056,
+     "matched": 3630740,
+     "residual": 200316
+    }
+   }
+  },
+  "biobricks-mesh": {
+   "kgf_version": "v0.0.4",
+   "triples": 18194666,
+   "federation": {
+    "version": "v0.0.4",
+    "last_updated": "2026-04-03T16:03:25.972+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "mesh",
+     "namespace": "http://id.nlm.nih.gov/mesh/",
+     "distinct_iris": 2437743,
+     "subject": 2437714,
+     "object": 1418368
+    },
+    {
+     "prefix": "meshv",
+     "namespace": "http://id.nlm.nih.gov/mesh/vocab#",
+     "distinct_iris": 67,
+     "subject": 66,
+     "object": 24
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 10,
+     "subject": 1,
+     "object": 7
+    },
+    {
+     "prefix": "sd",
+     "namespace": "http://www.w3.org/ns/sparql-service-description#",
+     "distinct_iris": 9,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 7,
+     "subject": 1,
+     "object": 2
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 9,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "void",
+     "namespace": "http://rdfs.org/ns/void#",
+     "distinct_iris": 9,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "skos",
+     "namespace": "http://www.w3.org/2004/02/skos/core#",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 2437717,
+     "matched": 2437717,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 80,
+     "matched": 80,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 1418400,
+     "matched": 1418389,
+     "residual": 11
+    }
+   }
+  },
+  "biobricks-pubchem-annotations": {
+   "kgf_version": "v0.0.2",
+   "triples": 87425612,
+   "federation": {
+    "version": "v0.0.2",
+    "last_updated": "2026-03-16T17:10:17.628+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "pubchem-annotation",
+     "namespace": "http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/",
+     "distinct_iris": 21436186,
+     "subject": 21436186,
+     "object": 10718093
+    },
+    {
+     "prefix": "pubchem-substance",
+     "namespace": "http://rdf.ncbi.nlm.nih.gov/pubchem/substance/",
+     "distinct_iris": 7768046,
+     "subject": 0,
+     "object": 7768046
+    },
+    {
+     "prefix": "pubchem-compound",
+     "namespace": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/",
+     "distinct_iris": 6591894,
+     "subject": 0,
+     "object": 6591894
+    },
+    {
+     "prefix": "oa",
+     "namespace": "http://www.w3.org/ns/oa#",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 21436186,
+     "matched": 21436186,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 6,
+     "matched": 6,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 25078034,
+     "matched": 25078034,
+     "residual": 0
+    }
+   }
+  },
+  "biobricks-tox21": {
+   "kgf_version": "v0.0.2",
+   "triples": 26939,
+   "federation": {
+    "version": "v0.0.3",
+    "last_updated": "2026-05-07T15:04:26.331+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 8947,
+     "matched": 0,
+     "residual": 8947
+    },
+    "predicate": {
+     "distinct_iris": 3,
+     "matched": 3,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 1,
+     "matched": 1,
+     "residual": 0
+    }
+   }
+  },
+  "biobricks-toxcast": {
+   "kgf_version": "v0.0.2",
+   "triples": 30246162,
+   "federation": {
+    "version": "v0.0.2",
+    "last_updated": "2026-03-18T15:36:10.940+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "toxcast-data",
+     "namespace": "http://example.com/toxcast/",
+     "distinct_iris": 6697562,
+     "subject": 6697562,
+     "object": 6697562
+    },
+    {
+     "prefix": "comptox",
+     "namespace": "https://comptox.epa.gov/dashboard/",
+     "distinct_iris": 11747,
+     "subject": 11747,
+     "object": 9542
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 7,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 6718851,
+     "matched": 6709309,
+     "residual": 9542
+    },
+    "predicate": {
+     "distinct_iris": 11,
+     "matched": 8,
+     "residual": 3
+    },
+    "object": {
+     "distinct_iris": 6716653,
+     "matched": 6707108,
+     "residual": 9545
+    }
+   }
+  },
+  "biohealth": {
+   "kgf_version": "v0.0.4",
+   "triples": 110866002,
+   "federation": {
+    "version": "v0.0.4",
+    "last_updated": "2026-03-16T01:45:58.314+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "biohealth-rel",
+     "namespace": "https://biohealthkg.proto-okn.net/kg/relationship/",
+     "distinct_iris": 18352179,
+     "subject": 18352179,
+     "object": 0
+    },
+    {
+     "prefix": "biohealth-node",
+     "namespace": "https://biohealthkg.proto-okn.net/kg/node/",
+     "distinct_iris": 250976,
+     "subject": 250976,
+     "object": 250976
+    },
+    {
+     "prefix": "biohealth-semtype",
+     "namespace": "https://biohealthkg.proto-okn.net/kg/semtype/",
+     "distinct_iris": 1007,
+     "subject": 0,
+     "object": 1007
+    },
+    {
+     "prefix": "biohealth",
+     "namespace": "https://biohealthkg.proto-okn.net/kg/schema/",
+     "distinct_iris": 47,
+     "subject": 0,
+     "object": 47
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 19,
+     "subject": 0,
+     "object": 18
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 18603155,
+     "matched": 18603155,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 71,
+     "matched": 71,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 252049,
+     "matched": 252049,
+     "residual": 0
+    }
+   }
+  },
+  "biomarkerkg": {
+   "kgf_version": "v0.0.3",
+   "triples": 1215057,
+   "federation": {
+    "version": "v0.0.4",
+    "last_updated": "2026-10-09T14:03:28.536+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "biomarker",
+     "namespace": "https://biomarkerkb.org/biomarker/",
+     "distinct_iris": 202942,
+     "subject": 202942,
+     "object": 0
+    },
+    {
+     "prefix": "dbsnp",
+     "namespace": "https://www.ncbi.nlm.nih.gov/snp/",
+     "distinct_iris": 147386,
+     "subject": 0,
+     "object": 147386
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 1769,
+     "subject": 1738,
+     "object": 1042
+    },
+    {
+     "prefix": "uniprotkb",
+     "namespace": "http://purl.uniprot.org/uniprot/",
+     "distinct_iris": 245,
+     "subject": 244,
+     "object": 245
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 205189,
+     "matched": 204924,
+     "residual": 265
+    },
+    "predicate": {
+     "distinct_iris": 13,
+     "matched": 13,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 148984,
+     "matched": 148673,
+     "residual": 311
+    }
+   }
+  },
+  "climatemodelskg": {
+   "kgf_version": "v0.0.16",
+   "triples": 4118610,
+   "federation": {
+    "version": "v0.0.16",
+    "last_updated": "2026-07-28T18:39:34.788+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "climatepub4-id",
+     "namespace": "https://climatepub4kg.github.io/id/",
+     "distinct_iris": 362341,
+     "subject": 362341,
+     "object": 352392
+    },
+    {
+     "prefix": "climatepub4",
+     "namespace": "https://climatepub4kg.github.io/ontology#",
+     "distinct_iris": 174,
+     "subject": 174,
+     "object": 49
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 6,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "bibo",
+     "namespace": "http://purl.org/ontology/bibo/",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 362516,
+     "matched": 362515,
+     "residual": 1
+    },
+    "predicate": {
+     "distinct_iris": 146,
+     "matched": 146,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 352456,
+     "matched": 352447,
+     "residual": 9
+    }
+   }
+  },
+  "digcfdekg": {
+   "kgf_version": "v0.0.1",
+   "triples": 330535806,
+   "federation": {
+    "version": "v0.0.1",
+    "last_updated": "2026-06-21T16:55:33.595+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "digcfdekg-rel",
+     "namespace": "https://purl.org/okn/frink/kg/digcfdekg/relationship/",
+     "distinct_iris": 29999697,
+     "subject": 29999697,
+     "object": 0
+    },
+    {
+     "prefix": "digcfdekg-node",
+     "namespace": "https://purl.org/okn/frink/kg/digcfdekg/node/",
+     "distinct_iris": 284210,
+     "subject": 284210,
+     "object": 284210
+    },
+    {
+     "prefix": "ncbigene",
+     "namespace": "http://www.ncbi.nlm.nih.gov/gene/",
+     "distinct_iris": 41373,
+     "subject": 41373,
+     "object": 41373
+    },
+    {
+     "prefix": "ordo",
+     "namespace": "http://www.orpha.net/ORDO/",
+     "distinct_iris": 2313,
+     "subject": 2313,
+     "object": 2313
+    },
+    {
+     "prefix": "EFO",
+     "namespace": "http://www.ebi.ac.uk/efo/EFO_",
+     "distinct_iris": 1687,
+     "subject": 1687,
+     "object": 1687
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 436,
+     "subject": 436,
+     "object": 436
+    },
+    {
+     "prefix": "digcfdekg",
+     "namespace": "https://purl.org/okn/frink/kg/digcfdekg/schema/",
+     "distinct_iris": 31,
+     "subject": 29,
+     "object": 27
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 30329745,
+     "matched": 30329745,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 17,
+     "matched": 17,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 330050,
+     "matched": 330050,
+     "residual": 0
+    }
+   }
+  },
+  "dreamkg": {
+   "kgf_version": "v0.0.5",
+   "triples": 94780,
+   "federation": {
+    "version": "v0.0.5",
+    "last_updated": "2026-05-13T17:06:32.947+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "dreamkg",
+     "namespace": "https://purl.org/okn/frink/kg/dreamkg/",
+     "distinct_iris": 28840,
+     "subject": 22824,
+     "object": 23753
+    },
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 235,
+     "subject": 0,
+     "object": 235
+    },
+    {
+     "prefix": "schema",
+     "namespace": "http://schema.org/",
+     "distinct_iris": 56,
+     "subject": 54,
+     "object": 8
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 7,
+     "subject": 0,
+     "object": 7
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 6,
+     "subject": 5,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 22883,
+     "matched": 22883,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 37,
+     "matched": 36,
+     "residual": 1
+    },
+    "object": {
+     "distinct_iris": 24052,
+     "matched": 24004,
+     "residual": 48
+    }
+   }
+  },
+  "fiokg": {
+   "kgf_version": "v0.0.11",
+   "triples": 294890110,
+   "federation": {
+    "version": "v0.0.11",
+    "last_updated": "2026-03-18T16:38:50.584+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "fio-epa-data",
+     "namespace": "http://w3id.org/fio/v1/epa-frs-data#",
+     "distinct_iris": 17658066,
+     "subject": 17658066,
+     "object": 17608788
+    },
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 684477,
+     "subject": 684410,
+     "object": 684476
+    },
+    {
+     "prefix": "datacommons",
+     "namespace": "https://datacommons.org/browser/",
+     "distinct_iris": 32181,
+     "subject": 32181,
+     "object": 32138
+    },
+    {
+     "prefix": "fio-naics",
+     "namespace": "http://w3id.org/fio/v1/naics#",
+     "distinct_iris": 4342,
+     "subject": 4341,
+     "object": 4335
+    },
+    {
+     "prefix": "fio-epa",
+     "namespace": "http://w3id.org/fio/v1/epa-frs#",
+     "distinct_iris": 269,
+     "subject": 261,
+     "object": 269
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 80,
+     "subject": 80,
+     "object": 79
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 38,
+     "subject": 38,
+     "object": 38
+    },
+    {
+     "prefix": "kwg-ont",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/ontology/",
+     "distinct_iris": 23,
+     "subject": 23,
+     "object": 23
+    },
+    {
+     "prefix": "sawgraph-wqp",
+     "namespace": "http://w3id.org/sawgraph/v1/us-wqp#",
+     "distinct_iris": 32,
+     "subject": 32,
+     "object": 8
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 19,
+     "subject": 19,
+     "object": 19
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 16,
+     "subject": 15,
+     "object": 15
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 14,
+     "subject": 14,
+     "object": 14
+    },
+    {
+     "prefix": "fio",
+     "namespace": "http://w3id.org/fio/v1/fio#",
+     "distinct_iris": 13,
+     "subject": 12,
+     "object": 12
+    },
+    {
+     "prefix": "contaminoso",
+     "namespace": "http://w3id.org/coso/v1/contaminoso#",
+     "distinct_iris": 17,
+     "subject": 0,
+     "object": 17
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 6,
+     "subject": 6,
+     "object": 6
+    },
+    {
+     "prefix": "skos",
+     "namespace": "http://www.w3.org/2004/02/skos/core#",
+     "distinct_iris": 6,
+     "subject": 6,
+     "object": 6
+    },
+    {
+     "prefix": "prov",
+     "namespace": "http://www.w3.org/ns/prov#",
+     "distinct_iris": 5,
+     "subject": 4,
+     "object": 5
+    },
+    {
+     "prefix": "orcid",
+     "namespace": "https://orcid.org/",
+     "distinct_iris": 3,
+     "subject": 3,
+     "object": 3
+    },
+    {
+     "prefix": "schema",
+     "namespace": "http://schema.org/",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 2
+    },
+    {
+     "prefix": "spatial-full",
+     "namespace": "http://purl.org/spatialai/spatial/spatial-full#",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 2
+    },
+    {
+     "prefix": "dc",
+     "namespace": "http://purl.org/dc/elements/1.1/",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "protonsys",
+     "namespace": "http://proton.semanticweb.org/protonsys#",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "qudt",
+     "namespace": "http://qudt.org/schema/qudt/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "sosa",
+     "namespace": "http://www.w3.org/ns/sosa/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 18379565,
+     "matched": 18379517,
+     "residual": 48
+    },
+    "predicate": {
+     "distinct_iris": 68,
+     "matched": 68,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 18330279,
+     "matched": 18330259,
+     "residual": 20
+    }
+   }
+  },
+  "gene-expression-atlas-okn": {
+   "kgf_version": "v0.0.3",
+   "triples": 66623837,
+   "federation": {
+    "version": "v0.0.3",
+    "last_updated": "2026-03-18T16:07:41.993+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "wobd",
+     "namespace": "http://purl.org/okn/wobd/",
+     "distinct_iris": 9137992,
+     "subject": 9137823,
+     "object": 16411
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 6252,
+     "subject": 6252,
+     "object": 5948
+    },
+    {
+     "prefix": "EFO",
+     "namespace": "http://www.ebi.ac.uk/efo/EFO_",
+     "distinct_iris": 599,
+     "subject": 599,
+     "object": 592
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 29,
+     "subject": 0,
+     "object": 18
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 9985697,
+     "matched": 9144674,
+     "residual": 841023
+    },
+    "predicate": {
+     "distinct_iris": 28,
+     "matched": 28,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 633928,
+     "matched": 22969,
+     "residual": 610959
+    }
+   }
+  },
+  "geoconnex": {
+   "kgf_version": "v0.0.4",
+   "triples": 424331377,
+   "federation": {
+    "version": "v0.0.4",
+    "last_updated": "2026-04-02T00:58:17.214+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "geoconnex-nqhash",
+     "namespace": "https://docs.geoconnex.us/nqhash/",
+     "distinct_iris": 35542336,
+     "subject": 35542336,
+     "object": 35542336
+    },
+    {
+     "prefix": "iow-nqhash",
+     "namespace": "https://iow.io/nqhash/",
+     "distinct_iris": 32096754,
+     "subject": 32096754,
+     "object": 32096754
+    },
+    {
+     "prefix": "geoconnex",
+     "namespace": "https://geoconnex.us/",
+     "distinct_iris": 4179518,
+     "subject": 3786996,
+     "object": 427771
+    },
+    {
+     "prefix": "schema",
+     "namespace": "https://schema.org/",
+     "distinct_iris": 56,
+     "subject": 0,
+     "object": 11
+    },
+    {
+     "prefix": "sf",
+     "namespace": "http://www.opengis.net/ont/sf#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 5
+    },
+    {
+     "prefix": "hyf",
+     "namespace": "https://www.opengis.net/def/schema/hy_features/hyf/",
+     "distinct_iris": 17,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "gnis",
+     "namespace": "http://gnis-ld.org/lod/gnis/ontology/",
+     "distinct_iris": 15,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "hyf2",
+     "namespace": "https://www.opengis.net/def/appschema/hy_features/hyf/",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "ogc-crs",
+     "namespace": "http://www.opengis.net/def/crs/",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 71430662,
+     "matched": 71426086,
+     "residual": 4576
+    },
+    "predicate": {
+     "distinct_iris": 90,
+     "matched": 83,
+     "residual": 7
+    },
+    "object": {
+     "distinct_iris": 68115189,
+     "matched": 68066889,
+     "residual": 48300
+    }
+   }
+  },
+  "hydrologykg": {
+   "kgf_version": "v0.0.9",
+   "triples": 521561008,
+   "federation": {
+    "version": "v0.0.9",
+    "last_updated": "2026-03-16T17:57:36.708+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 7407813,
+     "subject": 7407813,
+     "object": 7407813
+    },
+    {
+     "prefix": "nhdplusv2-comid",
+     "namespace": "https://geoconnex.us/nhdplusv2/comid/",
+     "distinct_iris": 1883974,
+     "subject": 1883974,
+     "object": 1883974
+    },
+    {
+     "prefix": "isgs-data",
+     "namespace": "http://sawgraph.spatialai.org/v1/il-isgs-data#",
+     "distinct_iris": 1401080,
+     "subject": 1401080,
+     "object": 1401080
+    },
+    {
+     "prefix": "mgs-data",
+     "namespace": "http://sawgraph.spatialai.org/v1/me-mgs-data#",
+     "distinct_iris": 534081,
+     "subject": 534081,
+     "object": 534081
+    },
+    {
+     "prefix": "datacommons",
+     "namespace": "https://datacommons.org/browser/",
+     "distinct_iris": 35535,
+     "subject": 35535,
+     "object": 35535
+    },
+    {
+     "prefix": "efive",
+     "namespace": "http://www.semanticweb.org/efive/",
+     "distinct_iris": 130,
+     "subject": 130,
+     "object": 130
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 83,
+     "subject": 83,
+     "object": 83
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 38,
+     "subject": 38,
+     "object": 38
+    },
+    {
+     "prefix": "sawgraph-sdwis-h",
+     "namespace": "http://sawgraph.spatialai.org/v1/us-sdwis#",
+     "distinct_iris": 37,
+     "subject": 37,
+     "object": 37
+    },
+    {
+     "prefix": "kwg-ont",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/ontology/",
+     "distinct_iris": 23,
+     "subject": 23,
+     "object": 23
+    },
+    {
+     "prefix": "hyf",
+     "namespace": "https://www.opengis.net/def/schema/hy_features/hyf/",
+     "distinct_iris": 19,
+     "subject": 19,
+     "object": 19
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 19,
+     "subject": 19,
+     "object": 19
+    },
+    {
+     "prefix": "qudt",
+     "namespace": "http://qudt.org/schema/qudt/",
+     "distinct_iris": 15,
+     "subject": 15,
+     "object": 15
+    },
+    {
+     "prefix": "stad",
+     "namespace": "http://purl.org/spatialai/stad/v2/core/",
+     "distinct_iris": 15,
+     "subject": 15,
+     "object": 15
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 14,
+     "subject": 14,
+     "object": 14
+    },
+    {
+     "prefix": "swrl",
+     "namespace": "http://www.w3.org/2003/11/swrl#",
+     "distinct_iris": 10,
+     "subject": 10,
+     "object": 10
+    },
+    {
+     "prefix": "isgs",
+     "namespace": "http://sawgraph.spatialai.org/v1/il-isgs#",
+     "distinct_iris": 9,
+     "subject": 9,
+     "object": 9
+    },
+    {
+     "prefix": "mgs",
+     "namespace": "http://sawgraph.spatialai.org/v1/me-mgs#",
+     "distinct_iris": 9,
+     "subject": 9,
+     "object": 9
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 8,
+     "subject": 8,
+     "object": 8
+    },
+    {
+     "prefix": "skos",
+     "namespace": "http://www.w3.org/2004/02/skos/core#",
+     "distinct_iris": 8,
+     "subject": 8,
+     "object": 8
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 7,
+     "subject": 7,
+     "object": 7
+    },
+    {
+     "prefix": "nhdplusv2",
+     "namespace": "http://nhdplusv2.spatialai.org/v1/nhdplusv2#",
+     "distinct_iris": 6,
+     "subject": 6,
+     "object": 6
+    },
+    {
+     "prefix": "stad-mls",
+     "namespace": "http://purl.org/spatialai/stad/v2/mls/",
+     "distinct_iris": 6,
+     "subject": 6,
+     "object": 6
+    },
+    {
+     "prefix": "hyfo",
+     "namespace": "http://hyfo.spatialai.org/v1/hyfo#",
+     "distinct_iris": 5,
+     "subject": 5,
+     "object": 5
+    },
+    {
+     "prefix": "schema",
+     "namespace": "https://schema.org/",
+     "distinct_iris": 5,
+     "subject": 5,
+     "object": 5
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 11297499,
+     "matched": 11262960,
+     "residual": 34539
+    },
+    "predicate": {
+     "distinct_iris": 146,
+     "matched": 141,
+     "residual": 5
+    },
+    "object": {
+     "distinct_iris": 11297499,
+     "matched": 11262960,
+     "residual": 34539
+    }
+   }
+  },
+  "medical-device-kg": {
+   "kgf_version": "v0.0.5",
+   "triples": 1285482635,
+   "federation": {
+    "version": "v0.0.4",
+    "last_updated": "2026-09-09T00:26:46.368+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "mdkg-id",
+     "namespace": "https://bmedesign.org/medical-device-kg/id/",
+     "distinct_iris": 39997685,
+     "subject": 39956224,
+     "object": 13786334
+    },
+    {
+     "prefix": "mdkg",
+     "namespace": "https://bmedesign.org/medical-device-kg/ns/",
+     "distinct_iris": 375,
+     "subject": 361,
+     "object": 44
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 7,
+     "subject": 0,
+     "object": 7
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "sudokn",
+     "namespace": "http://asu.edu/semantics/SUDOKN/",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 39956585,
+     "matched": 39956585,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 321,
+     "matched": 319,
+     "residual": 2
+    },
+    "object": {
+     "distinct_iris": 13786392,
+     "matched": 13786392,
+     "residual": 0
+    }
+   }
+  },
+  "nasa-gesdisc-kg": {
+   "kgf_version": "v0.0.7",
+   "triples": 30013241,
+   "federation": {
+    "version": "v0.0.7",
+    "last_updated": "2026-06-26T20:31:57.549+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "nasa-gesdisc-rel",
+     "namespace": "https://purl.org/okn/frink/kg/nasa-gesdisc/relationship/",
+     "distinct_iris": 3173783,
+     "subject": 3173783,
+     "object": 0
+    },
+    {
+     "prefix": "nasa-gesdisc-node",
+     "namespace": "https://purl.org/okn/frink/kg/nasa-gesdisc/node/",
+     "distinct_iris": 1409253,
+     "subject": 1409253,
+     "object": 1398253
+    },
+    {
+     "prefix": "nasa-gesdisc-schema",
+     "namespace": "https://purl.org/okn/frink/kg/nasa-gesdisc/schema/",
+     "distinct_iris": 35,
+     "subject": 0,
+     "object": 12
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 4583036,
+     "matched": 4583036,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 42,
+     "matched": 42,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 1863407,
+     "matched": 1398266,
+     "residual": 465141
+    }
+   }
+  },
+  "nde": {
+   "kgf_version": "v0.0.3",
+   "triples": 5980642,
+   "federation": {
+    "version": "v0.0.3",
+    "last_updated": "2026-03-16T17:01:50.186+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "wobd-okn",
+     "namespace": "https://okn.wobd.org/",
+     "distinct_iris": 582916,
+     "subject": 582916,
+     "object": 326549
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 4613,
+     "subject": 4613,
+     "object": 4613
+    },
+    {
+     "prefix": "uniprot-taxonomy",
+     "namespace": "https://www.uniprot.org/taxonomy/",
+     "distinct_iris": 3941,
+     "subject": 3941,
+     "object": 3941
+    },
+    {
+     "prefix": "ror",
+     "namespace": "https://ror.org/",
+     "distinct_iris": 36,
+     "subject": 36,
+     "object": 36
+    },
+    {
+     "prefix": "schema",
+     "namespace": "http://schema.org/",
+     "distinct_iris": 39,
+     "subject": 31,
+     "object": 10
+    },
+    {
+     "prefix": "orcid",
+     "namespace": "https://orcid.org/",
+     "distinct_iris": 4,
+     "subject": 4,
+     "object": 4
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 2
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 591543,
+     "matched": 591541,
+     "residual": 2
+    },
+    "predicate": {
+     "distinct_iris": 30,
+     "matched": 30,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 344900,
+     "matched": 335157,
+     "residual": 9743
+    }
+   }
+  },
+  "nestkg": {
+   "kgf_version": "v0.0.1",
+   "triples": 1318130,
+   "federation": {
+    "version": "v0.0.1",
+    "last_updated": "2026-08-11T20:56:10.264+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "nest",
+     "namespace": "https://www.ndexbio.org/identifiers/",
+     "distinct_iris": 211053,
+     "subject": 211053,
+     "object": 395
+    },
+    {
+     "prefix": "uniprotkb",
+     "namespace": "http://purl.uniprot.org/uniprot/",
+     "distinct_iris": 16767,
+     "subject": 16767,
+     "object": 16764
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 18,
+     "subject": 0,
+     "object": 18
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 16,
+     "subject": 0,
+     "object": 8
+    },
+    {
+     "prefix": "ndexv",
+     "namespace": "https://www.ndexbio.org/vocab/",
+     "distinct_iris": 7,
+     "subject": 7,
+     "object": 1
+    },
+    {
+     "prefix": "nestv",
+     "namespace": "https://www.ndexbio.org/vocab/nest/",
+     "distinct_iris": 3,
+     "subject": 3,
+     "object": 0
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "prov",
+     "namespace": "http://www.w3.org/ns/prov#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 6,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "sio",
+     "namespace": "http://semanticscience.org/resource/",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 8,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "void",
+     "namespace": "http://rdfs.org/ns/void#",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 227839,
+     "matched": 227827,
+     "residual": 12
+    },
+    "predicate": {
+     "distinct_iris": 36,
+     "matched": 36,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 17216,
+     "matched": 17199,
+     "residual": 17
+    }
+   }
+  },
+  "nikg": {
+   "kgf_version": "v0.0.7",
+   "triples": 1338339,
+   "federation": {
+    "version": "v0.0.6",
+    "last_updated": "2026-03-16T00:38:01.139+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "phila",
+     "namespace": "https://metadata.phila.gov/",
+     "distinct_iris": 166632,
+     "subject": 166615,
+     "object": 62950
+    },
+    {
+     "prefix": "wd",
+     "namespace": "http://www.wikidata.org/entity/",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 166615,
+     "matched": 166615,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 19,
+     "matched": 19,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 62955,
+     "matched": 62955,
+     "residual": 0
+    }
+   }
+  },
+  "oard-kg": {
+   "kgf_version": "v0.0.3",
+   "triples": 58394394,
+   "federation": {
+    "version": "v0.0.3",
+    "last_updated": "2026-06-05T13:58:34.004+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "cohd",
+     "namespace": "https://rare.cohd.io/",
+     "distinct_iris": 10117759,
+     "subject": 10117759,
+     "object": 7797480
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 8794,
+     "subject": 8793,
+     "object": 8794
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 25,
+     "subject": 0,
+     "object": 11
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 10126552,
+     "matched": 10126552,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 17,
+     "matched": 17,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 7806285,
+     "matched": 7806285,
+     "residual": 0
+    }
+   }
+  },
+  "pankgraph": {
+   "kgf_version": "v0.0.1",
+   "triples": 27115636,
+   "federation": {
+    "version": "v0.0.1",
+    "last_updated": "2026-03-23T20:23:00.696+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "pankgraph-rel",
+     "namespace": "https://purl.org/okn/frink/kg/pankgraph/relationship/",
+     "distinct_iris": 1438419,
+     "subject": 1438419,
+     "object": 0
+    },
+    {
+     "prefix": "pankgraph-node",
+     "namespace": "https://purl.org/okn/frink/kg/pankgraph/node/",
+     "distinct_iris": 18970,
+     "subject": 18970,
+     "object": 18536
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 17462,
+     "subject": 17457,
+     "object": 17461
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 15,
+     "subject": 0,
+     "object": 14
+    },
+    {
+     "prefix": "pankgraph",
+     "namespace": "https://purl.org/okn/frink/kg/pankgraph/schema/",
+     "distinct_iris": 87,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 1572981,
+     "matched": 1474846,
+     "residual": 98135
+    },
+    "predicate": {
+     "distinct_iris": 103,
+     "matched": 103,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 79929,
+     "matched": 36015,
+     "residual": 43914
+    }
+   }
+  },
+  "prokn": {
+   "kgf_version": "v0.0.6",
+   "triples": 99302327,
+   "federation": {
+    "version": "v0.0.6",
+    "last_updated": "2026-09-09T15:55:21.173+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "prokn",
+     "namespace": "https://research.bioinformatics.udel.edu/ProKN/rdf/",
+     "distinct_iris": 13211373,
+     "subject": 13211373,
+     "object": 2218671
+    },
+    {
+     "prefix": "uniprotkb",
+     "namespace": "http://purl.uniprot.org/uniprot/",
+     "distinct_iris": 213501,
+     "subject": 208233,
+     "object": 152403
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 58901,
+     "subject": 47497,
+     "object": 58869
+    },
+    {
+     "prefix": "EFO",
+     "namespace": "http://www.ebi.ac.uk/efo/EFO_",
+     "distinct_iris": 1287,
+     "subject": 129,
+     "object": 1287
+    },
+    {
+     "prefix": "meshv",
+     "namespace": "https://id.nlm.nih.gov/mesh/",
+     "distinct_iris": 21,
+     "subject": 14,
+     "object": 14
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 19,
+     "subject": 0,
+     "object": 18
+    },
+    {
+     "prefix": "uniprot-core",
+     "namespace": "http://purl.uniprot.org/core/",
+     "distinct_iris": 29,
+     "subject": 0,
+     "object": 14
+    },
+    {
+     "prefix": "biolink-model",
+     "namespace": "https://biolink.github.io/biolink-model/",
+     "distinct_iris": 19,
+     "subject": 0,
+     "object": 9
+    },
+    {
+     "prefix": "sio",
+     "namespace": "http://semanticscience.org/resource/",
+     "distinct_iris": 8,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 7,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "schema",
+     "namespace": "http://schema.org/",
+     "distinct_iris": 16,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "bao",
+     "namespace": "http://www.bioassayontology.org/bao#",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "prov",
+     "namespace": "http://www.w3.org/ns/prov#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "reproduceme",
+     "namespace": "https://w3id.org/reproduceme#",
+     "distinct_iris": 8,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "skos",
+     "namespace": "http://www.w3.org/2004/02/skos/core#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "allotrope-result",
+     "namespace": "http://purl.allotrope.org/ontologies/result#",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "cito",
+     "namespace": "http://purl.org/spar/cito/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "sct",
+     "namespace": "http://snomed.info/id/",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 14200722,
+     "matched": 13467246,
+     "residual": 733476
+    },
+    "predicate": {
+     "distinct_iris": 218,
+     "matched": 214,
+     "residual": 4
+    },
+    "object": {
+     "distinct_iris": 3407170,
+     "matched": 2431311,
+     "residual": 975859
+    }
+   }
+  },
+  "rdkg": {
+   "kgf_version": "v0.0.1",
+   "triples": 1332747,
+   "federation": {
+    "version": "v0.0.1",
+    "last_updated": "2026-05-04T19:19:45.042+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 33884,
+     "subject": 33884,
+     "object": 28913
+    },
+    {
+     "prefix": "rdaccelerate",
+     "namespace": "https://rdaccelerate.org/resource/",
+     "distinct_iris": 27118,
+     "subject": 27118,
+     "object": 2289
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 28,
+     "subject": 7,
+     "object": 11
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 2
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 72376,
+     "matched": 61009,
+     "residual": 11367
+    },
+    "predicate": {
+     "distinct_iris": 22,
+     "matched": 22,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 41605,
+     "matched": 31215,
+     "residual": 10390
+    }
+   }
+  },
+  "ruralkg": {
+   "kgf_version": "v0.2.10",
+   "triples": 885098,
+   "federation": {
+    "version": "v0.2.10",
+    "last_updated": "2026-09-03T22:57:32.814+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "ruralkg",
+     "namespace": "http://sail.ua.edu/ruralkg/",
+     "distinct_iris": 43001,
+     "subject": 42967,
+     "object": 29937
+    },
+    {
+     "prefix": "ruralkg-var",
+     "namespace": "http://sail.ua.edu/ruralkg/variable/",
+     "distinct_iris": 30226,
+     "subject": 30215,
+     "object": 29689
+    },
+    {
+     "prefix": "gnis-feature",
+     "namespace": "http://gnis-ld.org/lod/gnis/feature/",
+     "distinct_iris": 30971,
+     "subject": 30971,
+     "object": 3422
+    },
+    {
+     "prefix": "ruralkg-treatment",
+     "namespace": "http://sail.ua.edu/ruralkg/treatment/",
+     "distinct_iris": 9242,
+     "subject": 9238,
+     "object": 180
+    },
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 3309,
+     "subject": 3309,
+     "object": 3303
+    },
+    {
+     "prefix": "ruralkg-settlement",
+     "namespace": "http://sail.ua.edu/ruralkg/settlementtype/",
+     "distinct_iris": 3255,
+     "subject": 3249,
+     "object": 13
+    },
+    {
+     "prefix": "ruralkg-sa",
+     "namespace": "http://sail.ua.edu/ruralkg/substanceabuse/",
+     "distinct_iris": 100,
+     "subject": 90,
+     "object": 31
+    },
+    {
+     "prefix": "ruralkg-justice",
+     "namespace": "http://sail.ua.edu/ruralkg/justice/",
+     "distinct_iris": 71,
+     "subject": 70,
+     "object": 7
+    },
+    {
+     "prefix": "jxdm",
+     "namespace": "http://release.niem.gov/niem/domains/jxdm/7.2/#",
+     "distinct_iris": 15,
+     "subject": 15,
+     "object": 15
+    },
+    {
+     "prefix": "nibrs",
+     "namespace": "http://fbi.gov/cjis/nibrs/2023.0/",
+     "distinct_iris": 12,
+     "subject": 12,
+     "object": 12
+    },
+    {
+     "prefix": "wd",
+     "namespace": "http://www.wikidata.org/entity/",
+     "distinct_iris": 23,
+     "subject": 0,
+     "object": 23
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "niem-core",
+     "namespace": "http://release.niem.gov/niem/niem-core/5.0/#",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 7,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "ruralkg-prop",
+     "namespace": "http://sail.ua.edu/ruralkg/property/",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 0
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 77282,
+     "matched": 77275,
+     "residual": 7
+    },
+    "predicate": {
+     "distinct_iris": 86,
+     "matched": 86,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 44581,
+     "matched": 36718,
+     "residual": 7863
+    }
+   }
+  },
+  "sawgraph": {
+   "kgf_version": "v0.0.16",
+   "triples": 161265076,
+   "federation": {
+    "version": "v0.0.16",
+    "last_updated": "2026-08-28T20:27:40.089+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 7404211,
+     "subject": 7404185,
+     "object": 7404211
+    },
+    {
+     "prefix": "sawgraph-wqp",
+     "namespace": "http://w3id.org/sawgraph/v1/us-wqp#",
+     "distinct_iris": 985,
+     "subject": 985,
+     "object": 985
+    },
+    {
+     "prefix": "sawgraph-me",
+     "namespace": "http://w3id.org/sawgraph/v1/me-egad#",
+     "distinct_iris": 544,
+     "subject": 544,
+     "object": 544
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 429,
+     "subject": 429,
+     "object": 429
+    },
+    {
+     "prefix": "dsstox",
+     "namespace": "http://w3id.org/DSSTox/v1/",
+     "distinct_iris": 150,
+     "subject": 150,
+     "object": 150
+    },
+    {
+     "prefix": "contaminoso",
+     "namespace": "http://w3id.org/coso/v1/contaminoso#",
+     "distinct_iris": 100,
+     "subject": 100,
+     "object": 100
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 79,
+     "subject": 79,
+     "object": 79
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 38,
+     "subject": 38,
+     "object": 38
+    },
+    {
+     "prefix": "qudt",
+     "namespace": "http://qudt.org/vocab/unit/",
+     "distinct_iris": 21,
+     "subject": 21,
+     "object": 21
+    },
+    {
+     "prefix": "kwg-ont",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/ontology/",
+     "distinct_iris": 19,
+     "subject": 19,
+     "object": 19
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 19,
+     "subject": 19,
+     "object": 19
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 15,
+     "subject": 15,
+     "object": 15
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 15,
+     "subject": 15,
+     "object": 15
+    },
+    {
+     "prefix": "sosa",
+     "namespace": "http://www.w3.org/ns/sosa/",
+     "distinct_iris": 13,
+     "subject": 13,
+     "object": 13
+    },
+    {
+     "prefix": "stad",
+     "namespace": "http://purl.org/spatialai/stad/v2/core/",
+     "distinct_iris": 13,
+     "subject": 13,
+     "object": 13
+    },
+    {
+     "prefix": "time",
+     "namespace": "http://www.w3.org/2006/time#",
+     "distinct_iris": 10,
+     "subject": 10,
+     "object": 10
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 7,
+     "subject": 7,
+     "object": 7
+    },
+    {
+     "prefix": "oboInOwl",
+     "namespace": "http://www.geneontology.org/formats/oboInOwl#",
+     "distinct_iris": 6,
+     "subject": 6,
+     "object": 6
+    },
+    {
+     "prefix": "orcid",
+     "namespace": "https://orcid.org/",
+     "distinct_iris": 6,
+     "subject": 6,
+     "object": 6
+    },
+    {
+     "prefix": "prov",
+     "namespace": "http://www.w3.org/ns/prov#",
+     "distinct_iris": 4,
+     "subject": 4,
+     "object": 4
+    },
+    {
+     "prefix": "skos",
+     "namespace": "http://www.w3.org/2004/02/skos/core#",
+     "distinct_iris": 4,
+     "subject": 4,
+     "object": 4
+    },
+    {
+     "prefix": "vaem",
+     "namespace": "http://www.linkedmodel.org/schema/vaem#",
+     "distinct_iris": 4,
+     "subject": 4,
+     "object": 4
+    },
+    {
+     "prefix": "PMID",
+     "namespace": "http://www.ncbi.nlm.nih.gov/pubmed/",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 2
+    },
+    {
+     "prefix": "dc",
+     "namespace": "http://purl.org/dc/elements/1.1/",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 2
+    },
+    {
+     "prefix": "vann",
+     "namespace": "http://purl.org/vocab/vann/",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 2
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 10910435,
+     "matched": 7406679,
+     "residual": 3503756
+    },
+    "predicate": {
+     "distinct_iris": 202,
+     "matched": 180,
+     "residual": 22
+    },
+    "object": {
+     "distinct_iris": 10910520,
+     "matched": 7406705,
+     "residual": 3503815
+    }
+   }
+  },
+  "scales": {
+   "kgf_version": "v0.0.25",
+   "triples": 1084783977,
+   "federation": {
+    "version": "v0.0.25",
+    "last_updated": "2026-09-04T23:03:58.418+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "scales",
+     "namespace": "http://schemas.scales-okn.org/rdf/scales#",
+     "distinct_iris": 174395057,
+     "subject": 171677312,
+     "object": 166372475
+    },
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 2957,
+     "subject": 0,
+     "object": 2957
+    },
+    {
+     "prefix": "sudokn",
+     "namespace": "http://asu.edu/semantics/SUDOKN/",
+     "distinct_iris": 100,
+     "subject": 100,
+     "object": 0
+    },
+    {
+     "prefix": "jxdm",
+     "namespace": "http://release.niem.gov/niem/domains/jxdm/7.2/#",
+     "distinct_iris": 52,
+     "subject": 52,
+     "object": 22
+    },
+    {
+     "prefix": "ruralkg-provider",
+     "namespace": "http://sail.ua.edu/ruralkg/treatmentprovider/",
+     "distinct_iris": 30,
+     "subject": 30,
+     "object": 30
+    },
+    {
+     "prefix": "niem-core",
+     "namespace": "http://release.niem.gov/niem/niem-core/5.0/#",
+     "distinct_iris": 35,
+     "subject": 35,
+     "object": 11
+    },
+    {
+     "prefix": "nibrs",
+     "namespace": "http://fbi.gov/cjis/nibrs/2023.0/",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 0
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 7,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "kwg-ont",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/ontology/",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 0
+    },
+    {
+     "prefix": "occs",
+     "namespace": "http://release.niem.gov/niem/codes/occs/5.0/#",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 0
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 171678070,
+     "matched": 171677533,
+     "residual": 537
+    },
+    "predicate": {
+     "distinct_iris": 289,
+     "matched": 288,
+     "residual": 1
+    },
+    "object": {
+     "distinct_iris": 166391560,
+     "matched": 166375498,
+     "residual": 16062
+    }
+   }
+  },
+  "securechainkg": {
+   "kgf_version": "v0.0.11",
+   "triples": 75238886,
+   "federation": {
+    "version": "v0.0.11",
+    "last_updated": "2026-03-23T20:04:56.930+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "pypi",
+     "namespace": "https://pypi.org/project/",
+     "distinct_iris": 7575194,
+     "subject": 7575188,
+     "object": 6972095
+    },
+    {
+     "prefix": "crates",
+     "namespace": "https://crates.io/crates/",
+     "distinct_iris": 1692435,
+     "subject": 1692435,
+     "object": 1512239
+    },
+    {
+     "prefix": "sudokn",
+     "namespace": "http://asu.edu/semantics/SUDOKN/",
+     "distinct_iris": 334205,
+     "subject": 330855,
+     "object": 317551
+    },
+    {
+     "prefix": "nvd",
+     "namespace": "https://nvd.nist.gov/vuln/detail/",
+     "distinct_iris": 312388,
+     "subject": 312388,
+     "object": 28559
+    },
+    {
+     "prefix": "cwe",
+     "namespace": "https://cwe.mitre.org/data/definitions/",
+     "distinct_iris": 741,
+     "subject": 741,
+     "object": 741
+    },
+    {
+     "prefix": "spdx-license",
+     "namespace": "https://spdx.org/licenses/",
+     "distinct_iris": 294,
+     "subject": 294,
+     "object": 294
+    },
+    {
+     "prefix": "secure-chain",
+     "namespace": "https://w3id.org/secure-chain/",
+     "distinct_iris": 17,
+     "subject": 16,
+     "object": 7
+    },
+    {
+     "prefix": "schema",
+     "namespace": "http://schema.org/",
+     "distinct_iris": 14,
+     "subject": 0,
+     "object": 7
+    },
+    {
+     "prefix": "iof-core",
+     "namespace": "https://spec.industrialontologies.org/ontology/core/Core/",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "climatepub4",
+     "namespace": "https://climatepub4kg.github.io/ontology#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 10275589,
+     "matched": 9911917,
+     "residual": 363672
+    },
+    "predicate": {
+     "distinct_iris": 50,
+     "matched": 50,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 9081757,
+     "matched": 8831500,
+     "residual": 250257
+    }
+   }
+  },
+  "sockg": {
+   "kgf_version": "v0.0.10",
+   "triples": 27142983,
+   "federation": {
+    "version": "v0.0.10",
+    "last_updated": "2026-03-16T17:09:55.397+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "sockg-ind",
+     "namespace": "https://idir.uta.edu/sockg-ontology/individuals/",
+     "distinct_iris": 7116099,
+     "subject": 7115913,
+     "object": 6676588
+    },
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 1120,
+     "subject": 1120,
+     "object": 1120
+    },
+    {
+     "prefix": "sockg",
+     "namespace": "https://idir.uta.edu/sockg-ontology#",
+     "distinct_iris": 155,
+     "subject": 153,
+     "object": 82
+    },
+    {
+     "prefix": "qudt",
+     "namespace": "http://qudt.org/vocab/unit/",
+     "distinct_iris": 36,
+     "subject": 36,
+     "object": 25
+    },
+    {
+     "prefix": "kwg-ont",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/ontology/",
+     "distinct_iris": 9,
+     "subject": 8,
+     "object": 8
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 5,
+     "subject": 3,
+     "object": 3
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 4,
+     "subject": 1,
+     "object": 4
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 7,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "spatial-full",
+     "namespace": "http://purl.org/spatialai/spatial/spatial-full#",
+     "distinct_iris": 2,
+     "subject": 2,
+     "object": 2
+    },
+    {
+     "prefix": "schema",
+     "namespace": "https://schema.org/",
+     "distinct_iris": 15,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 9,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 8,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "bibo",
+     "namespace": "http://purl.org/ontology/bibo/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "nalt",
+     "namespace": "https://lod.nal.usda.gov/nalt/",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 7117289,
+     "matched": 7117238,
+     "residual": 51
+    },
+    "predicate": {
+     "distinct_iris": 107,
+     "matched": 103,
+     "residual": 4
+    },
+    "object": {
+     "distinct_iris": 6677897,
+     "matched": 6677843,
+     "residual": 54
+    }
+   }
+  },
+  "spatialkg": {
+   "kgf_version": "v0.0.6",
+   "triples": 437177601,
+   "federation": {
+    "version": "v0.0.6",
+    "last_updated": "2026-08-10T18:04:25.686+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 16693513,
+     "subject": 16693513,
+     "object": 16693513
+    },
+    {
+     "prefix": "datacommons",
+     "namespace": "https://datacommons.org/browser/",
+     "distinct_iris": 38653,
+     "subject": 38653,
+     "object": 38653
+    },
+    {
+     "prefix": "saw-geo",
+     "namespace": "http://sawgraph.spatialai.org/v1/saw_geo#",
+     "distinct_iris": 35458,
+     "subject": 35458,
+     "object": 35458
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 79,
+     "subject": 79,
+     "object": 79
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 37,
+     "subject": 37,
+     "object": 37
+    },
+    {
+     "prefix": "kwg-ont",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/ontology/",
+     "distinct_iris": 21,
+     "subject": 21,
+     "object": 21
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 19,
+     "subject": 19,
+     "object": 19
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 14,
+     "subject": 14,
+     "object": 14
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 8,
+     "subject": 8,
+     "object": 8
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 7,
+     "subject": 7,
+     "object": 7
+    },
+    {
+     "prefix": "orcid",
+     "namespace": "https://orcid.org/",
+     "distinct_iris": 4,
+     "subject": 4,
+     "object": 4
+    },
+    {
+     "prefix": "dc",
+     "namespace": "http://purl.org/dc/elements/1.1/",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "prov",
+     "namespace": "http://www.w3.org/ns/prov#",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "spatial-full",
+     "namespace": "http://purl.org/spatialai/spatial/spatial-full#",
+     "distinct_iris": 1,
+     "subject": 1,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 16767819,
+     "matched": 16767816,
+     "residual": 3
+    },
+    "predicate": {
+     "distinct_iris": 37,
+     "matched": 37,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 16767819,
+     "matched": 16767816,
+     "residual": 3
+    }
+   }
+  },
+  "spoke-genelab": {
+   "kgf_version": "v0.0.2",
+   "triples": 552036759,
+   "federation": {
+    "version": "v0.0.2",
+    "last_updated": "2026-03-13T18:36:44.259+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "spoke-genelab-rel",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-genelab/relationship/",
+     "distinct_iris": 50235722,
+     "subject": 50235722,
+     "object": 0
+    },
+    {
+     "prefix": "ncbigene",
+     "namespace": "http://www.ncbi.nlm.nih.gov/gene/",
+     "distinct_iris": 139719,
+     "subject": 139719,
+     "object": 139476
+    },
+    {
+     "prefix": "spoke-genelab-node",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-genelab/node/",
+     "distinct_iris": 13455,
+     "subject": 13455,
+     "object": 13320
+    },
+    {
+     "prefix": "spoke-genelab",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-genelab/schema/",
+     "distinct_iris": 8084,
+     "subject": 8003,
+     "object": 8035
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 59,
+     "subject": 49,
+     "object": 59
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 50396948,
+     "matched": 50396948,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 59,
+     "matched": 59,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 160895,
+     "matched": 160895,
+     "residual": 0
+    }
+   }
+  },
+  "spoke-okn": {
+   "kgf_version": "v0.0.6",
+   "triples": 42860270,
+   "federation": {
+    "version": "v0.0.6",
+    "last_updated": "2026-03-16T02:27:00.564+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "spoke-okn-rel",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-okn/relationship/",
+     "distinct_iris": 4307034,
+     "subject": 4307034,
+     "object": 0
+    },
+    {
+     "prefix": "spoke-okn-organism",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-okn/organism/",
+     "distinct_iris": 321442,
+     "subject": 321442,
+     "object": 321442
+    },
+    {
+     "prefix": "spoke-okn-location",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-okn/location/",
+     "distinct_iris": 113881,
+     "subject": 113881,
+     "object": 106066
+    },
+    {
+     "prefix": "ncbigene",
+     "namespace": "http://www.ncbi.nlm.nih.gov/gene/",
+     "distinct_iris": 16346,
+     "subject": 16346,
+     "object": 7293
+    },
+    {
+     "prefix": "spoke-okn-sdoh",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-okn/sdoh/",
+     "distinct_iris": 1426,
+     "subject": 1426,
+     "object": 1425
+    },
+    {
+     "prefix": "pubchem-inchikey",
+     "namespace": "http://rdf.ncbi.nlm.nih.gov/pubchem/inchikey/",
+     "distinct_iris": 762,
+     "subject": 762,
+     "object": 762
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 1117,
+     "subject": 217,
+     "object": 1117
+    },
+    {
+     "prefix": "spoke-okn",
+     "namespace": "https://purl.org/okn/frink/kg/spoke-okn/schema/",
+     "distinct_iris": 118,
+     "subject": 0,
+     "object": 18
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 5
+    },
+    {
+     "prefix": "schema",
+     "namespace": "https://schema.org/",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 4
+    },
+    {
+     "prefix": "wd",
+     "namespace": "http://www.wikidata.org/entity/",
+     "distinct_iris": 3,
+     "subject": 0,
+     "object": 3
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 6,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 4761110,
+     "matched": 4761108,
+     "residual": 2
+    },
+    "predicate": {
+     "distinct_iris": 128,
+     "matched": 128,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 695555,
+     "matched": 438136,
+     "residual": 257419
+    }
+   }
+  },
+  "sudokn": {
+   "kgf_version": "v0.0.10",
+   "triples": 8733981,
+   "federation": {
+    "version": "v0.0.10",
+    "last_updated": "2026-05-08T03:24:17.032+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "sudokn",
+     "namespace": "http://asu.edu/semantics/SUDOKN/",
+     "distinct_iris": 2821817,
+     "subject": 2821813,
+     "object": 2789475
+    },
+    {
+     "prefix": "iof-core",
+     "namespace": "https://spec.industrialontologies.org/ontology/core/Core/",
+     "distinct_iris": 10,
+     "subject": 10,
+     "object": 9
+    },
+    {
+     "prefix": "iof-sc",
+     "namespace": "https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/",
+     "distinct_iris": 5,
+     "subject": 4,
+     "object": 5
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 14,
+     "subject": 0,
+     "object": 8
+    },
+    {
+     "prefix": "iof-av",
+     "namespace": "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/",
+     "distinct_iris": 5,
+     "subject": 5,
+     "object": 0
+    },
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 5
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 4,
+     "subject": 2,
+     "object": 2
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 6,
+     "subject": 3,
+     "object": 0
+    },
+    {
+     "prefix": "schema",
+     "namespace": "https://schema.org/",
+     "distinct_iris": 5,
+     "subject": 1,
+     "object": 1
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 2,
+     "subject": 0,
+     "object": 2
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 4,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 7,
+     "subject": 1,
+     "object": 0
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 2821839,
+     "matched": 2821839,
+     "residual": 0
+    },
+    "predicate": {
+     "distinct_iris": 58,
+     "matched": 58,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 2789510,
+     "matched": 2789508,
+     "residual": 2
+    }
+   }
+  },
+  "ubergraph": {
+   "kgf_version": "v0.0.2",
+   "triples": 600183608,
+   "federation": {
+    "version": "v0.0.2",
+    "last_updated": "2026-05-01T03:45:16.066+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "obo",
+     "namespace": "http://purl.obolibrary.org/obo/",
+     "distinct_iris": 3791116,
+     "subject": 3777290,
+     "object": 3789468
+    },
+    {
+     "prefix": "bican",
+     "namespace": "https://purl.brain-bican.org/taxonomy/",
+     "distinct_iris": 6939,
+     "subject": 6938,
+     "object": 6897
+    },
+    {
+     "prefix": "ncbigene",
+     "namespace": "http://www.ncbi.nlm.nih.gov/gene/",
+     "distinct_iris": 6210,
+     "subject": 6210,
+     "object": 6210
+    },
+    {
+     "prefix": "EFO",
+     "namespace": "http://www.ebi.ac.uk/efo/EFO_",
+     "distinct_iris": 2408,
+     "subject": 4,
+     "object": 2408
+    },
+    {
+     "prefix": "biolink",
+     "namespace": "https://w3id.org/biolink/vocab/",
+     "distinct_iris": 1242,
+     "subject": 1136,
+     "object": 1241
+    },
+    {
+     "prefix": "orcid",
+     "namespace": "https://orcid.org/",
+     "distinct_iris": 599,
+     "subject": 527,
+     "object": 599
+    },
+    {
+     "prefix": "wd",
+     "namespace": "http://www.wikidata.org/entity/",
+     "distinct_iris": 728,
+     "subject": 197,
+     "object": 728
+    },
+    {
+     "prefix": "jcvi-nsf2",
+     "namespace": "http://www.jcvi.org/framework/nsf2_full_mtg#",
+     "distinct_iris": 104,
+     "subject": 104,
+     "object": 95
+    },
+    {
+     "prefix": "oboInOwl",
+     "namespace": "http://www.geneontology.org/formats/oboInOwl#",
+     "distinct_iris": 96,
+     "subject": 95,
+     "object": 16
+    },
+    {
+     "prefix": "dct",
+     "namespace": "http://purl.org/dc/terms/",
+     "distinct_iris": 26,
+     "subject": 25,
+     "object": 16
+    },
+    {
+     "prefix": "owl",
+     "namespace": "http://www.w3.org/2002/07/owl#",
+     "distinct_iris": 54,
+     "subject": 8,
+     "object": 29
+    },
+    {
+     "prefix": "bican-ccn",
+     "namespace": "https://purl.brain-bican.org/taxonomy/CCN20230722#",
+     "distinct_iris": 35,
+     "subject": 35,
+     "object": 0
+    },
+    {
+     "prefix": "linkml",
+     "namespace": "https://w3id.org/linkml/",
+     "distinct_iris": 99,
+     "subject": 0,
+     "object": 26
+    },
+    {
+     "prefix": "sio",
+     "namespace": "http://semanticscience.org/resource/",
+     "distinct_iris": 13,
+     "subject": 5,
+     "object": 13
+    },
+    {
+     "prefix": "dc",
+     "namespace": "http://purl.org/dc/elements/1.1/",
+     "distinct_iris": 18,
+     "subject": 17,
+     "object": 0
+    },
+    {
+     "prefix": "rdfs",
+     "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+     "distinct_iris": 10,
+     "subject": 7,
+     "object": 9
+    },
+    {
+     "prefix": "skos",
+     "namespace": "http://www.w3.org/2004/02/skos/core#",
+     "distinct_iris": 14,
+     "subject": 9,
+     "object": 7
+    },
+    {
+     "prefix": "xsd",
+     "namespace": "http://www.w3.org/2001/XMLSchema#",
+     "distinct_iris": 14,
+     "subject": 5,
+     "object": 11
+    },
+    {
+     "prefix": "PMID",
+     "namespace": "http://www.ncbi.nlm.nih.gov/pubmed/",
+     "distinct_iris": 14,
+     "subject": 0,
+     "object": 14
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 10,
+     "subject": 6,
+     "object": 7
+    },
+    {
+     "prefix": "mesh",
+     "namespace": "http://id.nlm.nih.gov/mesh/",
+     "distinct_iris": 6,
+     "subject": 5,
+     "object": 6
+    },
+    {
+     "prefix": "foaf",
+     "namespace": "http://xmlns.com/foaf/0.1/",
+     "distinct_iris": 7,
+     "subject": 6,
+     "object": 4
+    },
+    {
+     "prefix": "pav",
+     "namespace": "http://purl.org/pav/",
+     "distinct_iris": 6,
+     "subject": 4,
+     "object": 5
+    },
+    {
+     "prefix": "ubergraph-axioms",
+     "namespace": "http://translator.renci.org/ubergraph-axioms.ofn#",
+     "distinct_iris": 5,
+     "subject": 4,
+     "object": 5
+    },
+    {
+     "prefix": "chemrof",
+     "namespace": "https://w3id.org/chemrof/",
+     "distinct_iris": 8,
+     "subject": 8,
+     "object": 0
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 3899726,
+     "matched": 3792629,
+     "residual": 107097
+    },
+    "predicate": {
+     "distinct_iris": 1266,
+     "matched": 1256,
+     "residual": 10
+    },
+    "object": {
+     "distinct_iris": 4034941,
+     "matched": 3807825,
+     "residual": 227116
+    }
+   }
+  },
+  "ufokn": {
+   "kgf_version": "v0.0.3",
+   "triples": 294466999,
+   "federation": {
+    "version": "v0.0.3",
+    "last_updated": "2026-03-19T02:52:03.426+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "ufokn",
+     "namespace": "https://ufokn.org/id/",
+     "distinct_iris": 5886271,
+     "subject": 5886271,
+     "object": 47512
+    },
+    {
+     "prefix": "schema",
+     "namespace": "https://schema.org/",
+     "distinct_iris": 21,
+     "subject": 0,
+     "object": 5
+    },
+    {
+     "prefix": "kwg-ont-https",
+     "namespace": "https://stko-kwg.geog.ucsb.edu/lod/ontology#",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 5954031,
+     "matched": 5886271,
+     "residual": 67760
+    },
+    "predicate": {
+     "distinct_iris": 18,
+     "matched": 18,
+     "residual": 0
+    },
+    "object": {
+     "distinct_iris": 47518,
+     "matched": 47518,
+     "residual": 0
+    }
+   }
+  },
+  "wikidata": {
+   "kgf_version": null,
+   "triples": null,
+   "federation": null,
+   "namespaces": null
+  },
+  "wildlifekn": {
+   "kgf_version": "v0.0.7",
+   "triples": 9424687,
+   "federation": {
+    "version": "v0.0.7",
+    "last_updated": "2026-09-28T18:32:18.855+00:00"
+   },
+   "namespaces": [
+    {
+     "prefix": "wildlifekn",
+     "namespace": "https://wildlife.proto-okn.net/kg/",
+     "distinct_iris": 6267,
+     "subject": 6262,
+     "object": 1061
+    },
+    {
+     "prefix": "inaturalist",
+     "namespace": "https://www.inaturalist.org/observations/",
+     "distinct_iris": 4875,
+     "subject": 0,
+     "object": 4875
+    },
+    {
+     "prefix": "kwg",
+     "namespace": "http://stko-kwg.geog.ucsb.edu/lod/resource/",
+     "distinct_iris": 2644,
+     "subject": 0,
+     "object": 2644
+    },
+    {
+     "prefix": "geo",
+     "namespace": "http://www.opengis.net/ont/geosparql#",
+     "distinct_iris": 1,
+     "subject": 0,
+     "object": 1
+    },
+    {
+     "prefix": "rdf",
+     "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "distinct_iris": 5,
+     "subject": 0,
+     "object": 1
+    }
+   ],
+   "iri_roles": {
+    "subject": {
+     "distinct_iris": 1094813,
+     "matched": 6262,
+     "residual": 1088551
+    },
+    "predicate": {
+     "distinct_iris": 49,
+     "matched": 9,
+     "residual": 40
+    },
+    "object": {
+     "distinct_iris": 358414,
+     "matched": 8582,
+     "residual": 349832
+    }
+   }
+  }
+ }
+}

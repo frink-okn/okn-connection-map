@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "okn-connection-map: computed, evidence-backed joins for the Proto-OKN knowledge graph federation"
+version: 0.2.0
+date-released: 2026-11-17
+license: BSD-3-Clause
+authors:
+  - family-names: Islam
+    given-names: Saminur
+    affiliation: North Carolina State University
+  - family-names: Chirkova
+    given-names: Rada
+    affiliation: North Carolina State University
+keywords:
+  - knowledge graphs
+  - data integration
+  - Proto-OKN
+  - FRINK
+  - Model Context Protocol

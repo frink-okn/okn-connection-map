@@ -1,0 +1,1149 @@
+{
+ "total": {
+  "connections_checked": 71,
+  "connections_sampled": 44,
+  "identifiers_sampled": 235,
+  "identifiers_present_both": 110,
+  "connections_all_present": 19
+ },
+ "connections": [
+  {
+   "a": "scales",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "ZIP5": 13450
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "ruralkg",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "ZIP5": 4032,
+    "LABEL": 63
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "geoconnex",
+   "b": "ruralkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "county_FIPS": 3222
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [
+    "geoconnex: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 596,\n     ",
+    "ruralkg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 694,\n     "
+   ]
+  },
+  {
+   "a": "nde",
+   "b": "rdkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "MONDO": 2907,
+    "HP": 251
+   },
+   "via": {
+    "ubergraph": 451
+   },
+   "sampled": 10,
+   "present_both": 10,
+   "present_a": 10,
+   "present_b": 10,
+   "errors": []
+  },
+  {
+   "a": "ruralkg",
+   "b": "spatialkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "county_FIPS": 3104,
+    "LABEL": 51
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "ruralkg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 694,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "pankgraph",
+   "label": "new",
+   "direct": {
+    "Ensembl": 1470
+   },
+   "via": {
+    "wikidata": 1447
+   },
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 470,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "digcfdekg",
+   "label": "new",
+   "direct": {
+    "Entrez": 1446
+   },
+   "via": {
+    "wikidata": 1461
+   },
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 422,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-mesh",
+   "b": "biobricks-tox21",
+   "label": "new",
+   "direct": {
+    "CAS": 1103
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "nde",
+   "b": "prokn",
+   "label": "new",
+   "direct": {
+    "MONDO": 756,
+    "HP": 57,
+    "NCIT": 7
+   },
+   "via": {
+    "ubergraph": 1274
+   },
+   "sampled": 10,
+   "present_both": 10,
+   "present_a": 10,
+   "present_b": 10,
+   "errors": []
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biobricks-ice",
+   "label": "new",
+   "direct": {
+    "CAS": 339,
+    "Entrez": 171
+   },
+   "via": {
+    "ubergraph": 343,
+    "wikidata": 171
+   },
+   "sampled": 10,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 364,\n     ",
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 422,\n     ",
+    "biobricks-ice: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 434,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "spoke-genelab",
+   "label": "contradicts_refusal",
+   "direct": {
+    "Entrez": 424
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "biobricks-ice: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 434,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "digcfdekg",
+   "label": "new",
+   "direct": {
+    "Entrez": 401
+   },
+   "via": {
+    "ubergraph": 5
+   },
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "biobricks-ice: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 433,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biobricks-tox21",
+   "label": "new",
+   "direct": {
+    "CAS": 285
+   },
+   "via": {
+    "ubergraph": 280
+   },
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 360,\n     "
+   ]
+  },
+  {
+   "a": "biohealth",
+   "b": "ruralkg",
+   "label": "new",
+   "direct": {
+    "LABEL": 246
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biohealth",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 211
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "digcfdekg",
+   "b": "nde",
+   "label": "new",
+   "direct": {
+    "MONDO": 158,
+    "HP": 13
+   },
+   "via": {
+    "ubergraph": 455
+   },
+   "sampled": 10,
+   "present_both": 10,
+   "present_a": 10,
+   "present_b": 10,
+   "errors": []
+  },
+  {
+   "a": "dreamkg",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "ZIP5": 171
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "biohealth",
+   "b": "climatemodelskg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 168
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biohealth",
+   "b": "wildlifekn",
+   "label": "new",
+   "direct": {
+    "LABEL": 105
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biohealth",
+   "b": "medical-device-kg",
+   "label": "new",
+   "direct": {
+    "LABEL": 80
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "nde",
+   "label": "new",
+   "direct": {
+    "NCBITaxon": 62
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 60
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biobricks-tox21",
+   "b": "sockg",
+   "label": "new",
+   "direct": {
+    "CAS": 55
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 5,
+   "present_b": 0,
+   "errors": [
+    "sockg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 348,\n     "
+   ]
+  },
+  {
+   "a": "geoconnex",
+   "b": "sockg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "county_FIPS": 31,
+    "state_FIPS": 18
+   },
+   "via": {},
+   "sampled": 10,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "geoconnex: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 596,\n     ",
+    "geoconnex: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 578,\n     ",
+    "sockg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 587,\n     "
+   ]
+  },
+  {
+   "a": "biohealth",
+   "b": "spatialkg",
+   "label": "new",
+   "direct": {
+    "LABEL": 38
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biohealth",
+   "b": "nasa-gesdisc-kg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 38
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "nde",
+   "b": "sawgraph",
+   "label": "new",
+   "direct": {
+    "NCBITaxon": 37
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "biomarkerkg",
+   "label": "new",
+   "direct": {
+    "Entrez": 36
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [
+    "biobricks-ice: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 433,\n     ",
+    "biomarkerkg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 674,\n     "
+   ]
+  },
+  {
+   "a": "ruralkg",
+   "b": "sockg",
+   "label": "new",
+   "direct": {
+    "county_FIPS": 31
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "ruralkg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 694,\n     "
+   ]
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "medical-device-kg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 30
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 20
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "nde",
+   "b": "nestkg",
+   "label": "new",
+   "direct": {
+    "MONDO": 13
+   },
+   "via": {
+    "ubergraph": 4
+   },
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "nestkg",
+   "b": "rdkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "MONDO": 12
+   },
+   "via": {
+    "ubergraph": 3
+   },
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "biobricks-tox21",
+   "b": "sawgraph",
+   "label": "new",
+   "direct": {
+    "CAS": 11
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 5,
+   "present_b": 0,
+   "errors": [
+    "sawgraph: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 547,\n     "
+   ]
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "nasa-gesdisc-kg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 11
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biohealth",
+   "b": "securechainkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 10
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "sawgraph",
+   "label": "new",
+   "direct": {
+    "NCBITaxon": 8,
+    "CAS": 1
+   },
+   "via": {
+    "ubergraph": 1
+   },
+   "sampled": 6,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 204,\n     ",
+    "sawgraph: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 393,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "sockg",
+   "label": "new",
+   "direct": {
+    "CAS": 8
+   },
+   "via": {
+    "ubergraph": 7
+   },
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 362,\n     ",
+    "sockg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 346,\n     "
+   ]
+  },
+  {
+   "a": "nde",
+   "b": "spoke-genelab",
+   "label": "contradicts_refusal",
+   "direct": {
+    "NCBITaxon": 7
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 5,
+   "present_b": 0,
+   "errors": [
+    "spoke-genelab: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 486,\n     "
+   ]
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "prokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "dbSNP": 7
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [
+    "prokn: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 558,\n     "
+   ]
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "ruralkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 7
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "ruralkg",
+   "b": "securechainkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 5
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "nestkg",
+   "b": "oard-kg",
+   "label": "new",
+   "direct": {
+    "MONDO": 4
+   },
+   "via": {},
+   "sampled": 4,
+   "present_both": 4,
+   "present_a": 4,
+   "present_b": 4,
+   "errors": []
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "pankgraph",
+   "label": "contradicts_refusal",
+   "direct": {
+    "dbSNP": 3
+   },
+   "via": {},
+   "sampled": 3,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [
+    "pankgraph: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 418,\n     "
+   ]
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "ruralkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 3
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "digcfdekg",
+   "b": "nestkg",
+   "label": "new",
+   "direct": {
+    "MONDO": 2
+   },
+   "via": {
+    "ubergraph": 3
+   },
+   "sampled": 2,
+   "present_both": 2,
+   "present_a": 2,
+   "present_b": 2,
+   "errors": []
+  },
+  {
+   "a": "geoconnex",
+   "b": "nikg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "county_FIPS": 2
+   },
+   "via": {},
+   "sampled": 2,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [
+    "geoconnex: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 368,\n     ",
+    "nikg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 474,\n     "
+   ]
+  },
+  {
+   "a": "nikg",
+   "b": "ruralkg",
+   "label": "new",
+   "direct": {
+    "county_FIPS": 2
+   },
+   "via": {},
+   "sampled": 2,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [
+    "nikg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 474,\n     ",
+    "ruralkg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 523,\n     "
+   ]
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "nestkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "MONDO": 1
+   },
+   "via": {
+    "ubergraph": 11
+   },
+   "sampled": 1,
+   "present_both": 1,
+   "present_a": 1,
+   "present_b": 1,
+   "errors": []
+  },
+  {
+   "a": "geoconnex",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "state_FIPS": 1
+   },
+   "via": {},
+   "sampled": 1,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 1,
+   "errors": [
+    "geoconnex: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 286,\n     "
+   ]
+  },
+  {
+   "a": "sockg",
+   "b": "sudokn",
+   "label": "contradicts_refusal",
+   "direct": {
+    "state_FIPS": 1
+   },
+   "via": {},
+   "sampled": 1,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 1,
+   "errors": [
+    "sockg: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 371,\n     "
+   ]
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "wildlifekn",
+   "label": "new",
+   "direct": {
+    "LABEL": 1
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "securechainkg",
+   "label": "contradicts_refusal",
+   "direct": {
+    "LABEL": 1
+   },
+   "via": {},
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "shared names only (label join)"
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "gene-expression-atlas-okn",
+   "label": "contradicts_refusal",
+   "direct": {},
+   "via": {
+    "wikidata": 487
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "prokn",
+   "label": "new",
+   "direct": {},
+   "via": {
+    "wikidata": 399
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "sawgraph",
+   "b": "spoke-okn",
+   "label": "contradicts_refusal",
+   "direct": {},
+   "via": {
+    "ubergraph": 13
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "biobricks-tox21",
+   "b": "digcfdekg",
+   "label": "new",
+   "direct": {},
+   "via": {
+    "ubergraph": 5
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "biobricks-toxcast",
+   "b": "digcfdekg",
+   "label": "new",
+   "direct": {},
+   "via": {
+    "ubergraph": 5
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "nestkg",
+   "b": "spoke-okn",
+   "label": "contradicts_refusal",
+   "direct": {},
+   "via": {
+    "ubergraph": 4
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "biobricks-mesh",
+   "b": "digcfdekg",
+   "label": "new",
+   "direct": {},
+   "via": {
+    "ubergraph": 2
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "biobricks-mesh",
+   "b": "rdkg",
+   "label": "contradicts_refusal",
+   "direct": {},
+   "via": {
+    "ubergraph": 2
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "rdkg",
+   "b": "ruralkg",
+   "label": "confirmed",
+   "direct": {
+    "DrugBank": 2
+   },
+   "via": {},
+   "sampled": 2,
+   "present_both": 2,
+   "present_a": 2,
+   "present_b": 2,
+   "errors": []
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "sudokn",
+   "label": "confirmed",
+   "direct": {
+    "ZIP5": 11183,
+    "LABEL": 364
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "digcfdekg",
+   "b": "spoke-genelab",
+   "label": "confirmed",
+   "direct": {
+    "Entrez": 28556
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "pankgraph",
+   "label": "confirmed",
+   "direct": {},
+   "via": {
+    "wikidata": 399
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "rdkg",
+   "label": "confirmed",
+   "direct": {
+    "Entrez": 1193,
+    "DrugBank": 124,
+    "CHEBI": 4
+   },
+   "via": {
+    "wikidata": 1191,
+    "ubergraph": 4
+   },
+   "sampled": 10,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 10,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 421,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-okn",
+   "label": "confirmed",
+   "direct": {
+    "Entrez": 1393,
+    "Ensembl": 1385,
+    "CHEBI": 99,
+    "PubChem_CID": 87,
+    "ChEMBL": 75,
+    "DrugBank": 27
+   },
+   "via": {
+    "wikidata": 2764,
+    "ubergraph": 93
+   },
+   "sampled": 10,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 10,
+   "errors": [
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 421,\n     ",
+    "biobricks-aopwiki: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 470,\n     "
+   ]
+  },
+  {
+   "a": "geoconnex",
+   "b": "spoke-okn",
+   "label": "confirmed",
+   "direct": {
+    "county_FIPS": 3184,
+    "state_FIPS": 52
+   },
+   "via": {},
+   "sampled": 10,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 5,
+   "errors": [
+    "geoconnex: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 596,\n     ",
+    "spoke-okn: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 672,\n     ",
+    "geoconnex: {\n    \"exception\": \"Invalid SPARQL query: The target variable ?k0 of an AS clause was already used before in the query body.\",\n    \"metadata\": {\n        \"line\": 1,\n        \"positionInLine\": 578,\n     "
+   ]
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "biobricks-toxcast",
+   "label": "confirmed",
+   "direct": {
+    "CAS": 8997
+   },
+   "via": {},
+   "sampled": 5,
+   "present_both": 5,
+   "present_a": 5,
+   "present_b": 5,
+   "errors": []
+  },
+  {
+   "a": "spoke-okn",
+   "b": "sudokn",
+   "label": "confirmed",
+   "direct": {
+    "ZIP5": 13742,
+    "state_FIPS": 1
+   },
+   "via": {},
+   "sampled": 6,
+   "present_both": 6,
+   "present_a": 6,
+   "present_b": 6,
+   "errors": []
+  },
+  {
+   "a": "prokn",
+   "b": "spoke-genelab",
+   "label": "confirmed",
+   "direct": {},
+   "via": {
+    "wikidata": 26762
+   },
+   "sampled": 0,
+   "present_both": 0,
+   "present_a": 0,
+   "present_b": 0,
+   "errors": [],
+   "note": "via a connector graph only"
+  }
+ ]
+}

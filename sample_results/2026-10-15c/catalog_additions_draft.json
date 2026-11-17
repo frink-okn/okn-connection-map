@@ -1,0 +1,452 @@
+[
+ {
+  "id": "AUTO-ZIP5-scales-sudokn",
+  "left_kg": "scales",
+  "right_kg": "sudokn",
+  "shared_key": "ZIP5",
+  "bridge_kg": null,
+  "verified_count": 13450,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "scales": "{id}",
+   "sudokn": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-ZIP5-ruralkg-sudokn",
+  "left_kg": "ruralkg",
+  "right_kg": "sudokn",
+  "shared_key": "ZIP5",
+  "bridge_kg": null,
+  "verified_count": 4032,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "ruralkg": "{id}",
+   "sudokn": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-county_FIPS-geoconnex-ruralkg",
+  "left_kg": "geoconnex",
+  "right_kg": "ruralkg",
+  "shared_key": "county_FIPS",
+  "bridge_kg": null,
+  "verified_count": 3222,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "geoconnex": "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.{id}",
+   "ruralkg": "https://purl.org/okn/frink/kg/spoke-okn/location/{id}"
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-MONDO-nde-rdkg",
+  "left_kg": "nde",
+  "right_kg": "rdkg",
+  "shared_key": "MONDO",
+  "bridge_kg": null,
+  "verified_count": 2907,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "nde": "http://purl.obolibrary.org/obo/MONDO_{id}",
+   "rdkg": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-county_FIPS-ruralkg-spatialkg",
+  "left_kg": "ruralkg",
+  "right_kg": "spatialkg",
+  "shared_key": "county_FIPS",
+  "bridge_kg": null,
+  "verified_count": 3104,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "ruralkg": "https://purl.org/okn/frink/kg/spoke-okn/location/{id}",
+   "spatialkg": "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.{id}"
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-Ensembl-biobricks-aopwiki-pankgraph",
+  "left_kg": "biobricks-aopwiki",
+  "right_kg": "pankgraph",
+  "shared_key": "Ensembl",
+  "bridge_kg": null,
+  "verified_count": 1470,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-aopwiki": "http://identifiers.org/ensembl/{id}",
+   "pankgraph": "http://identifiers.org/ensembl/{id}"
+  },
+  "needs_normalization": false,
+  "skeleton_query": "SELECT (COUNT(DISTINCT ?key) AS ?n) WHERE {\n  GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1_a <http://www.w3.org/2004/02/skos/core#exactMatch> ?v2_a . FILTER(STRSTARTS(STR(?v2_a),'https://identifiers.org/ensembl/')) } BIND(IRI(REPLACE(STR(?v2_a),'https://identifiers.org/ensembl/','http://identifiers.org/ensembl/')) AS ?key)\n  GRAPH <https://purl.org/okn/frink/kg/pankgraph> { ?key a <https://w3id.org/biolink/vocab/Gene> . }\n}"
+ },
+ {
+  "id": "AUTO-Entrez-biobricks-aopwiki-digcfdekg",
+  "left_kg": "biobricks-aopwiki",
+  "right_kg": "digcfdekg",
+  "shared_key": "Entrez",
+  "bridge_kg": null,
+  "verified_count": 1446,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-aopwiki": "http://identifiers.org/ncbigene/{id}",
+   "digcfdekg": "http://www.ncbi.nlm.nih.gov/gene/{id}"
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-CAS-biobricks-mesh-biobricks-tox21",
+  "left_kg": "biobricks-mesh",
+  "right_kg": "biobricks-tox21",
+  "shared_key": "CAS",
+  "bridge_kg": null,
+  "verified_count": 1103,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-mesh": null,
+   "biobricks-tox21": "http://identifiers.org/cas/{id}"
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-MONDO-nde-prokn",
+  "left_kg": "nde",
+  "right_kg": "prokn",
+  "shared_key": "MONDO",
+  "bridge_kg": null,
+  "verified_count": 756,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "nde": "http://purl.obolibrary.org/obo/MONDO_{id}",
+   "prokn": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-CAS-biobricks-aopwiki-biobricks-ice",
+  "left_kg": "biobricks-aopwiki",
+  "right_kg": "biobricks-ice",
+  "shared_key": "CAS",
+  "bridge_kg": null,
+  "verified_count": 339,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-aopwiki": "http://identifiers.org/cas/{id}",
+   "biobricks-ice": "http://identifiers.org/cas/{id}"
+  },
+  "needs_normalization": false,
+  "skeleton_query": "SELECT (COUNT(DISTINCT ?key) AS ?n) WHERE {\n  GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1_a <http://aopkb.org/aop_ontology#has_chemical_entity> ?v2_a . } BIND(IRI(REPLACE(STR(?v2_a),'https://identifiers.org/cas/','http://identifiers.org/cas/')) AS ?key)\n  GRAPH <https://purl.org/okn/frink/kg/biobricks-ice> { ?v1_b <http://edamontology.org/has_identifier> ?key . }\n}"
+ },
+ {
+  "id": "AUTO-Entrez-biobricks-ice-spoke-genelab",
+  "left_kg": "biobricks-ice",
+  "right_kg": "spoke-genelab",
+  "shared_key": "Entrez",
+  "bridge_kg": null,
+  "verified_count": 424,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "biobricks-ice": "http://identifiers.org/ncbigene/{id}",
+   "spoke-genelab": "http://www.ncbi.nlm.nih.gov/gene/{id}"
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-Entrez-biobricks-ice-digcfdekg",
+  "left_kg": "biobricks-ice",
+  "right_kg": "digcfdekg",
+  "shared_key": "Entrez",
+  "bridge_kg": null,
+  "verified_count": 401,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-ice": "http://identifiers.org/ncbigene/{id}",
+   "digcfdekg": "http://www.ncbi.nlm.nih.gov/gene/{id}"
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-CAS-biobricks-aopwiki-biobricks-tox21",
+  "left_kg": "biobricks-aopwiki",
+  "right_kg": "biobricks-tox21",
+  "shared_key": "CAS",
+  "bridge_kg": null,
+  "verified_count": 285,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-aopwiki": "http://identifiers.org/cas/{id}",
+   "biobricks-tox21": "http://identifiers.org/cas/{id}"
+  },
+  "needs_normalization": false,
+  "skeleton_query": "SELECT (COUNT(DISTINCT ?key) AS ?n) WHERE {\n  GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1_a <http://aopkb.org/aop_ontology#has_chemical_entity> ?v2_a . } BIND(IRI(REPLACE(STR(?v2_a),'https://identifiers.org/cas/','http://identifiers.org/cas/')) AS ?key)\n  GRAPH <https://purl.org/okn/frink/kg/biobricks-tox21> { ?key ?v1_b ?v2_b . }\n}"
+ },
+ {
+  "id": "AUTO-LABEL-biohealth-ruralkg",
+  "left_kg": "biohealth",
+  "right_kg": "ruralkg",
+  "shared_key": "LABEL",
+  "bridge_kg": null,
+  "verified_count": 246,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biohealth": null,
+   "ruralkg": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-LABEL-biohealth-sudokn",
+  "left_kg": "biohealth",
+  "right_kg": "sudokn",
+  "shared_key": "LABEL",
+  "bridge_kg": null,
+  "verified_count": 211,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "biohealth": null,
+   "sudokn": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-MONDO-digcfdekg-nde",
+  "left_kg": "digcfdekg",
+  "right_kg": "nde",
+  "shared_key": "MONDO",
+  "bridge_kg": null,
+  "verified_count": 158,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "digcfdekg": "http://purl.obolibrary.org/obo/MONDO_{id}",
+   "nde": "http://purl.obolibrary.org/obo/MONDO_{id}"
+  },
+  "needs_normalization": false,
+  "skeleton_query": "SELECT (COUNT(DISTINCT ?key) AS ?n) WHERE {\n  { SELECT DISTINCT ?key WHERE { GRAPH <https://purl.org/okn/frink/kg/digcfdekg> { ?v1_a <https://purl.org/okn/frink/kg/digcfdekg/schema/geneToTrait> ?key . FILTER(STRSTARTS(STR(?key),'http://www.ebi.ac.uk/efo/EFO_') || STRSTARTS(STR(?key),'http://purl.obolibrary.org/obo/MONDO_') || CONTAINS(STR(?key),'Orphanet_')) } } }\n  GRAPH <https://purl.org/okn/frink/kg/nde> { ?v1_b <http://schema.org/healthCondition> ?key . FILTER(STRSTARTS(STR(?key),'http://purl.obolibrary.org/obo/MONDO_')) }\n}"
+ },
+ {
+  "id": "AUTO-ZIP5-dreamkg-sudokn",
+  "left_kg": "dreamkg",
+  "right_kg": "sudokn",
+  "shared_key": "ZIP5",
+  "bridge_kg": null,
+  "verified_count": 171,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "dreamkg": "{id}",
+   "sudokn": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-LABEL-biohealth-climatemodelskg",
+  "left_kg": "biohealth",
+  "right_kg": "climatemodelskg",
+  "shared_key": "LABEL",
+  "bridge_kg": null,
+  "verified_count": 168,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "biohealth": null,
+   "climatemodelskg": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-LABEL-biohealth-wildlifekn",
+  "left_kg": "biohealth",
+  "right_kg": "wildlifekn",
+  "shared_key": "LABEL",
+  "bridge_kg": null,
+  "verified_count": 105,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biohealth": null,
+   "wildlifekn": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-LABEL-biohealth-medical-device-kg",
+  "left_kg": "biohealth",
+  "right_kg": "medical-device-kg",
+  "shared_key": "LABEL",
+  "bridge_kg": null,
+  "verified_count": 80,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biohealth": null,
+   "medical-device-kg": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-NCBITaxon-biobricks-aopwiki-nde",
+  "left_kg": "biobricks-aopwiki",
+  "right_kg": "nde",
+  "shared_key": "NCBITaxon",
+  "bridge_kg": null,
+  "verified_count": 62,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-aopwiki": "http://purl.obolibrary.org/obo/NCBITaxon_{id}",
+   "nde": "http://purl.obolibrary.org/obo/NCBITaxon_{id}"
+  },
+  "needs_normalization": false,
+  "skeleton_query": "SELECT (COUNT(DISTINCT ?key) AS ?n) WHERE {\n  GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1_a <http://purl.org/dc/elements/1.1/identifier> ?key . FILTER(STRSTARTS(STR(?key),'http://purl.obolibrary.org/obo/NCBITaxon_')) }\n  { SELECT DISTINCT ?key WHERE { GRAPH <https://purl.org/okn/frink/kg/nde> { ?v1_b <http://schema.org/species> ?v2_b . FILTER(CONTAINS(STR(?v2_b),'/taxonomy/')) } BIND(IRI(CONCAT('http://purl.obolibrary.org/obo/NCBITaxon_',REPLACE(STR(?v2_b),'^.*/taxonomy/([0-9]+).*$','$1'))) AS ?key) } }\n}"
+ },
+ {
+  "id": "AUTO-LABEL-climatemodelskg-sudokn",
+  "left_kg": "climatemodelskg",
+  "right_kg": "sudokn",
+  "shared_key": "LABEL",
+  "bridge_kg": null,
+  "verified_count": 60,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "climatemodelskg": null,
+   "sudokn": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ },
+ {
+  "id": "AUTO-CAS-biobricks-tox21-sockg",
+  "left_kg": "biobricks-tox21",
+  "right_kg": "sockg",
+  "shared_key": "CAS",
+  "bridge_kg": null,
+  "verified_count": 55,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biobricks-tox21": "http://identifiers.org/cas/{id}",
+   "sockg": "http://identifiers.org/cas/{id}"
+  },
+  "needs_normalization": false,
+  "skeleton_query": "SELECT (COUNT(DISTINCT ?key) AS ?n) WHERE {\n  GRAPH <https://purl.org/okn/frink/kg/biobricks-tox21> { ?key ?v1_a ?v2_a . }\n  GRAPH <https://purl.org/okn/frink/kg/sockg> { ?v1_b <http://w3id.org/coso/v1/contaminoso#casNumber> ?v2_b . } BIND(IRI(CONCAT('http://identifiers.org/cas/', STR(?v2_b))) AS ?key)\n}"
+ },
+ {
+  "id": "AUTO-county_FIPS-geoconnex-sockg",
+  "left_kg": "geoconnex",
+  "right_kg": "sockg",
+  "shared_key": "county_FIPS",
+  "bridge_kg": null,
+  "verified_count": 31,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "contradicts_refusal",
+  "tool_status_before": "known_non_join",
+  "identifier_forms": {
+   "geoconnex": "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.{id}",
+   "sockg": "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.{id}"
+  },
+  "needs_normalization": false,
+  "skeleton_query": "SELECT (COUNT(DISTINCT ?key) AS ?n) WHERE {\n  GRAPH <https://purl.org/okn/frink/kg/geoconnex> { ?v1_a <http://gnis-ld.org/lod/gnis/ontology/county> ?v2_a . } BIND(REPLACE(STR(?v2_a),'^.*/counties/([0-9]{5}).*$','$1') AS ?v3_a) BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.',?v3_a)) AS ?key)\n  GRAPH <https://purl.org/okn/frink/kg/sockg> { ?key a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_2> . }\n}"
+ },
+ {
+  "id": "AUTO-LABEL-biohealth-spatialkg",
+  "left_kg": "biohealth",
+  "right_kg": "spatialkg",
+  "shared_key": "LABEL",
+  "bridge_kg": null,
+  "verified_count": 38,
+  "verified_on": "2026-10-16",
+  "provenance": "computed by okn-connection-map from catalog endpoint patterns",
+  "label": "new",
+  "tool_status_before": "unknown",
+  "identifier_forms": {
+   "biohealth": null,
+   "spatialkg": null
+  },
+  "needs_normalization": true,
+  "skeleton_query": null
+ }
+]

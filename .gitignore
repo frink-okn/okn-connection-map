@@ -1,0 +1,23 @@
+# working data: downloads and computed runs (can be hundreds of MB)
+ocm-data/
+runs/
+# keep the curated sample, but never its large raw downloads
+sample_results/**/raw/
+sample_results/**/keys/
+sample_results/**/bridges/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*

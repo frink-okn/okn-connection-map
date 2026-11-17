@@ -1,0 +1,5341 @@
+{
+ "at": "2026-10-16T00:00:48+00:00",
+ "catalog": "C:\\Users\\samin\\PythonWorkspace\\Assignment_RadhaChirkova\\mcp-okn\\metadata\\crosswalks.json",
+ "catalog_verified_on": "2026-09-26",
+ "endpoints": [
+  {
+   "id": "60f4fd3a73",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://aopkb.org/aop_ontology#has_chemical_entity> ?v2 . } BIND(IRI(REPLACE(STR(?v2),'https://identifiers.org/cas/','http://identifiers.org/cas/')) AS ?k0)",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "E3-cas-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/cas/",
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "f5c34cedc0",
+   "graph": "biobricks-toxcast",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-toxcast> { ?v1 <http://edamontology.org/has_identifier> ?k0 . }",
+   "hints": [
+    "CAS",
+    "CHEBI"
+   ],
+   "crosswalks": [
+    "E3-cas-aopwiki",
+    "E1-cas",
+    "B2-chebi-cas-bridge",
+    "ET1-cas-sawgraph-toxcast",
+    "ET4-cas-sockg-biobricks-toxcast"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/cas/",
+    "http://identifiers.org/cas/",
+    "http://purl.obolibrary.org/obo/CHEBI_"
+   ]
+  },
+  {
+   "id": "ac2951e1a7",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://identifiers.org/ensembl/')) } BIND(IRI(REPLACE(STR(?v2),'https://identifiers.org/ensembl/','http://identifiers.org/ensembl/')) AS ?k0)",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "F2-ensembl-aopwiki",
+    "F1-ensembl-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/ensembl/",
+    "http://identifiers.org/ensembl/"
+   ]
+  },
+  {
+   "id": "24fc7ae226",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "F2-ensembl-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "https://identifiers.org/ensembl/",
+    "http://identifiers.org/ensembl/"
+   ]
+  },
+  {
+   "id": "6dafd36d36",
+   "graph": "biobricks-aopwiki",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 ?v2 ?v3 . } FILTER(STRSTARTS(STR(?v1),'https://identifiers.org/uniprot/')) } } BIND(IRI(CONCAT('http://purl.uniprot.org/uniprot/',REPLACE(STR(?v1),'^.*/uniprot/',''))) AS ?k0)",
+   "hints": [
+    "UniProt"
+   ],
+   "crosswalks": [
+    "G1-uniprot-aopwiki-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/uniprot/",
+    "http://purl.uniprot.org/uniprot/"
+   ]
+  },
+  {
+   "id": "2cec9c5126",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "UniProt",
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "G1-uniprot-aopwiki-prokn",
+    "G3-uniprot-biomarkerkg-prokn",
+    "C14-ensembl-pankgraph-prokn",
+    "G5-uniprot-nestkg-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "https://identifiers.org/uniprot/",
+    "http://purl.uniprot.org/uniprot/"
+   ]
+  },
+  {
+   "id": "c0302c4921",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://identifiers.org/ncbigene/')) } BIND(IRI(REPLACE(STR(?v2),'https://identifiers.org/ncbigene/','http://identifiers.org/ncbigene/')) AS ?k0)",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C8-entrez-aopwiki-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/ncbigene/",
+    "http://identifiers.org/ncbigene/"
+   ]
+  },
+  {
+   "id": "123bb40dca",
+   "graph": "rdkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "Entrez",
+    "MONDO"
+   ],
+   "crosswalks": [
+    "C8-entrez-aopwiki-rdkg",
+    "A16-doid-mondo-biomarkerkg-rdkg",
+    "C12-entrez-digcfdekg-rdkg",
+    "C10-entrez-biobricks-ice-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "https://identifiers.org/ncbigene/",
+    "http://identifiers.org/ncbigene/",
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "8b2e6481ef",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://identifiers.org/ncbigene/')) } BIND(IRI(CONCAT('http://www.ncbi.nlm.nih.gov/gene/',REPLACE(STR(?v2),'^.*/ncbigene/',''))) AS ?k0)",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C7-entrez-aopwiki-spokegenelab"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/ncbigene/",
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "d7f6148afe",
+   "graph": "spoke-genelab",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-genelab> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C7-entrez-aopwiki-spokegenelab",
+    "C6-entrez-rdkg-spokegenelab",
+    "C11-entrez-digcfdekg-spokegenelab"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "https://identifiers.org/ncbigene/",
+    "http://www.ncbi.nlm.nih.gov/gene/",
+    "http://identifiers.org/ncbigene/"
+   ]
+  },
+  {
+   "id": "5248b8e520",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 ?v2 ?k0 . }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "F1-ensembl-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "https://identifiers.org/ensembl/",
+    "http://identifiers.org/ensembl/"
+   ]
+  },
+  {
+   "id": "dba367cb1d",
+   "graph": "biobricks-ice",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-ice> { ?v1 <http://edamontology.org/has_identifier> ?k0 . }",
+   "hints": [
+    "CAS",
+    "CHEBI"
+   ],
+   "crosswalks": [
+    "B1-cas",
+    "E2-cas",
+    "B3-chebi-cas-bridge-ice",
+    "ET2-cas-sawgraph-ice",
+    "ET3-cas-sockg-biobricks-ice"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/cas/",
+    "http://purl.obolibrary.org/obo/CHEBI_"
+   ]
+  },
+  {
+   "id": "40d2322c50",
+   "graph": "biobricks-toxcast",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-toxcast> { ?v1 <http://edamontology.org/has_identifier> ?k0 . } FILTER(STRSTARTS(STR(?k0),'http://identifiers.org/cas/'))",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "B1-cas"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "e8d5c13ddc",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 ?v2 ?v3 . VALUES ?v2 { <https://purl.org/okn/frink/kg/spoke-okn/schema/mesh_list> <https://purl.org/okn/frink/kg/spoke-okn/schema/mesh_ids> } } BIND(REPLACE(STR(?v3),'^https://id.nlm.nih.gov/mesh/','') AS ?v4) BIND(IRI(CONCAT('http://id.nlm.nih.gov/mesh/',?v4)) AS ?k0)",
+   "hints": [
+    "MeSH"
+   ],
+   "crosswalks": [
+    "M2-mesh-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://id.nlm.nih.gov/mesh/"
+   ]
+  },
+  {
+   "id": "9e480dfbe5",
+   "graph": "biobricks-mesh",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-mesh> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "MeSH"
+   ],
+   "crosswalks": [
+    "M2-mesh-spokeokn",
+    "M1-mesh-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "http://id.nlm.nih.gov/mesh/"
+   ]
+  },
+  {
+   "id": "4113bc1827",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?v1 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v2 . FILTER(STRSTARTS(STR(?v2),'MESH:')) } BIND(IRI(CONCAT('http://id.nlm.nih.gov/mesh/',REPLACE(STR(?v2),'^MESH:',''))) AS ?k0)",
+   "hints": [
+    "MeSH"
+   ],
+   "crosswalks": [
+    "M1-mesh-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://id.nlm.nih.gov/mesh/"
+   ]
+  },
+  {
+   "id": "139aed0876",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v2 . FILTER(STRSTARTS(STR(?v2),'http://identifiers.org/pubchem.compound/')) } BIND(REPLACE(STR(?v2),'^http://identifiers.org/pubchem.compound/','') AS ?v3) BIND(IRI(CONCAT('http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID',?v3)) AS ?k0)",
+   "hints": [
+    "PubChem_CID"
+   ],
+   "crosswalks": [
+    "P1-pubchem-cid-biobricks-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/pubchem.compound/"
+   ]
+  },
+  {
+   "id": "3b0961e6be",
+   "graph": "biobricks-pubchem-annotations",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-pubchem-annotations> { ?v1 <http://www.w3.org/ns/oa#hasTarget> ?k0 . }",
+   "hints": [
+    "PubChem_CID"
+   ],
+   "crosswalks": [
+    "P1-pubchem-cid-biobricks-spokeokn",
+    "P2-pubchem-aopwiki-pubchemannotations"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/pubchem.compound/"
+   ]
+  },
+  {
+   "id": "32329b7641",
+   "graph": "biobricks-tox21",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-tox21> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "CAS",
+    "CHEBI"
+   ],
+   "crosswalks": [
+    "E2-cas",
+    "E1-cas",
+    "B4-chebi-cas-bridge-tox21"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/CHEBI_",
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "320f0d245c",
+   "graph": "biomarkerkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 ?v2 ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/MONDO_')) }",
+   "hints": [
+    "MONDO",
+    "DOID"
+   ],
+   "crosswalks": [
+    "A5-doid",
+    "A8-doid-spokeokn-biomarkerkg",
+    "A16-doid-mondo-biomarkerkg-rdkg",
+    "A17-doid-mondo-biomarkerkg-oardkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "http://purl.obolibrary.org/obo/DOID_"
+   ]
+  },
+  {
+   "id": "f3c2fe84ed",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 a <http://purl.uniprot.org/core/Disease> ; <http://www.w3.org/2004/02/skos/core#exactMatch> ?k0 . }",
+   "hints": [
+    "MONDO",
+    "OMIM",
+    "Orphanet"
+   ],
+   "crosswalks": [
+    "A5-doid",
+    "A3-mondo",
+    "A12-omim-oardkg-prokn-via-ubergraph",
+    "A14-orphanet-oardkg-prokn-via-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "https://www.omim.org/entry/",
+    "http://www.orpha.net/ORDO/Orphanet_"
+   ]
+  },
+  {
+   "id": "ac8726d76d",
+   "graph": "fiokg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/fiokg> { ?v1 <http://www.w3.org/2002/07/owl#sameAs> ?k0 . }",
+   "hints": [
+    "S2_L13",
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "N6-s2-fiokg-sawgraph",
+    "N1-s2-fiokg-spatialkg",
+    "N2-county-fips-fiokg-spatialkg",
+    "N3-county-fips-fiokg-spokeokn",
+    "O2-s2-ufokn-fiokg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "c9051506d3",
+   "graph": "sawgraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/sawgraph> { ?v1 <http://www.w3.org/2002/07/owl#sameAs> ?k0 . } FILTER(STRSTARTS(STR(?k0),'http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.'))",
+   "hints": [
+    "S2_L13"
+   ],
+   "crosswalks": [
+    "N6-s2-fiokg-sawgraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "53e91f2e8b",
+   "graph": "spatialkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spatialkg> { ?k0 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13> . }",
+   "hints": [
+    "S2_L13"
+   ],
+   "crosswalks": [
+    "N1-s2-fiokg-spatialkg",
+    "D1-s2",
+    "D2-s2",
+    "H1-s2",
+    "O1-s2-ufokn-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "1b4669c90b",
+   "graph": "spatialkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spatialkg> { ?k0 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_2> . }",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "N2-county-fips-fiokg-spatialkg",
+    "L1-county-fips-geoconnex-spatialkg",
+    "L4-county-fips-scales-spatialkg",
+    "H2-county"
+   ],
+   "prefixes": "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "d12edd9a8b",
+   "graph": "spoke-okn",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { BIND(IRI(CONCAT('https://schema.org/','AdministrativeArea')) AS ?v2) ?v3 a ?v2 . } BIND(REPLACE(STR(?v3),'^.*/location/','') AS ?v1) FILTER(REGEX(?v1,'^[0-9]{5}$')) } } BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.',?v1)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "N3-county-fips-fiokg-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "14cb62f583",
+   "graph": "spoke-okn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 <https://purl.org/okn/frink/kg/spoke-okn/schema/ensembl> ?k0 . } } }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C1-ensembl",
+    "C3-ensembl-pankgraph-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "5ad35fc994",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?k0 a <https://w3id.org/biolink/vocab/Gene> . }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C1-ensembl"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "cddf905973",
+   "graph": "geoconnex",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/geoconnex> { ?v1 <http://gnis-ld.org/lod/gnis/ontology/county> ?v2 . } BIND(REPLACE(STR(?v2),'^.*/counties/([0-9]{5}).*$','$1') AS ?v3) BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.',?v3)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L1-county-fips-geoconnex-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "799526de8a",
+   "graph": "geoconnex",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/geoconnex> { ?v1 <http://gnis-ld.org/lod/gnis/ontology/state> ?v2 . } BIND(REPLACE(STR(?v2),'^.*/states/([0-9]{2}).*$','$1') AS ?v3) BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.',?v3)) AS ?k0)",
+   "hints": [
+    "state_FIPS"
+   ],
+   "crosswalks": [
+    "L3-state-fips-geoconnex-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "effa4ee732",
+   "graph": "spatialkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spatialkg> { ?k0 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_1> . }",
+   "hints": [
+    "state_FIPS"
+   ],
+   "crosswalks": [
+    "L3-state-fips-geoconnex-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "4ebbf8c56b",
+   "graph": "geoconnex",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/geoconnex> { ?v1 <http://gnis-ld.org/lod/gnis/ontology/county> ?v2 . } BIND(REPLACE(STR(?v2),'^.*/counties/([0-9]{5}).*$','$1') AS ?v3) BIND(IRI(CONCAT('https://purl.org/okn/frink/kg/spoke-okn/location/',?v3)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L2-county-fips-geoconnex-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/"
+   ]
+  },
+  {
+   "id": "e0f45be552",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "county_FIPS",
+    "Entrez",
+    "state_FIPS"
+   ],
+   "crosswalks": [
+    "L2-county-fips-geoconnex-spokeokn",
+    "L7-county-fips-nikg-spokeokn",
+    "C5-entrez-rdkg-spokeokn",
+    "L5-county-fips-scales-spokeokn",
+    "K2-county-fips",
+    "K3-county-fips",
+    "K5-state-fips",
+    "K4-state-fips",
+    "C10-entrez-digcfdekg-spokeokn"
+   ],
+   "prefixes": "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>",
+   "membership_only": true,
+   "namespaces": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/",
+    "https://metadata.phila.gov/kwgr_administrativeRegion_USA_",
+    "http://identifiers.org/ncbigene/",
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "f064ca89c6",
+   "graph": "hydrologykg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/hydrologykg> { ?v1 <http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.')) }",
+   "hints": [
+    "S2_L13"
+   ],
+   "crosswalks": [
+    "D1-s2"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "12082be059",
+   "graph": "nde",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nde> { ?v1 <http://schema.org/healthCondition> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/MONDO_')) }",
+   "hints": [
+    "MONDO"
+   ],
+   "crosswalks": [
+    "A4-mondo"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_"
+   ]
+  },
+  {
+   "id": "cc396c6c73",
+   "graph": "oard-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/oard-kg> { { ?v1 <https://w3id.org/biolink/vocab/object> ?k0 } UNION { ?v2 <https://w3id.org/biolink/vocab/subject> ?k0 } }",
+   "hints": [
+    "MONDO",
+    "HP",
+    "DOID"
+   ],
+   "crosswalks": [
+    "A4-mondo",
+    "A2-mondo",
+    "A23-hp-gxa-oardkg",
+    "A11-doid-mondo-spokeokn-oardkg",
+    "A17-doid-mondo-biomarkerkg-oardkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "http://purl.obolibrary.org/obo/HP_",
+    "http://purl.obolibrary.org/obo/DOID_"
+   ]
+  },
+  {
+   "id": "f45efc85d9",
+   "graph": "nikg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nikg> { ?v1 <http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://metadata.phila.gov/kwgr_administrativeRegion_USA_')) } BIND(REPLACE(STR(?v2),'^.*administrativeRegion_USA_([0-9]{5}).*$','$1') AS ?v3) BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.',?v3)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L6-county-fips-nikg-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://metadata.phila.gov/kwgr_administrativeRegion_USA_"
+   ]
+  },
+  {
+   "id": "b477b94168",
+   "graph": "spatialkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spatialkg> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L6-county-fips-nikg-spatialkg",
+    "K1-county-fips"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "https://metadata.phila.gov/kwgr_administrativeRegion_USA_",
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "e98dae0063",
+   "graph": "nikg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nikg> { ?v1 <http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://metadata.phila.gov/kwgr_administrativeRegion_USA_')) } BIND(REPLACE(STR(?v2),'^.*administrativeRegion_USA_([0-9]{5}).*$','$1') AS ?v3) BIND(IRI(CONCAT('https://purl.org/okn/frink/kg/spoke-okn/location/',?v3)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L7-county-fips-nikg-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://metadata.phila.gov/kwgr_administrativeRegion_USA_",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/"
+   ]
+  },
+  {
+   "id": "f4a1692366",
+   "graph": "wildlifekn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/wildlifekn> { ?v1 a <https://wildlife.proto-okn.net/kg/Location> ; <http://www.w3.org/2000/01/rdf-schema#label> ?k0 . } FILTER(STRENDS(STR(?k0),'County')) } }",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L8-county-fips-wildlifekn-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "518f1f1202",
+   "graph": "spatialkg",
+   "fragment": "{ SELECT DISTINCT ?k0 ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/spatialkg> { ?v2 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_2> ; <http://www.w3.org/2000/01/rdf-schema#label> ?v3 . } FILTER(CONTAINS(STR(?v3),' County, Florida')) BIND(REPLACE(STR(?v3),'^.*?([^,]+ County), Florida.*$','$1') AS ?k0) BIND(SUBSTR(REPLACE(STR(?v2),'^.*administrativeRegion[.]USA[.]',''),1,5) AS ?v1) } }",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L8-county-fips-wildlifekn-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "6adf514e3f",
+   "graph": "oard-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/oard-kg> { { ?v1 <https://w3id.org/biolink/vocab/object> ?k0 } UNION { ?v2 <https://w3id.org/biolink/vocab/subject> ?k0 } FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/HP_')) }",
+   "hints": [
+    "HP"
+   ],
+   "crosswalks": [
+    "A1-hp"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/HP_"
+   ]
+  },
+  {
+   "id": "6e35e5bf89",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 ?v2 ?k0 . }",
+   "hints": [
+    "HP",
+    "Entrez",
+    "HGNC",
+    "GO"
+   ],
+   "crosswalks": [
+    "A1-hp",
+    "C9-hgnc-prokn-via-wikidata",
+    "A24-hp-gxa-prokn",
+    "C13-entrez-digcfdekg-prokn-via-wikidata",
+    "GO1-go-pankgraph-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/HP_",
+    "http://identifiers.org/hgnc/",
+    "https://www.ebi.ac.uk/QuickGO/term/GO:",
+    "http://purl.obolibrary.org/obo/GO_"
+   ]
+  },
+  {
+   "id": "8eb81d10a5",
+   "graph": "oard-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/oard-kg> { { ?v1 <https://w3id.org/biolink/vocab/object> ?k0 } UNION { ?v2 <https://w3id.org/biolink/vocab/subject> ?k0 } FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/MONDO_')) }",
+   "hints": [
+    "MONDO",
+    "OMIM",
+    "Orphanet"
+   ],
+   "crosswalks": [
+    "A3-mondo",
+    "A12-omim-oardkg-prokn-via-ubergraph",
+    "A14-orphanet-oardkg-prokn-via-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "https://www.omim.org/entry/",
+    "http://www.orpha.net/ORDO/Orphanet_"
+   ]
+  },
+  {
+   "id": "144e768811",
+   "graph": "pankgraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/pankgraph> { ?k0 a <https://w3id.org/biolink/vocab/Gene> . }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C3-ensembl-pankgraph-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "3aaee37983",
+   "graph": "pankgraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/pankgraph> { ?v1 a <https://w3id.org/biolink/vocab/Gene> . BIND(STRAFTER(STR(?v1), \"ensembl/\") AS ?k0) FILTER(STRSTARTS(?k0, \"ENS\")) }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C15-ensembl-pankgraph-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "cf2d137dc1",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?v1 <https://w3id.org/biolink/vocab/id> ?k0 . }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C15-ensembl-pankgraph-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "f015cc1feb",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 a <https://w3id.org/biolink/vocab/Gene> . } BIND(REPLACE(STR(?v1),'^.*/gene/','') AS ?k0)",
+   "hints": [
+    "Entrez",
+    "HGNC"
+   ],
+   "crosswalks": [
+    "C9-hgnc-prokn-via-wikidata"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/hgnc/"
+   ]
+  },
+  {
+   "id": "d8c011d345",
+   "graph": "rdkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?k0 ?v1 ?v2 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/MONDO_')) }",
+   "hints": [
+    "MONDO"
+   ],
+   "crosswalks": [
+    "A2-mondo"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_"
+   ]
+  },
+  {
+   "id": "4b3ffb1481",
+   "graph": "rdkg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?v1 a <https://w3id.org/biolink/vocab/Gene> . FILTER(STRSTARTS(STR(?v1),'http://identifiers.org/ncbigene/')) } BIND(IRI(CONCAT('http://www.ncbi.nlm.nih.gov/gene/',REPLACE(STR(?v1),'^.*/ncbigene/',''))) AS ?k0) } }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C6-entrez-rdkg-spokegenelab",
+    "C5-entrez-rdkg-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/ncbigene/",
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "a56532064a",
+   "graph": "sawgraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/sawgraph> { ?v1 <http://www.w3.org/2002/07/owl#sameAs> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.')) }",
+   "hints": [
+    "S2_L13"
+   ],
+   "crosswalks": [
+    "D2-s2"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "86b445820d",
+   "graph": "sawgraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/sawgraph> { ?k0 <http://www.w3.org/2000/01/rdf-schema#subClassOf> ?v1 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/NCBITaxon_')) }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D3-ncbitaxon",
+    "BH13-ncbitaxon-label-sawgraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "e08eab6a77",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.w3.org/2000/01/rdf-schema#subClassOf> ?v1 . }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D3-ncbitaxon",
+    "D4-ncbitaxon-spokegenelab-ubergraph",
+    "D5-ncbitaxon-spokeokn-ubergraph",
+    "D6-ncbitaxon-gxa-ubergraph",
+    "D7-ncbitaxon-aopwiki-ubergraph",
+    "D8-ncbitaxon-nde-ubergraph",
+    "D10-ncbitaxon-spokegenelab-microbiome-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "a47d7209ad",
+   "graph": "spoke-genelab",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-genelab> { ?v1 <https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy> ?v2 . FILTER(STRSTARTS(STR(?v2),'http://purl.obolibrary.org/obo/NCBITaxon_')) } BIND(IRI(STR(?v2)) AS ?k0)",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D4-ncbitaxon-spokegenelab-ubergraph",
+    "BH15-ncbitaxon-label-spoke-genelab"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "fc2409333b",
+   "graph": "spoke-okn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 a <https://w3id.org/biolink/vocab/OrganismTaxon> . } BIND(IRI(CONCAT('http://purl.obolibrary.org/obo/NCBITaxon_',REPLACE(STR(?v1),'^.*/organism/([0-9]+).*$','$1'))) AS ?k0) } }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D5-ncbitaxon-spokeokn-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "63ab196f18",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?v1 <https://w3id.org/biolink/vocab/in_taxon> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/NCBITaxon_')) }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D6-ncbitaxon-gxa-ubergraph",
+    "BH16-ncbitaxon-label-gene-expression-atlas-okn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "9a3afd3bee",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://purl.org/dc/elements/1.1/identifier> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/NCBITaxon_')) }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D7-ncbitaxon-aopwiki-ubergraph",
+    "BH14-ncbitaxon-label-biobricks-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "5f7a5b8582",
+   "graph": "nde",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/nde> { ?v1 <http://schema.org/species> ?v2 . FILTER(CONTAINS(STR(?v2),'/taxonomy/')) } BIND(IRI(CONCAT('http://purl.obolibrary.org/obo/NCBITaxon_',REPLACE(STR(?v2),'^.*/taxonomy/([0-9]+).*$','$1'))) AS ?k0) } }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D8-ncbitaxon-nde-ubergraph",
+    "BH12-ncbitaxon-label-nde"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "48759c0f84",
+   "graph": "spoke-genelab",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-genelab> { ?v1 a <https://purl.org/okn/frink/kg/spoke-genelab/schema/Organism> . } BIND(IRI(CONCAT('http://purl.obolibrary.org/obo/NCBITaxon_',REPLACE(STR(?v1),'^.*/node/([0-9]+).*$','$1'))) AS ?k0)",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D10-ncbitaxon-spokegenelab-microbiome-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "7ab040b07b",
+   "graph": "wildlifekn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/wildlifekn> { VALUES ?v1 { <https://wildlife.proto-okn.net/kg/Bird_name> <https://wildlife.proto-okn.net/kg/Amphibian_name> } ?v2 a ?v1 ; <http://www.w3.org/2000/01/rdf-schema#label> ?v3 . BIND(REPLACE(?v3,'^(\\\\S+\\\\s+\\\\S+).*$','$1') AS ?k0) }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D13-ncbitaxon-wildlifekn-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "1d9cea701d",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?v1 <http://www.w3.org/2000/01/rdf-schema#label> ?k0 . FILTER(STRSTARTS(STR(?v1),'http://purl.obolibrary.org/obo/NCBITaxon_')) }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "D13-ncbitaxon-wildlifekn-ubergraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "73ba7388fa",
+   "graph": "scales",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/scales> { ?v1 <http://schemas.scales-okn.org/rdf/scales#hasIdbCounty> ?v2 . FILTER(?v2 != 88888) } BIND(REPLACE(CONCAT('00000',STR(xsd:integer(?v2))),'^.*(.{5})$','$1') AS ?v3) BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.',?v3)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L4-county-fips-scales-spatialkg"
+   ],
+   "prefixes": "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "8e6e20d738",
+   "graph": "scales",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/scales> { ?v1 <http://schemas.scales-okn.org/rdf/scales#hasIdbCounty> ?v2 . FILTER(?v2 != 88888) } BIND(REPLACE(CONCAT('00000',STR(xsd:integer(?v2))),'^.*(.{5})$','$1') AS ?v3) BIND(IRI(CONCAT('https://purl.org/okn/frink/kg/spoke-okn/location/',?v3)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "L5-county-fips-scales-spokeokn"
+   ],
+   "prefixes": "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>",
+   "membership_only": false,
+   "namespaces": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/"
+   ]
+  },
+  {
+   "id": "d4efb55ca1",
+   "graph": "scales",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/scales> { ?v1 fbi:OffenseUCRCode ?k0 . }",
+   "hints": [],
+   "crosswalks": [
+    "CJ1-nibrs-offense-scales-ruralkg"
+   ],
+   "prefixes": "PREFIX fbi: <http://fbi.gov/cjis/nibrs/2023.0/>\nPREFIX rk: <http://sail.ua.edu/ruralkg/variable/>",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "407d6813e8",
+   "graph": "ruralkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ruralkg> { ?v1 rk:answerContent ?k0 . }",
+   "hints": [],
+   "crosswalks": [
+    "CJ1-nibrs-offense-scales-ruralkg"
+   ],
+   "prefixes": "PREFIX fbi: <http://fbi.gov/cjis/nibrs/2023.0/>\nPREFIX rk: <http://sail.ua.edu/ruralkg/variable/>",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "01eca0b82e",
+   "graph": "securechainkg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/securechainkg> { ?v1 <http://asu.edu/semantics/SUDOKN/suppliesToIndustry> ?v2 . } BIND(LCASE(REPLACE(STR(?v2),'^.*/SUDOKN/(.*)-inst$','$1')) AS ?k0) } }",
+   "hints": [],
+   "crosswalks": [
+    "I2-industry-sector"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "8cdd4e1c75",
+   "graph": "sudokn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/sudokn> { ?v1 <http://asu.edu/semantics/SUDOKN/suppliesToIndustry> ?v2 . } BIND(LCASE(REPLACE(REPLACE(STR(?v2),'^.*/SUDOKN/(.*)-industry-individual$','$1'),'%20','')) AS ?k0) } }",
+   "hints": [],
+   "crosswalks": [
+    "I2-industry-sector"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "93fe5a7782",
+   "graph": "sockg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/sockg> { ?k0 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13> . }",
+   "hints": [
+    "S2_L13"
+   ],
+   "crosswalks": [
+    "H1-s2",
+    "H3-s2-sockg-sawgraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "8bac151b41",
+   "graph": "sawgraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/sawgraph> { ?v1 <http://www.w3.org/2002/07/owl#sameAs> ?k0 . }",
+   "hints": [
+    "S2_L13"
+   ],
+   "crosswalks": [
+    "H3-s2-sockg-sawgraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "bc08da311e",
+   "graph": "sockg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/sockg> { ?k0 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_2> . }",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "H2-county"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "a3c736c4c0",
+   "graph": "spoke-genelab",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-genelab> { ?k0 a <https://w3id.org/biolink/vocab/Gene> . }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C4-entrez-spoke"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "6fb125385c",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?k0 a <https://w3id.org/biolink/vocab/Gene> . }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C4-entrez-spoke"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "09f44964f3",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/CHEBI_')) }",
+   "hints": [
+    "CHEBI",
+    "CAS"
+   ],
+   "crosswalks": [
+    "B2-chebi-cas-bridge",
+    "B3-chebi-cas-bridge-ice",
+    "B4-chebi-cas-bridge-tox21"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/CHEBI_",
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "6f000b90b9",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?k0 a <https://w3id.org/biolink/vocab/Disease> . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/DOID_')) }",
+   "hints": [
+    "MONDO",
+    "DOID"
+   ],
+   "crosswalks": [
+    "A8-doid-spokeokn-biomarkerkg",
+    "A9-doid-spokeokn-nde",
+    "A11-doid-mondo-spokeokn-oardkg",
+    "A7-doid-spokeokn-prokn",
+    "A10-doid-mondo-spokeokn-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/DOID_",
+    "http://purl.obolibrary.org/obo/MONDO_"
+   ]
+  },
+  {
+   "id": "92584408f5",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 <http://www.w3.org/2000/01/rdf-schema#label> ?k0 . FILTER(REGEX(STR(?v1),'/location/[A-Z]{2}-[0-9]+')) }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J3-zip",
+    "J2-zip",
+    "J1-zip",
+    "J7-zip-medicaldevice-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "acc7f15005",
+   "graph": "dreamkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/dreamkg> { ?v1 <http://schema.org/postalCode> ?k0 . }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J3-zip"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "3cf1a9cd5e",
+   "graph": "nde",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nde> { ?v1 <http://schema.org/healthCondition> ?k0 . }",
+   "hints": [
+    "DOID",
+    "MONDO"
+   ],
+   "crosswalks": [
+    "A9-doid-spokeokn-nde",
+    "A18-doid-biomarkerkg-nde"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/DOID_",
+    "http://purl.obolibrary.org/obo/MONDO_"
+   ]
+  },
+  {
+   "id": "db95cb685a",
+   "graph": "biomarkerkg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 ?v2 ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/MONDO_')) } } }",
+   "hints": [
+    "MONDO",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "A18-doid-biomarkerkg-nde",
+    "BH7-umls-mondo-doid-biohealth-biomarkerkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "49b5cf4c5f",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?k0 a <https://w3id.org/biolink/vocab/Disease> . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/HP_')) }",
+   "hints": [
+    "HP"
+   ],
+   "crosswalks": [
+    "A23-hp-gxa-oardkg",
+    "A24-hp-gxa-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/HP_"
+   ]
+  },
+  {
+   "id": "375460c665",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?k0 . }",
+   "hints": [
+    "MONDO",
+    "DOID"
+   ],
+   "crosswalks": [
+    "A7-doid-spokeokn-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/DOID_"
+   ]
+  },
+  {
+   "id": "11ce55c49a",
+   "graph": "rdkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?v1 ?v2 ?k0 . }",
+   "hints": [
+    "MONDO",
+    "DOID"
+   ],
+   "crosswalks": [
+    "A10-doid-mondo-spokeokn-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/DOID_"
+   ]
+  },
+  {
+   "id": "bd28a492a0",
+   "graph": "ruralkg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/ruralkg> { BIND(IRI(CONCAT('https://schema.org/','postalCode')) AS ?v1) ?v2 ?v1 ?v3 . } BIND(REPLACE(STR(?v3),'[^0-9]','') AS ?v4) BIND(IF(STRLEN(?v4)=4, CONCAT('0',?v4), SUBSTR(?v4,1,5)) AS ?k0) } }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J2-zip"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "299962528d",
+   "graph": "ruralkg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/ruralkg> { ?v2 <http://sail.ua.edu/ruralkg/settlementtype/censusCounty> ?v3 . } FILTER(STRSTARTS(STR(?v3),'http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.')) BIND(REPLACE(STR(?v3),'^.*administrativeRegion[.]USA[.]([0-9]{5}).*$','$1') AS ?v1) FILTER(REGEX(?v1,'^[0-9]{5}$')) } } BIND(IRI(CONCAT('https://purl.org/okn/frink/kg/spoke-okn/location/', ?v1)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "K2-county-fips"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/"
+   ]
+  },
+  {
+   "id": "dfc0b9346c",
+   "graph": "sockg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/sockg> { ?v2 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_2> . } BIND(REPLACE(STR(?v2),'^.*administrativeRegion[.]USA[.]([0-9]{5}).*$','$1') AS ?v1) FILTER(REGEX(?v1,'^[0-9]{5}$')) } } BIND(IRI(CONCAT('https://purl.org/okn/frink/kg/spoke-okn/location/', ?v1)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "K3-county-fips"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/"
+   ]
+  },
+  {
+   "id": "6cddf97647",
+   "graph": "sockg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/sockg> { ?v2 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_1> . } BIND(REPLACE(STR(?v2),'^.*administrativeRegion[.]USA[.]([0-9]{2}).*$','$1') AS ?v1) FILTER(REGEX(?v1,'^[0-9]{2}$')) } } BIND(IRI(CONCAT('https://purl.org/okn/frink/kg/spoke-okn/location/', ?v1)) AS ?k0)",
+   "hints": [
+    "state_FIPS"
+   ],
+   "crosswalks": [
+    "K5-state-fips"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/"
+   ]
+  },
+  {
+   "id": "b6f4bde148",
+   "graph": "spoke-okn",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { BIND(IRI(CONCAT('https://schema.org/','AdministrativeArea')) AS ?v2) ?v3 a ?v2 . FILTER(REGEX(STR(?v3),'/location/[0-9]{5}$')) } BIND(REPLACE(STR(?v3),'^.*/location/([0-9]{5})$','$1') AS ?v1) } } BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.', ?v1)) AS ?k0)",
+   "hints": [
+    "county_FIPS"
+   ],
+   "crosswalks": [
+    "K1-county-fips"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "a3172a8ab1",
+   "graph": "spatialkg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/spatialkg> { ?v2 <http://stko-kwg.geog.ucsb.edu/lod/ontology/hasFIPS> ?v1 ; a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_1> . } } } BIND(IRI(CONCAT('https://purl.org/okn/frink/kg/spoke-okn/location/', ?v1)) AS ?k0)",
+   "hints": [
+    "state_FIPS"
+   ],
+   "crosswalks": [
+    "K4-state-fips"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/"
+   ]
+  },
+  {
+   "id": "779a1c9b8b",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.w3.org/2000/01/rdf-schema#subClassOf>* <http://purl.obolibrary.org/obo/MONDO_0004995> . }",
+   "hints": [
+    "MONDO"
+   ],
+   "crosswalks": [
+    "A6-mondo-expansion"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "545096616e",
+   "graph": "oard-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/oard-kg> { { ?v1 <https://w3id.org/biolink/vocab/subject> ?k0 } UNION { ?v2 <https://w3id.org/biolink/vocab/object> ?k0 } }",
+   "hints": [
+    "MONDO"
+   ],
+   "crosswalks": [
+    "A6-mondo-expansion"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "de98f3ad03",
+   "graph": "ufokn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { { SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/ufokn> { BIND(IRI(CONCAT('https://schema.org/','name')) AS ?v2) BIND(IRI(CONCAT('https://schema.org/','value')) AS ?v3) ?v4 ?v2 \"s2Level13\" ; ?v3 ?v1 . } } } BIND(IRI(CONCAT('http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.',STR(?v1))) AS ?k0) } }",
+   "hints": [
+    "S2_L13"
+   ],
+   "crosswalks": [
+    "O1-s2-ufokn-spatialkg",
+    "O2-s2-ufokn-fiokg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "9077323d3b",
+   "graph": "rdkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?k0 a <https://w3id.org/biolink/vocab/Drug> . FILTER(STRSTARTS(STR(?k0),'http://identifiers.org/drugbank/')) }",
+   "hints": [
+    "DrugBank"
+   ],
+   "crosswalks": [
+    "Q1-drugbank-rdkg-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/drugbank/"
+   ]
+  },
+  {
+   "id": "df850753d5",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?k0 . }",
+   "hints": [
+    "DrugBank",
+    "PubChem_CID",
+    "ChEMBL"
+   ],
+   "crosswalks": [
+    "Q1-drugbank-rdkg-spokeokn",
+    "P3-pubchem-aopwiki-spokeokn",
+    "CB1-chembl-aopwiki-spokeokn",
+    "DB1-drugbank-aopwiki-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/drugbank/",
+    "http://identifiers.org/pubchem.compound/",
+    "http://identifiers.org/chembl.compound/"
+   ]
+  },
+  {
+   "id": "247b4034a7",
+   "graph": "ruralkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ruralkg> { ?v1 <http://www.w3.org/2002/07/owl#sameAs> ?v2 . FILTER(CONTAINS(STR(?v2),'drugbank')) BIND(IRI(CONCAT('http://identifiers.org/drugbank/',REPLACE(STR(?v2),'^.*/(DB[0-9]+).*$','$1'))) AS ?k0) }",
+   "hints": [
+    "DrugBank"
+   ],
+   "crosswalks": [
+    "Q2-drugbank-ruralkg-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/drugbank/"
+   ]
+  },
+  {
+   "id": "32de8da35f",
+   "graph": "rdkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?k0 a <https://w3id.org/biolink/vocab/Drug> . }",
+   "hints": [
+    "DrugBank"
+   ],
+   "crosswalks": [
+    "Q2-drugbank-ruralkg-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/drugbank/"
+   ]
+  },
+  {
+   "id": "3d7132e0f7",
+   "graph": "sudokn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/sudokn> { ?v1 <http://asu.edu/semantics/SUDOKN/locatedInState>/<http://www.w3.org/2000/01/rdf-schema#label> ?k0 . } } }",
+   "hints": [
+    "state_FIPS"
+   ],
+   "crosswalks": [
+    "SU1-state-sudokn-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "e8857ac71f",
+   "graph": "spatialkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spatialkg> { ?v1 a <http://stko-kwg.geog.ucsb.edu/lod/ontology/AdministrativeRegion_1> ; <http://www.w3.org/2000/01/rdf-schema#label> ?k0 ; <http://stko-kwg.geog.ucsb.edu/lod/ontology/hasFIPS> ?v2 . }",
+   "hints": [
+    "state_FIPS"
+   ],
+   "crosswalks": [
+    "SU1-state-sudokn-spatialkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "cf92afa22d",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?v1 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v2 . FILTER(STRSTARTS(STR(?v1), 'http://purl.obolibrary.org/obo/MONDO_')) FILTER(STRSTARTS(STR(?v2), 'UMLS:')) BIND(STRAFTER(STR(?v2), 'UMLS:') AS ?k0) }",
+   "hints": [
+    "MONDO",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH1-umls-mondo-biohealth-rdkg",
+    "BH4-umls-mondo-biohealth-oardkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "b2bbb96543",
+   "graph": "biohealth",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biohealth> { ?k0 ?v1 ?v2 . }",
+   "hints": [
+    "MONDO",
+    "UMLS",
+    "HP",
+    "DOID",
+    "UBERON",
+    "MeSH"
+   ],
+   "crosswalks": [
+    "BH1-umls-mondo-biohealth-rdkg",
+    "BH2-umls-hp-biohealth-prokn",
+    "BH3-umls-mondo-doid-biohealth-spokeokn",
+    "BH4-umls-mondo-biohealth-oardkg",
+    "BH5-umls-hp-biohealth-oardkg",
+    "BH6-umls-mondo-biohealth-nde",
+    "BH7-umls-mondo-doid-biohealth-biomarkerkg",
+    "BH8-umls-hp-biohealth-gxa",
+    "BH9-umls-uberon-biohealth-gxa",
+    "BH10-umls-uberon-biohealth-spokegenelab",
+    "BH17-sdoh-mesh-umls-biohealth-spokeokn",
+    "BH19-umls-biobricks-ice-biohealth"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "https://biohealthkg.proto-okn.net/kg/node/",
+    "http://purl.obolibrary.org/obo/HP_",
+    "http://purl.obolibrary.org/obo/DOID_",
+    "http://purl.obolibrary.org/obo/UBERON_"
+   ]
+  },
+  {
+   "id": "54ba7f5119",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?v1 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v2 . FILTER(STRSTARTS(STR(?v1), 'http://purl.obolibrary.org/obo/HP_')) FILTER(STRSTARTS(STR(?v2), 'UMLS:')) BIND(STRAFTER(STR(?v2), 'UMLS:') AS ?k0) }",
+   "hints": [
+    "HP",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH2-umls-hp-biohealth-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/HP_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "f64c1d75e8",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?v1 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v2 . FILTER(STRSTARTS(STR(?v1), 'http://purl.obolibrary.org/obo/MONDO_')) FILTER(STRSTARTS(STR(?v2), 'UMLS:')) BIND(STRAFTER(STR(?v2), 'UMLS:') AS ?k0) ?v1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?v3 . FILTER(STRSTARTS(STR(?v3), 'http://purl.obolibrary.org/obo/DOID_')) }",
+   "hints": [
+    "MONDO",
+    "DOID",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH3-umls-mondo-doid-biohealth-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "http://purl.obolibrary.org/obo/DOID_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "037c49a5d5",
+   "graph": "oard-kg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/oard-kg> { { ?v1 <https://w3id.org/biolink/vocab/object> ?k0 } UNION { ?v2 <https://w3id.org/biolink/vocab/subject> ?k0 } FILTER(STRSTARTS(STR(?k0), 'http://purl.obolibrary.org/obo/HP_')) } } }",
+   "hints": [
+    "HP",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH5-umls-hp-biohealth-oardkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/HP_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "fdb40e492d",
+   "graph": "nde",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/nde> { ?v1 <http://schema.org/healthCondition> ?k0 . FILTER(STRSTARTS(STR(?k0), 'http://purl.obolibrary.org/obo/MONDO_')) } } }",
+   "hints": [
+    "MONDO",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH6-umls-mondo-biohealth-nde"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/MONDO_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "b73918f81f",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?k0 a <https://w3id.org/biolink/vocab/Disease> . FILTER(STRSTARTS(STR(?k0), 'http://purl.obolibrary.org/obo/HP_')) } } }",
+   "hints": [
+    "HP",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH8-umls-hp-biohealth-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/HP_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "ece0dc904d",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?v1 <https://w3id.org/biolink/vocab/has_attribute> ?k0 . FILTER(STRSTARTS(STR(?k0), 'http://purl.obolibrary.org/obo/UBERON_')) } } }",
+   "hints": [
+    "UBERON",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH9-umls-uberon-biohealth-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/UBERON_",
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "5b011137b9",
+   "graph": "spoke-genelab",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-genelab> { ?v1 <https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA> ?k0 } } }",
+   "hints": [
+    "UBERON",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH10-umls-uberon-biohealth-spokegenelab",
+    "AN1-uberon-spokegenelab-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "dac9d0c05d",
+   "graph": "spoke-okn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 a <https://w3id.org/biolink/vocab/OrganismTaxon> } BIND(IRI(CONCAT('http://purl.obolibrary.org/obo/NCBITaxon_',REPLACE(STR(?v1),'^.*/organism/([0-9]+).*$','$1'))) AS ?k0) } }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "BH11-ncbitaxon-label-spoke-okn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "12b80d9c4a",
+   "graph": "biohealth",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biohealth> { ?v1 <http://www.w3.org/2000/01/rdf-schema#label> ?k0 . }",
+   "hints": [
+    "NCBITaxon",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH11-ncbitaxon-label-spoke-okn",
+    "BH12-ncbitaxon-label-nde",
+    "BH13-ncbitaxon-label-sawgraph",
+    "BH14-ncbitaxon-label-biobricks-aopwiki",
+    "BH15-ncbitaxon-label-spoke-genelab",
+    "BH16-ncbitaxon-label-gene-expression-atlas-okn",
+    "BH18-sdoh-label-biohealth-spokeokn",
+    "SS1-label-dreamkg-biohealth"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_"
+   ]
+  },
+  {
+   "id": "7468b6b57c",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?v1 <https://w3id.org/biolink/vocab/has_attribute> ?k0 . }",
+   "hints": [
+    "UBERON",
+    "CL"
+   ],
+   "crosswalks": [
+    "AN1-uberon-spokegenelab-gxa",
+    "AN3-cl-spokegenelab-gxa",
+    "AN5-cl-biomarkerkg-gxa",
+    "AN7-uberon-biomarkerkg-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/CL_"
+   ]
+  },
+  {
+   "id": "783193ccca",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?v1 <https://w3id.org/biolink/vocab/has_attribute> ?k0 . FILTER(STRSTARTS(STR(?k0), 'http://purl.obolibrary.org/obo/CL_')) } } }",
+   "hints": [
+    "CL"
+   ],
+   "crosswalks": [
+    "AN2-cl-gxa-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/CL_"
+   ]
+  },
+  {
+   "id": "3282d095ee",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?k0 . }",
+   "hints": [
+    "CL"
+   ],
+   "crosswalks": [
+    "AN2-cl-gxa-prokn",
+    "AN4-cl-spokegenelab-prokn",
+    "AN6-cl-biomarkerkg-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/CL_"
+   ]
+  },
+  {
+   "id": "8e5b3443d8",
+   "graph": "spoke-genelab",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-genelab> { ?v1 <https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT> ?k0 } } }",
+   "hints": [
+    "CL"
+   ],
+   "crosswalks": [
+    "AN3-cl-spokegenelab-gxa",
+    "AN4-cl-spokegenelab-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "7f64242b5c",
+   "graph": "digcfdekg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/digcfdekg> { ?k0 <https://purl.org/okn/frink/kg/digcfdekg/schema/geneToTrait> ?v1 . } } }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C10-entrez-digcfdekg-spokeokn",
+    "C11-entrez-digcfdekg-spokegenelab"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "f1a58dc039",
+   "graph": "digcfdekg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/digcfdekg> { ?v1 <https://purl.org/okn/frink/kg/digcfdekg/schema/geneToTrait> ?v2 . } } } BIND(IRI(REPLACE(STR(?v1),'http://www.ncbi.nlm.nih.gov/gene/','http://identifiers.org/ncbigene/')) AS ?k0)",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C12-entrez-digcfdekg-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://www.ncbi.nlm.nih.gov/gene/",
+    "http://identifiers.org/ncbigene/"
+   ]
+  },
+  {
+   "id": "3d2cd512ce",
+   "graph": "digcfdekg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/digcfdekg> { ?v1 <https://purl.org/okn/frink/kg/digcfdekg/schema/geneToTrait> ?v2 . } } } BIND(REPLACE(STR(?v1),'^.*/gene/','') AS ?k0)",
+   "hints": [
+    "Entrez",
+    "HGNC",
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C13-entrez-digcfdekg-prokn-via-wikidata",
+    "C17-ensembl-digcfdekg-prokn-via-wikidata"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/hgnc/",
+    "https://www.ensembl.org/id/"
+   ]
+  },
+  {
+   "id": "c2ff8ca021",
+   "graph": "digcfdekg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/digcfdekg> { ?v1 <https://purl.org/okn/frink/kg/digcfdekg/schema/geneToTrait> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://www.ebi.ac.uk/efo/EFO_') || STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/MONDO_') || CONTAINS(STR(?k0),'Orphanet_')) } } }",
+   "hints": [
+    "MONDO",
+    "EFO",
+    "Orphanet"
+   ],
+   "crosswalks": [
+    "A29-efo-digcfdekg-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://www.ebi.ac.uk/efo/EFO_",
+    "http://purl.obolibrary.org/obo/MONDO_"
+   ]
+  },
+  {
+   "id": "132788b675",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?k0 a <https://w3id.org/biolink/vocab/Disease> . }",
+   "hints": [
+    "MONDO",
+    "EFO",
+    "Orphanet"
+   ],
+   "crosswalks": [
+    "A29-efo-digcfdekg-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://www.ebi.ac.uk/efo/EFO_",
+    "http://purl.obolibrary.org/obo/MONDO_"
+   ]
+  },
+  {
+   "id": "684675688d",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 a <https://purl.org/okn/frink/kg/spoke-okn/schema/SDoH> ; <https://purl.org/okn/frink/kg/spoke-okn/schema/mesh_ids> ?v2 . } BIND(REPLACE(STR(?v2),'^.*/mesh/','') AS ?k0)",
+   "hints": [
+    "UMLS",
+    "MeSH"
+   ],
+   "crosswalks": [
+    "BH17-sdoh-mesh-umls-biohealth-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "edbe3e3ff9",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 a <https://purl.org/okn/frink/kg/spoke-okn/schema/SDoH> ; <http://www.w3.org/2000/01/rdf-schema#label> ?v2 . } BIND(IF(CONTAINS(?v2,' ('), STRBEFORE(?v2,' ('), STR(?v2)) AS ?k0)",
+   "hints": [
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH18-sdoh-label-biohealth-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "8de1fb57cc",
+   "graph": "biomarkerkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 <http://purl.obolibrary.org/obo/OBCI_1000009> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.uniprot.org/uniprot/')) }",
+   "hints": [
+    "UniProt"
+   ],
+   "crosswalks": [
+    "G3-uniprot-biomarkerkg-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.uniprot.org/uniprot/"
+   ]
+  },
+  {
+   "id": "b99a73399c",
+   "graph": "biomarkerkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 <http://purl.obolibrary.org/obo/OBCI_1000009> ?v2 . FILTER(STRSTARTS(STR(?v2),'http://purl.uniprot.org/uniprot/')) } BIND(REPLACE(STR(?v2),'^.*/uniprot/','') AS ?v3) BIND(IRI(CONCAT('https://identifiers.org/uniprot/',?v3)) AS ?k0)",
+   "hints": [
+    "UniProt"
+   ],
+   "crosswalks": [
+    "G4-uniprot-biomarkerkg-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.uniprot.org/uniprot/",
+    "https://identifiers.org/uniprot/"
+   ]
+  },
+  {
+   "id": "4b11a64263",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?k0 . }",
+   "hints": [
+    "UniProt"
+   ],
+   "crosswalks": [
+    "G4-uniprot-biomarkerkg-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.uniprot.org/uniprot/",
+    "https://identifiers.org/uniprot/"
+   ]
+  },
+  {
+   "id": "b2435b07e5",
+   "graph": "biomarkerkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 <http://purl.obolibrary.org/obo/OBCI_1000009> ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.obolibrary.org/obo/CL_')) }",
+   "hints": [
+    "CL"
+   ],
+   "crosswalks": [
+    "AN5-cl-biomarkerkg-gxa",
+    "AN6-cl-biomarkerkg-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.obolibrary.org/obo/CL_"
+   ]
+  },
+  {
+   "id": "d8a18f9d88",
+   "graph": "pankgraph",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/pankgraph> { ?v2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?v1 . FILTER(STRSTARTS(STR(?v1),'https://www.ensembl.org/id/ENSG')) } } } BIND(IRI(STR(?v1)) AS ?k0)",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C14-ensembl-pankgraph-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "8f15f60ac2",
+   "graph": "spoke-okn",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v2 <https://purl.org/okn/frink/kg/spoke-okn/schema/ensembl> ?v1 . } } } BIND(IRI(CONCAT('https://www.ensembl.org/id/', REPLACE(STR(?v1),'^.*/',''))) AS ?k0)",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C16-ensembl-prokn-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://www.ensembl.org/id/"
+   ]
+  },
+  {
+   "id": "4abf2d6a2c",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?k0 a <http://purl.uniprot.org/core/Gene> . }",
+   "hints": [
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C16-ensembl-prokn-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://www.ensembl.org/id/"
+   ]
+  },
+  {
+   "id": "8116fd5f35",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?k0 <http://semanticscience.org/resource/SIO_010078> ?v1 . }",
+   "hints": [
+    "Entrez",
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C17-ensembl-digcfdekg-prokn-via-wikidata"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://www.ensembl.org/id/"
+   ]
+  },
+  {
+   "id": "8ea254450c",
+   "graph": "pankgraph",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/pankgraph> { ?v1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://www.ebi.ac.uk/QuickGO/term/GO:')) } BIND(IRI(REPLACE(STR(?v2),'^.*/term/GO:','http://purl.obolibrary.org/obo/GO_')) AS ?k0) } }",
+   "hints": [
+    "GO"
+   ],
+   "crosswalks": [
+    "GO1-go-pankgraph-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://www.ebi.ac.uk/QuickGO/term/GO:",
+    "http://purl.obolibrary.org/obo/GO_"
+   ]
+  },
+  {
+   "id": "f1b329220d",
+   "graph": "gene-expression-atlas-okn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/gene-expression-atlas-okn> { ?v1 <http://purl.org/okn/wobd/enrichment_source> \"GXA:Reactome\" ; <https://w3id.org/biolink/vocab/object> ?v2 . FILTER(CONTAINS(STR(?v2),'R-HSA-')) } BIND(IRI(CONCAT('https://identifiers.org/reactome/',REPLACE(STR(?v2),'^.*/detail/',''))) AS ?k0) } }",
+   "hints": [
+    "Reactome"
+   ],
+   "crosswalks": [
+    "PW1-reactome-gxa-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/reactome/"
+   ]
+  },
+  {
+   "id": "3c0a9449d4",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 <http://purl.obolibrary.org/obo/RO_0000056> ?k0 . }",
+   "hints": [
+    "Reactome"
+   ],
+   "crosswalks": [
+    "PW1-reactome-gxa-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/reactome/"
+   ]
+  },
+  {
+   "id": "edc06b92b9",
+   "graph": "sawgraph",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/sawgraph> { ?v2 <http://w3id.org/coso/v1/contaminoso#casNumber> ?v3 . BIND(IF(REGEX(STR(?v3),'^[0-9]{5,10}$'), REPLACE(STR(?v3),'^([0-9]+)([0-9]{2})([0-9])$','$1-$2-$3'), STR(?v3)) AS ?v1) FILTER(REGEX(?v1,'^[0-9]{2,7}-[0-9]{2}-[0-9]$')) } } } BIND(IRI(CONCAT('http://identifiers.org/cas/', ?v1)) AS ?k0)",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "ET1-cas-sawgraph-toxcast",
+    "ET2-cas-sawgraph-ice"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "5e2ac75433",
+   "graph": "dreamkg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/dreamkg> { ?v2 <http://schema.org/audienceType> ?v1 } } } BIND(CONCAT(UCASE(SUBSTR(?v1,1,1)), SUBSTR(?v1,2)) AS ?k0)",
+   "hints": [
+    "UMLS"
+   ],
+   "crosswalks": [
+    "SS1-label-dreamkg-biohealth"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "f95f69b500",
+   "graph": "climatemodelskg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/climatemodelskg> { ?k0 a <https://climatepub4kg.github.io/ontology#Source> . }",
+   "hints": [],
+   "crosswalks": [
+    "P1-climate-deps"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "e0b621e78b",
+   "graph": "securechainkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/securechainkg> { ?k0 <https://w3id.org/secure-chain/dependsOn> ?v1 . }",
+   "hints": [],
+   "crosswalks": [
+    "P1-climate-deps"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "e3e5454950",
+   "graph": "sockg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/sockg> { ?v1 <http://w3id.org/coso/v1/contaminoso#casNumber> ?v2 . } BIND(IRI(CONCAT('http://identifiers.org/cas/', STR(?v2))) AS ?k0)",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "ET3-cas-sockg-biobricks-ice",
+    "ET4-cas-sockg-biobricks-toxcast"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "5cbd8f424c",
+   "graph": "biobricks-ice",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-ice> { ?v1 <https://ice.ntp.niehs.nih.gov/property/assay_entrez_gene_id> ?v2 . BIND(REPLACE(STR(?v2),'.*/gene/','') AS ?v3) FILTER(?v3 != 'None') } BIND(IRI(CONCAT('http://identifiers.org/ncbigene/', ?v3)) AS ?k0)",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C10-entrez-biobricks-ice-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/ncbigene/"
+   ]
+  },
+  {
+   "id": "4953915508",
+   "graph": "biobricks-ice",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-ice> { ?v1 <https://ice.ntp.niehs.nih.gov/property/throughMechanisticTarget_NCIm> ?v2 . FILTER(CONTAINS(STR(?v2),'umls')) BIND(REPLACE(STR(?v2),'^.*?(C[0-9]{6,}).*$','$1') AS ?v3) } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?v3)) AS ?k0)",
+   "hints": [
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH19-umls-biobricks-ice-biohealth"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://biohealthkg.proto-okn.net/kg/node/"
+   ]
+  },
+  {
+   "id": "caa25f1f3c",
+   "graph": "climatemodelskg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/climatemodelskg> { ?v1 <https://climatepub4kg.github.io/ontology#geonameid> ?k0 . }",
+   "hints": [],
+   "crosswalks": [
+    "GN1-geonames-spokeokn-climatemodelskg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "67692f7308",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 <https://purl.org/okn/frink/kg/spoke-okn/schema/code> ?k0 . }",
+   "hints": [],
+   "crosswalks": [
+    "GN1-geonames-spokeokn-climatemodelskg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "06707e970b",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 a <https://w3id.org/biolink/vocab/ChemicalEntity> . FILTER(CONTAINS(STR(?v1),'/inchikey/')) BIND(REPLACE(STR(?v1),'.*/inchikey/','') AS ?k0) }",
+   "hints": [
+    "InChIKey"
+   ],
+   "crosswalks": [
+    "C11-inchikey-spokeokn-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "10b7604b21",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 <https://chemkg.github.io/chemrof/inchi_key_string> ?k0 . }",
+   "hints": [
+    "InChIKey"
+   ],
+   "crosswalks": [
+    "C11-inchikey-spokeokn-prokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "5410ce983e",
+   "graph": "climatemodelskg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/climatemodelskg> { ?v1 <https://climatepub4kg.github.io/ontology#doi> ?v2 . BIND(LCASE(REPLACE(STR(?v2),\"^https?://(dx[.])?v3[.]org/\",\"\")) AS ?k0) }",
+   "hints": [],
+   "crosswalks": [
+    "PB1-doi-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "d2a441718a",
+   "graph": "nasa-gesdisc-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nasa-gesdisc-kg> { ?v1 <http://purl.org/ontology/bibo/doi> ?v2 . BIND(LCASE(REPLACE(STR(?v2),\"^https?://(dx[.])?v3[.]org/\",\"\")) AS ?k0) }",
+   "hints": [],
+   "crosswalks": [
+    "PB1-doi-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "dd78bfce24",
+   "graph": "climatemodelskg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/climatemodelskg> { ?v1 a <https://climatepub4kg.github.io/ontology#Instrument> ; <https://climatepub4kg.github.io/ontology#name> ?v2 . BIND(LCASE(STR(?v2)) AS ?k0) }",
+   "hints": [],
+   "crosswalks": [
+    "EO1-instrument-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "bc9c64aab3",
+   "graph": "nasa-gesdisc-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nasa-gesdisc-kg> { ?v1 <https://purl.org/okn/frink/kg/nasa-gesdisc/schema/HAS_INSTRUMENT> ?v2 . ?v2 <http://www.w3.org/2000/01/rdf-schema#label> ?v3 . BIND(LCASE(STR(?v3)) AS ?k0) }",
+   "hints": [],
+   "crosswalks": [
+    "EO1-instrument-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "f7194587dc",
+   "graph": "climatemodelskg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/climatemodelskg> { ?v1 a <https://climatepub4kg.github.io/ontology#Platform> ; <https://climatepub4kg.github.io/ontology#name> ?v2 . BIND(LCASE(STR(?v2)) AS ?k0) }",
+   "hints": [],
+   "crosswalks": [
+    "EO2-platform-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "cf73836cc9",
+   "graph": "nasa-gesdisc-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nasa-gesdisc-kg> { ?v1 <https://purl.org/okn/frink/kg/nasa-gesdisc/schema/HAS_PLATFORM> ?v2 . ?v2 <http://www.w3.org/2000/01/rdf-schema#label> ?v3 . BIND(LCASE(STR(?v3)) AS ?k0) }",
+   "hints": [],
+   "crosswalks": [
+    "EO2-platform-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "0b89152444",
+   "graph": "geoconnex",
+   "fragment": "{ { SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/geoconnex> { ?v1 wd:P885 ?k0 . } } } UNION { SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/geoconnex> { ?v1 wd:P403 ?k0 . } } } }",
+   "hints": [],
+   "crosswalks": [
+    "HY1-comid-geoconnex-hydrologykg"
+   ],
+   "prefixes": "PREFIX nhd: <http://nhdplusv2.spatialai.org/v1/nhdplusv2#>\nPREFIX wd: <https://www.wikidata.org/wiki/Property:>",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "478cd0d8b2",
+   "graph": "hydrologykg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/hydrologykg> { ?k0 nhd:hasCOMID ?v1 . }",
+   "hints": [],
+   "crosswalks": [
+    "HY1-comid-geoconnex-hydrologykg"
+   ],
+   "prefixes": "PREFIX nhd: <http://nhdplusv2.spatialai.org/v1/nhdplusv2#>\nPREFIX wd: <https://www.wikidata.org/wiki/Property:>",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "56f9a82780",
+   "graph": "biobricks-ice",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/biobricks-ice> { ?v1 <http://edamontology.org/has_identifier> ?v2 . FILTER(STRSTARTS(STR(?v2),'http://identifiers.org/cas/')) BIND(REPLACE(STR(?v2),'^https?://identifiers.org/cas/','') AS ?k0) } } }",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "M3-cas-mesh-ice"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "fb8de602df",
+   "graph": "biobricks-mesh",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-mesh> { ?v1 <http://id.nlm.nih.gov/mesh/vocab#registryNumber> ?k0 . }",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "M3-cas-mesh-ice",
+    "M4-cas-mesh-toxcast",
+    "M5-cas-mesh-aopwiki",
+    "M6-cas-mesh-sawgraph",
+    "M7-cas-mesh-sockg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/cas/",
+    "https://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "66faa9d9f3",
+   "graph": "biobricks-toxcast",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/biobricks-toxcast> { ?v1 <http://edamontology.org/has_identifier> ?v2 . FILTER(STRSTARTS(STR(?v2),'http://identifiers.org/cas/')) BIND(REPLACE(STR(?v2),'^https?://identifiers.org/cas/','') AS ?k0) } } }",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "M4-cas-mesh-toxcast"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "0a8dab3a41",
+   "graph": "biobricks-aopwiki",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://aopkb.org/aop_ontology#has_chemical_entity> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://identifiers.org/cas/')) BIND(REPLACE(STR(?v2),'^https?://identifiers.org/cas/','') AS ?k0) } } }",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "M5-cas-mesh-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/cas/"
+   ]
+  },
+  {
+   "id": "97f7b1bc74",
+   "graph": "sawgraph",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/sawgraph> { ?v1 <http://w3id.org/coso/v1/contaminoso#casNumber> ?v2 . FILTER(REGEX(STR(?v2),'^[0-9]{5,10}$')) BIND(REPLACE(STR(?v2),'^([0-9]+)([0-9]{2})([0-9])$','$1-$2-$3') AS ?k0) } } }",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "M6-cas-mesh-sawgraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "753075cee5",
+   "graph": "sockg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/sockg> { ?v1 <http://w3id.org/coso/v1/contaminoso#casNumber> ?v2 . FILTER(REGEX(STR(?v2),'^[0-9]{2,7}-[0-9]{2}-[0-9]$')) BIND(STR(?v2) AS ?k0) } } }",
+   "hints": [
+    "CAS"
+   ],
+   "crosswalks": [
+    "M7-cas-mesh-sockg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "7b6f3bb386",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://semanticscience.org/resource/CHEMINF_000140> ?v2 . BIND(STR(?v2) AS ?v3) BIND(IRI(CONCAT('http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID', ?v3)) AS ?k0) }",
+   "hints": [
+    "PubChem_CID"
+   ],
+   "crosswalks": [
+    "P2-pubchem-aopwiki-pubchemannotations"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "30d37e4e67",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://semanticscience.org/resource/CHEMINF_000140> ?v2 . BIND(STR(?v2) AS ?v3) BIND(IRI(CONCAT('http://identifiers.org/pubchem.compound/', ?v3)) AS ?k0) }",
+   "hints": [
+    "PubChem_CID"
+   ],
+   "crosswalks": [
+    "P3-pubchem-aopwiki-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/pubchem.compound/"
+   ]
+  },
+  {
+   "id": "e5d0d35629",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://semanticscience.org/resource/CHEMINF_000412> ?v2 . BIND(STR(?v2) AS ?v3) BIND(IRI(CONCAT('http://identifiers.org/chembl.compound/', ?v3)) AS ?k0) }",
+   "hints": [
+    "ChEMBL"
+   ],
+   "crosswalks": [
+    "CB1-chembl-aopwiki-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/chembl.compound/"
+   ]
+  },
+  {
+   "id": "0b43047448",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://semanticscience.org/resource/CHEMINF_000406> ?v2 . BIND(STR(?v2) AS ?v3) BIND(IRI(CONCAT('http://identifiers.org/drugbank/', ?v3)) AS ?k0) }",
+   "hints": [
+    "DrugBank"
+   ],
+   "crosswalks": [
+    "DB1-drugbank-aopwiki-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/drugbank/"
+   ]
+  },
+  {
+   "id": "34e0a04096",
+   "graph": "ruralkg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/ruralkg> { BIND(IRI(CONCAT('https://schema.org/','postalCode')) AS ?v1) ?v2 ?v1 ?v3 . } BIND(REPLACE(STR(?v3),\"[^0-9]\",\"\") AS ?v4) BIND(IF(STRLEN(?v4)=4, CONCAT(\"0\",?v4), SUBSTR(?v4,1,5)) AS ?k0) } }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J4-zip-ruralkg-scales",
+    "J6-zip-dreamkg-ruralkg",
+    "J10-zip-medicaldevice-ruralkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "eaf43eae1e",
+   "graph": "scales",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/scales> { ?v1 <http://release.niem.gov/niem/niem-core/5.0/#AddressPostalCode> ?v2 . } BIND(REPLACE(STR(?v2),\"[^0-9]\",\"\") AS ?v3) BIND(IF(STRLEN(?v3)=3, CONCAT(\"00\",?v3), IF(STRLEN(?v3)=4, CONCAT(\"0\",?v3), SUBSTR(?v3,1,5))) AS ?k0) } }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J4-zip-ruralkg-scales",
+    "J5-zip-dreamkg-scales",
+    "J8-zip-medicaldevice-scales"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "bf8826814d",
+   "graph": "dreamkg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/dreamkg> { ?v1 <http://schema.org/postalCode> ?v2 . } BIND(REPLACE(STR(?v2),\"[^0-9]\",\"\") AS ?v3) BIND(IF(STRLEN(?v3)=4, CONCAT(\"0\",?v3), SUBSTR(?v3,1,5)) AS ?k0) } }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J5-zip-dreamkg-scales",
+    "J6-zip-dreamkg-ruralkg",
+    "J11-zip-medicaldevice-dreamkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "188181a9b0",
+   "graph": "climatemodelskg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/climatemodelskg> { ?v1 a <https://climatepub4kg.github.io/ontology#Author> ; <https://climatepub4kg.github.io/ontology#name> ?k0 . } } }",
+   "hints": [],
+   "crosswalks": [
+    "PB2-authorname-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "a41c1e5600",
+   "graph": "nasa-gesdisc-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nasa-gesdisc-kg> { ?v1 a <https://purl.org/okn/frink/kg/nasa-gesdisc/schema/Author> ; <http://www.w3.org/2000/01/rdf-schema#label> ?k0 . }",
+   "hints": [],
+   "crosswalks": [
+    "PB2-authorname-climatemodelskg-nasa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "6ea34df257",
+   "graph": "sudokn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/sudokn> { BIND(IRI(CONCAT('https://schema.org/','postalCode')) AS ?v1) ?v2 ?v1 ?v3 . } BIND(REPLACE(STR(?v3),'[^0-9]','') AS ?v4) BIND(IF(STRLEN(?v4)=4, CONCAT('0',?v4), SUBSTR(?v4,1,5)) AS ?k0) } }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J1-zip"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "3194993714",
+   "graph": "nestkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nestkg> { ?k0 a <http://semanticscience.org/resource/SIO_010043> . }",
+   "hints": [
+    "UniProt"
+   ],
+   "crosswalks": [
+    "G5-uniprot-nestkg-prokn",
+    "G6-uniprot-nestkg-aopwiki",
+    "G8-uniprot-nestkg-biomarkerkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/uniprot/",
+    "http://purl.uniprot.org/uniprot/"
+   ]
+  },
+  {
+   "id": "fa6ecbab56",
+   "graph": "biobricks-aopwiki",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biobricks-aopwiki> { ?v1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://identifiers.org/uniprot/')) } BIND(IRI(CONCAT('http://purl.uniprot.org/uniprot/',REPLACE(STR(?v2),'^.*/uniprot/',''))) AS ?k0)",
+   "hints": [
+    "UniProt"
+   ],
+   "crosswalks": [
+    "G6-uniprot-nestkg-aopwiki"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://identifiers.org/uniprot/",
+    "http://purl.uniprot.org/uniprot/"
+   ]
+  },
+  {
+   "id": "ada730b040",
+   "graph": "biomarkerkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 ?v2 ?k0 . FILTER(STRSTARTS(STR(?k0),'http://purl.uniprot.org/uniprot/')) }",
+   "hints": [
+    "UniProt"
+   ],
+   "crosswalks": [
+    "G8-uniprot-nestkg-biomarkerkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://purl.uniprot.org/uniprot/"
+   ]
+  },
+  {
+   "id": "16c60a28e5",
+   "graph": "nestkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/nestkg> { ?v1 <https://w3id.org/biolink/vocab/object> ?k0 . }",
+   "hints": [
+    "MONDO"
+   ],
+   "crosswalks": [
+    "A30-mondo-nestkg-biomarkerkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "8d125f5d87",
+   "graph": "biomarkerkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 ?v2 ?k0 . }",
+   "hints": [
+    "MONDO",
+    "dbSNP"
+   ],
+   "crosswalks": [
+    "A30-mondo-nestkg-biomarkerkg",
+    "V1-dbsnp-pankgraph-biomarkerkg",
+    "V2-dbsnp-prokn-biomarkerkg"
+   ],
+   "prefixes": "",
+   "membership_only": true,
+   "namespaces": [
+    "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/"
+   ]
+  },
+  {
+   "id": "1de7a336ab",
+   "graph": "medical-device-kg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { { ?v1 <http://medicaldevice.com/ontology/zip> ?v2 } UNION { ?v1 <http://medicaldevice.com/ontology/postalCode> ?v2 } } BIND(REPLACE(STR(?v2),\"[^0-9]\",\"\") AS ?v3) BIND(IF(STRLEN(?v3)=4, CONCAT(\"0\",?v3), SUBSTR(?v3,1,5)) AS ?k0) FILTER(REGEX(?k0,\"^[0-9]{5}$\")) } }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J7-zip-medicaldevice-spokeokn",
+    "J8-zip-medicaldevice-scales",
+    "J9-zip-medicaldevice-sudokn",
+    "J10-zip-medicaldevice-ruralkg",
+    "J11-zip-medicaldevice-dreamkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "627b13748e",
+   "graph": "sudokn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/sudokn> { BIND(IRI(CONCAT('https://schema.org/','postalCode')) AS ?v1) ?v2 ?v1 ?v3 . } BIND(REPLACE(STR(?v3),\"[^0-9]\",\"\") AS ?v4) BIND(IF(STRLEN(?v4)=4, CONCAT(\"0\",?v4), SUBSTR(?v4,1,5)) AS ?k0) } }",
+   "hints": [
+    "ZIP5"
+   ],
+   "crosswalks": [
+    "J9-zip-medicaldevice-sudokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://schema.org/"
+   ]
+  },
+  {
+   "id": "eae3c94fc8",
+   "graph": "biomarkerkg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { VALUES ?v2 { <http://purl.obolibrary.org/obo/OBCI_1000009> <http://purl.obolibrary.org/obo/OBCI_1000015> <http://purl.obolibrary.org/obo/OBCI_1000016> <http://purl.obolibrary.org/obo/OBCI_1000017> } ?v3 ?v2 ?v4 . FILTER(STRSTARTS(STR(?v4),'https://pubchem.ncbi.nlm.nih.gov/rest/rdf/gene/GID')) } BIND(REPLACE(STR(?v4),'^.*/gene/GID','') AS ?v1) } } BIND(IRI(CONCAT('http://www.ncbi.nlm.nih.gov/gene/',?v1)) AS ?k0)",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C18-entrez-biomarkerkg-spokeokn",
+    "C19-entrez-biomarkerkg-spokegenelab",
+    "C20-entrez-biomarkerkg-digcfdekg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "94d349092a",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?k0 ?v1 ?v2 }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C18-entrez-biomarkerkg-spokeokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "949ef5c414",
+   "graph": "spoke-genelab",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-genelab> { ?k0 ?v1 ?v2 }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C19-entrez-biomarkerkg-spokegenelab"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "75d73e9ad5",
+   "graph": "digcfdekg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/digcfdekg> { ?k0 ?v1 ?v2 }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C20-entrez-biomarkerkg-digcfdekg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://www.ncbi.nlm.nih.gov/gene/"
+   ]
+  },
+  {
+   "id": "44f24afb14",
+   "graph": "biomarkerkg",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { VALUES ?v2 { <http://purl.obolibrary.org/obo/OBCI_1000009> <http://purl.obolibrary.org/obo/OBCI_1000015> <http://purl.obolibrary.org/obo/OBCI_1000016> <http://purl.obolibrary.org/obo/OBCI_1000017> } ?v3 ?v2 ?v4 . FILTER(STRSTARTS(STR(?v4),'https://pubchem.ncbi.nlm.nih.gov/rest/rdf/gene/GID')) } BIND(REPLACE(STR(?v4),'^.*/gene/GID','') AS ?v1) } } BIND(IRI(CONCAT('http://identifiers.org/ncbigene/',?v1)) AS ?k0)",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C21-entrez-biomarkerkg-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/ncbigene/"
+   ]
+  },
+  {
+   "id": "4da0d1255e",
+   "graph": "rdkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?k0 ?v1 ?v2 }",
+   "hints": [
+    "Entrez"
+   ],
+   "crosswalks": [
+    "C21-entrez-biomarkerkg-rdkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "http://identifiers.org/ncbigene/"
+   ]
+  },
+  {
+   "id": "f972526a55",
+   "graph": "pankgraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/pankgraph> { ?v1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?v2 . FILTER(STRSTARTS(STR(?v2),'https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/')) } BIND(REPLACE(STR(?v2),'^.*/refsnp/','') AS ?v3) BIND(IRI(CONCAT('https://www.ncbi.nlm.nih.gov/snp/rs',?v3)) AS ?k0)",
+   "hints": [
+    "dbSNP"
+   ],
+   "crosswalks": [
+    "V1-dbsnp-pankgraph-biomarkerkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": [
+    "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/"
+   ]
+  },
+  {
+   "id": "1d4a35d29b",
+   "graph": "biomarkerkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/biomarkerkg> { ?v1 <http://purl.obolibrary.org/obo/OBCI_1000018> ?k0 . }",
+   "hints": [
+    "UBERON"
+   ],
+   "crosswalks": [
+    "AN7-uberon-biomarkerkg-gxa"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "b5436140be",
+   "graph": "medical-device-kg",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?v1 <http://medicaldevice.com/ontology/establishmentName> ?v2 } BIND(LCASE(STR(?v2)) AS ?v3) BIND(REPLACE(?v3, \"[^a-z0-9 ]\", \" \") AS ?v4) BIND(REPLACE(?v4, \" +\", \" \") AS ?v5) BIND(REPLACE(?v5, \"^ | $\", \"\") AS ?v6) BIND(REPLACE(?v6, \" (inc|incorporated|llc|llp|lp|corp|corporation|co|company|ltd|limited|plc|gmbh|sa|ag|nv|bv|pty)$\", \"\") AS ?v7) BIND(REPLACE(?v7, \" (inc|incorporated|llc|llp|lp|corp|corporation|co|company|ltd|limited|plc|gmbh|sa|ag|nv|bv|pty)$\", \"\") AS ?v8) BIND(REPLACE(?v8, \"^ | $\", \"\") AS ?k0) } }",
+   "hints": [],
+   "crosswalks": [
+    "I3-companyname-medicaldevice-sudokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "645d2852bc",
+   "graph": "sudokn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/sudokn> { ?v1 <http://asu.edu/semantics/SUDOKN/organizationLocatedIn> ?v2 ; <http://www.w3.org/2000/01/rdf-schema#label> ?v3 } BIND(LCASE(STR(?v3)) AS ?v4) BIND(REPLACE(?v4, \"[^a-z0-9 ]\", \" \") AS ?v5) BIND(REPLACE(?v5, \" +\", \" \") AS ?v6) BIND(REPLACE(?v6, \"^ | $\", \"\") AS ?v7) BIND(REPLACE(?v7, \" (inc|incorporated|llc|llp|lp|corp|corporation|co|company|ltd|limited|plc|gmbh|sa|ag|nv|bv|pty)$\", \"\") AS ?v8) BIND(REPLACE(?v8, \" (inc|incorporated|llc|llp|lp|corp|corporation|co|company|ltd|limited|plc|gmbh|sa|ag|nv|bv|pty)$\", \"\") AS ?v9) BIND(REPLACE(?v9, \"^ | $\", \"\") AS ?k0) } }",
+   "hints": [],
+   "crosswalks": [
+    "I3-companyname-medicaldevice-sudokn"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "ab81ace6e7",
+   "graph": "prokn",
+   "fragment": "{ SELECT DISTINCT ?v1 WHERE { GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v2 a <http://purl.uniprot.org/core/Natural_Variant_Annotation> ; <http://schema.org/description> ?v3 . } FILTER(CONTAINS(STR(?v3),'dbSNP:rs')) BIND(REPLACE(STR(?v3),'^.*dbSNP:rs([0-9]+).*$','$1') AS ?v1) } } BIND(IRI(CONCAT('https://www.ncbi.nlm.nih.gov/snp/rs',?v1)) AS ?k0)",
+   "hints": [
+    "dbSNP"
+   ],
+   "crosswalks": [
+    "V2-dbsnp-prokn-biomarkerkg"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "8c3ee042c3",
+   "graph": "prokn",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 a <http://purl.uniprot.org/core/Natural_Variant_Annotation> ; <http://schema.org/description> ?v2 . } FILTER(CONTAINS(STR(?v2),'dbSNP:rs')) BIND(REPLACE(STR(?v2),'^.*dbSNP:rs([0-9]+).*$','$1') AS ?k0) } }",
+   "hints": [
+    "dbSNP"
+   ],
+   "crosswalks": [
+    "V3-dbsnp-prokn-pankgraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  },
+  {
+   "id": "b8ecd03f55",
+   "graph": "pankgraph",
+   "fragment": "{ SELECT DISTINCT ?k0 WHERE { GRAPH <https://purl.org/okn/frink/kg/pankgraph> { ?v1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?v2 . } FILTER(CONTAINS(STR(?v2),'/refsnp/')) BIND(REPLACE(STR(?v2),'^.*/refsnp/','') AS ?k0) } }",
+   "hints": [
+    "dbSNP"
+   ],
+   "crosswalks": [
+    "V3-dbsnp-prokn-pankgraph"
+   ],
+   "prefixes": "",
+   "membership_only": false,
+   "namespaces": []
+  }
+ ],
+ "bridges": [
+  {
+   "id": "6c39eec77f",
+   "graph": "wikidata",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/wikidata> { ?v1 <http://www.wikidata.org/prop/direct/P351> ?k0 ; <http://www.wikidata.org/prop/direct/P354> ?v2 . } BIND(IRI(CONCAT('http://identifiers.org/hgnc/',?v2)) AS ?k1)",
+   "hints": [
+    "Entrez",
+    "HGNC"
+   ],
+   "crosswalks": [
+    "C9-hgnc-prokn-via-wikidata",
+    "C13-entrez-digcfdekg-prokn-via-wikidata"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "6a6b8d13c9",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v1 . FILTER(STRSTARTS(STR(?v1),'cas:')) } BIND(IRI(CONCAT('http://identifiers.org/cas/',SUBSTR(STR(?v1),5))) AS ?k1)",
+   "hints": [
+    "CHEBI",
+    "CAS"
+   ],
+   "crosswalks": [
+    "B2-chebi-cas-bridge",
+    "B3-chebi-cas-bridge-ice",
+    "B4-chebi-cas-bridge-tox21"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "f187bee8db",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?k0 . FILTER(STRSTARTS(STR(?k1),'http://purl.obolibrary.org/obo/MONDO_')) }",
+   "hints": [
+    "MONDO",
+    "DOID"
+   ],
+   "crosswalks": [
+    "A8-doid-spokeokn-biomarkerkg"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "aa61cca727",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k1 <http://www.w3.org/2004/02/skos/core#exactMatch> ?k0 . }",
+   "hints": [
+    "MONDO",
+    "DOID"
+   ],
+   "crosswalks": [
+    "A11-doid-mondo-spokeokn-oardkg",
+    "A7-doid-spokeokn-prokn",
+    "A10-doid-mondo-spokeokn-rdkg"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "96251e3181",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v1 . FILTER(STRSTARTS(STR(?v1),'OMIM:')) } BIND(IRI(CONCAT('https://www.omim.org/entry/',REPLACE(STR(?v1),'^OMIM:',''))) AS ?k1)",
+   "hints": [
+    "MONDO",
+    "OMIM"
+   ],
+   "crosswalks": [
+    "A12-omim-oardkg-prokn-via-ubergraph"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "747bb1a414",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v1 . FILTER(STRSTARTS(STR(?v1),'Orphanet:')) } BIND(IRI(CONCAT('http://www.orpha.net/ORDO/Orphanet_',REPLACE(STR(?v1),'^Orphanet:',''))) AS ?k1)",
+   "hints": [
+    "MONDO",
+    "Orphanet"
+   ],
+   "crosswalks": [
+    "A14-orphanet-oardkg-prokn-via-ubergraph"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "40ad3ec8e3",
+   "graph": "rdkg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?v1 ?v2 ?v3 . } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?k0)) AS ?k1)",
+   "hints": [
+    "MONDO",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH1-umls-mondo-biohealth-rdkg"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "59bd347e3b",
+   "graph": "prokn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 ?v2 ?v3 . } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?k0)) AS ?k1)",
+   "hints": [
+    "HP",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH2-umls-hp-biohealth-prokn"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "13cd623638",
+   "graph": "spoke-okn",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/spoke-okn> { ?v1 a <https://w3id.org/biolink/vocab/Disease> . } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?k0)) AS ?k1)",
+   "hints": [
+    "MONDO",
+    "DOID",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH3-umls-mondo-doid-biohealth-spokeokn"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "101089fa7b",
+   "graph": "oard-kg",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/oard-kg> { { ?v1 <https://w3id.org/biolink/vocab/object> ?v2 } UNION { ?v3 <https://w3id.org/biolink/vocab/subject> ?v2 } } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?k0)) AS ?k1)",
+   "hints": [
+    "MONDO",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH4-umls-mondo-biohealth-oardkg"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "2bb10de839",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v1 . FILTER(STRSTARTS(STR(?v1), 'UMLS:')) BIND(STRAFTER(STR(?v1), 'UMLS:') AS ?v2) } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?v2)) AS ?k1)",
+   "hints": [
+    "HP",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH5-umls-hp-biohealth-oardkg",
+    "BH6-umls-mondo-biohealth-nde",
+    "BH8-umls-hp-biohealth-gxa",
+    "BH9-umls-uberon-biohealth-gxa",
+    "BH10-umls-uberon-biohealth-spokegenelab"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "6581cbb8ed",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?v1 . FILTER(STRSTARTS(STR(?v1),'UMLS:')) BIND(STRAFTER(STR(?v1),'UMLS:') AS ?v2) } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?v2)) AS ?k1)",
+   "hints": [
+    "MONDO",
+    "UMLS"
+   ],
+   "crosswalks": [
+    "BH7-umls-mondo-doid-biohealth-biomarkerkg"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "92fad1590c",
+   "graph": "ubergraph",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/ubergraph> { ?k0 <http://www.w3.org/2000/01/rdf-schema#label> ?k1 . }",
+   "hints": [
+    "NCBITaxon"
+   ],
+   "crosswalks": [
+    "BH11-ncbitaxon-label-spoke-okn",
+    "BH12-ncbitaxon-label-nde",
+    "BH13-ncbitaxon-label-sawgraph",
+    "BH14-ncbitaxon-label-biobricks-aopwiki",
+    "BH15-ncbitaxon-label-spoke-genelab",
+    "BH16-ncbitaxon-label-gene-expression-atlas-okn"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "7b2551315e",
+   "graph": "wikidata",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/wikidata> { ?v1 <http://www.wikidata.org/prop/direct/P486> ?k0 ; <http://www.wikidata.org/prop/direct/P2892> ?v2 . } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?v2)) AS ?k1)",
+   "hints": [
+    "UMLS",
+    "MeSH"
+   ],
+   "crosswalks": [
+    "BH17-sdoh-mesh-umls-biohealth-spokeokn"
+   ],
+   "prefixes": ""
+  },
+  {
+   "id": "8b5186a5ed",
+   "graph": "wikidata",
+   "fragment": "GRAPH <https://purl.org/okn/frink/kg/wikidata> { ?v1 <http://www.wikidata.org/prop/direct/P351> ?k0 ; <http://www.wikidata.org/prop/direct/P594> ?v2 . } BIND(IRI(CONCAT('https://www.ensembl.org/id/', ?v2)) AS ?k1)",
+   "hints": [
+    "Entrez",
+    "Ensembl"
+   ],
+   "crosswalks": [
+    "C17-ensembl-digcfdekg-prokn-via-wikidata"
+   ],
+   "prefixes": ""
+  }
+ ],
+ "crosswalks": [
+  {
+   "id": "E3-cas-aopwiki",
+   "kind": "direct",
+   "left": "60f4fd3a73",
+   "right": "f5c34cedc0",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "biobricks-toxcast",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 290
+  },
+  {
+   "id": "F2-ensembl-aopwiki",
+   "kind": "direct",
+   "left": "ac2951e1a7",
+   "right": "24fc7ae226",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": null,
+   "shared_key": "Ensembl",
+   "verified_count": 1355
+  },
+  {
+   "id": "G1-uniprot-aopwiki-prokn",
+   "kind": "direct",
+   "left": "6dafd36d36",
+   "right": "2cec9c5126",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "UniProt",
+   "verified_count": 1805
+  },
+  {
+   "id": "C8-entrez-aopwiki-rdkg",
+   "kind": "direct",
+   "left": "c0302c4921",
+   "right": "123bb40dca",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "rdkg",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 1193
+  },
+  {
+   "id": "C7-entrez-aopwiki-spokegenelab",
+   "kind": "direct",
+   "left": "8b2e6481ef",
+   "right": "d7f6148afe",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "spoke-genelab",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 1472
+  },
+  {
+   "id": "F1-ensembl-aopwiki",
+   "kind": "direct",
+   "left": "ac2951e1a7",
+   "right": "5248b8e520",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Ensembl",
+   "verified_count": 1385
+  },
+  {
+   "id": "B1-cas",
+   "kind": "direct",
+   "left": "dba367cb1d",
+   "right": "40d2322c50",
+   "bridge": null,
+   "left_kg": "biobricks-ice",
+   "right_kg": "biobricks-toxcast",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 9421
+  },
+  {
+   "id": "M2-mesh-spokeokn",
+   "kind": "direct",
+   "left": "e8d5c13ddc",
+   "right": "9e480dfbe5",
+   "bridge": null,
+   "left_kg": "biobricks-mesh",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "MeSH_descriptor_id",
+   "verified_count": 165
+  },
+  {
+   "id": "M1-mesh-ubergraph",
+   "kind": "direct",
+   "left": "4113bc1827",
+   "right": "9e480dfbe5",
+   "bridge": null,
+   "left_kg": "biobricks-mesh",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "MeSH_descriptor_id",
+   "verified_count": 9883
+  },
+  {
+   "id": "P1-pubchem-cid-biobricks-spokeokn",
+   "kind": "direct",
+   "left": "139aed0876",
+   "right": "3b0961e6be",
+   "bridge": null,
+   "left_kg": "biobricks-pubchem-annotations",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "PubChem CID",
+   "verified_count": 762
+  },
+  {
+   "id": "E2-cas",
+   "kind": "direct",
+   "left": "dba367cb1d",
+   "right": "32329b7641",
+   "bridge": null,
+   "left_kg": "biobricks-tox21",
+   "right_kg": "biobricks-ice",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 8916
+  },
+  {
+   "id": "E1-cas",
+   "kind": "direct",
+   "left": "f5c34cedc0",
+   "right": "32329b7641",
+   "bridge": null,
+   "left_kg": "biobricks-tox21",
+   "right_kg": "biobricks-toxcast",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 8909
+  },
+  {
+   "id": "A5-doid",
+   "kind": "direct",
+   "left": "320f0d245c",
+   "right": "f3c2fe84ed",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 263
+  },
+  {
+   "id": "N6-s2-fiokg-sawgraph",
+   "kind": "direct",
+   "left": "ac8726d76d",
+   "right": "c9051506d3",
+   "bridge": null,
+   "left_kg": "fiokg",
+   "right_kg": "sawgraph",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 4712
+  },
+  {
+   "id": "N5-naics-fiokg-securechainkg",
+   "kind": "direct",
+   "left": "65f5ba3ef0",
+   "right": "ee2f3111d5",
+   "bridge": null,
+   "left_kg": "fiokg",
+   "right_kg": "securechainkg",
+   "bridge_kg": null,
+   "shared_key": "NAICS",
+   "verified_count": 301
+  },
+  {
+   "id": "N1-s2-fiokg-spatialkg",
+   "kind": "direct",
+   "left": "ac8726d76d",
+   "right": "53e91f2e8b",
+   "bridge": null,
+   "left_kg": "fiokg",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 681045
+  },
+  {
+   "id": "N2-county-fips-fiokg-spatialkg",
+   "kind": "direct",
+   "left": "1b4669c90b",
+   "right": "ac8726d76d",
+   "bridge": null,
+   "left_kg": "fiokg",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3031
+  },
+  {
+   "id": "N3-county-fips-fiokg-spokeokn",
+   "kind": "direct",
+   "left": "d12edd9a8b",
+   "right": "ac8726d76d",
+   "bridge": null,
+   "left_kg": "fiokg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3032
+  },
+  {
+   "id": "N4-naics-fiokg-sudokn",
+   "kind": "direct",
+   "left": "65f5ba3ef0",
+   "right": "a217b5704f",
+   "bridge": null,
+   "left_kg": "fiokg",
+   "right_kg": "sudokn",
+   "bridge_kg": null,
+   "shared_key": "NAICS",
+   "verified_count": 60
+  },
+  {
+   "id": "C1-ensembl",
+   "kind": "direct",
+   "left": "14cb62f583",
+   "right": "5ad35fc994",
+   "bridge": null,
+   "left_kg": "gene-expression-atlas-okn",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Ensembl",
+   "verified_count": 15132
+  },
+  {
+   "id": "L1-county-fips-geoconnex-spatialkg",
+   "kind": "direct",
+   "left": "cddf905973",
+   "right": "1b4669c90b",
+   "bridge": null,
+   "left_kg": "geoconnex",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3114
+  },
+  {
+   "id": "L3-state-fips-geoconnex-spatialkg",
+   "kind": "direct",
+   "left": "799526de8a",
+   "right": "effa4ee732",
+   "bridge": null,
+   "left_kg": "geoconnex",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "state_FIPS",
+   "verified_count": 51
+  },
+  {
+   "id": "L2-county-fips-geoconnex-spokeokn",
+   "kind": "direct",
+   "left": "4ebbf8c56b",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "geoconnex",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3184
+  },
+  {
+   "id": "D1-s2",
+   "kind": "direct",
+   "left": "f064ca89c6",
+   "right": "53e91f2e8b",
+   "bridge": null,
+   "left_kg": "hydrologykg",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 106138
+  },
+  {
+   "id": "A4-mondo",
+   "kind": "direct",
+   "left": "12082be059",
+   "right": "cc396c6c73",
+   "bridge": null,
+   "left_kg": "nde",
+   "right_kg": "oard-kg",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 889
+  },
+  {
+   "id": "L6-county-fips-nikg-spatialkg",
+   "kind": "direct",
+   "left": "f45efc85d9",
+   "right": "b477b94168",
+   "bridge": null,
+   "left_kg": "nikg",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 2
+  },
+  {
+   "id": "L7-county-fips-nikg-spokeokn",
+   "kind": "direct",
+   "left": "e98dae0063",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "nikg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 2
+  },
+  {
+   "id": "L8-county-fips-wildlifekn-spatialkg",
+   "kind": "direct",
+   "left": "f4a1692366",
+   "right": "518f1f1202",
+   "bridge": null,
+   "left_kg": "wildlifekn",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 63
+  },
+  {
+   "id": "A1-hp",
+   "kind": "direct",
+   "left": "6adf514e3f",
+   "right": "6e35e5bf89",
+   "bridge": null,
+   "left_kg": "oard-kg",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "HP",
+   "verified_count": 4941
+  },
+  {
+   "id": "A3-mondo",
+   "kind": "direct",
+   "left": "8eb81d10a5",
+   "right": "f3c2fe84ed",
+   "bridge": null,
+   "left_kg": "oard-kg",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 470
+  },
+  {
+   "id": "C3-ensembl-pankgraph-spokeokn",
+   "kind": "direct",
+   "left": "14cb62f583",
+   "right": "144e768811",
+   "bridge": null,
+   "left_kg": "pankgraph",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Ensembl",
+   "verified_count": 16314
+  },
+  {
+   "id": "C15-ensembl-pankgraph-gxa",
+   "kind": "direct",
+   "left": "3aaee37983",
+   "right": "cf2d137dc1",
+   "bridge": null,
+   "left_kg": "pankgraph",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": null,
+   "shared_key": "Ensembl",
+   "verified_count": 60581
+  },
+  {
+   "id": "C9-hgnc-prokn-via-wikidata",
+   "kind": "bridged",
+   "left": "f015cc1feb",
+   "right": "6e35e5bf89",
+   "bridge": "6c39eec77f",
+   "left_kg": "prokn",
+   "right_kg": "spoke-okn",
+   "bridge_kg": "wikidata",
+   "shared_key": "HGNC -> Entrez (bridged)",
+   "verified_count": 16298
+  },
+  {
+   "id": "A2-mondo",
+   "kind": "direct",
+   "left": "d8c011d345",
+   "right": "cc396c6c73",
+   "bridge": null,
+   "left_kg": "rdkg",
+   "right_kg": "oard-kg",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 2014
+  },
+  {
+   "id": "C6-entrez-rdkg-spokegenelab",
+   "kind": "direct",
+   "left": "4b3ffb1481",
+   "right": "d7f6148afe",
+   "bridge": null,
+   "left_kg": "rdkg",
+   "right_kg": "spoke-genelab",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 9034
+  },
+  {
+   "id": "C5-entrez-rdkg-spokeokn",
+   "kind": "direct",
+   "left": "4b3ffb1481",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "rdkg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 8475
+  },
+  {
+   "id": "D2-s2",
+   "kind": "direct",
+   "left": "a56532064a",
+   "right": "53e91f2e8b",
+   "bridge": null,
+   "left_kg": "sawgraph",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 88007
+  },
+  {
+   "id": "D3-ncbitaxon",
+   "kind": "direct",
+   "left": "86b445820d",
+   "right": "e08eab6a77",
+   "bridge": null,
+   "left_kg": "sawgraph",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 538
+  },
+  {
+   "id": "D4-ncbitaxon-spokegenelab-ubergraph",
+   "kind": "direct",
+   "left": "a47d7209ad",
+   "right": "e08eab6a77",
+   "bridge": null,
+   "left_kg": "spoke-genelab",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 9
+  },
+  {
+   "id": "D5-ncbitaxon-spokeokn-ubergraph",
+   "kind": "direct",
+   "left": "fc2409333b",
+   "right": "e08eab6a77",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 33602
+  },
+  {
+   "id": "D6-ncbitaxon-gxa-ubergraph",
+   "kind": "direct",
+   "left": "63ab196f18",
+   "right": "e08eab6a77",
+   "bridge": null,
+   "left_kg": "gene-expression-atlas-okn",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 8
+  },
+  {
+   "id": "D7-ncbitaxon-aopwiki-ubergraph",
+   "kind": "direct",
+   "left": "9a3afd3bee",
+   "right": "e08eab6a77",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 164
+  },
+  {
+   "id": "D8-ncbitaxon-nde-ubergraph",
+   "kind": "direct",
+   "left": "5f7a5b8582",
+   "right": "e08eab6a77",
+   "bridge": null,
+   "left_kg": "nde",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 1797
+  },
+  {
+   "id": "D10-ncbitaxon-spokegenelab-microbiome-ubergraph",
+   "kind": "direct",
+   "left": "48759c0f84",
+   "right": "e08eab6a77",
+   "bridge": null,
+   "left_kg": "spoke-genelab",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 46
+  },
+  {
+   "id": "D13-ncbitaxon-wildlifekn-ubergraph",
+   "kind": "direct",
+   "left": "7ab040b07b",
+   "right": "1d9cea701d",
+   "bridge": null,
+   "left_kg": "wildlifekn",
+   "right_kg": "ubergraph",
+   "bridge_kg": null,
+   "shared_key": "NCBITaxon",
+   "verified_count": 339
+  },
+  {
+   "id": "L4-county-fips-scales-spatialkg",
+   "kind": "direct",
+   "left": "73ba7388fa",
+   "right": "1b4669c90b",
+   "bridge": null,
+   "left_kg": "scales",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3029
+  },
+  {
+   "id": "L5-county-fips-scales-spokeokn",
+   "kind": "direct",
+   "left": "8e6e20d738",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "scales",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3096
+  },
+  {
+   "id": "CJ1-nibrs-offense-scales-ruralkg",
+   "kind": "direct",
+   "left": "d4efb55ca1",
+   "right": "407d6813e8",
+   "bridge": null,
+   "left_kg": "scales",
+   "right_kg": "ruralkg",
+   "bridge_kg": null,
+   "shared_key": "NIBRS_offense_category",
+   "verified_count": 37
+  },
+  {
+   "id": "I1-naics",
+   "kind": "direct",
+   "left": "ee2f3111d5",
+   "right": "a217b5704f",
+   "bridge": null,
+   "left_kg": "securechainkg",
+   "right_kg": "sudokn",
+   "bridge_kg": null,
+   "shared_key": "NAICS",
+   "verified_count": 35
+  },
+  {
+   "id": "I2-industry-sector",
+   "kind": "direct",
+   "left": "01eca0b82e",
+   "right": "8cdd4e1c75",
+   "bridge": null,
+   "left_kg": "securechainkg",
+   "right_kg": "sudokn",
+   "bridge_kg": null,
+   "shared_key": "SUDOKN_industry_sector",
+   "verified_count": 58
+  },
+  {
+   "id": "H1-s2",
+   "kind": "direct",
+   "left": "93fe5a7782",
+   "right": "53e91f2e8b",
+   "bridge": null,
+   "left_kg": "sockg",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 1069
+  },
+  {
+   "id": "H3-s2-sockg-sawgraph",
+   "kind": "direct",
+   "left": "93fe5a7782",
+   "right": "8bac151b41",
+   "bridge": null,
+   "left_kg": "sockg",
+   "right_kg": "sawgraph",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 2
+  },
+  {
+   "id": "H2-county",
+   "kind": "direct",
+   "left": "bc08da311e",
+   "right": "1b4669c90b",
+   "bridge": null,
+   "left_kg": "sockg",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "KWG_county",
+   "verified_count": 62
+  },
+  {
+   "id": "C4-entrez-spoke",
+   "kind": "direct",
+   "left": "a3c736c4c0",
+   "right": "6fb125385c",
+   "bridge": null,
+   "left_kg": "spoke-genelab",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 16326
+  },
+  {
+   "id": "B2-chebi-cas-bridge",
+   "kind": "bridged",
+   "left": "09f44964f3",
+   "right": "f5c34cedc0",
+   "bridge": "6a6b8d13c9",
+   "left_kg": "spoke-okn",
+   "right_kg": "biobricks-toxcast",
+   "bridge_kg": "ubergraph",
+   "shared_key": "CHEBI<->CAS",
+   "verified_count": 496
+  },
+  {
+   "id": "B3-chebi-cas-bridge-ice",
+   "kind": "bridged",
+   "left": "09f44964f3",
+   "right": "dba367cb1d",
+   "bridge": "6a6b8d13c9",
+   "left_kg": "spoke-okn",
+   "right_kg": "biobricks-ice",
+   "bridge_kg": "ubergraph",
+   "shared_key": "CHEBI<->CAS",
+   "verified_count": 712
+  },
+  {
+   "id": "B4-chebi-cas-bridge-tox21",
+   "kind": "bridged",
+   "left": "09f44964f3",
+   "right": "32329b7641",
+   "bridge": "6a6b8d13c9",
+   "left_kg": "spoke-okn",
+   "right_kg": "biobricks-tox21",
+   "bridge_kg": "ubergraph",
+   "shared_key": "CHEBI<->CAS",
+   "verified_count": 480
+  },
+  {
+   "id": "A8-doid-spokeokn-biomarkerkg",
+   "kind": "bridged",
+   "left": "6f000b90b9",
+   "right": "320f0d245c",
+   "bridge": "f187bee8db",
+   "left_kg": "spoke-okn",
+   "right_kg": "biomarkerkg",
+   "bridge_kg": "ubergraph",
+   "shared_key": "MONDO<->DOID (bridged)",
+   "verified_count": 107
+  },
+  {
+   "id": "J3-zip",
+   "kind": "direct",
+   "left": "92584408f5",
+   "right": "acc7f15005",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "dreamkg",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 53
+  },
+  {
+   "id": "A9-doid-spokeokn-nde",
+   "kind": "direct",
+   "left": "6f000b90b9",
+   "right": "3cf1a9cd5e",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "nde",
+   "bridge_kg": null,
+   "shared_key": "DOID",
+   "verified_count": 20
+  },
+  {
+   "id": "A18-doid-biomarkerkg-nde",
+   "kind": "direct",
+   "left": "db95cb685a",
+   "right": "3cf1a9cd5e",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "nde",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 601
+  },
+  {
+   "id": "A23-hp-gxa-oardkg",
+   "kind": "direct",
+   "left": "49b5cf4c5f",
+   "right": "cc396c6c73",
+   "bridge": null,
+   "left_kg": "gene-expression-atlas-okn",
+   "right_kg": "oard-kg",
+   "bridge_kg": null,
+   "shared_key": "HP",
+   "verified_count": 13
+  },
+  {
+   "id": "A24-hp-gxa-prokn",
+   "kind": "direct",
+   "left": "49b5cf4c5f",
+   "right": "6e35e5bf89",
+   "bridge": null,
+   "left_kg": "gene-expression-atlas-okn",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "HP",
+   "verified_count": 12
+  },
+  {
+   "id": "A11-doid-mondo-spokeokn-oardkg",
+   "kind": "bridged",
+   "left": "6f000b90b9",
+   "right": "cc396c6c73",
+   "bridge": "aa61cca727",
+   "left_kg": "spoke-okn",
+   "right_kg": "oard-kg",
+   "bridge_kg": "ubergraph",
+   "shared_key": "DOID<->MONDO",
+   "verified_count": 40
+  },
+  {
+   "id": "A16-doid-mondo-biomarkerkg-rdkg",
+   "kind": "direct",
+   "left": "320f0d245c",
+   "right": "123bb40dca",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "rdkg",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 754
+  },
+  {
+   "id": "A17-doid-mondo-biomarkerkg-oardkg",
+   "kind": "direct",
+   "left": "320f0d245c",
+   "right": "cc396c6c73",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "oard-kg",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 290
+  },
+  {
+   "id": "A12-omim-oardkg-prokn-via-ubergraph",
+   "kind": "bridged",
+   "left": "8eb81d10a5",
+   "right": "f3c2fe84ed",
+   "bridge": "96251e3181",
+   "left_kg": "oard-kg",
+   "right_kg": "prokn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "MONDO<->OMIM (bridged)",
+   "verified_count": 11
+  },
+  {
+   "id": "A14-orphanet-oardkg-prokn-via-ubergraph",
+   "kind": "bridged",
+   "left": "8eb81d10a5",
+   "right": "f3c2fe84ed",
+   "bridge": "747bb1a414",
+   "left_kg": "oard-kg",
+   "right_kg": "prokn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "MONDO<->Orphanet (bridged)",
+   "verified_count": 316
+  },
+  {
+   "id": "A7-doid-spokeokn-prokn",
+   "kind": "bridged",
+   "left": "6f000b90b9",
+   "right": "375460c665",
+   "bridge": "aa61cca727",
+   "left_kg": "spoke-okn",
+   "right_kg": "prokn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "DOID<->MONDO",
+   "verified_count": 115
+  },
+  {
+   "id": "A10-doid-mondo-spokeokn-rdkg",
+   "kind": "bridged",
+   "left": "6f000b90b9",
+   "right": "11ce55c49a",
+   "bridge": "aa61cca727",
+   "left_kg": "spoke-okn",
+   "right_kg": "rdkg",
+   "bridge_kg": "ubergraph",
+   "shared_key": "DOID<->MONDO",
+   "verified_count": 149
+  },
+  {
+   "id": "J2-zip",
+   "kind": "direct",
+   "left": "bd28a492a0",
+   "right": "92584408f5",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "ruralkg",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 5390
+  },
+  {
+   "id": "K2-county-fips",
+   "kind": "direct",
+   "left": "299962528d",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "ruralkg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3196
+  },
+  {
+   "id": "K3-county-fips",
+   "kind": "direct",
+   "left": "dfc0b9346c",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "sockg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 31
+  },
+  {
+   "id": "K5-state-fips",
+   "kind": "direct",
+   "left": "6cddf97647",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "sockg",
+   "bridge_kg": null,
+   "shared_key": "state_FIPS",
+   "verified_count": 18
+  },
+  {
+   "id": "K1-county-fips",
+   "kind": "direct",
+   "left": "b6f4bde148",
+   "right": "b477b94168",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "county_FIPS",
+   "verified_count": 3122
+  },
+  {
+   "id": "K4-state-fips",
+   "kind": "direct",
+   "left": "a3172a8ab1",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "state_FIPS",
+   "verified_count": 51
+  },
+  {
+   "id": "A6-mondo-expansion",
+   "kind": "direct",
+   "left": "779a1c9b8b",
+   "right": "545096616e",
+   "bridge": null,
+   "left_kg": "ubergraph",
+   "right_kg": "oard-kg",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 212
+  },
+  {
+   "id": "O1-s2-ufokn-spatialkg",
+   "kind": "direct",
+   "left": "de98f3ad03",
+   "right": "53e91f2e8b",
+   "bridge": null,
+   "left_kg": "ufokn",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 97087
+  },
+  {
+   "id": "O2-s2-ufokn-fiokg",
+   "kind": "direct",
+   "left": "de98f3ad03",
+   "right": "ac8726d76d",
+   "bridge": null,
+   "left_kg": "ufokn",
+   "right_kg": "fiokg",
+   "bridge_kg": null,
+   "shared_key": "S2_L13",
+   "verified_count": 19252
+  },
+  {
+   "id": "Q1-drugbank-rdkg-spokeokn",
+   "kind": "direct",
+   "left": "9077323d3b",
+   "right": "df850753d5",
+   "bridge": null,
+   "left_kg": "rdkg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "DrugBank",
+   "verified_count": 43
+  },
+  {
+   "id": "Q2-drugbank-ruralkg-rdkg",
+   "kind": "direct",
+   "left": "247b4034a7",
+   "right": "32de8da35f",
+   "bridge": null,
+   "left_kg": "ruralkg",
+   "right_kg": "rdkg",
+   "bridge_kg": null,
+   "shared_key": "DrugBank",
+   "verified_count": 2
+  },
+  {
+   "id": "SU1-state-sudokn-spatialkg",
+   "kind": "direct",
+   "left": "3d7132e0f7",
+   "right": "e8857ac71f",
+   "bridge": null,
+   "left_kg": "sudokn",
+   "right_kg": "spatialkg",
+   "bridge_kg": null,
+   "shared_key": "state_FIPS",
+   "verified_count": 51
+  },
+  {
+   "id": "BH1-umls-mondo-biohealth-rdkg",
+   "kind": "bridged",
+   "left": "cf92afa22d",
+   "right": "b2bbb96543",
+   "bridge": "40ad3ec8e3",
+   "left_kg": "biohealth",
+   "right_kg": "rdkg",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->MONDO",
+   "verified_count": 9122
+  },
+  {
+   "id": "BH2-umls-hp-biohealth-prokn",
+   "kind": "bridged",
+   "left": "54ba7f5119",
+   "right": "b2bbb96543",
+   "bridge": "59bd347e3b",
+   "left_kg": "biohealth",
+   "right_kg": "prokn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->HP",
+   "verified_count": 4340
+  },
+  {
+   "id": "BH3-umls-mondo-doid-biohealth-spokeokn",
+   "kind": "bridged",
+   "left": "f64c1d75e8",
+   "right": "b2bbb96543",
+   "bridge": "13cd623638",
+   "left_kg": "biohealth",
+   "right_kg": "spoke-okn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->MONDO<->DOID (two-hop)",
+   "verified_count": 173
+  },
+  {
+   "id": "BH4-umls-mondo-biohealth-oardkg",
+   "kind": "bridged",
+   "left": "cf92afa22d",
+   "right": "b2bbb96543",
+   "bridge": "101089fa7b",
+   "left_kg": "biohealth",
+   "right_kg": "oard-kg",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->MONDO",
+   "verified_count": 1796
+  },
+  {
+   "id": "BH5-umls-hp-biohealth-oardkg",
+   "kind": "bridged",
+   "left": "037c49a5d5",
+   "right": "b2bbb96543",
+   "bridge": "2bb10de839",
+   "left_kg": "biohealth",
+   "right_kg": "oard-kg",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->HP",
+   "verified_count": 4549
+  },
+  {
+   "id": "BH6-umls-mondo-biohealth-nde",
+   "kind": "bridged",
+   "left": "fdb40e492d",
+   "right": "b2bbb96543",
+   "bridge": "2bb10de839",
+   "left_kg": "biohealth",
+   "right_kg": "nde",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->MONDO",
+   "verified_count": 2760
+  },
+  {
+   "id": "BH7-umls-mondo-doid-biohealth-biomarkerkg",
+   "kind": "bridged",
+   "left": "db95cb685a",
+   "right": "b2bbb96543",
+   "bridge": "6581cbb8ed",
+   "left_kg": "biohealth",
+   "right_kg": "biomarkerkg",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->MONDO",
+   "verified_count": 835
+  },
+  {
+   "id": "BH8-umls-hp-biohealth-gxa",
+   "kind": "bridged",
+   "left": "b73918f81f",
+   "right": "b2bbb96543",
+   "bridge": "2bb10de839",
+   "left_kg": "biohealth",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->HP",
+   "verified_count": 13
+  },
+  {
+   "id": "BH9-umls-uberon-biohealth-gxa",
+   "kind": "bridged",
+   "left": "ece0dc904d",
+   "right": "b2bbb96543",
+   "bridge": "2bb10de839",
+   "left_kg": "biohealth",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->UBERON",
+   "verified_count": 249
+  },
+  {
+   "id": "BH10-umls-uberon-biohealth-spokegenelab",
+   "kind": "bridged",
+   "left": "5b011137b9",
+   "right": "b2bbb96543",
+   "bridge": "2bb10de839",
+   "left_kg": "biohealth",
+   "right_kg": "spoke-genelab",
+   "bridge_kg": "ubergraph",
+   "shared_key": "UMLS<->UBERON",
+   "verified_count": 35
+  },
+  {
+   "id": "BH11-ncbitaxon-label-spoke-okn",
+   "kind": "bridged",
+   "left": "dac9d0c05d",
+   "right": "12b80d9c4a",
+   "bridge": "92fad1590c",
+   "left_kg": "biohealth",
+   "right_kg": "spoke-okn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "NCBITaxon (biohealth label)",
+   "verified_count": 1603
+  },
+  {
+   "id": "BH12-ncbitaxon-label-nde",
+   "kind": "bridged",
+   "left": "5f7a5b8582",
+   "right": "12b80d9c4a",
+   "bridge": "92fad1590c",
+   "left_kg": "biohealth",
+   "right_kg": "nde",
+   "bridge_kg": "ubergraph",
+   "shared_key": "NCBITaxon (biohealth label)",
+   "verified_count": 1052
+  },
+  {
+   "id": "BH13-ncbitaxon-label-sawgraph",
+   "kind": "bridged",
+   "left": "86b445820d",
+   "right": "12b80d9c4a",
+   "bridge": "92fad1590c",
+   "left_kg": "biohealth",
+   "right_kg": "sawgraph",
+   "bridge_kg": "ubergraph",
+   "shared_key": "NCBITaxon (biohealth label)",
+   "verified_count": 377
+  },
+  {
+   "id": "BH14-ncbitaxon-label-biobricks-aopwiki",
+   "kind": "bridged",
+   "left": "9a3afd3bee",
+   "right": "12b80d9c4a",
+   "bridge": "92fad1590c",
+   "left_kg": "biohealth",
+   "right_kg": "biobricks-aopwiki",
+   "bridge_kg": "ubergraph",
+   "shared_key": "NCBITaxon (biohealth label)",
+   "verified_count": 112
+  },
+  {
+   "id": "BH15-ncbitaxon-label-spoke-genelab",
+   "kind": "bridged",
+   "left": "a47d7209ad",
+   "right": "12b80d9c4a",
+   "bridge": "92fad1590c",
+   "left_kg": "biohealth",
+   "right_kg": "spoke-genelab",
+   "bridge_kg": "ubergraph",
+   "shared_key": "NCBITaxon (biohealth label)",
+   "verified_count": 7
+  },
+  {
+   "id": "BH16-ncbitaxon-label-gene-expression-atlas-okn",
+   "kind": "bridged",
+   "left": "63ab196f18",
+   "right": "12b80d9c4a",
+   "bridge": "92fad1590c",
+   "left_kg": "biohealth",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": "ubergraph",
+   "shared_key": "NCBITaxon (biohealth label)",
+   "verified_count": 6
+  },
+  {
+   "id": "AN1-uberon-spokegenelab-gxa",
+   "kind": "direct",
+   "left": "5b011137b9",
+   "right": "7468b6b57c",
+   "bridge": null,
+   "left_kg": "spoke-genelab",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": null,
+   "shared_key": "UBERON",
+   "verified_count": 27
+  },
+  {
+   "id": "AN2-cl-gxa-prokn",
+   "kind": "direct",
+   "left": "783193ccca",
+   "right": "3282d095ee",
+   "bridge": null,
+   "left_kg": "gene-expression-atlas-okn",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "CL",
+   "verified_count": 31
+  },
+  {
+   "id": "AN3-cl-spokegenelab-gxa",
+   "kind": "direct",
+   "left": "8e5b3443d8",
+   "right": "7468b6b57c",
+   "bridge": null,
+   "left_kg": "spoke-genelab",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": null,
+   "shared_key": "CL",
+   "verified_count": 4
+  },
+  {
+   "id": "AN4-cl-spokegenelab-prokn",
+   "kind": "direct",
+   "left": "8e5b3443d8",
+   "right": "3282d095ee",
+   "bridge": null,
+   "left_kg": "spoke-genelab",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "CL",
+   "verified_count": 1
+  },
+  {
+   "id": "C10-entrez-digcfdekg-spokeokn",
+   "kind": "direct",
+   "left": "7f64242b5c",
+   "right": "e0f45be552",
+   "bridge": null,
+   "left_kg": "digcfdekg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 16052
+  },
+  {
+   "id": "C11-entrez-digcfdekg-spokegenelab",
+   "kind": "direct",
+   "left": "7f64242b5c",
+   "right": "d7f6148afe",
+   "bridge": null,
+   "left_kg": "digcfdekg",
+   "right_kg": "spoke-genelab",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 19747
+  },
+  {
+   "id": "C12-entrez-digcfdekg-rdkg",
+   "kind": "direct",
+   "left": "f1a58dc039",
+   "right": "123bb40dca",
+   "bridge": null,
+   "left_kg": "digcfdekg",
+   "right_kg": "rdkg",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 8934
+  },
+  {
+   "id": "C13-entrez-digcfdekg-prokn-via-wikidata",
+   "kind": "bridged",
+   "left": "3d2cd512ce",
+   "right": "6e35e5bf89",
+   "bridge": "6c39eec77f",
+   "left_kg": "digcfdekg",
+   "right_kg": "prokn",
+   "bridge_kg": "wikidata",
+   "shared_key": "Entrez -> HGNC (bridged)",
+   "verified_count": 20783
+  },
+  {
+   "id": "A29-efo-digcfdekg-gxa",
+   "kind": "direct",
+   "left": "c2ff8ca021",
+   "right": "132788b675",
+   "bridge": null,
+   "left_kg": "digcfdekg",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": null,
+   "shared_key": "EFO / Orphanet / MONDO (direct, multi-vocabulary)",
+   "verified_count": 33
+  },
+  {
+   "id": "BH17-sdoh-mesh-umls-biohealth-spokeokn",
+   "kind": "bridged",
+   "left": "684675688d",
+   "right": "b2bbb96543",
+   "bridge": "7b2551315e",
+   "left_kg": "spoke-okn",
+   "right_kg": "biohealth",
+   "bridge_kg": "wikidata",
+   "shared_key": "MeSH -> UMLS (bridged)",
+   "verified_count": 3
+  },
+  {
+   "id": "BH18-sdoh-label-biohealth-spokeokn",
+   "kind": "direct",
+   "left": "edbe3e3ff9",
+   "right": "12b80d9c4a",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "biohealth",
+   "bridge_kg": null,
+   "shared_key": "concept label (SNOMED preferred term <-> UMLS concept name)",
+   "verified_count": 89
+  },
+  {
+   "id": "G3-uniprot-biomarkerkg-prokn",
+   "kind": "direct",
+   "left": "8de1fb57cc",
+   "right": "2cec9c5126",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "UniProt",
+   "verified_count": 209
+  },
+  {
+   "id": "G4-uniprot-biomarkerkg-aopwiki",
+   "kind": "direct",
+   "left": "b99a73399c",
+   "right": "4b11a64263",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "biobricks-aopwiki",
+   "bridge_kg": null,
+   "shared_key": "UniProt",
+   "verified_count": 86
+  },
+  {
+   "id": "AN5-cl-biomarkerkg-gxa",
+   "kind": "direct",
+   "left": "b2435b07e5",
+   "right": "7468b6b57c",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": null,
+   "shared_key": "CL",
+   "verified_count": 8
+  },
+  {
+   "id": "AN6-cl-biomarkerkg-prokn",
+   "kind": "direct",
+   "left": "b2435b07e5",
+   "right": "3282d095ee",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "CL",
+   "verified_count": 3
+  },
+  {
+   "id": "C14-ensembl-pankgraph-prokn",
+   "kind": "direct",
+   "left": "d8a18f9d88",
+   "right": "2cec9c5126",
+   "bridge": null,
+   "left_kg": "pankgraph",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "Ensembl",
+   "verified_count": 37835
+  },
+  {
+   "id": "C16-ensembl-prokn-spokeokn",
+   "kind": "direct",
+   "left": "8f15f60ac2",
+   "right": "4abf2d6a2c",
+   "bridge": null,
+   "left_kg": "prokn",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Ensembl",
+   "verified_count": 16140
+  },
+  {
+   "id": "C17-ensembl-digcfdekg-prokn-via-wikidata",
+   "kind": "bridged",
+   "left": "3d2cd512ce",
+   "right": "8116fd5f35",
+   "bridge": "8b5186a5ed",
+   "left_kg": "digcfdekg",
+   "right_kg": "prokn",
+   "bridge_kg": "wikidata",
+   "shared_key": "Entrez -> Ensembl (bridged)",
+   "verified_count": 7965
+  },
+  {
+   "id": "GO1-go-pankgraph-prokn",
+   "kind": "direct",
+   "left": "8ea254450c",
+   "right": "6e35e5bf89",
+   "bridge": null,
+   "left_kg": "pankgraph",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "GO",
+   "verified_count": 16970
+  },
+  {
+   "id": "PW1-reactome-gxa-prokn",
+   "kind": "direct",
+   "left": "f1b329220d",
+   "right": "3c0a9449d4",
+   "bridge": null,
+   "left_kg": "gene-expression-atlas-okn",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "Reactome",
+   "verified_count": 1068
+  },
+  {
+   "id": "ET1-cas-sawgraph-toxcast",
+   "kind": "direct",
+   "left": "edc06b92b9",
+   "right": "f5c34cedc0",
+   "bridge": null,
+   "left_kg": "sawgraph",
+   "right_kg": "biobricks-toxcast",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 32
+  },
+  {
+   "id": "ET2-cas-sawgraph-ice",
+   "kind": "direct",
+   "left": "edc06b92b9",
+   "right": "dba367cb1d",
+   "bridge": null,
+   "left_kg": "sawgraph",
+   "right_kg": "biobricks-ice",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 39
+  },
+  {
+   "id": "SS1-label-dreamkg-biohealth",
+   "kind": "direct",
+   "left": "5e2ac75433",
+   "right": "12b80d9c4a",
+   "bridge": null,
+   "left_kg": "dreamkg",
+   "right_kg": "biohealth",
+   "bridge_kg": null,
+   "shared_key": "concept label (social-service audience term <-> UMLS concept name)",
+   "verified_count": 14
+  },
+  {
+   "id": "P1-climate-deps",
+   "kind": "direct",
+   "left": "f95f69b500",
+   "right": "e0b621e78b",
+   "bridge": null,
+   "left_kg": "climatemodelskg",
+   "right_kg": "securechainkg",
+   "bridge_kg": null,
+   "shared_key": "climatemodelskg Source IRI",
+   "verified_count": 3
+  },
+  {
+   "id": "ET3-cas-sockg-biobricks-ice",
+   "kind": "direct",
+   "left": "e3e5454950",
+   "right": "dba367cb1d",
+   "bridge": null,
+   "left_kg": "sockg",
+   "right_kg": "biobricks-ice",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 68
+  },
+  {
+   "id": "ET4-cas-sockg-biobricks-toxcast",
+   "kind": "direct",
+   "left": "e3e5454950",
+   "right": "f5c34cedc0",
+   "bridge": null,
+   "left_kg": "sockg",
+   "right_kg": "biobricks-toxcast",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 59
+  },
+  {
+   "id": "C10-entrez-biobricks-ice-rdkg",
+   "kind": "direct",
+   "left": "5cbd8f424c",
+   "right": "123bb40dca",
+   "bridge": null,
+   "left_kg": "biobricks-ice",
+   "right_kg": "rdkg",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 358
+  },
+  {
+   "id": "BH19-umls-biobricks-ice-biohealth",
+   "kind": "direct",
+   "left": "4953915508",
+   "right": "b2bbb96543",
+   "bridge": null,
+   "left_kg": "biobricks-ice",
+   "right_kg": "biohealth",
+   "bridge_kg": null,
+   "shared_key": "UMLS",
+   "verified_count": 46
+  },
+  {
+   "id": "GN1-geonames-spokeokn-climatemodelskg",
+   "kind": "direct",
+   "left": "caa25f1f3c",
+   "right": "67692f7308",
+   "bridge": null,
+   "left_kg": "climatemodelskg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "GeoNames",
+   "verified_count": 106
+  },
+  {
+   "id": "C11-inchikey-spokeokn-prokn",
+   "kind": "direct",
+   "left": "06707e970b",
+   "right": "10b7604b21",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "InChIKey",
+   "verified_count": 143
+  },
+  {
+   "id": "PB1-doi-climatemodelskg-nasa",
+   "kind": "direct",
+   "left": "5410ce983e",
+   "right": "d2a441718a",
+   "bridge": null,
+   "left_kg": "climatemodelskg",
+   "right_kg": "nasa-gesdisc-kg",
+   "bridge_kg": null,
+   "shared_key": "DOI",
+   "verified_count": 3660
+  },
+  {
+   "id": "EO1-instrument-climatemodelskg-nasa",
+   "kind": "direct",
+   "left": "dd78bfce24",
+   "right": "bc9c64aab3",
+   "bridge": null,
+   "left_kg": "climatemodelskg",
+   "right_kg": "nasa-gesdisc-kg",
+   "bridge_kg": null,
+   "shared_key": "GCMD instrument",
+   "verified_count": 342
+  },
+  {
+   "id": "EO2-platform-climatemodelskg-nasa",
+   "kind": "direct",
+   "left": "f7194587dc",
+   "right": "cf73836cc9",
+   "bridge": null,
+   "left_kg": "climatemodelskg",
+   "right_kg": "nasa-gesdisc-kg",
+   "bridge_kg": null,
+   "shared_key": "GCMD platform",
+   "verified_count": 236
+  },
+  {
+   "id": "HY1-comid-geoconnex-hydrologykg",
+   "kind": "direct",
+   "left": "0b89152444",
+   "right": "478cd0d8b2",
+   "bridge": null,
+   "left_kg": "geoconnex",
+   "right_kg": "hydrologykg",
+   "bridge_kg": null,
+   "shared_key": "COMID",
+   "verified_count": 11392
+  },
+  {
+   "id": "M3-cas-mesh-ice",
+   "kind": "direct",
+   "left": "56f9a82780",
+   "right": "fb8de602df",
+   "bridge": null,
+   "left_kg": "biobricks-mesh",
+   "right_kg": "biobricks-ice",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 6924
+  },
+  {
+   "id": "M4-cas-mesh-toxcast",
+   "kind": "direct",
+   "left": "66faa9d9f3",
+   "right": "fb8de602df",
+   "bridge": null,
+   "left_kg": "biobricks-mesh",
+   "right_kg": "biobricks-toxcast",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 1146
+  },
+  {
+   "id": "M5-cas-mesh-aopwiki",
+   "kind": "direct",
+   "left": "0a8dab3a41",
+   "right": "fb8de602df",
+   "bridge": null,
+   "left_kg": "biobricks-mesh",
+   "right_kg": "biobricks-aopwiki",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 26
+  },
+  {
+   "id": "M6-cas-mesh-sawgraph",
+   "kind": "direct",
+   "left": "97f7b1bc74",
+   "right": "fb8de602df",
+   "bridge": null,
+   "left_kg": "biobricks-mesh",
+   "right_kg": "sawgraph",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 6
+  },
+  {
+   "id": "M7-cas-mesh-sockg",
+   "kind": "direct",
+   "left": "753075cee5",
+   "right": "fb8de602df",
+   "bridge": null,
+   "left_kg": "biobricks-mesh",
+   "right_kg": "sockg",
+   "bridge_kg": null,
+   "shared_key": "CAS",
+   "verified_count": 5
+  },
+  {
+   "id": "P2-pubchem-aopwiki-pubchemannotations",
+   "kind": "direct",
+   "left": "7b6f3bb386",
+   "right": "3b0961e6be",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "biobricks-pubchem-annotations",
+   "bridge_kg": null,
+   "shared_key": "PubChem CID",
+   "verified_count": 401
+  },
+  {
+   "id": "P3-pubchem-aopwiki-spokeokn",
+   "kind": "direct",
+   "left": "30d37e4e67",
+   "right": "df850753d5",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "PubChem CID",
+   "verified_count": 87
+  },
+  {
+   "id": "CB1-chembl-aopwiki-spokeokn",
+   "kind": "direct",
+   "left": "e5d0d35629",
+   "right": "df850753d5",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "ChEMBL",
+   "verified_count": 75
+  },
+  {
+   "id": "DB1-drugbank-aopwiki-spokeokn",
+   "kind": "direct",
+   "left": "0b43047448",
+   "right": "df850753d5",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "DrugBank",
+   "verified_count": 27
+  },
+  {
+   "id": "J4-zip-ruralkg-scales",
+   "kind": "direct",
+   "left": "34e0a04096",
+   "right": "eaf43eae1e",
+   "bridge": null,
+   "left_kg": "ruralkg",
+   "right_kg": "scales",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 5297
+  },
+  {
+   "id": "J5-zip-dreamkg-scales",
+   "kind": "direct",
+   "left": "bf8826814d",
+   "right": "eaf43eae1e",
+   "bridge": null,
+   "left_kg": "dreamkg",
+   "right_kg": "scales",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 53
+  },
+  {
+   "id": "J6-zip-dreamkg-ruralkg",
+   "kind": "direct",
+   "left": "bf8826814d",
+   "right": "34e0a04096",
+   "bridge": null,
+   "left_kg": "dreamkg",
+   "right_kg": "ruralkg",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 30
+  },
+  {
+   "id": "PB2-authorname-climatemodelskg-nasa",
+   "kind": "direct",
+   "left": "188181a9b0",
+   "right": "a41c1e5600",
+   "bridge": null,
+   "left_kg": "climatemodelskg",
+   "right_kg": "nasa-gesdisc-kg",
+   "bridge_kg": null,
+   "shared_key": "author name (string; NOT an ORCID — see the entry's caveat)",
+   "verified_count": 32586
+  },
+  {
+   "id": "J1-zip",
+   "kind": "direct",
+   "left": "6ea34df257",
+   "right": "92584408f5",
+   "bridge": null,
+   "left_kg": "spoke-okn",
+   "right_kg": "sudokn",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 13647
+  },
+  {
+   "id": "G5-uniprot-nestkg-prokn",
+   "kind": "direct",
+   "left": "3194993714",
+   "right": "2cec9c5126",
+   "bridge": null,
+   "left_kg": "nestkg",
+   "right_kg": "prokn",
+   "bridge_kg": null,
+   "shared_key": "UniProt",
+   "verified_count": 16729
+  },
+  {
+   "id": "G6-uniprot-nestkg-aopwiki",
+   "kind": "direct",
+   "left": "fa6ecbab56",
+   "right": "3194993714",
+   "bridge": null,
+   "left_kg": "biobricks-aopwiki",
+   "right_kg": "nestkg",
+   "bridge_kg": null,
+   "shared_key": "UniProt",
+   "verified_count": 1376
+  },
+  {
+   "id": "G8-uniprot-nestkg-biomarkerkg",
+   "kind": "direct",
+   "left": "3194993714",
+   "right": "ada730b040",
+   "bridge": null,
+   "left_kg": "nestkg",
+   "right_kg": "biomarkerkg",
+   "bridge_kg": null,
+   "shared_key": "UniProt",
+   "verified_count": 230
+  },
+  {
+   "id": "A30-mondo-nestkg-biomarkerkg",
+   "kind": "direct",
+   "left": "16c60a28e5",
+   "right": "8d125f5d87",
+   "bridge": null,
+   "left_kg": "nestkg",
+   "right_kg": "biomarkerkg",
+   "bridge_kg": null,
+   "shared_key": "MONDO",
+   "verified_count": 13
+  },
+  {
+   "id": "J7-zip-medicaldevice-spokeokn",
+   "kind": "direct",
+   "left": "1de7a336ab",
+   "right": "92584408f5",
+   "bridge": null,
+   "left_kg": "medical-device-kg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 19563
+  },
+  {
+   "id": "J8-zip-medicaldevice-scales",
+   "kind": "direct",
+   "left": "1de7a336ab",
+   "right": "eaf43eae1e",
+   "bridge": null,
+   "left_kg": "medical-device-kg",
+   "right_kg": "scales",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 19089
+  },
+  {
+   "id": "J9-zip-medicaldevice-sudokn",
+   "kind": "direct",
+   "left": "1de7a336ab",
+   "right": "627b13748e",
+   "bridge": null,
+   "left_kg": "medical-device-kg",
+   "right_kg": "sudokn",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 11067
+  },
+  {
+   "id": "J10-zip-medicaldevice-ruralkg",
+   "kind": "direct",
+   "left": "1de7a336ab",
+   "right": "34e0a04096",
+   "bridge": null,
+   "left_kg": "medical-device-kg",
+   "right_kg": "ruralkg",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 5118
+  },
+  {
+   "id": "J11-zip-medicaldevice-dreamkg",
+   "kind": "direct",
+   "left": "1de7a336ab",
+   "right": "bf8826814d",
+   "bridge": null,
+   "left_kg": "medical-device-kg",
+   "right_kg": "dreamkg",
+   "bridge_kg": null,
+   "shared_key": "ZIP5",
+   "verified_count": 50
+  },
+  {
+   "id": "C18-entrez-biomarkerkg-spokeokn",
+   "kind": "direct",
+   "left": "eae3c94fc8",
+   "right": "94d349092a",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "spoke-okn",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 191
+  },
+  {
+   "id": "C19-entrez-biomarkerkg-spokegenelab",
+   "kind": "direct",
+   "left": "eae3c94fc8",
+   "right": "949ef5c414",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "spoke-genelab",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 200
+  },
+  {
+   "id": "C20-entrez-biomarkerkg-digcfdekg",
+   "kind": "direct",
+   "left": "eae3c94fc8",
+   "right": "75d73e9ad5",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "digcfdekg",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 200
+  },
+  {
+   "id": "C21-entrez-biomarkerkg-rdkg",
+   "kind": "direct",
+   "left": "44f24afb14",
+   "right": "4da0d1255e",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "rdkg",
+   "bridge_kg": null,
+   "shared_key": "Entrez",
+   "verified_count": 167
+  },
+  {
+   "id": "V1-dbsnp-pankgraph-biomarkerkg",
+   "kind": "direct",
+   "left": "f972526a55",
+   "right": "8d125f5d87",
+   "bridge": null,
+   "left_kg": "pankgraph",
+   "right_kg": "biomarkerkg",
+   "bridge_kg": null,
+   "shared_key": "dbSNP rsID",
+   "verified_count": 214
+  },
+  {
+   "id": "AN7-uberon-biomarkerkg-gxa",
+   "kind": "direct",
+   "left": "1d4a35d29b",
+   "right": "7468b6b57c",
+   "bridge": null,
+   "left_kg": "biomarkerkg",
+   "right_kg": "gene-expression-atlas-okn",
+   "bridge_kg": null,
+   "shared_key": "UBERON",
+   "verified_count": 27
+  },
+  {
+   "id": "I3-companyname-medicaldevice-sudokn",
+   "kind": "direct",
+   "left": "b5436140be",
+   "right": "645d2852bc",
+   "bridge": null,
+   "left_kg": "medical-device-kg",
+   "right_kg": "sudokn",
+   "bridge_kg": null,
+   "shared_key": "company name",
+   "verified_count": 361
+  },
+  {
+   "id": "V2-dbsnp-prokn-biomarkerkg",
+   "kind": "direct",
+   "left": "ab81ace6e7",
+   "right": "8d125f5d87",
+   "bridge": null,
+   "left_kg": "prokn",
+   "right_kg": "biomarkerkg",
+   "bridge_kg": null,
+   "shared_key": "dbSNP rsID",
+   "verified_count": 3241
+  },
+  {
+   "id": "V3-dbsnp-prokn-pankgraph",
+   "kind": "direct",
+   "left": "8c3ee042c3",
+   "right": "b8ecd03f55",
+   "bridge": null,
+   "left_kg": "prokn",
+   "right_kg": "pankgraph",
+   "bridge_kg": null,
+   "shared_key": "dbSNP rsID",
+   "verified_count": 214
+  }
+ ],
+ "skipped": [
+  {
+   "id": "G2-uniprot-ncipidkg-prokn",
+   "reason": "unsupported item union"
+  },
+  {
+   "id": "D9-ncbitaxon-spokegenelab-spokeokn-via-ubergraph",
+   "reason": "no single join variable (3 segments)"
+  },
+  {
+   "id": "D11-ncbitaxon-wildlifekn-nde",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "D12-ncbitaxon-wildlifekn-sawgraph",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "A19-efo-mondo-gxa-rdkg",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "A20-efo-mondo-gxa-nde",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "A21-efo-mondo-gxa-oardkg",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "A22-efo-mondo-doid-gxa-spokeokn",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "SU2-s2computed-sudokn-spatialkg",
+   "reason": "no skeleton"
+  },
+  {
+   "id": "A25-mondo-digcfdekg-rdkg",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "A26-mondo-digcfdekg-oardkg",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "A27-doid-mondo-biomarkerkg-digcfdekg",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "A28-doid-mondo-spokeokn-digcfdekg",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "SS2-label-phaseskg-biohealth",
+   "reason": "unsupported item values"
+  },
+  {
+   "id": "DB2-drugbank-rdkg-prokn-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "CB2-cas-tox21-prokn-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "CB3-cas-toxcast-prokn-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "DB3-cas-tox21-rdkg-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "DB4-cas-toxcast-rdkg-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "DB5-drugbank-ruralkg-prokn-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "C22-entrez-rdkg-pankgraph-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "C23-entrez-spokegenelab-pankgraph-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "C24-entrez-digcfdekg-pankgraph-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "C25-entrez-biomarkerkg-pankgraph-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "C26-entrez-ice-pankgraph-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "BH20-umls-mondo-biohealth-digcfdekg-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "BH21-umls-mondo-biohealth-nestkg-via-babel",
+   "reason": "segment spans several graphs"
+  },
+  {
+   "id": "L7-countyfips-climatemodelskg-spatialkg",
+   "reason": "no single join variable (3 segments)"
+  },
+  {
+   "id": "G7-uniprot-nestkg-ncipidkg",
+   "reason": "unsupported item union"
+  }
+ ]
+}

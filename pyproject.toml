@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "okn-connection-map"
+dynamic = ["version"]
+description = "Compute where the Proto-OKN / FRINK knowledge graphs connect, with evidence, and serve it to AI agents over MCP."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Saminur Islam" }, { name = "Rada Chirkova" }]
+keywords = ["knowledge graphs", "Proto-OKN", "FRINK", "SPARQL", "MCP", "data integration", "crosswalks"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Database",
+]
+# No third-party dependencies: the tool uses only Python's standard library.
+dependencies = []
+
+[project.scripts]
+ocm = "okn_connection_map.cli:main"
+
+[project.urls]
+"MCP-OKN" = "https://github.com/sbl-sdsc/mcp-okn"
+"Proto-OKN" = "https://www.proto-okn.net/"
+
+[tool.setuptools.dynamic]
+version = { attr = "okn_connection_map.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

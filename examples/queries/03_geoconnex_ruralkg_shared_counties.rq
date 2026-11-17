@@ -1,0 +1,18 @@
+# What this asks: how many US counties (5-digit FIPS codes) appear in both GeoConnex and RuralKG?
+# Why it matters: MCP-OKN's get_join_strategy answers "known_non_join" (do not retry) for this pair,
+#   based on a note about GeoConnex's S2 cells, not on the county key.
+# How it is built: each half reuses the per-graph pattern of a verified catalog crosswalk
+#   (GeoConnex from L1-county-fips-geoconnex-spatialkg, RuralKG from K2-county-fips), and the two
+#   graphs are joined on the bare FIPS string, as the catalog's methodology note recommends.
+# expected: 1 row, about 3222 (connection map run 2026-10-15c)
+SELECT (COUNT(DISTINCT ?fips) AS ?shared_counties) WHERE {
+  { SELECT DISTINCT ?fips WHERE {
+      GRAPH <https://purl.org/okn/frink/kg/geoconnex> { ?x <http://gnis-ld.org/lod/gnis/ontology/county> ?county . }
+      BIND(REPLACE(STR(?county),'^.*/counties/([0-9]{5}).*$','$1') AS ?fips)
+      FILTER(REGEX(?fips,'^[0-9]{5}$')) } }
+  { SELECT DISTINCT ?fips WHERE {
+      GRAPH <https://purl.org/okn/frink/kg/ruralkg> { ?y <http://sail.ua.edu/ruralkg/settlementtype/censusCounty> ?reg . }
+      FILTER(STRSTARTS(STR(?reg),'http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.'))
+      BIND(REPLACE(STR(?reg),'^.*administrativeRegion[.]USA[.]([0-9]{5}).*$','$1') AS ?fips)
+      FILTER(REGEX(?fips,'^[0-9]{5}$')) } }
+}

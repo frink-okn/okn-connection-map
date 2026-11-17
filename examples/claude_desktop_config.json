@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "okn-connection-map": {
+      "command": "C:\\Users\\YOUR_NAME\\okn-connection-map\\.venv\\Scripts\\ocm.exe",
+      "args": ["mcp"],
+      "env": { "OCM_HOME": "C:\\Users\\YOUR_NAME\\okn-connection-map\\ocm-data" }
+    }
+  }
+}

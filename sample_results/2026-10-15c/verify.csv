@@ -1,0 +1,236 @@
+a,b,connection,scheme,key,raw_a,present_a,label_a,raw_b,present_b,label_b
+scales,sudokn,contradicts_refusal,ZIP5,ZIP5:90501,90501,True,,90501,True,
+scales,sudokn,contradicts_refusal,ZIP5,ZIP5:60707,60707,True,,60707,True,
+scales,sudokn,contradicts_refusal,ZIP5,ZIP5:08691,08691,True,,08691,True,
+scales,sudokn,contradicts_refusal,ZIP5,ZIP5:70114,70114,True,,70114,True,
+scales,sudokn,contradicts_refusal,ZIP5,ZIP5:48001,48001,True,,48001,True,
+ruralkg,sudokn,contradicts_refusal,ZIP5,ZIP5:02906,02906,True,,02906,True,
+ruralkg,sudokn,contradicts_refusal,ZIP5,ZIP5:02806,02806,True,,02806,True,
+ruralkg,sudokn,contradicts_refusal,ZIP5,ZIP5:10011,10011,True,,10011,True,
+ruralkg,sudokn,contradicts_refusal,ZIP5,ZIP5:23601,23601,True,,23601,True,
+ruralkg,sudokn,contradicts_refusal,ZIP5,ZIP5:25550,25550,True,,25550,True,
+geoconnex,ruralkg,contradicts_refusal,county_FIPS,county_FIPS:39073,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.39073,False,,https://purl.org/okn/frink/kg/spoke-okn/location/39073,False,
+geoconnex,ruralkg,contradicts_refusal,county_FIPS,county_FIPS:47097,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.47097,False,,https://purl.org/okn/frink/kg/spoke-okn/location/47097,False,
+geoconnex,ruralkg,contradicts_refusal,county_FIPS,county_FIPS:04027,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.04027,False,,https://purl.org/okn/frink/kg/spoke-okn/location/04027,False,
+geoconnex,ruralkg,contradicts_refusal,county_FIPS,county_FIPS:42129,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.42129,False,,https://purl.org/okn/frink/kg/spoke-okn/location/42129,False,
+geoconnex,ruralkg,contradicts_refusal,county_FIPS,county_FIPS:19071,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.19071,False,,https://purl.org/okn/frink/kg/spoke-okn/location/19071,False,
+nde,rdkg,contradicts_refusal,MONDO,MONDO:0021545,http://purl.obolibrary.org/obo/MONDO_0021545,True,myomatous neoplasm,http://purl.obolibrary.org/obo/MONDO_0021545,True,myomatous neoplasm
+nde,rdkg,contradicts_refusal,MONDO,MONDO:0100253,http://purl.obolibrary.org/obo/MONDO_0100253,True,Roberts-SC phocomelia syndrome,http://purl.obolibrary.org/obo/MONDO_0100253,True,Roberts-SC phocomelia syndrome
+nde,rdkg,contradicts_refusal,MONDO,MONDO:0016168,http://purl.obolibrary.org/obo/MONDO_0016168,True,cryopyrin-associated periodic syndrome,http://purl.obolibrary.org/obo/MONDO_0016168,True,cryopyrin-associated periodic syndrome
+nde,rdkg,contradicts_refusal,MONDO,MONDO:0009816,http://purl.obolibrary.org/obo/MONDO_0009816,True,autosomal recessive osteopetrosis 2,http://purl.obolibrary.org/obo/MONDO_0009816,True,autosomal recessive osteopetrosis 2
+nde,rdkg,contradicts_refusal,MONDO,MONDO:0005648,http://purl.obolibrary.org/obo/MONDO_0005648,True,aortic valve insufficiency,http://purl.obolibrary.org/obo/MONDO_0005648,True,aortic valve insufficiency
+nde,rdkg,contradicts_refusal,HP,HP:0002893,http://purl.obolibrary.org/obo/HP_0002893,True,Pituitary adenoma,http://purl.obolibrary.org/obo/HP_0002893,True,Pituitary adenoma
+nde,rdkg,contradicts_refusal,HP,HP:0005701,http://purl.obolibrary.org/obo/HP_0005701,True,Multiple enchondromatosis,http://purl.obolibrary.org/obo/HP_0005701,True,Multiple enchondromatosis
+nde,rdkg,contradicts_refusal,HP,HP:0001967,http://purl.obolibrary.org/obo/HP_0001967,True,Diffuse mesangial sclerosis,http://purl.obolibrary.org/obo/HP_0001967,True,Diffuse mesangial sclerosis
+nde,rdkg,contradicts_refusal,HP,HP:0030079,http://purl.obolibrary.org/obo/HP_0030079,True,Cervix cancer,http://purl.obolibrary.org/obo/HP_0030079,True,Cervix cancer
+nde,rdkg,contradicts_refusal,HP,HP:0100256,http://purl.obolibrary.org/obo/HP_0100256,True,Senile plaques,http://purl.obolibrary.org/obo/HP_0100256,True,Senile plaques
+ruralkg,spatialkg,contradicts_refusal,county_FIPS,county_FIPS:01053,https://purl.org/okn/frink/kg/spoke-okn/location/01053,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01053,True,
+ruralkg,spatialkg,contradicts_refusal,county_FIPS,county_FIPS:17191,https://purl.org/okn/frink/kg/spoke-okn/location/17191,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.17191,True,
+ruralkg,spatialkg,contradicts_refusal,county_FIPS,county_FIPS:51163,https://purl.org/okn/frink/kg/spoke-okn/location/51163,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.51163,True,
+ruralkg,spatialkg,contradicts_refusal,county_FIPS,county_FIPS:33009,https://purl.org/okn/frink/kg/spoke-okn/location/33009,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.33009,True,
+ruralkg,spatialkg,contradicts_refusal,county_FIPS,county_FIPS:28059,https://purl.org/okn/frink/kg/spoke-okn/location/28059,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.28059,True,
+biobricks-aopwiki,pankgraph,new,Ensembl,Ensembl:ENSG00000124664,http://identifiers.org/ensembl/ENSG00000124664,False,,http://identifiers.org/ensembl/ENSG00000124664,True,SPDEF
+biobricks-aopwiki,pankgraph,new,Ensembl,Ensembl:ENSG00000105329,http://identifiers.org/ensembl/ENSG00000105329,False,,http://identifiers.org/ensembl/ENSG00000105329,True,TGFB1
+biobricks-aopwiki,pankgraph,new,Ensembl,Ensembl:ENSG00000113083,http://identifiers.org/ensembl/ENSG00000113083,False,,http://identifiers.org/ensembl/ENSG00000113083,True,LOX
+biobricks-aopwiki,pankgraph,new,Ensembl,Ensembl:ENSG00000134333,http://identifiers.org/ensembl/ENSG00000134333,False,,http://identifiers.org/ensembl/ENSG00000134333,True,LDHA
+biobricks-aopwiki,pankgraph,new,Ensembl,Ensembl:ENSG00000095596,http://identifiers.org/ensembl/ENSG00000095596,False,,http://identifiers.org/ensembl/ENSG00000095596,True,CYP26A1
+biobricks-aopwiki,digcfdekg,new,Entrez,Entrez:1652,http://identifiers.org/ncbigene/1652,False,,http://www.ncbi.nlm.nih.gov/gene/1652,True,DDT
+biobricks-aopwiki,digcfdekg,new,Entrez,Entrez:5159,http://identifiers.org/ncbigene/5159,False,,http://www.ncbi.nlm.nih.gov/gene/5159,True,PDGFRB
+biobricks-aopwiki,digcfdekg,new,Entrez,Entrez:171558,http://identifiers.org/ncbigene/171558,False,,http://www.ncbi.nlm.nih.gov/gene/171558,True,PTCRA
+biobricks-aopwiki,digcfdekg,new,Entrez,Entrez:4968,http://identifiers.org/ncbigene/4968,False,,http://www.ncbi.nlm.nih.gov/gene/4968,True,OGG1
+biobricks-aopwiki,digcfdekg,new,Entrez,Entrez:472,http://identifiers.org/ncbigene/472,False,,http://www.ncbi.nlm.nih.gov/gene/472,True,ATM
+biobricks-mesh,biobricks-tox21,new,CAS,CAS:375-85-9,375-85-9,True,,http://identifiers.org/cas/375-85-9,True,Perfluoroheptanoic acid
+biobricks-mesh,biobricks-tox21,new,CAS,CAS:1125-21-9,1125-21-9,True,,http://identifiers.org/cas/1125-21-9,True,"2,6,6-Trimethyl-2-cyclohexene-1,4-dione"
+biobricks-mesh,biobricks-tox21,new,CAS,CAS:7787-56-6,7787-56-6,True,,http://identifiers.org/cas/7787-56-6,True,Beryllium sulfate tetrahydrate
+biobricks-mesh,biobricks-tox21,new,CAS,CAS:99-51-4,99-51-4,True,,http://identifiers.org/cas/99-51-4,True,"1,2-Dimethyl-4-nitrobenzene"
+biobricks-mesh,biobricks-tox21,new,CAS,CAS:15165-67-0,15165-67-0,True,,http://identifiers.org/cas/15165-67-0,True,Dichlorprop-P
+nde,prokn,new,MONDO,MONDO:0009927,http://purl.obolibrary.org/obo/MONDO_0009927,True,3MC syndrome 2,http://purl.obolibrary.org/obo/MONDO_0009927,True,
+nde,prokn,new,MONDO,MONDO:0002268,http://purl.obolibrary.org/obo/MONDO_0002268,True,dyspepsia,http://purl.obolibrary.org/obo/MONDO_0002268,True,
+nde,prokn,new,MONDO,MONDO:0016047,http://purl.obolibrary.org/obo/MONDO_0016047,True,endophthalmitis,http://purl.obolibrary.org/obo/MONDO_0016047,True,
+nde,prokn,new,MONDO,MONDO:0008734,http://purl.obolibrary.org/obo/MONDO_0008734,True,"adrenocortical carcinoma, hereditary",http://purl.obolibrary.org/obo/MONDO_0008734,True,
+nde,prokn,new,MONDO,MONDO:0019052,http://purl.obolibrary.org/obo/MONDO_0019052,True,inborn errors of metabolism,http://purl.obolibrary.org/obo/MONDO_0019052,True,Inborn Errors of Metabolism
+nde,prokn,new,HP,HP:0010305,http://purl.obolibrary.org/obo/HP_0010305,True,Absence of the sacrum,http://purl.obolibrary.org/obo/HP_0010305,True,
+nde,prokn,new,HP,HP:0200042,http://purl.obolibrary.org/obo/HP_0200042,True,Skin ulcer,http://purl.obolibrary.org/obo/HP_0200042,True,
+nde,prokn,new,HP,HP:0200018,http://purl.obolibrary.org/obo/HP_0200018,True,Protanomaly,http://purl.obolibrary.org/obo/HP_0200018,True,
+nde,prokn,new,HP,HP:0002039,http://purl.obolibrary.org/obo/HP_0002039,True,Anorexia,http://purl.obolibrary.org/obo/HP_0002039,True,Refusing food_HP:0002039
+nde,prokn,new,HP,HP:0005268,http://purl.obolibrary.org/obo/HP_0005268,True,Miscarriage,http://purl.obolibrary.org/obo/HP_0005268,True,
+biobricks-aopwiki,biobricks-ice,new,CAS,CAS:17804-35-2,http://identifiers.org/cas/17804-35-2,False,,http://identifiers.org/cas/17804-35-2,True,
+biobricks-aopwiki,biobricks-ice,new,CAS,CAS:115575-11-6,http://identifiers.org/cas/115575-11-6,False,,http://identifiers.org/cas/115575-11-6,True,
+biobricks-aopwiki,biobricks-ice,new,CAS,CAS:110-13-4,http://identifiers.org/cas/110-13-4,False,,http://identifiers.org/cas/110-13-4,True,
+biobricks-aopwiki,biobricks-ice,new,CAS,CAS:99011-02-6,http://identifiers.org/cas/99011-02-6,False,,http://identifiers.org/cas/99011-02-6,True,
+biobricks-aopwiki,biobricks-ice,new,CAS,CAS:22204-53-1,http://identifiers.org/cas/22204-53-1,False,,http://identifiers.org/cas/22204-53-1,True,
+biobricks-aopwiki,biobricks-ice,new,Entrez,Entrez:3605,http://identifiers.org/ncbigene/3605,False,,http://identifiers.org/ncbigene/3605,False,
+biobricks-aopwiki,biobricks-ice,new,Entrez,Entrez:1576,http://identifiers.org/ncbigene/1576,False,,http://identifiers.org/ncbigene/1576,False,
+biobricks-aopwiki,biobricks-ice,new,Entrez,Entrez:3014,http://identifiers.org/ncbigene/3014,False,,http://identifiers.org/ncbigene/3014,False,
+biobricks-aopwiki,biobricks-ice,new,Entrez,Entrez:1728,http://identifiers.org/ncbigene/1728,False,,http://identifiers.org/ncbigene/1728,False,
+biobricks-aopwiki,biobricks-ice,new,Entrez,Entrez:51135,http://identifiers.org/ncbigene/51135,False,,http://identifiers.org/ncbigene/51135,False,
+biobricks-ice,spoke-genelab,contradicts_refusal,Entrez,Entrez:25553,http://identifiers.org/ncbigene/25553,False,,http://www.ncbi.nlm.nih.gov/gene/25553,True,solute carrier family 6 member 4
+biobricks-ice,spoke-genelab,contradicts_refusal,Entrez,Entrez:4314,http://identifiers.org/ncbigene/4314,False,,http://www.ncbi.nlm.nih.gov/gene/4314,True,matrix metallopeptidase 3
+biobricks-ice,spoke-genelab,contradicts_refusal,Entrez,Entrez:6097,http://identifiers.org/ncbigene/6097,False,,http://www.ncbi.nlm.nih.gov/gene/6097,True,RAR related orphan receptor C
+biobricks-ice,spoke-genelab,contradicts_refusal,Entrez,Entrez:3361,http://identifiers.org/ncbigene/3361,False,,http://www.ncbi.nlm.nih.gov/gene/3361,True,5-hydroxytryptamine receptor 5A
+biobricks-ice,spoke-genelab,contradicts_refusal,Entrez,Entrez:1845,http://identifiers.org/ncbigene/1845,False,,http://www.ncbi.nlm.nih.gov/gene/1845,True,dual specificity phosphatase 3
+biobricks-ice,digcfdekg,new,Entrez,Entrez:3757,http://identifiers.org/ncbigene/3757,False,,http://www.ncbi.nlm.nih.gov/gene/3757,True,KCNH2
+biobricks-ice,digcfdekg,new,Entrez,Entrez:3576,http://identifiers.org/ncbigene/3576,False,,http://www.ncbi.nlm.nih.gov/gene/3576,True,CXCL8
+biobricks-ice,digcfdekg,new,Entrez,Entrez:2152,http://identifiers.org/ncbigene/2152,False,,http://www.ncbi.nlm.nih.gov/gene/2152,True,F3
+biobricks-ice,digcfdekg,new,Entrez,Entrez:7040,http://identifiers.org/ncbigene/7040,False,,http://www.ncbi.nlm.nih.gov/gene/7040,True,TGFB1
+biobricks-ice,digcfdekg,new,Entrez,Entrez:2642,http://identifiers.org/ncbigene/2642,False,,http://www.ncbi.nlm.nih.gov/gene/2642,True,GCGR
+biobricks-aopwiki,biobricks-tox21,new,CAS,CAS:122-14-5,http://identifiers.org/cas/122-14-5,False,,http://identifiers.org/cas/122-14-5,True,Fenitrothion
+biobricks-aopwiki,biobricks-tox21,new,CAS,CAS:2008-41-5,http://identifiers.org/cas/2008-41-5,False,,http://identifiers.org/cas/2008-41-5,True,Butylate
+biobricks-aopwiki,biobricks-tox21,new,CAS,CAS:95-25-0,http://identifiers.org/cas/95-25-0,False,,http://identifiers.org/cas/95-25-0,True,Chlorzoxazone
+biobricks-aopwiki,biobricks-tox21,new,CAS,CAS:33069-62-4,http://identifiers.org/cas/33069-62-4,False,,http://identifiers.org/cas/33069-62-4,True,Paclitaxel
+biobricks-aopwiki,biobricks-tox21,new,CAS,CAS:188425-85-6,http://identifiers.org/cas/188425-85-6,False,,http://identifiers.org/cas/188425-85-6,True,Boscalid
+digcfdekg,nde,new,MONDO,MONDO:0006955,http://purl.obolibrary.org/obo/MONDO_0006955,True,rheumatic heart disease,http://purl.obolibrary.org/obo/MONDO_0006955,True,rheumatic heart disease
+digcfdekg,nde,new,MONDO,MONDO:0005452,http://purl.obolibrary.org/obo/MONDO_0005452,True,bulimia nervosa,http://purl.obolibrary.org/obo/MONDO_0005452,True,bulimia nervosa
+digcfdekg,nde,new,MONDO,MONDO:0005326,http://purl.obolibrary.org/obo/MONDO_0005326,True,sunburn,http://purl.obolibrary.org/obo/MONDO_0005326,True,sunburn
+digcfdekg,nde,new,MONDO,MONDO:0018905,http://purl.obolibrary.org/obo/MONDO_0018905,True,diffuse large B-cell lymphoma,http://purl.obolibrary.org/obo/MONDO_0018905,True,diffuse large B-cell lymphoma
+digcfdekg,nde,new,MONDO,MONDO:0005249,http://purl.obolibrary.org/obo/MONDO_0005249,True,pneumonia,http://purl.obolibrary.org/obo/MONDO_0005249,True,pneumonia
+digcfdekg,nde,new,HP,HP:0003418,http://purl.obolibrary.org/obo/HP_0003418,True,Back pain,http://purl.obolibrary.org/obo/HP_0003418,True,Back pain
+digcfdekg,nde,new,HP,HP:0001822,http://purl.obolibrary.org/obo/HP_0001822,True,Hallux valgus,http://purl.obolibrary.org/obo/HP_0001822,True,Hallux valgus
+digcfdekg,nde,new,HP,HP:0000155,http://purl.obolibrary.org/obo/HP_0000155,True,Oral ulcer,http://purl.obolibrary.org/obo/HP_0000155,True,Oral ulcer
+digcfdekg,nde,new,HP,HP:0000964,http://purl.obolibrary.org/obo/HP_0000964,True,Eczematoid dermatitis,http://purl.obolibrary.org/obo/HP_0000964,True,Eczema
+digcfdekg,nde,new,HP,HP:0012594,http://purl.obolibrary.org/obo/HP_0012594,True,Moderate albuminuria,http://purl.obolibrary.org/obo/HP_0012594,True,Moderate albuminuria
+dreamkg,sudokn,contradicts_refusal,ZIP5,ZIP5:90293,90293,True,,90293,True,
+dreamkg,sudokn,contradicts_refusal,ZIP5,ZIP5:90723,90723,True,,90723,True,
+dreamkg,sudokn,contradicts_refusal,ZIP5,ZIP5:90221,90221,True,,90221,True,
+dreamkg,sudokn,contradicts_refusal,ZIP5,ZIP5:19130,19130,True,,19130,True,
+dreamkg,sudokn,contradicts_refusal,ZIP5,ZIP5:90047,90047,True,,90047,True,
+biobricks-aopwiki,nde,new,NCBITaxon,NCBITaxon:9913,http://purl.obolibrary.org/obo/NCBITaxon_9913,True,bovine,http://purl.obolibrary.org/obo/NCBITaxon_9913,True,
+biobricks-aopwiki,nde,new,NCBITaxon,NCBITaxon:9974,http://purl.obolibrary.org/obo/NCBITaxon_9974,True,Manis javanica,http://purl.obolibrary.org/obo/NCBITaxon_9974,True,
+biobricks-aopwiki,nde,new,NCBITaxon,NCBITaxon:8237,http://purl.obolibrary.org/obo/NCBITaxon_8237,True,bluefin tuna,http://purl.obolibrary.org/obo/NCBITaxon_8237,True,
+biobricks-aopwiki,nde,new,NCBITaxon,NCBITaxon:9823,http://purl.obolibrary.org/obo/NCBITaxon_9823,True,pigs,http://purl.obolibrary.org/obo/NCBITaxon_9823,True,
+biobricks-aopwiki,nde,new,NCBITaxon,NCBITaxon:9541,http://purl.obolibrary.org/obo/NCBITaxon_9541,True,crab eating macaque,http://purl.obolibrary.org/obo/NCBITaxon_9541,True,
+biobricks-tox21,sockg,new,CAS,CAS:21087-64-9,http://identifiers.org/cas/21087-64-9,True,Metribuzin,http://identifiers.org/cas/21087-64-9,False,
+biobricks-tox21,sockg,new,CAS,CAS:1689-99-2,http://identifiers.org/cas/1689-99-2,True,Bromoxynil octanoate,http://identifiers.org/cas/1689-99-2,False,
+biobricks-tox21,sockg,new,CAS,CAS:79241-46-6,http://identifiers.org/cas/79241-46-6,True,Fluazifop-P-butyl,http://identifiers.org/cas/79241-46-6,False,
+biobricks-tox21,sockg,new,CAS,CAS:55512-33-9,http://identifiers.org/cas/55512-33-9,True,Pyridate,http://identifiers.org/cas/55512-33-9,False,
+biobricks-tox21,sockg,new,CAS,CAS:29450-45-1,http://identifiers.org/cas/29450-45-1,True,MCPA-2-ethylhexyl,http://identifiers.org/cas/29450-45-1,False,
+geoconnex,sockg,contradicts_refusal,county_FIPS,county_FIPS:48303,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.48303,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.48303,True,
+geoconnex,sockg,contradicts_refusal,county_FIPS,county_FIPS:55111,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.55111,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.55111,True,
+geoconnex,sockg,contradicts_refusal,county_FIPS,county_FIPS:31155,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.31155,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.31155,True,
+geoconnex,sockg,contradicts_refusal,county_FIPS,county_FIPS:27149,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.27149,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.27149,True,
+geoconnex,sockg,contradicts_refusal,county_FIPS,county_FIPS:08123,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.08123,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.08123,True,
+geoconnex,sockg,contradicts_refusal,state_FIPS,state_FIPS:30,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.30,False,,https://purl.org/okn/frink/kg/spoke-okn/location/30,False,
+geoconnex,sockg,contradicts_refusal,state_FIPS,state_FIPS:18,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.18,False,,https://purl.org/okn/frink/kg/spoke-okn/location/18,False,
+geoconnex,sockg,contradicts_refusal,state_FIPS,state_FIPS:27,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.27,False,,https://purl.org/okn/frink/kg/spoke-okn/location/27,False,
+geoconnex,sockg,contradicts_refusal,state_FIPS,state_FIPS:41,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.41,False,,https://purl.org/okn/frink/kg/spoke-okn/location/41,False,
+geoconnex,sockg,contradicts_refusal,state_FIPS,state_FIPS:56,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.56,False,,https://purl.org/okn/frink/kg/spoke-okn/location/56,False,
+nde,sawgraph,new,NCBITaxon,NCBITaxon:9935,http://purl.obolibrary.org/obo/NCBITaxon_9935,True,,http://purl.obolibrary.org/obo/NCBITaxon_9935,True,Ovis
+nde,sawgraph,new,NCBITaxon,NCBITaxon:7742,http://purl.obolibrary.org/obo/NCBITaxon_7742,True,,http://purl.obolibrary.org/obo/NCBITaxon_7742,True,Vertebrata <vertebrates>
+nde,sawgraph,new,NCBITaxon,NCBITaxon:9347,http://purl.obolibrary.org/obo/NCBITaxon_9347,True,,http://purl.obolibrary.org/obo/NCBITaxon_9347,True,Eutheria
+nde,sawgraph,new,NCBITaxon,NCBITaxon:9005,http://purl.obolibrary.org/obo/NCBITaxon_9005,True,,http://purl.obolibrary.org/obo/NCBITaxon_9005,True,Phasianidae
+nde,sawgraph,new,NCBITaxon,NCBITaxon:8167,http://purl.obolibrary.org/obo/NCBITaxon_8167,True,,http://purl.obolibrary.org/obo/NCBITaxon_8167,True,Perca flavescens
+biobricks-ice,biomarkerkg,new,Entrez,Entrez:4314,http://identifiers.org/ncbigene/4314,False,,http://www.ncbi.nlm.nih.gov/gene/4314,False,
+biobricks-ice,biomarkerkg,new,Entrez,Entrez:3576,http://identifiers.org/ncbigene/3576,False,,http://www.ncbi.nlm.nih.gov/gene/3576,False,
+biobricks-ice,biomarkerkg,new,Entrez,Entrez:7157,http://identifiers.org/ncbigene/7157,False,,http://www.ncbi.nlm.nih.gov/gene/7157,False,
+biobricks-ice,biomarkerkg,new,Entrez,Entrez:7124,http://identifiers.org/ncbigene/7124,False,,http://www.ncbi.nlm.nih.gov/gene/7124,False,
+biobricks-ice,biomarkerkg,new,Entrez,Entrez:3383,http://identifiers.org/ncbigene/3383,False,,http://www.ncbi.nlm.nih.gov/gene/3383,False,
+ruralkg,sockg,new,county_FIPS,county_FIPS:42027,https://purl.org/okn/frink/kg/spoke-okn/location/42027,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.42027,True,
+ruralkg,sockg,new,county_FIPS,county_FIPS:01083,https://purl.org/okn/frink/kg/spoke-okn/location/01083,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01083,True,
+ruralkg,sockg,new,county_FIPS,county_FIPS:48227,https://purl.org/okn/frink/kg/spoke-okn/location/48227,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.48227,True,
+ruralkg,sockg,new,county_FIPS,county_FIPS:08069,https://purl.org/okn/frink/kg/spoke-okn/location/08069,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.08069,True,
+ruralkg,sockg,new,county_FIPS,county_FIPS:08123,https://purl.org/okn/frink/kg/spoke-okn/location/08123,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.08123,True,
+nde,nestkg,new,MONDO,MONDO:0007256,http://purl.obolibrary.org/obo/MONDO_0007256,True,hepatocellular carcinoma,http://purl.obolibrary.org/obo/MONDO_0007256,True,
+nde,nestkg,new,MONDO,MONDO:0004992,http://purl.obolibrary.org/obo/MONDO_0004992,True,cancer,http://purl.obolibrary.org/obo/MONDO_0004992,True,
+nde,nestkg,new,MONDO,MONDO:0018177,http://purl.obolibrary.org/obo/MONDO_0018177,True,glioblastoma,http://purl.obolibrary.org/obo/MONDO_0018177,True,
+nde,nestkg,new,MONDO,MONDO:0005061,http://purl.obolibrary.org/obo/MONDO_0005061,True,lung adenocarcinoma,http://purl.obolibrary.org/obo/MONDO_0005061,True,
+nde,nestkg,new,MONDO,MONDO:0002271,http://purl.obolibrary.org/obo/MONDO_0002271,True,colon adenocarcinoma,http://purl.obolibrary.org/obo/MONDO_0002271,True,
+nestkg,rdkg,contradicts_refusal,MONDO,MONDO:0005097,http://purl.obolibrary.org/obo/MONDO_0005097,True,,http://purl.obolibrary.org/obo/MONDO_0005097,True,squamous cell lung carcinoma
+nestkg,rdkg,contradicts_refusal,MONDO,MONDO:0018177,http://purl.obolibrary.org/obo/MONDO_0018177,True,,http://purl.obolibrary.org/obo/MONDO_0018177,True,glioblastoma
+nestkg,rdkg,contradicts_refusal,MONDO,MONDO:0006256,http://purl.obolibrary.org/obo/MONDO_0006256,True,,http://purl.obolibrary.org/obo/MONDO_0006256,True,invasive breast carcinoma
+nestkg,rdkg,contradicts_refusal,MONDO,MONDO:0005611,http://purl.obolibrary.org/obo/MONDO_0005611,True,,http://purl.obolibrary.org/obo/MONDO_0005611,True,bladder transitional cell carcinoma
+nestkg,rdkg,contradicts_refusal,MONDO,MONDO:0005036,http://purl.obolibrary.org/obo/MONDO_0005036,True,,http://purl.obolibrary.org/obo/MONDO_0005036,True,gastric adenocarcinoma
+biobricks-tox21,sawgraph,new,CAS,CAS:4151-50-2,http://identifiers.org/cas/4151-50-2,True,Sulfluramid,http://identifiers.org/cas/4151-50-2,False,
+biobricks-tox21,sawgraph,new,CAS,CAS:1763-23-1,http://identifiers.org/cas/1763-23-1,True,PFOS,http://identifiers.org/cas/1763-23-1,False,
+biobricks-tox21,sawgraph,new,CAS,CAS:2058-94-8,http://identifiers.org/cas/2058-94-8,True,Perfluoroundecanoic acid,http://identifiers.org/cas/2058-94-8,False,
+biobricks-tox21,sawgraph,new,CAS,CAS:335-67-1,http://identifiers.org/cas/335-67-1,True,PFOA,http://identifiers.org/cas/335-67-1,False,
+biobricks-tox21,sawgraph,new,CAS,CAS:375-85-9,http://identifiers.org/cas/375-85-9,True,Perfluoroheptanoic acid,http://identifiers.org/cas/375-85-9,False,
+biobricks-aopwiki,sawgraph,new,NCBITaxon,NCBITaxon:9825,http://purl.obolibrary.org/obo/NCBITaxon_9825,True,Sus scrofa domesticus,http://purl.obolibrary.org/obo/NCBITaxon_9825,True,Sus scrofa domesticus
+biobricks-aopwiki,sawgraph,new,NCBITaxon,NCBITaxon:33208,http://purl.obolibrary.org/obo/NCBITaxon_33208,True,Animals,http://purl.obolibrary.org/obo/NCBITaxon_33208,True,Metazoa
+biobricks-aopwiki,sawgraph,new,NCBITaxon,NCBITaxon:8167,http://purl.obolibrary.org/obo/NCBITaxon_8167,True,Perca flavescens,http://purl.obolibrary.org/obo/NCBITaxon_8167,True,Perca flavescens
+biobricks-aopwiki,sawgraph,new,NCBITaxon,NCBITaxon:9031,http://purl.obolibrary.org/obo/NCBITaxon_9031,True,chickens,http://purl.obolibrary.org/obo/NCBITaxon_9031,True,Gallus gallus
+biobricks-aopwiki,sawgraph,new,NCBITaxon,NCBITaxon:8030,http://purl.obolibrary.org/obo/NCBITaxon_8030,True,Salmo salar,http://purl.obolibrary.org/obo/NCBITaxon_8030,True,Salmo salar
+biobricks-aopwiki,sawgraph,new,CAS,CAS:1763-23-1,http://identifiers.org/cas/1763-23-1,False,,http://identifiers.org/cas/1763-23-1,False,
+biobricks-aopwiki,sockg,new,CAS,CAS:1912-24-9,http://identifiers.org/cas/1912-24-9,False,,http://identifiers.org/cas/1912-24-9,False,
+biobricks-aopwiki,sockg,new,CAS,CAS:68359-37-5,http://identifiers.org/cas/68359-37-5,False,,http://identifiers.org/cas/68359-37-5,False,
+biobricks-aopwiki,sockg,new,CAS,CAS:82657-04-3,http://identifiers.org/cas/82657-04-3,False,,http://identifiers.org/cas/82657-04-3,False,
+biobricks-aopwiki,sockg,new,CAS,CAS:2921-88-2,http://identifiers.org/cas/2921-88-2,False,,http://identifiers.org/cas/2921-88-2,False,
+biobricks-aopwiki,sockg,new,CAS,CAS:2303-17-5,http://identifiers.org/cas/2303-17-5,False,,http://identifiers.org/cas/2303-17-5,False,
+nde,spoke-genelab,contradicts_refusal,NCBITaxon,NCBITaxon:7227,http://purl.obolibrary.org/obo/NCBITaxon_7227,True,,http://purl.obolibrary.org/obo/NCBITaxon_7227,False,
+nde,spoke-genelab,contradicts_refusal,NCBITaxon,NCBITaxon:10090,http://purl.obolibrary.org/obo/NCBITaxon_10090,True,,http://purl.obolibrary.org/obo/NCBITaxon_10090,False,
+nde,spoke-genelab,contradicts_refusal,NCBITaxon,NCBITaxon:13613,http://purl.obolibrary.org/obo/NCBITaxon_13613,True,,http://purl.obolibrary.org/obo/NCBITaxon_13613,False,
+nde,spoke-genelab,contradicts_refusal,NCBITaxon,NCBITaxon:10116,http://purl.obolibrary.org/obo/NCBITaxon_10116,True,,http://purl.obolibrary.org/obo/NCBITaxon_10116,False,
+nde,spoke-genelab,contradicts_refusal,NCBITaxon,NCBITaxon:7955,http://purl.obolibrary.org/obo/NCBITaxon_7955,True,,http://purl.obolibrary.org/obo/NCBITaxon_7955,False,
+nasa-gesdisc-kg,prokn,contradicts_refusal,dbSNP,dbSNP:rs17020314,http://dx.doi.org/10.3390/rs17020314,False,,https://www.ncbi.nlm.nih.gov/snp/rs17020314,False,
+nasa-gesdisc-kg,prokn,contradicts_refusal,dbSNP,dbSNP:rs12020217,http://dx.doi.org/10.3390/rs12020217,False,,https://www.ncbi.nlm.nih.gov/snp/rs12020217,False,
+nasa-gesdisc-kg,prokn,contradicts_refusal,dbSNP,dbSNP:rs17030365,http://dx.doi.org/10.3390/rs17030365,False,,https://www.ncbi.nlm.nih.gov/snp/rs17030365,False,
+nasa-gesdisc-kg,prokn,contradicts_refusal,dbSNP,dbSNP:rs11101224,http://dx.doi.org/10.3390/rs11101224,False,,https://www.ncbi.nlm.nih.gov/snp/rs11101224,False,
+nasa-gesdisc-kg,prokn,contradicts_refusal,dbSNP,dbSNP:rs17142503,http://dx.doi.org/10.3390/rs17142503,False,,https://www.ncbi.nlm.nih.gov/snp/rs17142503,False,
+nestkg,oard-kg,new,MONDO,MONDO:0010150,http://purl.obolibrary.org/obo/MONDO_0010150,True,,http://purl.obolibrary.org/obo/MONDO_0010150,True,head and neck squamous cell carcinoma
+nestkg,oard-kg,new,MONDO,MONDO:0007256,http://purl.obolibrary.org/obo/MONDO_0007256,True,,http://purl.obolibrary.org/obo/MONDO_0007256,True,hepatocellular carcinoma
+nestkg,oard-kg,new,MONDO,MONDO:0005061,http://purl.obolibrary.org/obo/MONDO_0005061,True,,http://purl.obolibrary.org/obo/MONDO_0005061,True,lung adenocarcinoma
+nestkg,oard-kg,new,MONDO,MONDO:0018177,http://purl.obolibrary.org/obo/MONDO_0018177,True,,http://purl.obolibrary.org/obo/MONDO_0018177,True,glioblastoma
+nasa-gesdisc-kg,pankgraph,contradicts_refusal,dbSNP,dbSNP:rs12233973,http://dx.doi.org/10.3390/rs12233973,False,,https://www.ncbi.nlm.nih.gov/snp/rs12233973,False,
+nasa-gesdisc-kg,pankgraph,contradicts_refusal,dbSNP,dbSNP:rs13163137,http://dx.doi.org/10.3390/rs13163137,False,,https://www.ncbi.nlm.nih.gov/snp/rs13163137,False,
+nasa-gesdisc-kg,pankgraph,contradicts_refusal,dbSNP,dbSNP:rs10030488,http://dx.doi.org/10.3390/rs10030488,False,,https://www.ncbi.nlm.nih.gov/snp/rs10030488,False,
+digcfdekg,nestkg,new,MONDO,MONDO:0004992,http://purl.obolibrary.org/obo/MONDO_0004992,True,cancer,http://purl.obolibrary.org/obo/MONDO_0004992,True,
+digcfdekg,nestkg,new,MONDO,MONDO:0005005,http://purl.obolibrary.org/obo/MONDO_0005005,True,clear cell renal carcinoma,http://purl.obolibrary.org/obo/MONDO_0005005,True,
+geoconnex,nikg,contradicts_refusal,county_FIPS,county_FIPS:17031,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.17031,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.17031,False,
+geoconnex,nikg,contradicts_refusal,county_FIPS,county_FIPS:42101,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.42101,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.42101,False,
+nikg,ruralkg,new,county_FIPS,county_FIPS:42101,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.42101,False,,https://purl.org/okn/frink/kg/spoke-okn/location/42101,False,
+nikg,ruralkg,new,county_FIPS,county_FIPS:17031,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.17031,False,,https://purl.org/okn/frink/kg/spoke-okn/location/17031,False,
+gene-expression-atlas-okn,nestkg,contradicts_refusal,MONDO,MONDO:0004992,http://purl.obolibrary.org/obo/MONDO_0004992,True,cancer,http://purl.obolibrary.org/obo/MONDO_0004992,True,
+geoconnex,sudokn,contradicts_refusal,state_FIPS,state_FIPS:48,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.48,False,,22848,True,
+sockg,sudokn,contradicts_refusal,state_FIPS,state_FIPS:48,https://purl.org/okn/frink/kg/spoke-okn/location/48,False,,22848,True,
+rdkg,ruralkg,confirmed,DrugBank,DrugBank:DB00907,http://identifiers.org/drugbank/DB00907,True,Cocaine,http://identifiers.org/drugbank/DB00907,True,
+rdkg,ruralkg,confirmed,DrugBank,DrugBank:DB01221,http://identifiers.org/drugbank/DB01221,True,Ketamine,http://identifiers.org/drugbank/DB01221,True,
+medical-device-kg,sudokn,confirmed,ZIP5,ZIP5:75228,75228,True,,75228,True,
+medical-device-kg,sudokn,confirmed,ZIP5,ZIP5:88001,88001,True,,88001,True,
+medical-device-kg,sudokn,confirmed,ZIP5,ZIP5:55426,55426,True,,55426,True,
+medical-device-kg,sudokn,confirmed,ZIP5,ZIP5:29649,29649,True,,29649,True,
+medical-device-kg,sudokn,confirmed,ZIP5,ZIP5:76437,76437,True,,76437,True,
+digcfdekg,spoke-genelab,confirmed,Entrez,Entrez:7862,http://www.ncbi.nlm.nih.gov/gene/7862,True,BRPF1,http://www.ncbi.nlm.nih.gov/gene/7862,True,bromodomain and PHD finger containing 1
+digcfdekg,spoke-genelab,confirmed,Entrez,Entrez:7139,http://www.ncbi.nlm.nih.gov/gene/7139,True,TNNT2,http://www.ncbi.nlm.nih.gov/gene/7139,True,"troponin T2, cardiac type"
+digcfdekg,spoke-genelab,confirmed,Entrez,Entrez:645030,http://www.ncbi.nlm.nih.gov/gene/645030,True,NFIA-AS1,http://www.ncbi.nlm.nih.gov/gene/645030,True,NFIA antisense RNA 1
+digcfdekg,spoke-genelab,confirmed,Entrez,Entrez:106481604,http://www.ncbi.nlm.nih.gov/gene/106481604,True,RNU1-8P,http://www.ncbi.nlm.nih.gov/gene/106481604,True,"RNA, U1 small nuclear 8, pseudogene"
+digcfdekg,spoke-genelab,confirmed,Entrez,Entrez:6705,http://www.ncbi.nlm.nih.gov/gene/6705,True,SPRR2F,http://www.ncbi.nlm.nih.gov/gene/6705,True,small proline rich protein 2F
+biobricks-aopwiki,rdkg,confirmed,Entrez,Entrez:51384,http://identifiers.org/ncbigene/51384,False,,http://identifiers.org/ncbigene/51384,True,WNT16
+biobricks-aopwiki,rdkg,confirmed,Entrez,Entrez:6319,http://identifiers.org/ncbigene/6319,False,,http://identifiers.org/ncbigene/6319,True,SCD
+biobricks-aopwiki,rdkg,confirmed,Entrez,Entrez:590,http://identifiers.org/ncbigene/590,False,,http://identifiers.org/ncbigene/590,True,BCHE
+biobricks-aopwiki,rdkg,confirmed,Entrez,Entrez:6667,http://identifiers.org/ncbigene/6667,False,,http://identifiers.org/ncbigene/6667,True,SP1
+biobricks-aopwiki,rdkg,confirmed,Entrez,Entrez:8030,http://identifiers.org/ncbigene/8030,False,,http://identifiers.org/ncbigene/8030,True,CCDC6
+biobricks-aopwiki,rdkg,confirmed,DrugBank,DrugBank:DB00773,https://identifiers.org/drugbank/DB00773,True,,http://identifiers.org/drugbank/DB00773,True,Etoposide
+biobricks-aopwiki,rdkg,confirmed,DrugBank,DrugBank:DB00328,https://identifiers.org/drugbank/DB00328,True,,http://identifiers.org/drugbank/DB00328,True,Indomethacin
+biobricks-aopwiki,rdkg,confirmed,DrugBank,DrugBank:DB00494,https://identifiers.org/drugbank/DB00494,True,,http://identifiers.org/drugbank/DB00494,True,Entacapone
+biobricks-aopwiki,rdkg,confirmed,DrugBank,DrugBank:DB00477,https://identifiers.org/drugbank/DB00477,True,,http://identifiers.org/drugbank/DB00477,True,Chlorpromazine
+biobricks-aopwiki,rdkg,confirmed,DrugBank,DrugBank:DB00257,https://identifiers.org/drugbank/DB00257,True,,http://identifiers.org/drugbank/DB00257,True,Clotrimazole
+biobricks-aopwiki,spoke-okn,confirmed,Entrez,Entrez:4790,http://identifiers.org/ncbigene/4790,False,,http://www.ncbi.nlm.nih.gov/gene/4790,True,NFKB1
+biobricks-aopwiki,spoke-okn,confirmed,Entrez,Entrez:10533,http://identifiers.org/ncbigene/10533,False,,http://www.ncbi.nlm.nih.gov/gene/10533,True,ATG7
+biobricks-aopwiki,spoke-okn,confirmed,Entrez,Entrez:7918,http://identifiers.org/ncbigene/7918,False,,http://www.ncbi.nlm.nih.gov/gene/7918,True,GPANK1
+biobricks-aopwiki,spoke-okn,confirmed,Entrez,Entrez:718,http://identifiers.org/ncbigene/718,False,,http://www.ncbi.nlm.nih.gov/gene/718,True,C3
+biobricks-aopwiki,spoke-okn,confirmed,Entrez,Entrez:3156,http://identifiers.org/ncbigene/3156,False,,http://www.ncbi.nlm.nih.gov/gene/3156,True,HMGCR
+biobricks-aopwiki,spoke-okn,confirmed,Ensembl,Ensembl:ENSG00000184502,http://identifiers.org/ensembl/ENSG00000184502,False,,http://identifiers.org/ensembl/ENSG00000184502,True,
+biobricks-aopwiki,spoke-okn,confirmed,Ensembl,Ensembl:ENSG00000114251,http://identifiers.org/ensembl/ENSG00000114251,False,,http://identifiers.org/ensembl/ENSG00000114251,True,
+biobricks-aopwiki,spoke-okn,confirmed,Ensembl,Ensembl:ENSG00000005187,http://identifiers.org/ensembl/ENSG00000005187,False,,http://identifiers.org/ensembl/ENSG00000005187,True,
+biobricks-aopwiki,spoke-okn,confirmed,Ensembl,Ensembl:ENSG00000078295,http://identifiers.org/ensembl/ENSG00000078295,False,,http://identifiers.org/ensembl/ENSG00000078295,True,
+biobricks-aopwiki,spoke-okn,confirmed,Ensembl,Ensembl:ENSG00000198077,http://identifiers.org/ensembl/ENSG00000198077,False,,http://identifiers.org/ensembl/ENSG00000198077,True,
+geoconnex,spoke-okn,confirmed,county_FIPS,county_FIPS:06115,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.06115,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.06115,False,
+geoconnex,spoke-okn,confirmed,county_FIPS,county_FIPS:20123,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.20123,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.20123,False,
+geoconnex,spoke-okn,confirmed,county_FIPS,county_FIPS:08067,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.08067,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.08067,False,
+geoconnex,spoke-okn,confirmed,county_FIPS,county_FIPS:05039,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.05039,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.05039,False,
+geoconnex,spoke-okn,confirmed,county_FIPS,county_FIPS:27103,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.27103,False,,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.27103,False,
+geoconnex,spoke-okn,confirmed,state_FIPS,state_FIPS:06,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.06,False,,https://purl.org/okn/frink/kg/spoke-okn/location/06,True,California
+geoconnex,spoke-okn,confirmed,state_FIPS,state_FIPS:36,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.36,False,,https://purl.org/okn/frink/kg/spoke-okn/location/36,True,New York
+geoconnex,spoke-okn,confirmed,state_FIPS,state_FIPS:19,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.19,False,,https://purl.org/okn/frink/kg/spoke-okn/location/19,True,Iowa
+geoconnex,spoke-okn,confirmed,state_FIPS,state_FIPS:21,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.21,False,,https://purl.org/okn/frink/kg/spoke-okn/location/21,True,Kentucky
+geoconnex,spoke-okn,confirmed,state_FIPS,state_FIPS:47,http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.47,False,,https://purl.org/okn/frink/kg/spoke-okn/location/47,True,Tennessee
+biobricks-ice,biobricks-toxcast,confirmed,CAS,CAS:81405-85-8,http://identifiers.org/cas/81405-85-8,True,Imazamethabenz-methyl,http://identifiers.org/cas/81405-85-8,True,
+biobricks-ice,biobricks-toxcast,confirmed,CAS,CAS:2524-04-1,http://identifiers.org/cas/2524-04-1,True,"O,O-Diethyl chlorothiophosphate",http://identifiers.org/cas/2524-04-1,True,
+biobricks-ice,biobricks-toxcast,confirmed,CAS,CAS:97-32-5,http://identifiers.org/cas/97-32-5,True,4-Methoxy-3-nitro-N-phenylbenzamide,http://identifiers.org/cas/97-32-5,True,
+biobricks-ice,biobricks-toxcast,confirmed,CAS,CAS:14698-29-4,http://identifiers.org/cas/14698-29-4,True,Oxolinic acid,http://identifiers.org/cas/14698-29-4,True,
+biobricks-ice,biobricks-toxcast,confirmed,CAS,CAS:78416-81-6,http://identifiers.org/cas/78416-81-6,True,Trequinsin hydrochloride,http://identifiers.org/cas/78416-81-6,True,
+spoke-okn,sudokn,confirmed,ZIP5,ZIP5:28659,28659,True,,28659,True,
+spoke-okn,sudokn,confirmed,ZIP5,ZIP5:93611,93611,True,,93611,True,
+spoke-okn,sudokn,confirmed,ZIP5,ZIP5:52214,52214,True,,52214,True,
+spoke-okn,sudokn,confirmed,ZIP5,ZIP5:96797,96797,True,,96797,True,
+spoke-okn,sudokn,confirmed,ZIP5,ZIP5:46130,46130,True,,46130,True,
+spoke-okn,sudokn,confirmed,state_FIPS,state_FIPS:48,https://purl.org/okn/frink/kg/spoke-okn/location/48,True,Texas,22848,True,

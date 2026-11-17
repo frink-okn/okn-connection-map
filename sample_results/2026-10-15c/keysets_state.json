@@ -1,0 +1,4147 @@
+{
+ "endpoints": {
+  "60f4fd3a73": {
+   "distinct_values": 392,
+   "count_ms": 1005.1,
+   "narrowed": false,
+   "download_ms": 559.0,
+   "download_bytes": 14486,
+   "status": "ok",
+   "downloaded": 392,
+   "canonical_keys": 391,
+   "schemes": {
+    "CAS": 391
+   },
+   "unmatched_examples": [
+    "NOCAS"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/cas/100-00-5",
+    "http://identifiers.org/cas/100-42-5",
+    "http://identifiers.org/cas/10028-15-6"
+   ],
+   "at": "2026-10-16T00:01:10+00:00"
+  },
+  "f5c34cedc0": {
+   "distinct_values": 19084,
+   "count_ms": 536.7,
+   "narrowed": false,
+   "download_ms": 2560.9,
+   "download_bytes": 974074,
+   "status": "ok",
+   "downloaded": 19084,
+   "canonical_keys": 9117,
+   "schemes": {
+    "CAS": 9117
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/cas/NOCAS_110050",
+    "http://identifiers.org/cas/NOCAS_110051",
+    "http://identifiers.org/cas/NOCAS_20326",
+    "http://identifiers.org/cas/NOCAS_21988",
+    "http://identifiers.org/cas/NOCAS_24824"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/cas/100-00-5",
+    "http://identifiers.org/cas/100-01-6",
+    "http://identifiers.org/cas/100-02-7"
+   ],
+   "at": "2026-10-16T00:01:14+00:00"
+  },
+  "ac2951e1a7": {
+   "distinct_values": 1478,
+   "count_ms": 1323.5,
+   "narrowed": false,
+   "download_ms": 589.2,
+   "download_bytes": 69469,
+   "status": "ok",
+   "downloaded": 1478,
+   "canonical_keys": 1478,
+   "schemes": {
+    "Ensembl": 1478
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ensembl/ENSG00000000005",
+    "http://identifiers.org/ensembl/ENSG00000000971",
+    "http://identifiers.org/ensembl/ENSG00000001626"
+   ],
+   "at": "2026-10-16T00:01:16+00:00"
+  },
+  "24fc7ae226": {
+   "distinct_values": null,
+   "count_ms": null,
+   "narrowed": true,
+   "download_ms": 233211.2,
+   "download_bytes": 14068607,
+   "status": "ok_uncounted",
+   "downloaded": 284509,
+   "canonical_keys": 281467,
+   "schemes": {
+    "Ensembl": 281467
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/ensembl/ENSRNA049436695",
+    "http://identifiers.org/ensembl/ENSRNA049436725",
+    "http://identifiers.org/ensembl/ENSRNA049440515",
+    "http://identifiers.org/ensembl/ENSRNA049440716",
+    "http://identifiers.org/ensembl/ENSRNA049441102"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ensembl/ENSAPLG00000000580",
+    "http://identifiers.org/ensembl/ENSAPLG00000000587",
+    "http://identifiers.org/ensembl/ENSAPLG00000000588"
+   ],
+   "at": "2026-10-16T00:10:14+00:00"
+  },
+  "6dafd36d36": {
+   "distinct_values": 7883,
+   "count_ms": 21374.6,
+   "narrowed": false,
+   "download_ms": 1190.7,
+   "download_bytes": 316058,
+   "status": "ok",
+   "downloaded": 7883,
+   "canonical_keys": 7842,
+   "schemes": {
+    "UniProt": 7883
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.uniprot.org/uniprot/A0A024QY88",
+    "http://purl.uniprot.org/uniprot/A0A024QYT5",
+    "http://purl.uniprot.org/uniprot/A0A024QYY0"
+   ],
+   "at": "2026-10-16T00:10:38+00:00"
+  },
+  "2cec9c5126": {
+   "distinct_values": null,
+   "count_ms": null,
+   "narrowed": true,
+   "download_ms": 300653.0,
+   "download_bytes": 8388858,
+   "status": "ok_uncounted",
+   "downloaded": 203946,
+   "canonical_keys": 100585,
+   "schemes": {
+    "UniProt": 119548
+   },
+   "unmatched_examples": [
+    " !!!!>># An error has occurred while exporting the query result. Unfortunately due to limitations in the HTTP 1.1 protocol",
+    "Operation timed out.",
+    "http://purl.uniprot.org/uni",
+    "http://purl.uniprot.org/uniprot/BRE1A",
+    "http://purl.uniprot.org/uniprot/BRG1"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.uniprot.org/uniprot/A0A023JDV8",
+    "http://purl.uniprot.org/uniprot/A0A023T778",
+    "http://purl.uniprot.org/uniprot/A0A023UED4"
+   ],
+   "at": "2026-10-16T00:20:43+00:00"
+  },
+  "c0302c4921": {
+   "distinct_values": 1480,
+   "count_ms": 2201.2,
+   "narrowed": false,
+   "download_ms": 588.9,
+   "download_bytes": 55220,
+   "status": "ok",
+   "downloaded": 1480,
+   "canonical_keys": 1480,
+   "schemes": {
+    "Entrez": 1480
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ncbigene/100037417",
+    "http://identifiers.org/ncbigene/100038246",
+    "http://identifiers.org/ncbigene/10010"
+   ],
+   "at": "2026-10-16T00:20:47+00:00"
+  },
+  "123bb40dca": {
+   "distinct_values": 31469,
+   "count_ms": 50226.2,
+   "narrowed": true,
+   "download_ms": 27864.8,
+   "download_bytes": 1347559,
+   "status": "ok",
+   "downloaded": 31469,
+   "canonical_keys": 31469,
+   "schemes": {
+    "Entrez": 9293,
+    "MONDO": 22176
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ncbigene/1",
+    "http://identifiers.org/ncbigene/10",
+    "http://identifiers.org/ncbigene/100"
+   ],
+   "at": "2026-10-16T00:22:06+00:00"
+  },
+  "8b2e6481ef": {
+   "distinct_values": 1480,
+   "count_ms": 687.1,
+   "narrowed": false,
+   "download_ms": 596.2,
+   "download_bytes": 56700,
+   "status": "ok",
+   "downloaded": 1480,
+   "canonical_keys": 1480,
+   "schemes": {
+    "Entrez": 1480
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/100037417",
+    "http://www.ncbi.nlm.nih.gov/gene/100038246",
+    "http://www.ncbi.nlm.nih.gov/gene/10010"
+   ],
+   "at": "2026-10-16T00:22:08+00:00"
+  },
+  "d7f6148afe": {
+   "distinct_values": null,
+   "count_ms": null,
+   "narrowed": true,
+   "download_ms": 301308.7,
+   "download_bytes": 5243130,
+   "status": "ok_uncounted",
+   "downloaded": 130781,
+   "canonical_keys": 130778,
+   "schemes": {
+    "Entrez": 130778
+   },
+   "unmatched_examples": [
+    " !!!!>># An error has occurred while exporting the query result. Unfortunately due to limitations in the HTTP 1.1 protocol",
+    "Operation timed out.",
+    "http://www"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/1",
+    "http://www.ncbi.nlm.nih.gov/gene/10",
+    "http://www.ncbi.nlm.nih.gov/gene/100"
+   ],
+   "at": "2026-10-16T00:32:12+00:00"
+  },
+  "5248b8e520": {
+   "distinct_values": null,
+   "count_ms": null,
+   "narrowed": true,
+   "download_ms": 173016.5,
+   "download_bytes": 766855,
+   "status": "ok_uncounted",
+   "downloaded": 16316,
+   "canonical_keys": 16316,
+   "schemes": {
+    "Ensembl": 16316
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ensembl/ENSG00000000003",
+    "http://identifiers.org/ensembl/ENSG00000000419",
+    "http://identifiers.org/ensembl/ENSG00000000457"
+   ],
+   "at": "2026-10-16T00:40:07+00:00"
+  },
+  "dba367cb1d": {
+   "distinct_values": 399458,
+   "count_ms": 718.1,
+   "narrowed": false,
+   "download_ms": 40265.0,
+   "download_bytes": 20784190,
+   "status": "ok",
+   "downloaded": 399458,
+   "canonical_keys": 198562,
+   "schemes": {
+    "CAS": 198562
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/cas/NOCAS_1009960",
+    "http://identifiers.org/cas/NOCAS_1009972",
+    "http://identifiers.org/cas/NOCAS_1014175",
+    "http://identifiers.org/cas/NOCAS_1014307",
+    "http://identifiers.org/cas/NOCAS_1014330"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/cas/10-00-4",
+    "http://identifiers.org/cas/10-13-9",
+    "http://identifiers.org/cas/100-00-5"
+   ],
+   "at": "2026-10-16T00:40:56+00:00"
+  },
+  "40d2322c50": {
+   "distinct_values": 9542,
+   "count_ms": 643.2,
+   "narrowed": false,
+   "download_ms": 1173.4,
+   "download_bytes": 353477,
+   "status": "ok",
+   "downloaded": 9542,
+   "canonical_keys": 9117,
+   "schemes": {
+    "CAS": 9117
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/cas/NOCAS_110050",
+    "http://identifiers.org/cas/NOCAS_110051",
+    "http://identifiers.org/cas/NOCAS_20326",
+    "http://identifiers.org/cas/NOCAS_21988",
+    "http://identifiers.org/cas/NOCAS_24824"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/cas/100-00-5",
+    "http://identifiers.org/cas/100-01-6",
+    "http://identifiers.org/cas/100-02-7"
+   ],
+   "at": "2026-10-16T00:40:59+00:00"
+  },
+  "e8d5c13ddc": {
+   "distinct_values": 165,
+   "count_ms": 926.9,
+   "narrowed": false,
+   "download_ms": 715.9,
+   "download_bytes": 5808,
+   "status": "ok",
+   "downloaded": 165,
+   "canonical_keys": 165,
+   "schemes": {
+    "MeSH": 165
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://id.nlm.nih.gov/mesh/C562393",
+    "http://id.nlm.nih.gov/mesh/D000067877",
+    "http://id.nlm.nih.gov/mesh/D000071243"
+   ],
+   "at": "2026-10-16T00:41:01+00:00"
+  },
+  "9e480dfbe5": {
+   "distinct_values": 2437714,
+   "count_ms": 75150.5,
+   "narrowed": true,
+   "status": "too_large",
+   "at": "2026-10-16T00:42:17+00:00"
+  },
+  "4113bc1827": {
+   "distinct_values": 10004,
+   "count_ms": 16783.4,
+   "narrowed": false,
+   "download_ms": 1126.6,
+   "download_bytes": 355744,
+   "status": "ok",
+   "downloaded": 10004,
+   "canonical_keys": 9468,
+   "schemes": {
+    "MeSH": 9471,
+    "UMLS": 1
+   },
+   "unmatched_examples": [
+    "http://id.nlm.nih.gov/mesh/68018069",
+    "http://id.nlm.nih.gov/mesh/A.05.360.319.114.630.535.200",
+    "http://id.nlm.nih.gov/mesh/A.06.688",
+    "http://id.nlm.nih.gov/mesh/A.08.663.650.650",
+    "http://id.nlm.nih.gov/mesh/A.10.165.114.322"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://id.nlm.nih.gov/mesh/68018069",
+    "http://id.nlm.nih.gov/mesh/A.05.360.319.114.630.535.200",
+    "http://id.nlm.nih.gov/mesh/A.06.688"
+   ],
+   "at": "2026-10-16T00:42:36+00:00"
+  },
+  "139aed0876": {
+   "distinct_values": 762,
+   "count_ms": 973.4,
+   "narrowed": false,
+   "download_ms": 580.7,
+   "download_bytes": 40797,
+   "status": "ok",
+   "downloaded": 762,
+   "canonical_keys": 762,
+   "schemes": {
+    "PubChem_CID": 762
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10039",
+    "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1004",
+    "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10066"
+   ],
+   "at": "2026-10-16T00:42:38+00:00"
+  },
+  "3b0961e6be": {
+   "distinct_values": 14359940,
+   "count_ms": 10343.5,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T00:42:49+00:00"
+  },
+  "32329b7641": {
+   "distinct_values": 8947,
+   "count_ms": 32577.2,
+   "narrowed": true,
+   "download_ms": 20376.3,
+   "download_bytes": 330682,
+   "status": "ok",
+   "downloaded": 8947,
+   "canonical_keys": 8747,
+   "schemes": {
+    "CAS": 8747
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/cas/NOCAS_20326",
+    "http://identifiers.org/cas/NOCAS_21988",
+    "http://identifiers.org/cas/NOCAS_24824",
+    "http://identifiers.org/cas/NOCAS_24858",
+    "http://identifiers.org/cas/NOCAS_31209"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/cas/100-00-5",
+    "http://identifiers.org/cas/100-01-6",
+    "http://identifiers.org/cas/100-02-7"
+   ],
+   "at": "2026-10-16T00:43:42+00:00"
+  },
+  "320f0d245c": {
+   "distinct_values": 912,
+   "count_ms": 36874.3,
+   "narrowed": false,
+   "download_ms": 805.3,
+   "download_bytes": 41043,
+   "status": "ok",
+   "downloaded": 912,
+   "canonical_keys": 912,
+   "schemes": {
+    "MONDO": 912
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000032",
+    "http://purl.obolibrary.org/obo/MONDO_0000248",
+    "http://purl.obolibrary.org/obo/MONDO_0000386"
+   ],
+   "at": "2026-10-16T00:44:20+00:00"
+  },
+  "f3c2fe84ed": {
+   "distinct_values": 7527,
+   "count_ms": 567.4,
+   "narrowed": false,
+   "download_ms": 1039.9,
+   "download_bytes": 321437,
+   "status": "ok",
+   "downloaded": 7527,
+   "canonical_keys": 6985,
+   "schemes": {
+    "SNOMEDCT": 86,
+    "DOID": 5,
+    "GO": 4,
+    "HP": 275,
+    "MONDO": 3191,
+    "MP": 2,
+    "NCIT": 82,
+    "EFO": 1147,
+    "Orphanet": 2192,
+    "CHEBI": 1
+   },
+   "unmatched_examples": [
+    "http://sbmi.uth.tmc.edu/ontology/ochv#10226",
+    "http://sbmi.uth.tmc.edu/ontology/ochv#1073",
+    "http://sbmi.uth.tmc.edu/ontology/ochv#10837",
+    "http://sbmi.uth.tmc.edu/ontology/ochv#11771",
+    "http://sbmi.uth.tmc.edu/ontology/ochv#11905"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.bioontology.org/ontology/SNOMEDCT/107401000119105",
+    "http://purl.bioontology.org/ontology/SNOMEDCT/109969005",
+    "http://purl.bioontology.org/ontology/SNOMEDCT/109994006"
+   ],
+   "at": "2026-10-16T00:44:22+00:00"
+  },
+  "ac8726d76d": {
+   "distinct_values": 17818323,
+   "count_ms": 14278.8,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T00:44:37+00:00"
+  },
+  "c9051506d3": {
+   "distinct_values": 7404184,
+   "count_ms": 36992.6,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T00:45:15+00:00"
+  },
+  "53e91f2e8b": {
+   "distinct_values": 7404184,
+   "count_ms": 7986.4,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T00:45:23+00:00"
+  },
+  "1b4669c90b": {
+   "distinct_values": 6228,
+   "count_ms": 693.7,
+   "narrowed": false,
+   "download_ms": 1130.1,
+   "download_bytes": 367455,
+   "status": "ok",
+   "downloaded": 6228,
+   "canonical_keys": 3114,
+   "schemes": {
+    "county_FIPS": 6228
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01001",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01003",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01005"
+   ],
+   "at": "2026-10-16T00:45:26+00:00"
+  },
+  "d12edd9a8b": {
+   "distinct_values": 3196,
+   "count_ms": 910.6,
+   "narrowed": false,
+   "download_ms": 921.1,
+   "download_bytes": 236507,
+   "status": "ok",
+   "downloaded": 3196,
+   "canonical_keys": 3196,
+   "schemes": {
+    "county_FIPS": 3196
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01001",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01003",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01005"
+   ],
+   "at": "2026-10-16T00:45:28+00:00"
+  },
+  "14cb62f583": {
+   "distinct_values": 16316,
+   "count_ms": 562.5,
+   "narrowed": false,
+   "download_ms": 1920.7,
+   "download_bytes": 766855,
+   "status": "ok",
+   "downloaded": 16316,
+   "canonical_keys": 16316,
+   "schemes": {
+    "Ensembl": 16316
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ensembl/ENSG00000000003",
+    "http://identifiers.org/ensembl/ENSG00000000419",
+    "http://identifiers.org/ensembl/ENSG00000000457"
+   ],
+   "at": "2026-10-16T00:45:31+00:00"
+  },
+  "5ad35fc994": {
+   "distinct_values": 832742,
+   "count_ms": 940.8,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T00:45:33+00:00"
+  },
+  "cddf905973": {
+   "distinct_values": 3243,
+   "count_ms": 5326.6,
+   "narrowed": false,
+   "download_ms": 1321.7,
+   "download_bytes": 239985,
+   "status": "ok",
+   "downloaded": 3243,
+   "canonical_keys": 3243,
+   "schemes": {
+    "county_FIPS": 3243
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01000",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01001",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01003"
+   ],
+   "at": "2026-10-16T00:45:40+00:00"
+  },
+  "799526de8a": {
+   "distinct_values": 56,
+   "count_ms": 3813.7,
+   "narrowed": false,
+   "download_ms": 793.2,
+   "download_bytes": 3979,
+   "status": "ok",
+   "downloaded": 56,
+   "canonical_keys": 56,
+   "schemes": {
+    "state_FIPS": 56
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.02",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.04"
+   ],
+   "at": "2026-10-16T00:45:45+00:00"
+  },
+  "effa4ee732": {
+   "distinct_values": 102,
+   "count_ms": 507.0,
+   "narrowed": false,
+   "download_ms": 511.1,
+   "download_bytes": 5715,
+   "status": "ok",
+   "downloaded": 102,
+   "canonical_keys": 51,
+   "schemes": {
+    "state_FIPS": 102
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.02",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.04"
+   ],
+   "at": "2026-10-16T00:45:47+00:00"
+  },
+  "4ebbf8c56b": {
+   "distinct_values": 3243,
+   "count_ms": 1863.8,
+   "narrowed": false,
+   "download_ms": 1418.2,
+   "download_bytes": 178368,
+   "status": "ok",
+   "downloaded": 3243,
+   "canonical_keys": 3243,
+   "schemes": {
+    "county_FIPS": 3243
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01000",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01001",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01003"
+   ],
+   "at": "2026-10-16T00:45:51+00:00"
+  },
+  "e0f45be552": {
+   "distinct_values": null,
+   "count_ms": null,
+   "narrowed": true,
+   "download_ms": 300626.3,
+   "download_bytes": 6291706,
+   "status": "ok_uncounted",
+   "downloaded": 112221,
+   "canonical_keys": 19594,
+   "schemes": {
+    "Entrez": 16346,
+    "state_FIPS": 52,
+    "county_FIPS": 3196
+   },
+   "unmatched_examples": [
+    " !!!!>># An error has occurred while exporting the query result. Unfortunately due to limitations in the HTTP 1.1 protocol",
+    "Operation timed out.",
+    "ht",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/0100100",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/0100124"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/1",
+    "http://www.ncbi.nlm.nih.gov/gene/10",
+    "http://www.ncbi.nlm.nih.gov/gene/100"
+   ],
+   "at": "2026-10-16T00:55:55+00:00"
+  },
+  "f064ca89c6": {
+   "distinct_values": 106138,
+   "count_ms": 4198.9,
+   "narrowed": false,
+   "download_ms": 15989.8,
+   "download_bytes": 7854215,
+   "status": "ok",
+   "downloaded": 106138,
+   "canonical_keys": 106138,
+   "schemes": {
+    "S2_L13": 106138
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.5522341904064184320",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.5522342007143399424",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.5522342075862876160"
+   ],
+   "at": "2026-10-16T00:56:19+00:00"
+  },
+  "12082be059": {
+   "distinct_values": 3364,
+   "count_ms": 1056.0,
+   "narrowed": false,
+   "download_ms": 1116.2,
+   "download_bytes": 151383,
+   "status": "ok",
+   "downloaded": 3364,
+   "canonical_keys": 3364,
+   "schemes": {
+    "MONDO": 3364
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000001",
+    "http://purl.obolibrary.org/obo/MONDO_0000004",
+    "http://purl.obolibrary.org/obo/MONDO_0000082"
+   ],
+   "at": "2026-10-16T00:56:22+00:00"
+  },
+  "cc396c6c73": {
+   "distinct_values": 8793,
+   "count_ms": 1157.0,
+   "narrowed": false,
+   "download_ms": 2082.1,
+   "download_bytes": 376200,
+   "status": "ok",
+   "downloaded": 8793,
+   "canonical_keys": 8793,
+   "schemes": {
+    "HP": 6496,
+    "MONDO": 2297
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/HP_0000003",
+    "http://purl.obolibrary.org/obo/HP_0000005",
+    "http://purl.obolibrary.org/obo/HP_0000006"
+   ],
+   "at": "2026-10-16T00:56:26+00:00"
+  },
+  "f45efc85d9": {
+   "distinct_values": 2,
+   "count_ms": 793.1,
+   "narrowed": false,
+   "download_ms": 518.5,
+   "download_bytes": 151,
+   "status": "ok",
+   "downloaded": 2,
+   "canonical_keys": 2,
+   "schemes": {
+    "county_FIPS": 2
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.17031",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.42101"
+   ],
+   "at": "2026-10-16T00:56:28+00:00"
+  },
+  "b477b94168": {
+   "distinct_values": null,
+   "count_ms": 567.6,
+   "narrowed": true,
+   "download_ms": 501.0,
+   "download_bytes": 0,
+   "status": "count_failed",
+   "error_kind": "http_error",
+   "error": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.30.5</center>\r\n</body>\r\n</html>\r\n",
+   "at": "2026-10-16T00:57:19+00:00"
+  },
+  "e98dae0063": {
+   "distinct_values": 2,
+   "count_ms": 941.2,
+   "narrowed": false,
+   "download_ms": 543.3,
+   "download_bytes": 113,
+   "status": "ok",
+   "downloaded": 2,
+   "canonical_keys": 2,
+   "schemes": {
+    "county_FIPS": 2
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/17031",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/42101"
+   ],
+   "at": "2026-10-16T00:57:40+00:00"
+  },
+  "f4a1692366": {
+   "distinct_values": 137,
+   "count_ms": 1663.8,
+   "narrowed": false,
+   "download_ms": 553.3,
+   "download_bytes": 2031,
+   "status": "ok",
+   "downloaded": 137,
+   "canonical_keys": 137,
+   "schemes": {
+    "LABEL": 137
+   },
+   "unmatched_examples": [
+    "Alachua County",
+    "Appling County",
+    "Autauga County",
+    "Baker County",
+    "Baldwin County"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "Alachua County",
+    "Appling County",
+    "Autauga County"
+   ],
+   "at": "2026-10-16T00:57:43+00:00"
+  },
+  "518f1f1202": {
+   "distinct_values": 67,
+   "count_ms": 3512.0,
+   "narrowed": false,
+   "download_ms": 586.6,
+   "download_bytes": 1007,
+   "status": "ok",
+   "downloaded": 67,
+   "canonical_keys": 67,
+   "schemes": {
+    "LABEL": 67
+   },
+   "unmatched_examples": [
+    "Alachua County",
+    "Baker County",
+    "Bay County",
+    "Bradford County",
+    "Brevard County"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "Alachua County",
+    "Baker County",
+    "Bay County"
+   ],
+   "at": "2026-10-16T00:57:48+00:00"
+  },
+  "6adf514e3f": {
+   "distinct_values": 6496,
+   "count_ms": 8564.7,
+   "narrowed": false,
+   "download_ms": 1235.2,
+   "download_bytes": 272835,
+   "status": "ok",
+   "downloaded": 6496,
+   "canonical_keys": 6496,
+   "schemes": {
+    "HP": 6496
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/HP_0000003",
+    "http://purl.obolibrary.org/obo/HP_0000005",
+    "http://purl.obolibrary.org/obo/HP_0000006"
+   ],
+   "at": "2026-10-16T00:57:58+00:00"
+  },
+  "6e35e5bf89": {
+   "distinct_values": null,
+   "count_ms": null,
+   "narrowed": true,
+   "download_ms": null,
+   "download_bytes": 0,
+   "status": "count_failed",
+   "error_kind": "timeout",
+   "error": "timed out after 300.0s",
+   "at": "2026-10-16T01:08:00+00:00"
+  },
+  "8eb81d10a5": {
+   "distinct_values": 2297,
+   "count_ms": 8751.4,
+   "narrowed": false,
+   "download_ms": 759.5,
+   "download_bytes": 103368,
+   "status": "ok",
+   "downloaded": 2297,
+   "canonical_keys": 2297,
+   "schemes": {
+    "MONDO": 2297
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000050",
+    "http://purl.obolibrary.org/obo/MONDO_0000087",
+    "http://purl.obolibrary.org/obo/MONDO_0000088"
+   ],
+   "at": "2026-10-16T01:08:10+00:00"
+  },
+  "144e768811": {
+   "distinct_values": 78687,
+   "count_ms": 534.3,
+   "narrowed": false,
+   "download_ms": 7469.5,
+   "download_bytes": 3698292,
+   "status": "ok",
+   "downloaded": 78687,
+   "canonical_keys": 78687,
+   "schemes": {
+    "Ensembl": 78687
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ensembl/ENSG00000000003",
+    "http://identifiers.org/ensembl/ENSG00000000005",
+    "http://identifiers.org/ensembl/ENSG00000000419"
+   ],
+   "at": "2026-10-16T01:08:19+00:00"
+  },
+  "3aaee37983": {
+   "distinct_values": 78687,
+   "count_ms": 2090.9,
+   "narrowed": false,
+   "download_ms": 2892.4,
+   "download_bytes": 1258995,
+   "status": "ok",
+   "downloaded": 78687,
+   "canonical_keys": 78687,
+   "schemes": {
+    "Ensembl": 78687
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "ENSG00000000003",
+    "ENSG00000000005",
+    "ENSG00000000419"
+   ],
+   "at": "2026-10-16T01:08:25+00:00"
+  },
+  "cf2d137dc1": {
+   "distinct_values": 813072,
+   "count_ms": 936.0,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:08:27+00:00"
+  },
+  "f015cc1feb": {
+   "distinct_values": 16346,
+   "count_ms": 14797.3,
+   "narrowed": false,
+   "download_ms": 807.1,
+   "download_bytes": 94405,
+   "status": "ok",
+   "downloaded": 16346,
+   "canonical_keys": 16346,
+   "schemes": {
+    "Entrez": 16346
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "1",
+    "10",
+    "100"
+   ],
+   "at": "2026-10-16T01:08:43+00:00"
+  },
+  "d8c011d345": {
+   "distinct_values": 22176,
+   "count_ms": 67298.7,
+   "narrowed": false,
+   "download_ms": 26609.3,
+   "download_bytes": 997923,
+   "status": "ok",
+   "downloaded": 22176,
+   "canonical_keys": 22176,
+   "schemes": {
+    "MONDO": 22176
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000001",
+    "http://purl.obolibrary.org/obo/MONDO_0000004",
+    "http://purl.obolibrary.org/obo/MONDO_0000005"
+   ],
+   "at": "2026-10-16T01:10:18+00:00"
+  },
+  "4b3ffb1481": {
+   "distinct_values": 9293,
+   "count_ms": 757.4,
+   "narrowed": false,
+   "download_ms": 1082.7,
+   "download_bytes": 358932,
+   "status": "ok",
+   "downloaded": 9293,
+   "canonical_keys": 9293,
+   "schemes": {
+    "Entrez": 9293
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/1",
+    "http://www.ncbi.nlm.nih.gov/gene/10",
+    "http://www.ncbi.nlm.nih.gov/gene/100"
+   ],
+   "at": "2026-10-16T01:10:20+00:00"
+  },
+  "a56532064a": {
+   "distinct_values": 7404184,
+   "count_ms": 24765.7,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:10:46+00:00"
+  },
+  "86b445820d": {
+   "distinct_values": 160,
+   "count_ms": 1159.6,
+   "narrowed": false,
+   "download_ms": 537.6,
+   "download_bytes": 7518,
+   "status": "ok",
+   "downloaded": 160,
+   "canonical_keys": 160,
+   "schemes": {
+    "NCBITaxon": 160
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_10184",
+    "http://purl.obolibrary.org/obo/NCBITaxon_117571",
+    "http://purl.obolibrary.org/obo/NCBITaxon_123366"
+   ],
+   "at": "2026-10-16T01:10:48+00:00"
+  },
+  "e08eab6a77": {
+   "distinct_values": 3886036,
+   "count_ms": 9573.6,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:10:58+00:00"
+  },
+  "a47d7209ad": {
+   "distinct_values": 9,
+   "count_ms": 1170.1,
+   "narrowed": false,
+   "download_ms": 573.9,
+   "download_bytes": 420,
+   "status": "ok",
+   "downloaded": 9,
+   "canonical_keys": 9,
+   "schemes": {
+    "NCBITaxon": 9
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+    "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "http://purl.obolibrary.org/obo/NCBITaxon_13613"
+   ],
+   "at": "2026-10-16T01:11:00+00:00"
+  },
+  "fc2409333b": {
+   "distinct_values": 34570,
+   "count_ms": 2501.3,
+   "narrowed": false,
+   "download_ms": 3611.9,
+   "download_bytes": 1685010,
+   "status": "ok",
+   "downloaded": 34570,
+   "canonical_keys": 34570,
+   "schemes": {
+    "NCBITaxon": 34570
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_100053",
+    "http://purl.obolibrary.org/obo/NCBITaxon_1000588",
+    "http://purl.obolibrary.org/obo/NCBITaxon_1000935"
+   ],
+   "at": "2026-10-16T01:11:07+00:00"
+  },
+  "63ab196f18": {
+   "distinct_values": 8,
+   "count_ms": 565.3,
+   "narrowed": false,
+   "download_ms": 587.4,
+   "download_bytes": 373,
+   "status": "ok",
+   "downloaded": 8,
+   "canonical_keys": 8,
+   "schemes": {
+    "NCBITaxon": 8
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+    "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+   ],
+   "at": "2026-10-16T01:11:09+00:00"
+  },
+  "9a3afd3bee": {
+   "distinct_values": 166,
+   "count_ms": 722.6,
+   "narrowed": false,
+   "download_ms": 606.9,
+   "download_bytes": 7764,
+   "status": "ok",
+   "downloaded": 166,
+   "canonical_keys": 166,
+   "schemes": {
+    "NCBITaxon": 166
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_1002698",
+    "http://purl.obolibrary.org/obo/NCBITaxon_10036",
+    "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+   ],
+   "at": "2026-10-16T01:11:11+00:00"
+  },
+  "5f7a5b8582": {
+   "distinct_values": 1808,
+   "count_ms": 1896.6,
+   "narrowed": false,
+   "download_ms": 594.9,
+   "download_bytes": 85434,
+   "status": "ok",
+   "downloaded": 1808,
+   "canonical_keys": 1807,
+   "schemes": {
+    "NCBITaxon": 1807
+   },
+   "unmatched_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_https://www.uniprot.org/taxonomy/NA"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_1",
+    "http://purl.obolibrary.org/obo/NCBITaxon_10026",
+    "http://purl.obolibrary.org/obo/NCBITaxon_10029"
+   ],
+   "at": "2026-10-16T01:11:14+00:00"
+  },
+  "48759c0f84": {
+   "distinct_values": 46,
+   "count_ms": 534.4,
+   "narrowed": false,
+   "download_ms": 533.4,
+   "download_bytes": 2173,
+   "status": "ok",
+   "downloaded": 46,
+   "canonical_keys": 46,
+   "schemes": {
+    "NCBITaxon": 46
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_106589",
+    "http://purl.obolibrary.org/obo/NCBITaxon_1236",
+    "http://purl.obolibrary.org/obo/NCBITaxon_1268"
+   ],
+   "at": "2026-10-16T01:11:15+00:00"
+  },
+  "7ab040b07b": {
+   "distinct_values": 361,
+   "count_ms": 1128.0,
+   "narrowed": false,
+   "download_ms": 644.5,
+   "download_bytes": 6669,
+   "status": "ok",
+   "downloaded": 361,
+   "canonical_keys": 361,
+   "schemes": {
+    "LABEL": 361
+   },
+   "unmatched_examples": [
+    "Accipiter cooperii",
+    "Accipiter striatus",
+    "Acridotheres tristis",
+    "Acris",
+    "Acris crepitans"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "Accipiter cooperii",
+    "Accipiter striatus",
+    "Acridotheres tristis"
+   ],
+   "at": "2026-10-16T01:11:18+00:00"
+  },
+  "1d9cea701d": {
+   "distinct_values": 2694008,
+   "count_ms": 11929.6,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:11:30+00:00"
+  },
+  "73ba7388fa": {
+   "distinct_values": 0,
+   "count_ms": 564.4,
+   "narrowed": false,
+   "status": "empty",
+   "at": "2026-10-16T01:11:31+00:00"
+  },
+  "8e6e20d738": {
+   "distinct_values": 0,
+   "count_ms": 553.5,
+   "narrowed": false,
+   "status": "empty",
+   "at": "2026-10-16T01:11:32+00:00"
+  },
+  "d4efb55ca1": {
+   "distinct_values": 233,
+   "count_ms": 906.9,
+   "narrowed": false,
+   "download_ms": 762.1,
+   "download_bytes": 2666,
+   "status": "ok",
+   "downloaded": 233,
+   "canonical_keys": 88,
+   "schemes": {
+    "LABEL": 88
+   },
+   "unmatched_examples": [
+    "100",
+    "111",
+    "112",
+    "113",
+    "114"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "91",
+    "92",
+    "100"
+   ],
+   "at": "2026-10-16T01:11:34+00:00"
+  },
+  "407d6813e8": {
+   "distinct_values": 4500,
+   "count_ms": 528.3,
+   "narrowed": false,
+   "download_ms": 2802.5,
+   "download_bytes": 150464,
+   "status": "ok",
+   "downloaded": 4500,
+   "canonical_keys": 4352,
+   "schemes": {
+    "LABEL": 4352
+   },
+   "unmatched_examples": [
+    " OTC night-time pain reliever; not otherwise specfd.",
+    "\"Binge\" alcohol use (IRALCBNG30D = 1 to 30)",
+    "$10,000 - $19,999",
+    "$100,000 to < $200,000Notes: INCOME3=9,10",
+    "$100.00 to $149.99"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "",
+    " OTC night-time pain reliever; not otherwise specfd.",
+    "- $110.10 HOURLY WAGE"
+   ],
+   "at": "2026-10-16T01:11:38+00:00"
+  },
+  "01eca0b82e": {
+   "distinct_values": 67,
+   "count_ms": 939.5,
+   "narrowed": false,
+   "download_ms": 519.4,
+   "download_bytes": 990,
+   "status": "ok",
+   "downloaded": 67,
+   "canonical_keys": 67,
+   "schemes": {
+    "LABEL": 67
+   },
+   "unmatched_examples": [
+    "aerospace",
+    "agriculture",
+    "apparel",
+    "audioandvisual",
+    "automotive"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "aerospace",
+    "agriculture",
+    "apparel"
+   ],
+   "at": "2026-10-16T01:11:40+00:00"
+  },
+  "8cdd4e1c75": {
+   "distinct_values": 59,
+   "count_ms": 1229.1,
+   "narrowed": false,
+   "download_ms": 515.5,
+   "download_bytes": 856,
+   "status": "ok",
+   "downloaded": 59,
+   "canonical_keys": 59,
+   "schemes": {
+    "LABEL": 59
+   },
+   "unmatched_examples": [
+    "aerospace",
+    "agriculture",
+    "apparel",
+    "audioandvisual",
+    "automotive"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "aerospace",
+    "agriculture",
+    "apparel"
+   ],
+   "at": "2026-10-16T01:11:43+00:00"
+  },
+  "93fe5a7782": {
+   "distinct_values": 1069,
+   "count_ms": 557.8,
+   "narrowed": false,
+   "download_ms": 586.2,
+   "download_bytes": 79109,
+   "status": "ok",
+   "downloaded": 1069,
+   "canonical_keys": 1069,
+   "schemes": {
+    "S2_L13": 1069
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.5965661247171985408",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.5965661281531723776",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.5965664408267915264"
+   ],
+   "at": "2026-10-16T01:11:44+00:00"
+  },
+  "8bac151b41": {
+   "distinct_values": 10911082,
+   "count_ms": 7446.3,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:11:52+00:00"
+  },
+  "bc08da311e": {
+   "distinct_values": 62,
+   "count_ms": 581.7,
+   "narrowed": false,
+   "download_ms": 611.9,
+   "download_bytes": 3661,
+   "status": "ok",
+   "downloaded": 62,
+   "canonical_keys": 31,
+   "schemes": {
+    "county_FIPS": 62
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01067",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01083",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01087"
+   ],
+   "at": "2026-10-16T01:11:54+00:00"
+  },
+  "a3c736c4c0": {
+   "distinct_values": 139719,
+   "count_ms": 544.1,
+   "narrowed": false,
+   "download_ms": 11107.1,
+   "download_bytes": 5596038,
+   "status": "ok",
+   "downloaded": 139719,
+   "canonical_keys": 139719,
+   "schemes": {
+    "Entrez": 139719
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/1",
+    "http://www.ncbi.nlm.nih.gov/gene/10",
+    "http://www.ncbi.nlm.nih.gov/gene/100"
+   ],
+   "at": "2026-10-16T01:12:08+00:00"
+  },
+  "6fb125385c": {
+   "distinct_values": 16346,
+   "count_ms": 616.7,
+   "narrowed": false,
+   "download_ms": 1606.5,
+   "download_bytes": 633823,
+   "status": "ok",
+   "downloaded": 16346,
+   "canonical_keys": 16346,
+   "schemes": {
+    "Entrez": 16346
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/1",
+    "http://www.ncbi.nlm.nih.gov/gene/10",
+    "http://www.ncbi.nlm.nih.gov/gene/100"
+   ],
+   "at": "2026-10-16T01:12:12+00:00"
+  },
+  "09f44964f3": {
+   "distinct_values": 900,
+   "count_ms": 2379.7,
+   "narrowed": false,
+   "download_ms": 626.5,
+   "download_bytes": 38714,
+   "status": "ok",
+   "downloaded": 900,
+   "canonical_keys": 900,
+   "schemes": {
+    "CHEBI": 900
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/CHEBI_10106",
+    "http://purl.obolibrary.org/obo/CHEBI_113455",
+    "http://purl.obolibrary.org/obo/CHEBI_116509"
+   ],
+   "at": "2026-10-16T01:12:15+00:00"
+  },
+  "6f000b90b9": {
+   "distinct_values": 180,
+   "count_ms": 490.2,
+   "narrowed": false,
+   "download_ms": 519.7,
+   "download_bytes": 7447,
+   "status": "ok",
+   "downloaded": 180,
+   "canonical_keys": 180,
+   "schemes": {
+    "DOID": 180
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/DOID_0050567",
+    "http://purl.obolibrary.org/obo/DOID_0050589",
+    "http://purl.obolibrary.org/obo/DOID_0050700"
+   ],
+   "at": "2026-10-16T01:12:17+00:00"
+  },
+  "92584408f5": {
+   "distinct_values": 42724,
+   "count_ms": 2350.2,
+   "narrowed": false,
+   "download_ms": 24858.9,
+   "download_bytes": 256347,
+   "status": "ok",
+   "downloaded": 42724,
+   "canonical_keys": 42724,
+   "schemes": {
+    "ZIP5": 42724
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "00501",
+    "00544",
+    "00601"
+   ],
+   "at": "2026-10-16T01:12:45+00:00"
+  },
+  "acc7f15005": {
+   "distinct_values": 235,
+   "count_ms": 616.7,
+   "narrowed": false,
+   "download_ms": 534.6,
+   "download_bytes": 1413,
+   "status": "ok",
+   "downloaded": 235,
+   "canonical_keys": 235,
+   "schemes": {
+    "ZIP5": 235
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "17602",
+    "19013",
+    "19023"
+   ],
+   "at": "2026-10-16T01:12:47+00:00"
+  },
+  "3cf1a9cd5e": {
+   "distinct_values": 4613,
+   "count_ms": 531.6,
+   "narrowed": false,
+   "download_ms": 948.9,
+   "download_bytes": 204754,
+   "status": "ok",
+   "downloaded": 4613,
+   "canonical_keys": 4613,
+   "schemes": {
+    "DOID": 288,
+    "HP": 258,
+    "MONDO": 3364,
+    "NCIT": 703
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/DOID_0040001",
+    "http://purl.obolibrary.org/obo/DOID_0040084",
+    "http://purl.obolibrary.org/obo/DOID_0050025"
+   ],
+   "at": "2026-10-16T01:12:49+00:00"
+  },
+  "db95cb685a": {
+   "distinct_values": 912,
+   "count_ms": 46674.0,
+   "narrowed": false,
+   "download_ms": 936.2,
+   "download_bytes": 41043,
+   "status": "ok",
+   "downloaded": 912,
+   "canonical_keys": 912,
+   "schemes": {
+    "MONDO": 912
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000032",
+    "http://purl.obolibrary.org/obo/MONDO_0000248",
+    "http://purl.obolibrary.org/obo/MONDO_0000386"
+   ],
+   "at": "2026-10-16T01:13:37+00:00"
+  },
+  "49b5cf4c5f": {
+   "distinct_values": 13,
+   "count_ms": 549.2,
+   "narrowed": false,
+   "download_ms": 501.0,
+   "download_bytes": 549,
+   "status": "ok",
+   "downloaded": 13,
+   "canonical_keys": 13,
+   "schemes": {
+    "HP": 13
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/HP_0000103",
+    "http://purl.obolibrary.org/obo/HP_0001397",
+    "http://purl.obolibrary.org/obo/HP_0001399"
+   ],
+   "at": "2026-10-16T01:13:39+00:00"
+  },
+  "375460c665": {
+   "distinct_values": 536227,
+   "count_ms": 2047.9,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:13:41+00:00"
+  },
+  "11ce55c49a": {
+   "distinct_values": 17205,
+   "count_ms": 66059.3,
+   "narrowed": true,
+   "download_ms": 2289.4,
+   "download_bytes": 774228,
+   "status": "ok",
+   "downloaded": 17205,
+   "canonical_keys": 17205,
+   "schemes": {
+    "MONDO": 17205
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000001",
+    "http://purl.obolibrary.org/obo/MONDO_0000004",
+    "http://purl.obolibrary.org/obo/MONDO_0000005"
+   ],
+   "at": "2026-10-16T01:14:50+00:00"
+  },
+  "bd28a492a0": {
+   "distinct_values": 5420,
+   "count_ms": 1453.2,
+   "narrowed": false,
+   "download_ms": 746.8,
+   "download_bytes": 32463,
+   "status": "ok",
+   "downloaded": 5420,
+   "canonical_keys": 5420,
+   "schemes": {
+    "ZIP5": 5420
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "01002",
+    "01003",
+    "01005"
+   ],
+   "at": "2026-10-16T01:14:53+00:00"
+  },
+  "299962528d": {
+   "distinct_values": 3234,
+   "count_ms": 619.4,
+   "narrowed": false,
+   "download_ms": 829.4,
+   "download_bytes": 177873,
+   "status": "ok",
+   "downloaded": 3234,
+   "canonical_keys": 3234,
+   "schemes": {
+    "county_FIPS": 3234
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01001",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01003",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01005"
+   ],
+   "at": "2026-10-16T01:14:55+00:00"
+  },
+  "dfc0b9346c": {
+   "distinct_values": 31,
+   "count_ms": 528.2,
+   "narrowed": false,
+   "download_ms": 495.3,
+   "download_bytes": 1708,
+   "status": "ok",
+   "downloaded": 31,
+   "canonical_keys": 31,
+   "schemes": {
+    "county_FIPS": 31
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01067",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01083",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01087"
+   ],
+   "at": "2026-10-16T01:14:56+00:00"
+  },
+  "6cddf97647": {
+   "distinct_values": 18,
+   "count_ms": 516.6,
+   "narrowed": false,
+   "download_ms": 503.7,
+   "download_bytes": 939,
+   "status": "ok",
+   "downloaded": 18,
+   "canonical_keys": 18,
+   "schemes": {
+    "state_FIPS": 18
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/08",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/13"
+   ],
+   "at": "2026-10-16T01:14:58+00:00"
+  },
+  "b6f4bde148": {
+   "distinct_values": 3196,
+   "count_ms": 826.0,
+   "narrowed": false,
+   "download_ms": 925.1,
+   "download_bytes": 236507,
+   "status": "ok",
+   "downloaded": 3196,
+   "canonical_keys": 3196,
+   "schemes": {
+    "county_FIPS": 3196
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01001",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01003",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/administrativeRegion.USA.01005"
+   ],
+   "at": "2026-10-16T01:15:00+00:00"
+  },
+  "a3172a8ab1": {
+   "distinct_values": 51,
+   "count_ms": 570.8,
+   "narrowed": false,
+   "download_ms": 541.3,
+   "download_bytes": 2655,
+   "status": "ok",
+   "downloaded": 51,
+   "canonical_keys": 51,
+   "schemes": {
+    "state_FIPS": 51
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/01",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/02",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/04"
+   ],
+   "at": "2026-10-16T01:15:02+00:00"
+  },
+  "779a1c9b8b": {
+   "distinct_values": 1592,
+   "count_ms": 4511.4,
+   "narrowed": false,
+   "download_ms": 775.8,
+   "download_bytes": 71643,
+   "status": "ok",
+   "downloaded": 1592,
+   "canonical_keys": 1592,
+   "schemes": {
+    "MONDO": 1592
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000119",
+    "http://purl.obolibrary.org/obo/MONDO_0000153",
+    "http://purl.obolibrary.org/obo/MONDO_0000190"
+   ],
+   "at": "2026-10-16T01:15:08+00:00"
+  },
+  "545096616e": {
+   "distinct_values": 8793,
+   "count_ms": 947.4,
+   "narrowed": false,
+   "download_ms": 1899.6,
+   "download_bytes": 376200,
+   "status": "ok",
+   "downloaded": 8793,
+   "canonical_keys": 8793,
+   "schemes": {
+    "HP": 6496,
+    "MONDO": 2297
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/HP_0000003",
+    "http://purl.obolibrary.org/obo/HP_0000005",
+    "http://purl.obolibrary.org/obo/HP_0000006"
+   ],
+   "at": "2026-10-16T01:15:11+00:00"
+  },
+  "de98f3ad03": {
+   "distinct_values": 97087,
+   "count_ms": 21880.5,
+   "narrowed": false,
+   "download_ms": 14558.6,
+   "download_bytes": 7184441,
+   "status": "ok",
+   "downloaded": 97087,
+   "canonical_keys": 97087,
+   "schemes": {
+    "S2_L13": 97087
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.9813437372946186240",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.9813437407305924608",
+    "http://stko-kwg.geog.ucsb.edu/lod/resource/s2.level13.9813437441665662976"
+   ],
+   "at": "2026-10-16T01:15:51+00:00"
+  },
+  "9077323d3b": {
+   "distinct_values": 2074,
+   "count_ms": 614.6,
+   "narrowed": false,
+   "download_ms": 561.3,
+   "download_bytes": 82963,
+   "status": "ok",
+   "downloaded": 2074,
+   "canonical_keys": 2074,
+   "schemes": {
+    "DrugBank": 2074
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/drugbank/DB00001",
+    "http://identifiers.org/drugbank/DB00002",
+    "http://identifiers.org/drugbank/DB00003"
+   ],
+   "at": "2026-10-16T01:15:53+00:00"
+  },
+  "df850753d5": {
+   "distinct_values": 3825,
+   "count_ms": 546.8,
+   "narrowed": false,
+   "download_ms": 737.5,
+   "download_bytes": 171103,
+   "status": "ok",
+   "downloaded": 3825,
+   "canonical_keys": 2583,
+   "schemes": {
+    "ChEMBL": 746,
+    "DrugBank": 175,
+    "PubChem_CID": 762,
+    "CHEBI": 900
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/biocyc/11-DCE",
+    "http://identifiers.org/biocyc/111-TRICHLOROETHANE",
+    "http://identifiers.org/biocyc/1112-TETRACHLOROETHANE",
+    "http://identifiers.org/biocyc/112-TRICHLOROETHANE",
+    "http://identifiers.org/biocyc/1122-TETRACHLOROETHANE"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/biocyc/11-DCE",
+    "http://identifiers.org/biocyc/111-TRICHLOROETHANE",
+    "http://identifiers.org/biocyc/1112-TETRACHLOROETHANE"
+   ],
+   "at": "2026-10-16T01:15:55+00:00"
+  },
+  "247b4034a7": {
+   "distinct_values": 7,
+   "count_ms": 669.8,
+   "narrowed": false,
+   "download_ms": 531.6,
+   "download_bytes": 283,
+   "status": "ok",
+   "downloaded": 7,
+   "canonical_keys": 7,
+   "schemes": {
+    "DrugBank": 7
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/drugbank/DB00907",
+    "http://identifiers.org/drugbank/DB01221",
+    "http://identifiers.org/drugbank/DB01452"
+   ],
+   "at": "2026-10-16T01:15:56+00:00"
+  },
+  "32de8da35f": {
+   "distinct_values": 16875,
+   "count_ms": 531.8,
+   "narrowed": false,
+   "download_ms": 2377.5,
+   "download_bytes": 1022629,
+   "status": "ok",
+   "downloaded": 16875,
+   "canonical_keys": 2074,
+   "schemes": {
+    "DrugBank": 2074
+   },
+   "unmatched_examples": [
+    "https://rdaccelerate.org/resource/CTDRUG_06benzylguanine",
+    "https://rdaccelerate.org/resource/CTDRUG_0_01_hypochlorous_acid",
+    "https://rdaccelerate.org/resource/CTDRUG_0_025_tretinoin",
+    "https://rdaccelerate.org/resource/CTDRUG_0_02mg_dutasteride",
+    "https://rdaccelerate.org/resource/CTDRUG_0_03_nf"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/drugbank/DB00001",
+    "http://identifiers.org/drugbank/DB00002",
+    "http://identifiers.org/drugbank/DB00003"
+   ],
+   "at": "2026-10-16T01:16:00+00:00"
+  },
+  "3d7132e0f7": {
+   "distinct_values": 938,
+   "count_ms": 658.0,
+   "narrowed": false,
+   "download_ms": 1897.5,
+   "download_bytes": 9967,
+   "status": "ok",
+   "downloaded": 938,
+   "canonical_keys": 923,
+   "schemes": {
+    "LABEL": 923
+   },
+   "unmatched_examples": [
+    "22848",
+    "510-0074",
+    "AGU",
+    "AZ",
+    "Aargau"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "",
+    "22848",
+    "510-0074"
+   ],
+   "at": "2026-10-16T01:16:03+00:00"
+  },
+  "e8857ac71f": {
+   "distinct_values": 51,
+   "count_ms": 672.7,
+   "narrowed": false,
+   "download_ms": 592.2,
+   "download_bytes": 496,
+   "status": "ok",
+   "downloaded": 51,
+   "canonical_keys": 51,
+   "schemes": {
+    "LABEL": 51
+   },
+   "unmatched_examples": [
+    "Alabama",
+    "Alaska",
+    "Arizona",
+    "Arkansas",
+    "California"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "Alabama",
+    "Alaska",
+    "Arizona"
+   ],
+   "at": "2026-10-16T01:16:05+00:00"
+  },
+  "cf92afa22d": {
+   "distinct_values": 21381,
+   "count_ms": 8510.1,
+   "narrowed": false,
+   "download_ms": 827.2,
+   "download_bytes": 192432,
+   "status": "ok",
+   "downloaded": 21381,
+   "canonical_keys": 21381,
+   "schemes": {
+    "UMLS": 21381
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "C0000744",
+    "C0000774",
+    "C0000809"
+   ],
+   "at": "2026-10-16T01:16:15+00:00"
+  },
+  "b2bbb96543": {
+   "distinct_values": null,
+   "count_ms": null,
+   "narrowed": true,
+   "download_ms": 300611.3,
+   "download_bytes": 12583162,
+   "status": "ok_uncounted",
+   "downloaded": 246726,
+   "canonical_keys": 246723,
+   "schemes": {
+    "UMLS": 246723
+   },
+   "unmatched_examples": [
+    " !!!!>># An error has occurred while exporting the query result. Unfortunately due to limitations in the HTTP 1.1 protocol",
+    "Operation timed out.",
+    "https://biohealthkg.proto-okn.net/kg"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "https://biohealthkg.proto-okn.net/kg/node/C0000039",
+    "https://biohealthkg.proto-okn.net/kg/node/C0000052",
+    "https://biohealthkg.proto-okn.net/kg/node/C0000084"
+   ],
+   "at": "2026-10-16T01:26:19+00:00"
+  },
+  "54ba7f5119": {
+   "distinct_values": 12762,
+   "count_ms": 10064.6,
+   "narrowed": false,
+   "download_ms": 687.0,
+   "download_bytes": 114860,
+   "status": "ok",
+   "downloaded": 12762,
+   "canonical_keys": 12761,
+   "schemes": {
+    "UMLS": 12761
+   },
+   "unmatched_examples": [
+    "0189573"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "0189573",
+    "C0000731",
+    "C0000737"
+   ],
+   "at": "2026-10-16T01:26:31+00:00"
+  },
+  "f64c1d75e8": {
+   "distinct_values": 11127,
+   "count_ms": 1067.9,
+   "narrowed": false,
+   "download_ms": 740.4,
+   "download_bytes": 100146,
+   "status": "ok",
+   "downloaded": 11127,
+   "canonical_keys": 11127,
+   "schemes": {
+    "UMLS": 11127
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "C0000744",
+    "C0000774",
+    "C0000832"
+   ],
+   "at": "2026-10-16T01:26:34+00:00"
+  },
+  "037c49a5d5": {
+   "distinct_values": 6496,
+   "count_ms": 11222.9,
+   "narrowed": false,
+   "download_ms": 1016.9,
+   "download_bytes": 272835,
+   "status": "ok",
+   "downloaded": 6496,
+   "canonical_keys": 6496,
+   "schemes": {
+    "HP": 6496
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/HP_0000003",
+    "http://purl.obolibrary.org/obo/HP_0000005",
+    "http://purl.obolibrary.org/obo/HP_0000006"
+   ],
+   "at": "2026-10-16T01:26:47+00:00"
+  },
+  "fdb40e492d": {
+   "distinct_values": 3364,
+   "count_ms": 1105.5,
+   "narrowed": false,
+   "download_ms": 702.0,
+   "download_bytes": 151383,
+   "status": "ok",
+   "downloaded": 3364,
+   "canonical_keys": 3364,
+   "schemes": {
+    "MONDO": 3364
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000001",
+    "http://purl.obolibrary.org/obo/MONDO_0000004",
+    "http://purl.obolibrary.org/obo/MONDO_0000082"
+   ],
+   "at": "2026-10-16T01:26:49+00:00"
+  },
+  "b73918f81f": {
+   "distinct_values": 13,
+   "count_ms": 570.1,
+   "narrowed": false,
+   "download_ms": 506.6,
+   "download_bytes": 549,
+   "status": "ok",
+   "downloaded": 13,
+   "canonical_keys": 13,
+   "schemes": {
+    "HP": 13
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/HP_0000103",
+    "http://purl.obolibrary.org/obo/HP_0001397",
+    "http://purl.obolibrary.org/obo/HP_0001399"
+   ],
+   "at": "2026-10-16T01:26:51+00:00"
+  },
+  "ece0dc904d": {
+   "distinct_values": 362,
+   "count_ms": 669.2,
+   "narrowed": false,
+   "download_ms": 553.3,
+   "download_bytes": 16655,
+   "status": "ok",
+   "downloaded": 362,
+   "canonical_keys": 362,
+   "schemes": {
+    "UBERON": 362
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/UBERON_0000002",
+    "http://purl.obolibrary.org/obo/UBERON_0000004",
+    "http://purl.obolibrary.org/obo/UBERON_0000006"
+   ],
+   "at": "2026-10-16T01:26:52+00:00"
+  },
+  "5b011137b9": {
+   "distinct_values": 42,
+   "count_ms": 560.8,
+   "narrowed": false,
+   "download_ms": 575.4,
+   "download_bytes": 1935,
+   "status": "ok",
+   "downloaded": 42,
+   "canonical_keys": 42,
+   "schemes": {
+    "UBERON": 42
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/UBERON_0000033",
+    "http://purl.obolibrary.org/obo/UBERON_0000178",
+    "http://purl.obolibrary.org/obo/UBERON_0000468"
+   ],
+   "at": "2026-10-16T01:26:54+00:00"
+  },
+  "dac9d0c05d": {
+   "distinct_values": 34570,
+   "count_ms": 2920.7,
+   "narrowed": false,
+   "download_ms": 3617.2,
+   "download_bytes": 1685010,
+   "status": "ok",
+   "downloaded": 34570,
+   "canonical_keys": 34570,
+   "schemes": {
+    "NCBITaxon": 34570
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/NCBITaxon_100053",
+    "http://purl.obolibrary.org/obo/NCBITaxon_1000588",
+    "http://purl.obolibrary.org/obo/NCBITaxon_1000935"
+   ],
+   "at": "2026-10-16T01:27:01+00:00"
+  },
+  "12b80d9c4a": {
+   "distinct_values": 250847,
+   "count_ms": 4125.7,
+   "narrowed": false,
+   "download_ms": 103528.7,
+   "download_bytes": 5131605,
+   "status": "ok",
+   "downloaded": 250847,
+   "canonical_keys": 250757,
+   "schemes": {
+    "PubChem_CID": 3,
+    "LABEL": 250754
+   },
+   "unmatched_examples": [
+    "\"Popcorn\" calcification",
+    "% area reduction",
+    "% fetal cells",
+    "% normal",
+    "% of total"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "-desis",
+    "-rhaphy",
+    "'de novo' GDP-L-fucose biosynthesis"
+   ],
+   "at": "2026-10-16T01:28:53+00:00"
+  },
+  "7468b6b57c": {
+   "distinct_values": 2457,
+   "count_ms": 612.2,
+   "narrowed": false,
+   "download_ms": 694.1,
+   "download_bytes": 128118,
+   "status": "ok",
+   "downloaded": 2457,
+   "canonical_keys": 1210,
+   "schemes": {
+    "BTO": 11,
+    "CL": 223,
+    "DOID": 3,
+    "EFO": 342,
+    "FBBT": 6,
+    "FBDV": 3,
+    "FMA": 1,
+    "GO": 2,
+    "HANCESTRO": 10,
+    "HP": 10,
+    "MONDO": 27,
+    "NCBITaxon": 1,
+    "NCIT": 2,
+    "PATO": 7,
+    "PO": 165,
+    "UBERON": 362,
+    "WBLS": 2,
+    "Orphanet": 33
+   },
+   "unmatched_examples": [
+    "http://purl.org/okn/wobd/Anatomy/AWA_neuron",
+    "http://purl.org/okn/wobd/Anatomy/Epidermis_including_guard_cells",
+    "http://purl.org/okn/wobd/Anatomy/Mesenchyme_plus_epithelium%2C_maxillary",
+    "http://purl.org/okn/wobd/Anatomy/Root_Decelerating_Elongation_Zone",
+    "http://purl.org/okn/wobd/Anatomy/Root_Early_Elongation_Zone"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/BTO_0000214",
+    "http://purl.obolibrary.org/obo/BTO_0000221",
+    "http://purl.obolibrary.org/obo/BTO_0000608"
+   ],
+   "at": "2026-10-16T01:28:56+00:00"
+  },
+  "783193ccca": {
+   "distinct_values": 223,
+   "count_ms": 606.8,
+   "narrowed": false,
+   "download_ms": 542.5,
+   "download_bytes": 9369,
+   "status": "ok",
+   "downloaded": 223,
+   "canonical_keys": 223,
+   "schemes": {
+    "CL": 223
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/CL_0000018",
+    "http://purl.obolibrary.org/obo/CL_0000019",
+    "http://purl.obolibrary.org/obo/CL_0000023"
+   ],
+   "at": "2026-10-16T01:28:57+00:00"
+  },
+  "3282d095ee": {
+   "distinct_values": 2771282,
+   "count_ms": 2947.3,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:29:01+00:00"
+  },
+  "8e5b3443d8": {
+   "distinct_values": 7,
+   "count_ms": 537.0,
+   "narrowed": false,
+   "download_ms": 609.3,
+   "download_bytes": 297,
+   "status": "ok",
+   "downloaded": 7,
+   "canonical_keys": 7,
+   "schemes": {
+    "CL": 7
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/CL_0000000",
+    "http://purl.obolibrary.org/obo/CL_0000056",
+    "http://purl.obolibrary.org/obo/CL_0000081"
+   ],
+   "at": "2026-10-16T01:29:02+00:00"
+  },
+  "7f64242b5c": {
+   "distinct_values": 21710,
+   "count_ms": 563.8,
+   "narrowed": false,
+   "download_ms": 2218.3,
+   "download_bytes": 870744,
+   "status": "ok",
+   "downloaded": 21710,
+   "canonical_keys": 21052,
+   "schemes": {
+    "Entrez": 21052
+   },
+   "unmatched_examples": [
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/000504869af34fb6e7e0",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/005882f6a16cdc1e7669",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/00e89908ee495df85fdc",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/01014809e5c2653011b8",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/0108d04ca5fe95d769e2"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/1",
+    "http://www.ncbi.nlm.nih.gov/gene/10",
+    "http://www.ncbi.nlm.nih.gov/gene/100"
+   ],
+   "at": "2026-10-16T01:29:06+00:00"
+  },
+  "f1a58dc039": {
+   "distinct_values": 21710,
+   "count_ms": 5802.5,
+   "narrowed": false,
+   "download_ms": 2036.0,
+   "download_bytes": 849692,
+   "status": "ok",
+   "downloaded": 21710,
+   "canonical_keys": 21052,
+   "schemes": {
+    "Entrez": 21052
+   },
+   "unmatched_examples": [
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/000504869af34fb6e7e0",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/005882f6a16cdc1e7669",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/00e89908ee495df85fdc",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/01014809e5c2653011b8",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/gene/0108d04ca5fe95d769e2"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ncbigene/1",
+    "http://identifiers.org/ncbigene/10",
+    "http://identifiers.org/ncbigene/100"
+   ],
+   "at": "2026-10-16T01:29:15+00:00"
+  },
+  "3d2cd512ce": {
+   "distinct_values": 21710,
+   "count_ms": 10546.5,
+   "narrowed": false,
+   "download_ms": 804.9,
+   "download_bytes": 143128,
+   "status": "ok",
+   "downloaded": 21710,
+   "canonical_keys": 21052,
+   "schemes": {
+    "Entrez": 21052
+   },
+   "unmatched_examples": [
+    "000504869af34fb6e7e0",
+    "005882f6a16cdc1e7669",
+    "00e89908ee495df85fdc",
+    "01014809e5c2653011b8",
+    "0108d04ca5fe95d769e2"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "000504869af34fb6e7e0",
+    "005882f6a16cdc1e7669",
+    "00e89908ee495df85fdc"
+   ],
+   "at": "2026-10-16T01:29:27+00:00"
+  },
+  "c2ff8ca021": {
+   "distinct_values": 3439,
+   "count_ms": 8426.7,
+   "narrowed": false,
+   "download_ms": 704.4,
+   "download_bytes": 135736,
+   "status": "ok",
+   "downloaded": 3439,
+   "canonical_keys": 3439,
+   "schemes": {
+    "MONDO": 226,
+    "EFO": 1687,
+    "Orphanet": 1526
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000001",
+    "http://purl.obolibrary.org/obo/MONDO_0000158",
+    "http://purl.obolibrary.org/obo/MONDO_0001039"
+   ],
+   "at": "2026-10-16T01:29:36+00:00"
+  },
+  "132788b675": {
+   "distinct_values": 869,
+   "count_ms": 507.4,
+   "narrowed": false,
+   "download_ms": 570.0,
+   "download_bytes": 40378,
+   "status": "ok",
+   "downloaded": 869,
+   "canonical_keys": 584,
+   "schemes": {
+    "DOID": 4,
+    "EFO": 476,
+    "HP": 13,
+    "MONDO": 36,
+    "NCBITaxon": 1,
+    "NCIT": 1,
+    "PATO": 1,
+    "Orphanet": 52
+   },
+   "unmatched_examples": [
+    "http://purl.org/okn/wobd/Disease/AIDs_related_Burkitts_lymphoma",
+    "http://purl.org/okn/wobd/Disease/Aicardi-Goutières_syndrome",
+    "http://purl.org/okn/wobd/Disease/Alzheimers_disease",
+    "http://purl.org/okn/wobd/Disease/Alzheimer’s_disease",
+    "http://purl.org/okn/wobd/Disease/BCR-ABL1-driven_ALL"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/DOID_0050523",
+    "http://purl.obolibrary.org/obo/DOID_0080711",
+    "http://purl.obolibrary.org/obo/DOID_0081254"
+   ],
+   "at": "2026-10-16T01:29:38+00:00"
+  },
+  "684675688d": {
+   "distinct_values": 10,
+   "count_ms": 647.4,
+   "narrowed": false,
+   "download_ms": 568.4,
+   "download_bytes": 104,
+   "status": "ok",
+   "downloaded": 10,
+   "canonical_keys": 10,
+   "schemes": {
+    "MeSH": 10
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "D000077230",
+    "D000088662",
+    "D000090004"
+   ],
+   "at": "2026-10-16T01:29:40+00:00"
+  },
+  "edbe3e3ff9": {
+   "distinct_values": 1426,
+   "count_ms": 1124.9,
+   "narrowed": false,
+   "download_ms": 569.5,
+   "download_bytes": 31949,
+   "status": "ok",
+   "downloaded": 1426,
+   "canonical_keys": 1426,
+   "schemes": {
+    "LABEL": 1426
+   },
+   "unmatched_examples": [
+    "ACS_AVG_HH_SIZE",
+    "ACS_GINI_INDEX",
+    "ACS_MDN_GRNDPRNT_INC",
+    "ACS_MDN_GRNDPRNT_NO_PRNT_INC",
+    "ACS_MDN_OWNER_COST_MORTGAGE"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "Abnormal weight",
+    "Access to physical activity facility",
+    "ACS_AVG_HH_SIZE"
+   ],
+   "at": "2026-10-16T01:29:42+00:00"
+  },
+  "8de1fb57cc": {
+   "distinct_values": 214,
+   "count_ms": 558.6,
+   "narrowed": false,
+   "download_ms": 558.9,
+   "download_bytes": 8348,
+   "status": "ok",
+   "downloaded": 214,
+   "canonical_keys": 213,
+   "schemes": {
+    "UniProt": 213
+   },
+   "unmatched_examples": [
+    "http://purl.uniprot.org/uniprot/HINT1"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.uniprot.org/uniprot/A2RUH7",
+    "http://purl.uniprot.org/uniprot/HINT1",
+    "http://purl.uniprot.org/uniprot/L0R6I3"
+   ],
+   "at": "2026-10-16T01:29:44+00:00"
+  },
+  "b99a73399c": {
+   "distinct_values": 214,
+   "count_ms": 557.5,
+   "narrowed": false,
+   "download_ms": 559.5,
+   "download_bytes": 8348,
+   "status": "ok",
+   "downloaded": 214,
+   "canonical_keys": 213,
+   "schemes": {
+    "UniProt": 213
+   },
+   "unmatched_examples": [
+    "https://identifiers.org/uniprot/HINT1"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "https://identifiers.org/uniprot/A2RUH7",
+    "https://identifiers.org/uniprot/HINT1",
+    "https://identifiers.org/uniprot/L0R6I3"
+   ],
+   "at": "2026-10-16T01:29:45+00:00"
+  },
+  "4b11a64263": {
+   "distinct_values": 13692,
+   "count_ms": 1430.3,
+   "narrowed": false,
+   "download_ms": 2469.0,
+   "download_bytes": 567241,
+   "status": "ok",
+   "downloaded": 13692,
+   "canonical_keys": 11752,
+   "schemes": {
+    "CHEBI": 415,
+    "ChEMBL": 333,
+    "DrugBank": 206,
+    "Ensembl": 1478,
+    "Entrez": 1480,
+    "PubChem_CID": 403,
+    "UniProt": 7437
+   },
+   "unmatched_examples": [
+    "https://identifiers.org/chebi/10023",
+    "https://identifiers.org/chebi/100241",
+    "https://identifiers.org/chebi/100246",
+    "https://identifiers.org/chebi/10127",
+    "https://identifiers.org/chebi/101278"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "https://identifiers.org/chebi/10023",
+    "https://identifiers.org/chebi/100241",
+    "https://identifiers.org/chebi/100246"
+   ],
+   "at": "2026-10-16T01:29:50+00:00"
+  },
+  "b2435b07e5": {
+   "distinct_values": 12,
+   "count_ms": 544.7,
+   "narrowed": false,
+   "download_ms": 549.3,
+   "download_bytes": 507,
+   "status": "ok",
+   "downloaded": 12,
+   "canonical_keys": 12,
+   "schemes": {
+    "CL": 12
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/CL_0000094",
+    "http://purl.obolibrary.org/obo/CL_0000233",
+    "http://purl.obolibrary.org/obo/CL_0000542"
+   ],
+   "at": "2026-10-16T01:29:51+00:00"
+  },
+  "d8a18f9d88": {
+   "distinct_values": 78687,
+   "count_ms": 2789.6,
+   "narrowed": false,
+   "download_ms": 6986.4,
+   "download_bytes": 3383544,
+   "status": "ok",
+   "downloaded": 78687,
+   "canonical_keys": 78687,
+   "schemes": {
+    "Ensembl": 78687
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://www.ensembl.org/id/ENSG00000000003",
+    "https://www.ensembl.org/id/ENSG00000000005",
+    "https://www.ensembl.org/id/ENSG00000000419"
+   ],
+   "at": "2026-10-16T01:30:03+00:00"
+  },
+  "8f15f60ac2": {
+   "distinct_values": 16316,
+   "count_ms": 1107.5,
+   "narrowed": false,
+   "download_ms": 1790.1,
+   "download_bytes": 701591,
+   "status": "ok",
+   "downloaded": 16316,
+   "canonical_keys": 16316,
+   "schemes": {
+    "Ensembl": 16316
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://www.ensembl.org/id/ENSG00000000003",
+    "https://www.ensembl.org/id/ENSG00000000419",
+    "https://www.ensembl.org/id/ENSG00000000457"
+   ],
+   "at": "2026-10-16T01:30:06+00:00"
+  },
+  "4abf2d6a2c": {
+   "distinct_values": 38372,
+   "count_ms": 549.6,
+   "narrowed": false,
+   "download_ms": 3592.9,
+   "download_bytes": 1647768,
+   "status": "ok",
+   "downloaded": 38372,
+   "canonical_keys": 38329,
+   "schemes": {
+    "HGNC": 328,
+    "Ensembl": 38001
+   },
+   "unmatched_examples": [
+    "https://research.bioinformatics.udel.edu/ProKN/rdf/Gene_ABL1",
+    "https://research.bioinformatics.udel.edu/ProKN/rdf/Gene_ABL2",
+    "https://research.bioinformatics.udel.edu/ProKN/rdf/Gene_ALK",
+    "https://research.bioinformatics.udel.edu/ProKN/rdf/Gene_BRAF",
+    "https://research.bioinformatics.udel.edu/ProKN/rdf/Gene_CRLF2"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/hgnc/10082",
+    "http://identifiers.org/hgnc/10100",
+    "http://identifiers.org/hgnc/10101"
+   ],
+   "at": "2026-10-16T01:30:11+00:00"
+  },
+  "8116fd5f35": {
+   "distinct_values": 8325,
+   "count_ms": 581.7,
+   "narrowed": false,
+   "download_ms": 1157.8,
+   "download_bytes": 356325,
+   "status": "ok",
+   "downloaded": 8325,
+   "canonical_keys": 8325,
+   "schemes": {
+    "HGNC": 177,
+    "Ensembl": 8148
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/hgnc/10667",
+    "http://identifiers.org/hgnc/11313",
+    "http://identifiers.org/hgnc/11319"
+   ],
+   "at": "2026-10-16T01:30:14+00:00"
+  },
+  "8ea254450c": {
+   "distinct_values": 17448,
+   "count_ms": 1346.4,
+   "narrowed": false,
+   "download_ms": 1769.9,
+   "download_bytes": 732819,
+   "status": "ok",
+   "downloaded": 17448,
+   "canonical_keys": 17448,
+   "schemes": {
+    "GO": 17448
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/GO_0000002",
+    "http://purl.obolibrary.org/obo/GO_0000009",
+    "http://purl.obolibrary.org/obo/GO_0000012"
+   ],
+   "at": "2026-10-16T01:30:18+00:00"
+  },
+  "f1b329220d": {
+   "distinct_values": 1483,
+   "count_ms": 1156.6,
+   "narrowed": false,
+   "download_ms": 607.1,
+   "download_bytes": 68874,
+   "status": "ok",
+   "downloaded": 1483,
+   "canonical_keys": 1483,
+   "schemes": {
+    "Reactome": 1483
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://identifiers.org/reactome/R-HSA-1059683",
+    "https://identifiers.org/reactome/R-HSA-109581",
+    "https://identifiers.org/reactome/R-HSA-109582"
+   ],
+   "at": "2026-10-16T01:30:20+00:00"
+  },
+  "3c0a9449d4": {
+   "distinct_values": 0,
+   "count_ms": 516.7,
+   "narrowed": false,
+   "status": "empty",
+   "at": "2026-10-16T01:30:21+00:00"
+  },
+  "edc06b92b9": {
+   "distinct_values": 114,
+   "count_ms": 964.3,
+   "narrowed": false,
+   "download_ms": 936.3,
+   "download_bytes": 4333,
+   "status": "ok",
+   "downloaded": 114,
+   "canonical_keys": 114,
+   "schemes": {
+    "CAS": 114
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/cas/108427-53-8",
+    "http://identifiers.org/cas/112823-28-6",
+    "http://identifiers.org/cas/113507-82-7"
+   ],
+   "at": "2026-10-16T01:30:23+00:00"
+  },
+  "5e2ac75433": {
+   "distinct_values": 0,
+   "count_ms": 566.0,
+   "narrowed": false,
+   "status": "empty",
+   "at": "2026-10-16T01:30:24+00:00"
+  },
+  "f95f69b500": {
+   "distinct_values": 394,
+   "count_ms": 504.6,
+   "narrowed": false,
+   "download_ms": 552.6,
+   "download_bytes": 24001,
+   "status": "ok",
+   "downloaded": 394,
+   "canonical_keys": 0,
+   "schemes": {},
+   "unmatched_examples": [
+    "https://climatepub4kg.github.io/id/Source/20CRv2c",
+    "https://climatepub4kg.github.io/id/Source/4AOP-v1-5",
+    "https://climatepub4kg.github.io/id/Source/ACCESS-CM2",
+    "https://climatepub4kg.github.io/id/Source/ACCESS-ESM1-5",
+    "https://climatepub4kg.github.io/id/Source/ACCESS1-3-rcp85-1-0"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "https://climatepub4kg.github.io/id/Source/20CRv2c",
+    "https://climatepub4kg.github.io/id/Source/4AOP-v1-5",
+    "https://climatepub4kg.github.io/id/Source/ACCESS-CM2"
+   ],
+   "at": "2026-10-16T01:30:26+00:00"
+  },
+  "e0b621e78b": {
+   "distinct_values": 4695894,
+   "count_ms": 3955.8,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:30:30+00:00"
+  },
+  "e3e5454950": {
+   "distinct_values": 82,
+   "count_ms": 777.9,
+   "narrowed": false,
+   "download_ms": 558.1,
+   "download_bytes": 3110,
+   "status": "ok",
+   "downloaded": 82,
+   "canonical_keys": 80,
+   "schemes": {
+    "CAS": 80
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/cas/19572-60-12",
+    "http://identifiers.org/cas/2936-553"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/cas/101200-48-0",
+    "http://identifiers.org/cas/104040-79-1",
+    "http://identifiers.org/cas/104206-82-8"
+   ],
+   "at": "2026-10-16T01:30:32+00:00"
+  },
+  "5cbd8f424c": {
+   "distinct_values": 525,
+   "count_ms": 817.3,
+   "narrowed": false,
+   "download_ms": 585.5,
+   "download_bytes": 19814,
+   "status": "ok",
+   "downloaded": 525,
+   "canonical_keys": 510,
+   "schemes": {
+    "Entrez": 525
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ncbigene/10000",
+    "http://identifiers.org/ncbigene/100005148",
+    "http://identifiers.org/ncbigene/100009085"
+   ],
+   "at": "2026-10-16T01:30:34+00:00"
+  },
+  "4953915508": {
+   "distinct_values": 58,
+   "count_ms": 593.5,
+   "narrowed": false,
+   "download_ms": 565.3,
+   "download_bytes": 3045,
+   "status": "ok",
+   "downloaded": 58,
+   "canonical_keys": 55,
+   "schemes": {
+    "UMLS": 55
+   },
+   "unmatched_examples": [
+    "https://biohealthkg.proto-okn.net/kg/node/https://identifiers.org/umls:CUI%3ACU1156938",
+    "https://biohealthkg.proto-okn.net/kg/node/https://identifiers.org/umls:None",
+    "https://biohealthkg.proto-okn.net/kg/node/https://identifiers.org/umls:na"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "https://biohealthkg.proto-okn.net/kg/node/C0000768",
+    "https://biohealthkg.proto-okn.net/kg/node/C0007586",
+    "https://biohealthkg.proto-okn.net/kg/node/C0007587"
+   ],
+   "at": "2026-10-16T01:30:36+00:00"
+  },
+  "caa25f1f3c": {
+   "distinct_values": 34847,
+   "count_ms": 600.1,
+   "narrowed": false,
+   "download_ms": 8174.5,
+   "download_bytes": 274609,
+   "status": "ok",
+   "downloaded": 34847,
+   "canonical_keys": 0,
+   "schemes": {},
+   "unmatched_examples": [
+    "1000006",
+    "1000501",
+    "1000543",
+    "100077",
+    "1000937"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "1000006",
+    "1000501",
+    "1000543"
+   ],
+   "at": "2026-10-16T01:30:49+00:00"
+  },
+  "67692f7308": {
+   "distinct_values": 6066,
+   "count_ms": 607.7,
+   "narrowed": false,
+   "download_ms": 1061.5,
+   "download_bytes": 46346,
+   "status": "ok",
+   "downloaded": 6066,
+   "canonical_keys": 0,
+   "schemes": {},
+   "unmatched_examples": [
+    "00",
+    "001",
+    "003",
+    "005",
+    "007"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "00",
+    "001",
+    "003"
+   ],
+   "at": "2026-10-16T01:30:51+00:00"
+  },
+  "06707e970b": {
+   "distinct_values": 762,
+   "count_ms": 1561.8,
+   "narrowed": false,
+   "download_ms": 534.0,
+   "download_bytes": 21339,
+   "status": "ok",
+   "downloaded": 762,
+   "canonical_keys": 762,
+   "schemes": {
+    "InChIKey": 762
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "AAEVYOVXGOFMJO-UHFFFAOYSA-N",
+    "AAPVQEMYVNZIOO-UHFFFAOYSA-N",
+    "ACGUYXCXAPNIKK-UHFFFAOYSA-N"
+   ],
+   "at": "2026-10-16T01:30:54+00:00"
+  },
+  "10b7604b21": {
+   "distinct_values": 304376,
+   "count_ms": 651.3,
+   "narrowed": false,
+   "download_ms": 25035.8,
+   "download_bytes": 8522531,
+   "status": "ok",
+   "downloaded": 304376,
+   "canonical_keys": 304376,
+   "schemes": {
+    "InChIKey": 304376
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "AAACBXVBBDAYRQ-UHFFFAOYSA-N",
+    "AAADPBLPXCELKR-UHFFFAOYSA-N",
+    "AAADQEFQWNJHOZ-UHFFFAOYSA-N"
+   ],
+   "at": "2026-10-16T01:31:23+00:00"
+  },
+  "5410ce983e": {
+   "distinct_values": 10699,
+   "count_ms": 862.2,
+   "narrowed": false,
+   "download_ms": 1264.5,
+   "download_bytes": 444631,
+   "status": "ok",
+   "downloaded": 10699,
+   "canonical_keys": 0,
+   "schemes": {},
+   "unmatched_examples": [
+    "https://doi.org/10.1002/(sici)1097-0088(19990630)19:8<835::aid-joc401>3.0.co;2-e",
+    "https://doi.org/10.1002/2013ef000199",
+    "https://doi.org/10.1002/2013gl057877",
+    "https://doi.org/10.1002/2013gl058818",
+    "https://doi.org/10.1002/2013gl059099"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "https://doi.org/10.1002/(sici)1097-0088(19990630)19:8<835::aid-joc401>3.0.co;2-e",
+    "https://doi.org/10.1002/2013ef000199",
+    "https://doi.org/10.1002/2013gl057877"
+   ],
+   "at": "2026-10-16T01:31:26+00:00"
+  },
+  "d2a441718a": {
+   "distinct_values": 457036,
+   "count_ms": 25253.4,
+   "narrowed": false,
+   "download_ms": 39365.0,
+   "download_bytes": 19979900,
+   "status": "ok",
+   "downloaded": 457036,
+   "canonical_keys": 1,
+   "schemes": {
+    "CAS": 1
+   },
+   "unmatched_examples": [
+    "10.1016/j.fecs.2024.100183  html: http://dx.doi.org/10.1016/j.jobab.2023.11.001; 10.1016/j.jobab.2023.11.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969823000737/s2369969823000737.xml html: http://dx.doi.org/10.1016/j.jobab.2023.12.006; 10.1016/j.jobab.2023.12.006; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969823000804/s2369969823000804.xml html: http://dx.doi.org/10.1016/j.jobab.2024.01.001; 10.1016/j.jobab.2024.01.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s236996982400001x/s236996982400001x.xml html: http://dx.doi.org/10.1016/j.jobab.2024.01.003; 10.1016/j.jobab.2024.01.003; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000148/s2369969824000148.xml html: http://dx.doi.org/10.1016/j.jobab.2024.01.004; 10.1016/j.jobab.2024.01.004; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s236996982400015x/s236996982400015x.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.001; 10.1016/j.jobab.2024.03.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000185/s2369969824000185.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.002; 10.1016/j.jobab.2024.03.002; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000197/s2369969824000197.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.003; 10.1016/j.jobab.2024.03.003; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000203/s2369969824000203.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.004; 10.1016/j.jobab.2024.03.004; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000215/s2369969824000215.xml html: http://dx.doi.org/10.1016/j.wen.2024.03.001; 10.1016/j.wen.2024.03.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2588-9125/s2588912523x00034/s2588912524000055/s2588912524000055.xml",
+    "http://dx.doi.org/10.1001/amajethics.2022.944",
+    "http://dx.doi.org/10.1001/amajethics.2023.843",
+    "http://dx.doi.org/10.1001/amajethics.2024.171",
+    "http://dx.doi.org/10.1001/amajethics.2024.99"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "10.1016/j.fecs.2024.100183  html: http://dx.doi.org/10.1016/j.jobab.2023.11.001; 10.1016/j.jobab.2023.11.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969823000737/s2369969823000737.xml html: http://dx.doi.org/10.1016/j.jobab.2023.12.006; 10.1016/j.jobab.2023.12.006; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969823000804/s2369969823000804.xml html: http://dx.doi.org/10.1016/j.jobab.2024.01.001; 10.1016/j.jobab.2024.01.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s236996982400001x/s236996982400001x.xml html: http://dx.doi.org/10.1016/j.jobab.2024.01.003; 10.1016/j.jobab.2024.01.003; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000148/s2369969824000148.xml html: http://dx.doi.org/10.1016/j.jobab.2024.01.004; 10.1016/j.jobab.2024.01.004; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s236996982400015x/s236996982400015x.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.001; 10.1016/j.jobab.2024.03.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000185/s2369969824000185.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.002; 10.1016/j.jobab.2024.03.002; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000197/s2369969824000197.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.003; 10.1016/j.jobab.2024.03.003; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000203/s2369969824000203.xml html: http://dx.doi.org/10.1016/j.jobab.2024.03.004; 10.1016/j.jobab.2024.03.004; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2369-9698/s2369969824x00031/s2369969824000215/s2369969824000215.xml html: http://dx.doi.org/10.1016/j.wen.2024.03.001; 10.1016/j.wen.2024.03.001; open: 1; file: /proj/ads/abstracts/data/els/consyn.geo.new/2588-9125/s2588912523x00034/s2588912524000055/s2588912524000055.xml",
+    "http://dx.doi.org/10.1001/amajethics.2022.944",
+    "http://dx.doi.org/10.1001/amajethics.2023.843"
+   ],
+   "at": "2026-10-16T01:32:41+00:00"
+  },
+  "dd78bfce24": {
+   "distinct_values": 5463,
+   "count_ms": 7537.0,
+   "narrowed": false,
+   "download_ms": 737.2,
+   "download_bytes": 122984,
+   "status": "ok",
+   "downloaded": 5463,
+   "canonical_keys": 5464,
+   "schemes": {
+    "dbSNP": 1,
+    "LABEL": 5463
+   },
+   "unmatched_examples": [
+    "(a)atsr",
+    "(portable) immersion mode cooling chamber [(p)imca]",
+    "05103-l r.m. young",
+    "1 m ring net",
+    "1-inch, 20-megapixel complementary metal oxide semiconductor camera"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "(a)atsr",
+    "(portable) immersion mode cooling chamber [(p)imca]",
+    "05103-l r.m. young"
+   ],
+   "at": "2026-10-16T01:32:49+00:00"
+  },
+  "bc9c64aab3": {
+   "distinct_values": 918,
+   "count_ms": 1099.4,
+   "narrowed": false,
+   "download_ms": 615.8,
+   "download_bytes": 9608,
+   "status": "ok",
+   "downloaded": 918,
+   "canonical_keys": 918,
+   "schemes": {
+    "LABEL": 918
+   },
+   "unmatched_examples": [
+    "11.5um radiometer",
+    "2b technologies",
+    "2b technologies no monitor",
+    "2b technologies no2 converter",
+    "2d-gray"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "11.5um radiometer",
+    "2b technologies",
+    "2b technologies no monitor"
+   ],
+   "at": "2026-10-16T01:32:52+00:00"
+  },
+  "f7194587dc": {
+   "distinct_values": 4135,
+   "count_ms": 4316.4,
+   "narrowed": false,
+   "download_ms": 639.6,
+   "download_bytes": 69668,
+   "status": "ok",
+   "downloaded": 4135,
+   "canonical_keys": 4134,
+   "schemes": {
+    "LABEL": 4134
+   },
+   "unmatched_examples": [
+    "1.5-m hand-held carbon fiber boom",
+    "10 m meteorological tower",
+    "16 m class luvoir",
+    "2.1m scoop buoy",
+    "3.5-m telescope"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "1.5-m hand-held carbon fiber boom",
+    "10 m meteorological tower",
+    "16 m class luvoir"
+   ],
+   "at": "2026-10-16T01:32:57+00:00"
+  },
+  "cf73836cc9": {
+   "distinct_values": 441,
+   "count_ms": 913.3,
+   "narrowed": false,
+   "download_ms": 698.1,
+   "download_bytes": 4250,
+   "status": "ok",
+   "downloaded": 441,
+   "canonical_keys": 441,
+   "schemes": {
+    "LABEL": 441
+   },
+   "unmatched_examples": [
+    "ac-690a",
+    "acrimsat",
+    "adeos-i",
+    "adeos-ii",
+    "aem-2"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "ac-690a",
+    "acrimsat",
+    "adeos-i"
+   ],
+   "at": "2026-10-16T01:32:59+00:00"
+  },
+  "0b89152444": {
+   "distinct_values": 107122,
+   "count_ms": 702.4,
+   "narrowed": false,
+   "download_ms": 10261.3,
+   "download_bytes": 5054695,
+   "status": "ok",
+   "downloaded": 107122,
+   "canonical_keys": 0,
+   "schemes": {},
+   "unmatched_examples": [
+    "https://geoconnex.us/nhdplusv2/comid/1.7e+07",
+    "https://geoconnex.us/nhdplusv2/comid/10000042",
+    "https://geoconnex.us/nhdplusv2/comid/10001214",
+    "https://geoconnex.us/nhdplusv2/comid/10001264",
+    "https://geoconnex.us/nhdplusv2/comid/10001712"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "https://geoconnex.us/nhdplusv2/comid/1.7e+07",
+    "https://geoconnex.us/nhdplusv2/comid/10000042",
+    "https://geoconnex.us/nhdplusv2/comid/10001214"
+   ],
+   "at": "2026-10-16T01:33:13+00:00"
+  },
+  "478cd0d8b2": {
+   "distinct_values": 507486,
+   "count_ms": 976.7,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:33:15+00:00"
+  },
+  "56f9a82780": {
+   "distinct_values": 199729,
+   "count_ms": 25861.9,
+   "narrowed": false,
+   "download_ms": 4974.6,
+   "download_bytes": 2231113,
+   "status": "ok",
+   "downloaded": 199729,
+   "canonical_keys": 198562,
+   "schemes": {
+    "CAS": 198562
+   },
+   "unmatched_examples": [
+    "NOCAS_1009960",
+    "NOCAS_1009972",
+    "NOCAS_1014175",
+    "NOCAS_1014307",
+    "NOCAS_1014330"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "10-00-4",
+    "10-13-9",
+    "100-00-5"
+   ],
+   "at": "2026-10-16T01:33:47+00:00"
+  },
+  "fb8de602df": {
+   "distinct_values": 163134,
+   "count_ms": 675.7,
+   "narrowed": false,
+   "download_ms": 12422.1,
+   "download_bytes": 1815478,
+   "status": "ok",
+   "downloaded": 163134,
+   "canonical_keys": 67043,
+   "schemes": {
+    "CAS": 67043
+   },
+   "unmatched_examples": [
+    "0",
+    "000705ZASD",
+    "00072J7XWS",
+    "000TKM5BBQ",
+    "001E35HGVF"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "0",
+    "000705ZASD",
+    "00072J7XWS"
+   ],
+   "at": "2026-10-16T01:34:03+00:00"
+  },
+  "66faa9d9f3": {
+   "distinct_values": 9542,
+   "count_ms": 919.1,
+   "narrowed": false,
+   "download_ms": 708.3,
+   "download_bytes": 95843,
+   "status": "ok",
+   "downloaded": 9542,
+   "canonical_keys": 9117,
+   "schemes": {
+    "CAS": 9117
+   },
+   "unmatched_examples": [
+    "NOCAS_110050",
+    "NOCAS_110051",
+    "NOCAS_20326",
+    "NOCAS_21988",
+    "NOCAS_24824"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "100-00-5",
+    "100-01-6",
+    "100-02-7"
+   ],
+   "at": "2026-10-16T01:34:05+00:00"
+  },
+  "0a8dab3a41": {
+   "distinct_values": 391,
+   "count_ms": 579.8,
+   "narrowed": false,
+   "download_ms": 552.3,
+   "download_bytes": 3923,
+   "status": "ok",
+   "downloaded": 391,
+   "canonical_keys": 391,
+   "schemes": {
+    "CAS": 391
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "100-00-5",
+    "100-42-5",
+    "10028-15-6"
+   ],
+   "at": "2026-10-16T01:34:07+00:00"
+  },
+  "97f7b1bc74": {
+   "distinct_values": 78,
+   "count_ms": 563.0,
+   "narrowed": false,
+   "download_ms": 545.8,
+   "download_bytes": 844,
+   "status": "ok",
+   "downloaded": 78,
+   "canonical_keys": 78,
+   "schemes": {
+    "CAS": 78
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "108427-53-8",
+    "113507-82-7",
+    "120226-60-0"
+   ],
+   "at": "2026-10-16T01:34:09+00:00"
+  },
+  "753075cee5": {
+   "distinct_values": 80,
+   "count_ms": 583.4,
+   "narrowed": false,
+   "download_ms": 563.1,
+   "download_bytes": 875,
+   "status": "ok",
+   "downloaded": 80,
+   "canonical_keys": 80,
+   "schemes": {
+    "CAS": 80
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "101200-48-0",
+    "104040-79-1",
+    "104206-82-8"
+   ],
+   "at": "2026-10-16T01:34:10+00:00"
+  },
+  "7b6f3bb386": {
+   "distinct_values": 403,
+   "count_ms": 1003.5,
+   "narrowed": false,
+   "download_ms": 582.7,
+   "download_bytes": 21819,
+   "status": "ok",
+   "downloaded": 403,
+   "canonical_keys": 403,
+   "schemes": {
+    "PubChem_CID": 403
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10157484",
+    "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID102157736",
+    "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10302451"
+   ],
+   "at": "2026-10-16T01:34:12+00:00"
+  },
+  "30d37e4e67": {
+   "distinct_values": 403,
+   "count_ms": 1287.1,
+   "narrowed": false,
+   "download_ms": 633.0,
+   "download_bytes": 18595,
+   "status": "ok",
+   "downloaded": 403,
+   "canonical_keys": 403,
+   "schemes": {
+    "PubChem_CID": 403
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/pubchem.compound/10157484",
+    "http://identifiers.org/pubchem.compound/102157736",
+    "http://identifiers.org/pubchem.compound/10302451"
+   ],
+   "at": "2026-10-16T01:34:15+00:00"
+  },
+  "e5d0d35629": {
+   "distinct_values": 333,
+   "count_ms": 918.4,
+   "narrowed": false,
+   "download_ms": 561.2,
+   "download_bytes": 17027,
+   "status": "ok",
+   "downloaded": 333,
+   "canonical_keys": 333,
+   "schemes": {
+    "ChEMBL": 333
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/chembl.compound/CHEMBL101",
+    "http://identifiers.org/chembl.compound/CHEMBL101253",
+    "http://identifiers.org/chembl.compound/CHEMBL101326"
+   ],
+   "at": "2026-10-16T01:34:17+00:00"
+  },
+  "0b43047448": {
+   "distinct_values": 210,
+   "count_ms": 580.3,
+   "narrowed": false,
+   "download_ms": 573.5,
+   "download_bytes": 8423,
+   "status": "ok",
+   "downloaded": 210,
+   "canonical_keys": 206,
+   "schemes": {
+    "DrugBank": 206
+   },
+   "unmatched_examples": [
+    "http://identifiers.org/drugbank/DBSALT000172",
+    "http://identifiers.org/drugbank/DBSALT000466",
+    "http://identifiers.org/drugbank/DBSALT000792",
+    "http://identifiers.org/drugbank/DBSALT001045"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/drugbank/DB00050",
+    "http://identifiers.org/drugbank/DB00143",
+    "http://identifiers.org/drugbank/DB00162"
+   ],
+   "at": "2026-10-16T01:34:18+00:00"
+  },
+  "34e0a04096": {
+   "distinct_values": 5420,
+   "count_ms": 1532.4,
+   "narrowed": false,
+   "download_ms": 970.3,
+   "download_bytes": 32463,
+   "status": "ok",
+   "downloaded": 5420,
+   "canonical_keys": 5420,
+   "schemes": {
+    "ZIP5": 5420
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "01002",
+    "01003",
+    "01005"
+   ],
+   "at": "2026-10-16T01:34:21+00:00"
+  },
+  "eaf43eae1e": {
+   "distinct_values": 40918,
+   "count_ms": 2553.2,
+   "narrowed": false,
+   "download_ms": 1126.1,
+   "download_bytes": 245511,
+   "status": "ok",
+   "downloaded": 40918,
+   "canonical_keys": 40918,
+   "schemes": {
+    "ZIP5": 40918
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "00501",
+    "00544",
+    "00601"
+   ],
+   "at": "2026-10-16T01:34:26+00:00"
+  },
+  "bf8826814d": {
+   "distinct_values": 235,
+   "count_ms": 536.3,
+   "narrowed": false,
+   "download_ms": 575.7,
+   "download_bytes": 1413,
+   "status": "ok",
+   "downloaded": 235,
+   "canonical_keys": 235,
+   "schemes": {
+    "ZIP5": 235
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "17602",
+    "19013",
+    "19023"
+   ],
+   "at": "2026-10-16T01:34:28+00:00"
+  },
+  "188181a9b0": {
+   "distinct_values": 39220,
+   "count_ms": 608.0,
+   "narrowed": false,
+   "download_ms": 33432.6,
+   "download_bytes": 613859,
+   "status": "ok",
+   "downloaded": 39220,
+   "canonical_keys": 39196,
+   "schemes": {
+    "LABEL": 39196
+   },
+   "unmatched_examples": [
+    "A Akbari Sari",
+    "A B",
+    "A D Puspa",
+    "A Dale",
+    "A E G Schuur"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    " Alan C. Cunha",
+    "A Akbari Sari",
+    "A B"
+   ],
+   "at": "2026-10-16T01:35:06+00:00"
+  },
+  "a41c1e5600": {
+   "distinct_values": 742470,
+   "count_ms": 1194.4,
+   "narrowed": false,
+   "status": "too_large",
+   "at": "2026-10-16T01:35:08+00:00"
+  },
+  "6ea34df257": {
+   "distinct_values": 16010,
+   "count_ms": 2806.4,
+   "narrowed": false,
+   "download_ms": 982.3,
+   "download_bytes": 94600,
+   "status": "ok",
+   "downloaded": 16010,
+   "canonical_keys": 15890,
+   "schemes": {
+    "ZIP5": 15925
+   },
+   "unmatched_examples": [
+    "00",
+    "01",
+    "10",
+    "11",
+    "12"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "",
+    "00",
+    "000"
+   ],
+   "at": "2026-10-16T01:35:13+00:00"
+  },
+  "3194993714": {
+   "distinct_values": 16767,
+   "count_ms": 500.6,
+   "narrowed": false,
+   "download_ms": 2150.5,
+   "download_bytes": 653944,
+   "status": "ok",
+   "downloaded": 16767,
+   "canonical_keys": 16767,
+   "schemes": {
+    "UniProt": 16767
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.uniprot.org/uniprot/A0A024R4G9",
+    "http://purl.uniprot.org/uniprot/A0A075B759",
+    "http://purl.uniprot.org/uniprot/A0A087WWS6"
+   ],
+   "at": "2026-10-16T01:35:16+00:00"
+  },
+  "fa6ecbab56": {
+   "distinct_values": 7437,
+   "count_ms": 2424.0,
+   "narrowed": false,
+   "download_ms": 1004.8,
+   "download_bytes": 298578,
+   "status": "ok",
+   "downloaded": 7437,
+   "canonical_keys": 7437,
+   "schemes": {
+    "UniProt": 7437
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.uniprot.org/uniprot/A0A024QY88",
+    "http://purl.uniprot.org/uniprot/A0A024QYT5",
+    "http://purl.uniprot.org/uniprot/A0A024QYY0"
+   ],
+   "at": "2026-10-16T01:35:20+00:00"
+  },
+  "ada730b040": {
+   "distinct_values": 245,
+   "count_ms": 41791.2,
+   "narrowed": false,
+   "download_ms": 1782.0,
+   "download_bytes": 9557,
+   "status": "ok",
+   "downloaded": 245,
+   "canonical_keys": 244,
+   "schemes": {
+    "UniProt": 244
+   },
+   "unmatched_examples": [
+    "http://purl.uniprot.org/uniprot/HINT1"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.uniprot.org/uniprot/A2RUH7",
+    "http://purl.uniprot.org/uniprot/HINT1",
+    "http://purl.uniprot.org/uniprot/L0R6I3"
+   ],
+   "at": "2026-10-16T01:36:04+00:00"
+  },
+  "16c60a28e5": {
+   "distinct_values": 14,
+   "count_ms": 572.6,
+   "narrowed": false,
+   "download_ms": 576.5,
+   "download_bytes": 633,
+   "status": "ok",
+   "downloaded": 14,
+   "canonical_keys": 14,
+   "schemes": {
+    "MONDO": 14
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000553",
+    "http://purl.obolibrary.org/obo/MONDO_0002271",
+    "http://purl.obolibrary.org/obo/MONDO_0004992"
+   ],
+   "at": "2026-10-16T01:36:06+00:00"
+  },
+  "8d125f5d87": {
+   "distinct_values": 912,
+   "count_ms": 44111.7,
+   "narrowed": true,
+   "download_ms": 876.7,
+   "download_bytes": 41043,
+   "status": "ok",
+   "downloaded": 912,
+   "canonical_keys": 912,
+   "schemes": {
+    "MONDO": 912
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/MONDO_0000032",
+    "http://purl.obolibrary.org/obo/MONDO_0000248",
+    "http://purl.obolibrary.org/obo/MONDO_0000386"
+   ],
+   "at": "2026-10-16T01:36:51+00:00"
+  },
+  "1de7a336ab": {
+   "distinct_values": 24317,
+   "count_ms": 4529.7,
+   "narrowed": false,
+   "download_ms": 755.0,
+   "download_bytes": 145905,
+   "status": "ok",
+   "downloaded": 24317,
+   "canonical_keys": 24317,
+   "schemes": {
+    "ZIP5": 24317
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "00000",
+    "00001",
+    "00010"
+   ],
+   "at": "2026-10-16T01:36:57+00:00"
+  },
+  "627b13748e": {
+   "distinct_values": 16010,
+   "count_ms": 812.8,
+   "narrowed": false,
+   "download_ms": 1039.8,
+   "download_bytes": 94600,
+   "status": "ok",
+   "downloaded": 16010,
+   "canonical_keys": 15890,
+   "schemes": {
+    "ZIP5": 15925
+   },
+   "unmatched_examples": [
+    "00",
+    "01",
+    "10",
+    "11",
+    "12"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "",
+    "00",
+    "000"
+   ],
+   "at": "2026-10-16T01:37:00+00:00"
+  },
+  "eae3c94fc8": {
+   "distinct_values": 201,
+   "count_ms": 1339.3,
+   "narrowed": false,
+   "download_ms": 784.6,
+   "download_bytes": 7698,
+   "status": "ok",
+   "downloaded": 201,
+   "canonical_keys": 201,
+   "schemes": {
+    "Entrez": 201
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://www.ncbi.nlm.nih.gov/gene/10082",
+    "http://www.ncbi.nlm.nih.gov/gene/10241",
+    "http://www.ncbi.nlm.nih.gov/gene/10410"
+   ],
+   "at": "2026-10-16T01:37:03+00:00"
+  },
+  "94d349092a": {
+   "distinct_values": null,
+   "count_ms": 1116.0,
+   "narrowed": false,
+   "download_ms": 84748.6,
+   "download_bytes": 29344754,
+   "status": "ok_truncated",
+   "downloaded": 500001,
+   "canonical_keys": 20574,
+   "schemes": {
+    "ChEMBL": 1,
+    "CHEBI": 35,
+    "DOID": 180,
+    "ENVO": 2,
+    "InChIKey": 762,
+    "Entrez": 16346,
+    "state_FIPS": 52,
+    "county_FIPS": 3196
+   },
+   "unmatched_examples": [
+    "https://purl.org/okn/frink/kg/spoke-okn/location/0100100",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/0100124",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/0100460",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/0100484",
+    "https://purl.org/okn/frink/kg/spoke-okn/location/0100676"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/chembl.compound/CHEMBL2108232",
+    "http://purl.obolibrary.org/obo/CHEBI_134049",
+    "http://purl.obolibrary.org/obo/CHEBI_172390"
+   ],
+   "at": "2026-10-16T01:38:40+00:00"
+  },
+  "949ef5c414": {
+   "distinct_values": null,
+   "count_ms": 875.6,
+   "narrowed": false,
+   "download_ms": 76592.0,
+   "download_bytes": 29644990,
+   "status": "ok_truncated",
+   "downloaded": 500001,
+   "canonical_keys": 139768,
+   "schemes": {
+    "CL": 7,
+    "UBERON": 42,
+    "Entrez": 139719
+   },
+   "unmatched_examples": [
+    "https://purl.org/okn/frink/kg/spoke-genelab/node/106589",
+    "https://purl.org/okn/frink/kg/spoke-genelab/node/1236",
+    "https://purl.org/okn/frink/kg/spoke-genelab/node/1268",
+    "https://purl.org/okn/frink/kg/spoke-genelab/node/135621",
+    "https://purl.org/okn/frink/kg/spoke-genelab/node/1408"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/CL_0000000",
+    "http://purl.obolibrary.org/obo/CL_0000056",
+    "http://purl.obolibrary.org/obo/CL_0000081"
+   ],
+   "at": "2026-10-16T01:40:08+00:00"
+  },
+  "75d73e9ad5": {
+   "distinct_values": null,
+   "count_ms": 970.9,
+   "narrowed": false,
+   "download_ms": 93063.4,
+   "download_bytes": 38319321,
+   "status": "ok_truncated",
+   "downloaded": 500001,
+   "canonical_keys": 45809,
+   "schemes": {
+    "CHEBI": 9,
+    "GO": 38,
+    "HP": 65,
+    "MONDO": 226,
+    "NBO": 1,
+    "NCIT": 2,
+    "OBA": 91,
+    "PATO": 1,
+    "PR": 3,
+    "EFO": 1687,
+    "Entrez": 41373,
+    "Orphanet": 2313
+   },
+   "unmatched_examples": [
+    "https://purl.org/okn/frink/kg/digcfdekg/node/factor/000413321f63cb5b1fea",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/factor/0006303596b231826f48",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/factor/00073e97cffba5fbabe0",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/factor/000bd380ba19a2962235",
+    "https://purl.org/okn/frink/kg/digcfdekg/node/factor/000dd20bda7657919f20"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/CHEBI_13705",
+    "http://purl.obolibrary.org/obo/CHEBI_16196",
+    "http://purl.obolibrary.org/obo/CHEBI_17347"
+   ],
+   "at": "2026-10-16T01:41:56+00:00"
+  },
+  "44f24afb14": {
+   "distinct_values": 201,
+   "count_ms": 1438.7,
+   "narrowed": false,
+   "download_ms": 827.2,
+   "download_bytes": 7497,
+   "status": "ok",
+   "downloaded": 201,
+   "canonical_keys": 201,
+   "schemes": {
+    "Entrez": 201
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/ncbigene/10082",
+    "http://identifiers.org/ncbigene/10241",
+    "http://identifiers.org/ncbigene/10410"
+   ],
+   "at": "2026-10-16T01:41:59+00:00"
+  },
+  "4da0d1255e": {
+   "distinct_values": null,
+   "count_ms": 982.7,
+   "narrowed": false,
+   "download_ms": 34921.4,
+   "download_bytes": 3483750,
+   "status": "ok_uncounted",
+   "downloaded": 72376,
+   "canonical_keys": 48213,
+   "schemes": {
+    "DrugBank": 2074,
+    "Entrez": 9293,
+    "HP": 11708,
+    "MONDO": 22176,
+    "CHEBI": 21,
+    "CL": 21,
+    "GO": 151,
+    "HGNC": 33,
+    "OMIM": 1,
+    "Orphanet": 2660,
+    "UBERON": 75
+   },
+   "unmatched_examples": [
+    "https://rdaccelerate.org/resource/CLINVAR_10019",
+    "https://rdaccelerate.org/resource/CLINVAR_1003911",
+    "https://rdaccelerate.org/resource/CLINVAR_10085",
+    "https://rdaccelerate.org/resource/CLINVAR_10139",
+    "https://rdaccelerate.org/resource/CLINVAR_10195"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://identifiers.org/drugbank/DB00001",
+    "http://identifiers.org/drugbank/DB00002",
+    "http://identifiers.org/drugbank/DB00003"
+   ],
+   "at": "2026-10-16T01:42:36+00:00"
+  },
+  "f972526a55": {
+   "distinct_values": 19448,
+   "count_ms": 1625.2,
+   "narrowed": false,
+   "download_ms": 2005.6,
+   "download_bytes": 845661,
+   "status": "ok",
+   "downloaded": 19448,
+   "canonical_keys": 19448,
+   "schemes": {
+    "dbSNP": 19448
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://www.ncbi.nlm.nih.gov/snp/rs10004120",
+    "https://www.ncbi.nlm.nih.gov/snp/rs10004377",
+    "https://www.ncbi.nlm.nih.gov/snp/rs10008208"
+   ],
+   "at": "2026-10-16T01:42:41+00:00"
+  },
+  "1d4a35d29b": {
+   "distinct_values": 53,
+   "count_ms": 587.6,
+   "narrowed": false,
+   "download_ms": 553.5,
+   "download_bytes": 2427,
+   "status": "ok",
+   "downloaded": 53,
+   "canonical_keys": 51,
+   "schemes": {
+    "UBERON": 50,
+    "PubChem_CID": 1
+   },
+   "unmatched_examples": [
+    "http://purl.obolibrary.org/obo/0000232",
+    "http://purl.obolibrary.org/obo/0000738"
+   ],
+   "label_mode": false,
+   "value_examples": [
+    "http://purl.obolibrary.org/obo/0000232",
+    "http://purl.obolibrary.org/obo/0000738",
+    "http://purl.obolibrary.org/obo/UBERON_0000167"
+   ],
+   "at": "2026-10-16T01:42:42+00:00"
+  },
+  "b5436140be": {
+   "distinct_values": 23715,
+   "count_ms": 28334.9,
+   "narrowed": false,
+   "download_ms": 1479.2,
+   "download_bytes": 500756,
+   "status": "ok",
+   "downloaded": 23715,
+   "canonical_keys": 23713,
+   "schemes": {
+    "LABEL": 23713
+   },
+   "unmatched_examples": [
+    "0625",
+    "10122110 manitoba ltd o a fort garry medical supplies",
+    "123 see",
+    "12496925 canada",
+    "1266881 b c"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "0625",
+    "10122110 manitoba ltd o a fort garry medical supplies",
+    "123 see"
+   ],
+   "at": "2026-10-16T01:43:13+00:00"
+  },
+  "645d2852bc": {
+   "distinct_values": 30520,
+   "count_ms": 33568.3,
+   "narrowed": false,
+   "download_ms": 1690.3,
+   "download_bytes": 564049,
+   "status": "ok",
+   "downloaded": 30520,
+   "canonical_keys": 30518,
+   "schemes": {
+    "LABEL": 30518
+   },
+   "unmatched_examples": [
+    "101 machine",
+    "101 pipe casing",
+    "110 metalworks",
+    "15 mile machine",
+    "1776 fabrication"
+   ],
+   "label_mode": true,
+   "value_examples": [
+    "",
+    "101 machine",
+    "101 pipe casing"
+   ],
+   "at": "2026-10-16T01:43:49+00:00"
+  },
+  "ab81ace6e7": {
+   "distinct_values": 68695,
+   "count_ms": 4971.5,
+   "narrowed": false,
+   "download_ms": 6304.1,
+   "download_bytes": 3036232,
+   "status": "ok",
+   "downloaded": 68695,
+   "canonical_keys": 68695,
+   "schemes": {
+    "dbSNP": 68695
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "https://www.ncbi.nlm.nih.gov/snp/rs10000692",
+    "https://www.ncbi.nlm.nih.gov/snp/rs10001580",
+    "https://www.ncbi.nlm.nih.gov/snp/rs1000236360"
+   ],
+   "at": "2026-10-16T01:44:02+00:00"
+  },
+  "8c3ee042c3": {
+   "distinct_values": 68695,
+   "count_ms": 4056.5,
+   "narrowed": false,
+   "download_ms": 1807.8,
+   "download_bytes": 631907,
+   "status": "ok",
+   "downloaded": 68695,
+   "canonical_keys": 68695,
+   "schemes": {
+    "dbSNP": 68695
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "10000692",
+    "10001580",
+    "1000236360"
+   ],
+   "at": "2026-10-16T01:44:09+00:00"
+  },
+  "b8ecd03f55": {
+   "distinct_values": 19448,
+   "count_ms": 2829.3,
+   "narrowed": false,
+   "download_ms": 799.4,
+   "download_bytes": 164981,
+   "status": "ok",
+   "downloaded": 19448,
+   "canonical_keys": 19448,
+   "schemes": {
+    "dbSNP": 19448
+   },
+   "unmatched_examples": [],
+   "label_mode": false,
+   "value_examples": [
+    "10004120",
+    "10004377",
+    "10008208"
+   ],
+   "at": "2026-10-16T01:44:14+00:00"
+  }
+ },
+ "bridges": {
+  "6c39eec77f": {
+   "distinct_pairs": 43560,
+   "status": "ok",
+   "downloaded": 43560,
+   "canonical_pairs": 43559,
+   "scheme_pairs": {
+    "Entrez->HGNC": 43560
+   },
+   "at": "2026-10-16T01:44:21+00:00"
+  },
+  "6a6b8d13c9": {
+   "distinct_pairs": 30076,
+   "status": "ok",
+   "downloaded": 30076,
+   "canonical_pairs": 30042,
+   "scheme_pairs": {
+    "CHEBI->CAS": 30042
+   },
+   "at": "2026-10-16T01:45:00+00:00"
+  },
+  "f187bee8db": {
+   "distinct_pairs": 108053,
+   "status": "ok",
+   "downloaded": 108053,
+   "canonical_pairs": 60658,
+   "scheme_pairs": {
+    "MeSH->MONDO": 8179,
+    "UMLS->MONDO": 21382,
+    "DOID->MONDO": 11746,
+    "NCIT->MONDO": 7314,
+    "Orphanet->MONDO": 9638,
+    "EFO->MONDO": 2400
+   },
+   "at": "2026-10-16T01:45:23+00:00"
+  },
+  "aa61cca727": {
+   "distinct_pairs": 108944,
+   "status": "ok",
+   "downloaded": 108944,
+   "canonical_pairs": 60658,
+   "scheme_pairs": {
+    "MeSH->MONDO": 8179,
+    "UMLS->MONDO": 21382,
+    "DOID->MONDO": 11746,
+    "NCIT->MONDO": 7314,
+    "Orphanet->MONDO": 9638,
+    "EFO->MONDO": 2400
+   },
+   "at": "2026-10-16T01:45:45+00:00"
+  },
+  "96251e3181": {
+   "distinct_pairs": 31846,
+   "status": "ok",
+   "downloaded": 31846,
+   "canonical_pairs": 0,
+   "scheme_pairs": {},
+   "at": "2026-10-16T01:46:09+00:00"
+  },
+  "747bb1a414": {
+   "distinct_pairs": 46598,
+   "status": "ok",
+   "downloaded": 46598,
+   "canonical_pairs": 10344,
+   "scheme_pairs": {
+    "MONDO->Orphanet": 10344
+   },
+   "at": "2026-10-16T01:46:35+00:00"
+  },
+  "40ad3ec8e3": {
+   "distinct_pairs": null,
+   "status": "count_failed",
+   "error_kind": "http_error",
+   "error": "{\n    \"exception\": \"Tried to allocate 225 GB, but only 30.7 GB were available\",\n    \"query\": \"SELECT (COUNT(*) AS ?n) WHERE { SELECT DISTINCT ?k0 ?k1 WHERE { GRAPH <https://purl.org/okn/frink/kg/rdkg> { ?v1 ?v2 ?v3 . } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?k0)) AS ?k1) } }\",",
+   "at": "2026-10-16T01:46:36+00:00"
+  },
+  "59bd347e3b": {
+   "distinct_pairs": null,
+   "status": "count_failed",
+   "error_kind": "http_error",
+   "error": "{\n    \"exception\": \"Tried to allocate 225 GB, but only 30.7 GB were available\",\n    \"query\": \"SELECT (COUNT(*) AS ?n) WHERE { SELECT DISTINCT ?k0 ?k1 WHERE { GRAPH <https://purl.org/okn/frink/kg/prokn> { ?v1 ?v2 ?v3 . } BIND(IRI(CONCAT('https://biohealthkg.proto-okn.net/kg/node/', ?k0)) AS ?k1) } }\"",
+   "at": "2026-10-16T01:46:38+00:00"
+  },
+  "13cd623638": {
+   "distinct_pairs": 1,
+   "status": "ok",
+   "downloaded": 1,
+   "canonical_pairs": 0,
+   "scheme_pairs": {},
+   "at": "2026-10-16T01:46:39+00:00"
+  },
+  "101089fa7b": {
+   "distinct_pairs": 1,
+   "status": "ok",
+   "downloaded": 1,
+   "canonical_pairs": 0,
+   "scheme_pairs": {},
+   "at": "2026-10-16T01:46:43+00:00"
+  },
+  "2bb10de839": {
+   "distinct_pairs": 37906,
+   "status": "ok",
+   "downloaded": 37906,
+   "canonical_pairs": 37371,
+   "scheme_pairs": {
+    "HP->UMLS": 12896,
+    "MONDO->UMLS": 21381,
+    "MP->UMLS": 2,
+    "UBERON->UMLS": 3092
+   },
+   "at": "2026-10-16T01:47:06+00:00"
+  },
+  "6581cbb8ed": {
+   "distinct_pairs": 37906,
+   "status": "ok",
+   "downloaded": 37906,
+   "canonical_pairs": 37371,
+   "scheme_pairs": {
+    "HP->UMLS": 12896,
+    "MONDO->UMLS": 21381,
+    "MP->UMLS": 2,
+    "UBERON->UMLS": 3092
+   },
+   "at": "2026-10-16T01:47:15+00:00"
+  },
+  "92fad1590c": {
+   "distinct_pairs": 3876122,
+   "status": "too_large",
+   "at": "2026-10-16T01:47:19+00:00"
+  },
+  "7b2551315e": {
+   "distinct_pairs": 33128,
+   "status": "ok",
+   "downloaded": 33128,
+   "canonical_pairs": 33045,
+   "scheme_pairs": {
+    "MeSH->UMLS": 33045
+   },
+   "at": "2026-10-16T01:47:25+00:00"
+  },
+  "8b5186a5ed": {
+   "distinct_pairs": 156397,
+   "status": "ok",
+   "downloaded": 156397,
+   "canonical_pairs": 113198,
+   "scheme_pairs": {
+    "Entrez->Ensembl": 113198
+   },
+   "at": "2026-10-16T01:47:48+00:00"
+  }
+ },
+ "meter": {
+  "requests": 424,
+  "bytes": 318624168,
+  "seconds": 6138.5
+ },
+ "wall_seconds": 6400.6,
+ "meter_total": {
+  "requests": 424,
+  "bytes": 318624168,
+  "seconds": 6138.5
+ }
+}

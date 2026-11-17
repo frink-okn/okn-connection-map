@@ -1,0 +1,10 @@
+# What this asks: which graphs does the federation describe, and which version of each is loaded?
+# Where it looks: okn-void, the federation's own description of its graphs.
+# expected: about 40-50 rows (one per graph)
+SELECT ?graph ?version ?last_updated WHERE {
+  GRAPH <https://purl.org/okn/frink/kg/okn-void> {
+    ?graph <http://purl.org/pav/version> ?version .
+    OPTIONAL { ?graph <http://purl.org/pav/lastUpdatedOn> ?last_updated }
+  }
+}
+ORDER BY ?graph

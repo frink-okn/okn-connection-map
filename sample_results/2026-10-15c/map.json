@@ -1,0 +1,7020 @@
+{
+ "direct": [
+  {
+   "a": "scales",
+   "b": "spoke-okn",
+   "scheme": "ZIP5",
+   "shared": 40911
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "pankgraph",
+   "scheme": "Ensembl",
+   "shared": 38804
+  },
+  {
+   "a": "pankgraph",
+   "b": "prokn",
+   "scheme": "Ensembl",
+   "shared": 37835
+  },
+  {
+   "a": "digcfdekg",
+   "b": "spoke-genelab",
+   "scheme": "Entrez",
+   "shared": 28556
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "spoke-okn",
+   "scheme": "ZIP5",
+   "shared": 19563
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "prokn",
+   "scheme": "Ensembl",
+   "shared": 19121
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "scales",
+   "scheme": "ZIP5",
+   "shared": 19089
+  },
+  {
+   "a": "nestkg",
+   "b": "prokn",
+   "scheme": "UniProt",
+   "shared": 16729
+  },
+  {
+   "a": "spoke-genelab",
+   "b": "spoke-okn",
+   "scheme": "Entrez",
+   "shared": 16326
+  },
+  {
+   "a": "digcfdekg",
+   "b": "spoke-okn",
+   "scheme": "Entrez",
+   "shared": 16320
+  },
+  {
+   "a": "pankgraph",
+   "b": "spoke-okn",
+   "scheme": "Ensembl",
+   "shared": 16314
+  },
+  {
+   "a": "prokn",
+   "b": "spoke-okn",
+   "scheme": "Ensembl",
+   "shared": 16140
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "spoke-okn",
+   "scheme": "Ensembl",
+   "shared": 15132
+  },
+  {
+   "a": "spoke-okn",
+   "b": "sudokn",
+   "scheme": "ZIP5",
+   "shared": 13742
+  },
+  {
+   "a": "biohealth",
+   "b": "ubergraph",
+   "scheme": "UMLS",
+   "shared": 13566
+  },
+  {
+   "a": "scales",
+   "b": "sudokn",
+   "scheme": "ZIP5",
+   "shared": 13450
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "sudokn",
+   "scheme": "ZIP5",
+   "shared": 11183
+  },
+  {
+   "a": "digcfdekg",
+   "b": "rdkg",
+   "scheme": "Entrez",
+   "shared": 9219
+  },
+  {
+   "a": "rdkg",
+   "b": "spoke-genelab",
+   "scheme": "Entrez",
+   "shared": 9034
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "biobricks-toxcast",
+   "scheme": "CAS",
+   "shared": 8997
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "biobricks-tox21",
+   "scheme": "CAS",
+   "shared": 8730
+  },
+  {
+   "a": "biobricks-tox21",
+   "b": "biobricks-toxcast",
+   "scheme": "CAS",
+   "shared": 8723
+  },
+  {
+   "a": "rdkg",
+   "b": "spoke-okn",
+   "scheme": "Entrez",
+   "shared": 8475
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "biobricks-mesh",
+   "scheme": "CAS",
+   "shared": 6924
+  },
+  {
+   "a": "oard-kg",
+   "b": "rdkg",
+   "scheme": "HP",
+   "shared": 5746
+  },
+  {
+   "a": "ruralkg",
+   "b": "spoke-okn",
+   "scheme": "ZIP5",
+   "shared": 5420
+  },
+  {
+   "a": "ruralkg",
+   "b": "scales",
+   "scheme": "ZIP5",
+   "shared": 5327
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "ruralkg",
+   "scheme": "ZIP5",
+   "shared": 5145
+  },
+  {
+   "a": "ruralkg",
+   "b": "sudokn",
+   "scheme": "ZIP5",
+   "shared": 4032
+  },
+  {
+   "a": "geoconnex",
+   "b": "ruralkg",
+   "scheme": "county_FIPS",
+   "shared": 3222
+  },
+  {
+   "a": "ruralkg",
+   "b": "spoke-okn",
+   "scheme": "county_FIPS",
+   "shared": 3196
+  },
+  {
+   "a": "geoconnex",
+   "b": "spoke-okn",
+   "scheme": "county_FIPS",
+   "shared": 3184
+  },
+  {
+   "a": "geoconnex",
+   "b": "spatialkg",
+   "scheme": "county_FIPS",
+   "shared": 3114
+  },
+  {
+   "a": "ruralkg",
+   "b": "spatialkg",
+   "scheme": "county_FIPS",
+   "shared": 3104
+  },
+  {
+   "a": "spatialkg",
+   "b": "spoke-okn",
+   "scheme": "county_FIPS",
+   "shared": 3095
+  },
+  {
+   "a": "nde",
+   "b": "rdkg",
+   "scheme": "MONDO",
+   "shared": 2907
+  },
+  {
+   "a": "prokn",
+   "b": "rdkg",
+   "scheme": "MONDO",
+   "shared": 2901
+  },
+  {
+   "a": "oard-kg",
+   "b": "rdkg",
+   "scheme": "MONDO",
+   "shared": 2014
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "prokn",
+   "scheme": "UniProt",
+   "shared": 1800
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-genelab",
+   "scheme": "Entrez",
+   "shared": 1472
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "pankgraph",
+   "scheme": "Ensembl",
+   "shared": 1470
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "prokn",
+   "scheme": "Ensembl",
+   "shared": 1468
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "digcfdekg",
+   "scheme": "Entrez",
+   "shared": 1446
+  },
+  {
+   "a": "rdkg",
+   "b": "ubergraph",
+   "scheme": "MONDO",
+   "shared": 1418
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "nestkg",
+   "scheme": "UniProt",
+   "shared": 1412
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-okn",
+   "scheme": "Entrez",
+   "shared": 1393
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-okn",
+   "scheme": "Ensembl",
+   "shared": 1385
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "Ensembl",
+   "shared": 1355
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "rdkg",
+   "scheme": "Entrez",
+   "shared": 1193
+  },
+  {
+   "a": "biobricks-mesh",
+   "b": "biobricks-toxcast",
+   "scheme": "CAS",
+   "shared": 1146
+  },
+  {
+   "a": "biobricks-mesh",
+   "b": "biobricks-tox21",
+   "scheme": "CAS",
+   "shared": 1103
+  },
+  {
+   "a": "nde",
+   "b": "oard-kg",
+   "scheme": "MONDO",
+   "shared": 889
+  },
+  {
+   "a": "nde",
+   "b": "prokn",
+   "scheme": "MONDO",
+   "shared": 756
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "rdkg",
+   "scheme": "MONDO",
+   "shared": 754
+  },
+  {
+   "a": "digcfdekg",
+   "b": "rdkg",
+   "scheme": "Orphanet",
+   "shared": 746
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "nde",
+   "scheme": "MONDO",
+   "shared": 601
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "nasa-gesdisc-kg",
+   "scheme": "LABEL",
+   "shared": 591
+  },
+  {
+   "a": "oard-kg",
+   "b": "prokn",
+   "scheme": "MONDO",
+   "shared": 470
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "spoke-genelab",
+   "scheme": "Entrez",
+   "shared": 424
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "digcfdekg",
+   "scheme": "Entrez",
+   "shared": 401
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "spoke-okn",
+   "scheme": "Entrez",
+   "shared": 393
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "sudokn",
+   "scheme": "LABEL",
+   "shared": 364
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "rdkg",
+   "scheme": "Entrez",
+   "shared": 363
+  },
+  {
+   "a": "digcfdekg",
+   "b": "prokn",
+   "scheme": "Orphanet",
+   "shared": 360
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biobricks-ice",
+   "scheme": "CAS",
+   "shared": 339
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biobricks-toxcast",
+   "scheme": "CAS",
+   "shared": 290
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "oard-kg",
+   "scheme": "MONDO",
+   "shared": 290
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "prokn",
+   "scheme": "EFO",
+   "shared": 288
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biobricks-tox21",
+   "scheme": "CAS",
+   "shared": 285
+  },
+  {
+   "a": "nde",
+   "b": "ubergraph",
+   "scheme": "MONDO",
+   "shared": 284
+  },
+  {
+   "a": "prokn",
+   "b": "rdkg",
+   "scheme": "HP",
+   "shared": 274
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "prokn",
+   "scheme": "MONDO",
+   "shared": 263
+  },
+  {
+   "a": "oard-kg",
+   "b": "prokn",
+   "scheme": "HP",
+   "shared": 253
+  },
+  {
+   "a": "nde",
+   "b": "oard-kg",
+   "scheme": "HP",
+   "shared": 252
+  },
+  {
+   "a": "nde",
+   "b": "rdkg",
+   "scheme": "HP",
+   "shared": 251
+  },
+  {
+   "a": "biohealth",
+   "b": "ruralkg",
+   "scheme": "LABEL",
+   "shared": 246
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "prokn",
+   "scheme": "UniProt",
+   "shared": 238
+  },
+  {
+   "a": "dreamkg",
+   "b": "scales",
+   "scheme": "ZIP5",
+   "shared": 235
+  },
+  {
+   "a": "dreamkg",
+   "b": "spoke-okn",
+   "scheme": "ZIP5",
+   "shared": 235
+  },
+  {
+   "a": "dreamkg",
+   "b": "medical-device-kg",
+   "scheme": "ZIP5",
+   "shared": 231
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "nestkg",
+   "scheme": "UniProt",
+   "shared": 230
+  },
+  {
+   "a": "prokn",
+   "b": "ubergraph",
+   "scheme": "MONDO",
+   "shared": 222
+  },
+  {
+   "a": "pankgraph",
+   "b": "prokn",
+   "scheme": "dbSNP",
+   "shared": 214
+  },
+  {
+   "a": "oard-kg",
+   "b": "ubergraph",
+   "scheme": "MONDO",
+   "shared": 212
+  },
+  {
+   "a": "biohealth",
+   "b": "sudokn",
+   "scheme": "LABEL",
+   "shared": 211
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "digcfdekg",
+   "scheme": "Entrez",
+   "shared": 200
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "spoke-genelab",
+   "scheme": "Entrez",
+   "shared": 200
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "spoke-okn",
+   "scheme": "Entrez",
+   "shared": 191
+  },
+  {
+   "a": "digcfdekg",
+   "b": "rdkg",
+   "scheme": "MONDO",
+   "shared": 180
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biobricks-ice",
+   "scheme": "Entrez",
+   "shared": 171
+  },
+  {
+   "a": "dreamkg",
+   "b": "sudokn",
+   "scheme": "ZIP5",
+   "shared": 171
+  },
+  {
+   "a": "biohealth",
+   "b": "climatemodelskg",
+   "scheme": "LABEL",
+   "shared": 168
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "rdkg",
+   "scheme": "Entrez",
+   "shared": 167
+  },
+  {
+   "a": "digcfdekg",
+   "b": "nde",
+   "scheme": "MONDO",
+   "shared": 158
+  },
+  {
+   "a": "prokn",
+   "b": "spoke-okn",
+   "scheme": "InChIKey",
+   "shared": 143
+  },
+  {
+   "a": "spoke-okn",
+   "b": "ubergraph",
+   "scheme": "MeSH",
+   "shared": 135
+  },
+  {
+   "a": "pankgraph",
+   "b": "rdkg",
+   "scheme": "GO",
+   "shared": 134
+  },
+  {
+   "a": "dreamkg",
+   "b": "ruralkg",
+   "scheme": "ZIP5",
+   "shared": 127
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "rdkg",
+   "scheme": "DrugBank",
+   "shared": 124
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "digcfdekg",
+   "scheme": "MONDO",
+   "shared": 117
+  },
+  {
+   "a": "biohealth",
+   "b": "spoke-okn",
+   "scheme": "LABEL",
+   "shared": 106
+  },
+  {
+   "a": "biohealth",
+   "b": "wildlifekn",
+   "scheme": "LABEL",
+   "shared": 105
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-okn",
+   "scheme": "CHEBI",
+   "shared": 99
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biomarkerkg",
+   "scheme": "UniProt",
+   "shared": 92
+  },
+  {
+   "a": "prokn",
+   "b": "rdkg",
+   "scheme": "Orphanet",
+   "shared": 90
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-okn",
+   "scheme": "PubChem_CID",
+   "shared": 87
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biomarkerkg",
+   "scheme": "Entrez",
+   "shared": 86
+  },
+  {
+   "a": "biohealth",
+   "b": "medical-device-kg",
+   "scheme": "LABEL",
+   "shared": 80
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-okn",
+   "scheme": "ChEMBL",
+   "shared": 75
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "ubergraph",
+   "scheme": "MONDO",
+   "shared": 70
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "sockg",
+   "scheme": "CAS",
+   "shared": 68
+  },
+  {
+   "a": "digcfdekg",
+   "b": "oard-kg",
+   "scheme": "HP",
+   "shared": 63
+  },
+  {
+   "a": "ruralkg",
+   "b": "sudokn",
+   "scheme": "LABEL",
+   "shared": 63
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "nde",
+   "scheme": "NCBITaxon",
+   "shared": 62
+  },
+  {
+   "a": "digcfdekg",
+   "b": "rdkg",
+   "scheme": "HP",
+   "shared": 62
+  },
+  {
+   "a": "spatialkg",
+   "b": "wildlifekn",
+   "scheme": "LABEL",
+   "shared": 62
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "sudokn",
+   "scheme": "LABEL",
+   "shared": 60
+  },
+  {
+   "a": "biobricks-toxcast",
+   "b": "sockg",
+   "scheme": "CAS",
+   "shared": 59
+  },
+  {
+   "a": "securechainkg",
+   "b": "sudokn",
+   "scheme": "LABEL",
+   "shared": 58
+  },
+  {
+   "a": "nde",
+   "b": "prokn",
+   "scheme": "HP",
+   "shared": 57
+  },
+  {
+   "a": "biobricks-tox21",
+   "b": "sockg",
+   "scheme": "CAS",
+   "shared": 55
+  },
+  {
+   "a": "geoconnex",
+   "b": "spoke-okn",
+   "scheme": "state_FIPS",
+   "shared": 52
+  },
+  {
+   "a": "geoconnex",
+   "b": "spatialkg",
+   "scheme": "state_FIPS",
+   "shared": 51
+  },
+  {
+   "a": "spatialkg",
+   "b": "spoke-okn",
+   "scheme": "state_FIPS",
+   "shared": 51
+  },
+  {
+   "a": "ruralkg",
+   "b": "spatialkg",
+   "scheme": "LABEL",
+   "shared": 51
+  },
+  {
+   "a": "spatialkg",
+   "b": "sudokn",
+   "scheme": "LABEL",
+   "shared": 51
+  },
+  {
+   "a": "digcfdekg",
+   "b": "prokn",
+   "scheme": "MONDO",
+   "shared": 47
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "biohealth",
+   "scheme": "UMLS",
+   "shared": 46
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "sawgraph",
+   "scheme": "CAS",
+   "shared": 44
+  },
+  {
+   "a": "rdkg",
+   "b": "spoke-okn",
+   "scheme": "DrugBank",
+   "shared": 43
+  },
+  {
+   "a": "ruralkg",
+   "b": "scales",
+   "scheme": "LABEL",
+   "shared": 40
+  },
+  {
+   "a": "biohealth",
+   "b": "spatialkg",
+   "scheme": "LABEL",
+   "shared": 38
+  },
+  {
+   "a": "biohealth",
+   "b": "nasa-gesdisc-kg",
+   "scheme": "LABEL",
+   "shared": 38
+  },
+  {
+   "a": "nde",
+   "b": "sawgraph",
+   "scheme": "NCBITaxon",
+   "shared": 37
+  },
+  {
+   "a": "digcfdekg",
+   "b": "oard-kg",
+   "scheme": "MONDO",
+   "shared": 37
+  },
+  {
+   "a": "biobricks-ice",
+   "b": "biomarkerkg",
+   "scheme": "Entrez",
+   "shared": 36
+  },
+  {
+   "a": "biobricks-toxcast",
+   "b": "sawgraph",
+   "scheme": "CAS",
+   "shared": 34
+  },
+  {
+   "a": "geoconnex",
+   "b": "sockg",
+   "scheme": "county_FIPS",
+   "shared": 31
+  },
+  {
+   "a": "ruralkg",
+   "b": "sockg",
+   "scheme": "county_FIPS",
+   "shared": 31
+  },
+  {
+   "a": "sockg",
+   "b": "spatialkg",
+   "scheme": "county_FIPS",
+   "shared": 31
+  },
+  {
+   "a": "sockg",
+   "b": "spoke-okn",
+   "scheme": "county_FIPS",
+   "shared": 31
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "medical-device-kg",
+   "scheme": "LABEL",
+   "shared": 30
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "prokn",
+   "scheme": "Orphanet",
+   "shared": 28
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "rdkg",
+   "scheme": "MONDO",
+   "shared": 28
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-okn",
+   "scheme": "DrugBank",
+   "shared": 27
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "UBERON",
+   "shared": 27
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "spoke-genelab",
+   "scheme": "UBERON",
+   "shared": 27
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "biobricks-mesh",
+   "scheme": "CAS",
+   "shared": 26
+  },
+  {
+   "a": "digcfdekg",
+   "b": "ubergraph",
+   "scheme": "MONDO",
+   "shared": 26
+  },
+  {
+   "a": "digcfdekg",
+   "b": "prokn",
+   "scheme": "EFO",
+   "shared": 25
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "nde",
+   "scheme": "MONDO",
+   "shared": 24
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "prokn",
+   "scheme": "MONDO",
+   "shared": 24
+  },
+  {
+   "a": "nde",
+   "b": "spoke-okn",
+   "scheme": "NCBITaxon",
+   "shared": 23
+  },
+  {
+   "a": "digcfdekg",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "Orphanet",
+   "shared": 21
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "MONDO",
+   "shared": 21
+  },
+  {
+   "a": "digcfdekg",
+   "b": "prokn",
+   "scheme": "HP",
+   "shared": 20
+  },
+  {
+   "a": "nde",
+   "b": "spoke-okn",
+   "scheme": "DOID",
+   "shared": 20
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "sudokn",
+   "scheme": "LABEL",
+   "shared": 20
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "rdkg",
+   "scheme": "UBERON",
+   "shared": 19
+  },
+  {
+   "a": "geoconnex",
+   "b": "sockg",
+   "scheme": "state_FIPS",
+   "shared": 18
+  },
+  {
+   "a": "sockg",
+   "b": "spatialkg",
+   "scheme": "state_FIPS",
+   "shared": 18
+  },
+  {
+   "a": "sockg",
+   "b": "spoke-okn",
+   "scheme": "state_FIPS",
+   "shared": 18
+  },
+  {
+   "a": "digcfdekg",
+   "b": "pankgraph",
+   "scheme": "GO",
+   "shared": 18
+  },
+  {
+   "a": "biohealth",
+   "b": "scales",
+   "scheme": "LABEL",
+   "shared": 17
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "oard-kg",
+   "scheme": "HP",
+   "shared": 14
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "rdkg",
+   "scheme": "HP",
+   "shared": 14
+  },
+  {
+   "a": "digcfdekg",
+   "b": "nde",
+   "scheme": "HP",
+   "shared": 13
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "nestkg",
+   "scheme": "MONDO",
+   "shared": 13
+  },
+  {
+   "a": "nde",
+   "b": "nestkg",
+   "scheme": "MONDO",
+   "shared": 13
+  },
+  {
+   "a": "nestkg",
+   "b": "rdkg",
+   "scheme": "MONDO",
+   "shared": 12
+  },
+  {
+   "a": "ruralkg",
+   "b": "spoke-okn",
+   "scheme": "LABEL",
+   "shared": 12
+  },
+  {
+   "a": "biobricks-tox21",
+   "b": "sawgraph",
+   "scheme": "CAS",
+   "shared": 11
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "nasa-gesdisc-kg",
+   "scheme": "LABEL",
+   "shared": 11
+  },
+  {
+   "a": "digcfdekg",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "MONDO",
+   "shared": 10
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "rdkg",
+   "scheme": "CL",
+   "shared": 10
+  },
+  {
+   "a": "biohealth",
+   "b": "securechainkg",
+   "scheme": "LABEL",
+   "shared": 10
+  },
+  {
+   "a": "rdkg",
+   "b": "spoke-okn",
+   "scheme": "CHEBI",
+   "shared": 9
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "spoke-genelab",
+   "scheme": "NCBITaxon",
+   "shared": 8
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "sockg",
+   "scheme": "CAS",
+   "shared": 8
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "sawgraph",
+   "scheme": "NCBITaxon",
+   "shared": 8
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "CL",
+   "shared": 8
+  },
+  {
+   "a": "digcfdekg",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "EFO",
+   "shared": 8
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "NCBITaxon",
+   "shared": 7
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "spoke-genelab",
+   "scheme": "NCBITaxon",
+   "shared": 7
+  },
+  {
+   "a": "nde",
+   "b": "spoke-genelab",
+   "scheme": "NCBITaxon",
+   "shared": 7
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "oard-kg",
+   "scheme": "MONDO",
+   "shared": 7
+  },
+  {
+   "a": "nde",
+   "b": "prokn",
+   "scheme": "NCIT",
+   "shared": 7
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "ruralkg",
+   "scheme": "LABEL",
+   "shared": 7
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "nde",
+   "scheme": "NCBITaxon",
+   "shared": 6
+  },
+  {
+   "a": "biobricks-mesh",
+   "b": "sawgraph",
+   "scheme": "CAS",
+   "shared": 6
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "spoke-genelab",
+   "scheme": "UBERON",
+   "shared": 6
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "prokn",
+   "scheme": "HP",
+   "shared": 6
+  },
+  {
+   "a": "biobricks-mesh",
+   "b": "sockg",
+   "scheme": "CAS",
+   "shared": 5
+  },
+  {
+   "a": "ruralkg",
+   "b": "securechainkg",
+   "scheme": "LABEL",
+   "shared": 5
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "rdkg",
+   "scheme": "CHEBI",
+   "shared": 4
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "spoke-genelab",
+   "scheme": "CL",
+   "shared": 4
+  },
+  {
+   "a": "nestkg",
+   "b": "oard-kg",
+   "scheme": "MONDO",
+   "shared": 4
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "rdkg",
+   "scheme": "Orphanet",
+   "shared": 3
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "nde",
+   "scheme": "HP",
+   "shared": 3
+  },
+  {
+   "a": "rdkg",
+   "b": "spoke-genelab",
+   "scheme": "UBERON",
+   "shared": 3
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "rdkg",
+   "scheme": "UBERON",
+   "shared": 3
+  },
+  {
+   "a": "pankgraph",
+   "b": "prokn",
+   "scheme": "GO",
+   "shared": 3
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "ruralkg",
+   "scheme": "LABEL",
+   "shared": 3
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "ubergraph",
+   "scheme": "MONDO",
+   "shared": 2
+  },
+  {
+   "a": "digcfdekg",
+   "b": "nestkg",
+   "scheme": "MONDO",
+   "shared": 2
+  },
+  {
+   "a": "nestkg",
+   "b": "prokn",
+   "scheme": "MONDO",
+   "shared": 2
+  },
+  {
+   "a": "biomarkerkg",
+   "b": "rdkg",
+   "scheme": "CL",
+   "shared": 2
+  },
+  {
+   "a": "rdkg",
+   "b": "ruralkg",
+   "scheme": "DrugBank",
+   "shared": 2
+  },
+  {
+   "a": "spoke-genelab",
+   "b": "spoke-okn",
+   "scheme": "NCBITaxon",
+   "shared": 2
+  },
+  {
+   "a": "geoconnex",
+   "b": "nikg",
+   "scheme": "county_FIPS",
+   "shared": 2
+  },
+  {
+   "a": "nikg",
+   "b": "ruralkg",
+   "scheme": "county_FIPS",
+   "shared": 2
+  },
+  {
+   "a": "nikg",
+   "b": "spatialkg",
+   "scheme": "county_FIPS",
+   "shared": 2
+  },
+  {
+   "a": "nikg",
+   "b": "spoke-okn",
+   "scheme": "county_FIPS",
+   "shared": 2
+  },
+  {
+   "a": "climatemodelskg",
+   "b": "spatialkg",
+   "scheme": "LABEL",
+   "shared": 2
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "ruralkg",
+   "scheme": "LABEL",
+   "shared": 2
+  },
+  {
+   "a": "biobricks-aopwiki",
+   "b": "sawgraph",
+   "scheme": "CAS",
+   "shared": 1
+  },
+  {
+   "a": "digcfdekg",
+   "b": "gene-expression-atlas-okn",
+   "scheme": "HP",
+   "shared": 1
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "nestkg",
+   "scheme": "MONDO",
+   "shared": 1
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "nde",
+   "scheme": "DOID",
+   "shared": 1
+  },
+  {
+   "a": "rdkg",
+   "b": "spoke-genelab",
+   "scheme": "CL",
+   "shared": 1
+  },
+  {
+   "a": "gene-expression-atlas-okn",
+   "b": "nde",
+   "scheme": "NCIT",
+   "shared": 1
+  },
+  {
+   "a": "prokn",
+   "b": "spoke-okn",
+   "scheme": "DOID",
+   "shared": 1
+  },
+  {
+   "a": "scales",
+   "b": "spoke-okn",
+   "scheme": "LABEL",
+   "shared": 1
+  },
+  {
+   "a": "medical-device-kg",
+   "b": "wildlifekn",
+   "scheme": "LABEL",
+   "shared": 1
+  },
+  {
+   "a": "nasa-gesdisc-kg",
+   "b": "securechainkg",
+   "scheme": "LABEL",
+   "shared": 1
+  }
+ ],
+ "reach": [
+  {
+   "from": "biobricks-aopwiki",
+   "to": "biobricks-ice",
+   "direct": 510,
+   "bridged": 514,
+   "either": 1024,
+   "only_via_connector": 514,
+   "connectors": {
+    "ubergraph": 343,
+    "wikidata": 171
+   },
+   "direct_schemes": {
+    "CAS": 339,
+    "Entrez": 171
+   },
+   "bridged_schemes": {
+    "CHEBI": 343,
+    "Ensembl": 171
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "biobricks-mesh",
+   "direct": 26,
+   "bridged": 28,
+   "either": 54,
+   "only_via_connector": 28,
+   "connectors": {
+    "ubergraph": 28
+   },
+   "direct_schemes": {
+    "CAS": 26
+   },
+   "bridged_schemes": {
+    "CHEBI": 28
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "biobricks-tox21",
+   "direct": 285,
+   "bridged": 280,
+   "either": 565,
+   "only_via_connector": 280,
+   "connectors": {
+    "ubergraph": 280
+   },
+   "direct_schemes": {
+    "CAS": 285
+   },
+   "bridged_schemes": {
+    "CHEBI": 280
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "biobricks-toxcast",
+   "direct": 290,
+   "bridged": 284,
+   "either": 574,
+   "only_via_connector": 284,
+   "connectors": {
+    "ubergraph": 284
+   },
+   "direct_schemes": {
+    "CAS": 290
+   },
+   "bridged_schemes": {
+    "CHEBI": 284
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "biomarkerkg",
+   "direct": 178,
+   "bridged": 86,
+   "either": 264,
+   "only_via_connector": 86,
+   "connectors": {
+    "wikidata": 86
+   },
+   "direct_schemes": {
+    "Entrez": 86,
+    "UniProt": 92
+   },
+   "bridged_schemes": {
+    "Ensembl": 86
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "digcfdekg",
+   "direct": 1446,
+   "bridged": 1460,
+   "either": 2906,
+   "only_via_connector": 1460,
+   "connectors": {
+    "wikidata": 1460
+   },
+   "direct_schemes": {
+    "Entrez": 1446
+   },
+   "bridged_schemes": {
+    "Ensembl": 1460
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "gene-expression-atlas-okn",
+   "direct": 1362,
+   "bridged": 1364,
+   "either": 2726,
+   "only_via_connector": 1364,
+   "connectors": {
+    "wikidata": 1364
+   },
+   "direct_schemes": {
+    "Ensembl": 1355,
+    "NCBITaxon": 7
+   },
+   "bridged_schemes": {
+    "Entrez": 1364
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "nde",
+   "direct": 62,
+   "bridged": 0,
+   "either": 62,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "NCBITaxon": 62
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "nestkg",
+   "direct": 1412,
+   "bridged": 0,
+   "either": 1412,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "UniProt": 1412
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "pankgraph",
+   "direct": 1470,
+   "bridged": 1447,
+   "either": 2917,
+   "only_via_connector": 1447,
+   "connectors": {
+    "wikidata": 1447
+   },
+   "direct_schemes": {
+    "Ensembl": 1470
+   },
+   "bridged_schemes": {
+    "Entrez": 1447
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "prokn",
+   "direct": 3268,
+   "bridged": 1446,
+   "either": 4714,
+   "only_via_connector": 1446,
+   "connectors": {
+    "wikidata": 1446
+   },
+   "direct_schemes": {
+    "Ensembl": 1468,
+    "UniProt": 1800
+   },
+   "bridged_schemes": {
+    "Entrez": 1446
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "rdkg",
+   "direct": 1321,
+   "bridged": 1195,
+   "either": 2515,
+   "only_via_connector": 1194,
+   "connectors": {
+    "wikidata": 1191,
+    "ubergraph": 4
+   },
+   "direct_schemes": {
+    "Entrez": 1193,
+    "DrugBank": 124,
+    "CHEBI": 4
+   },
+   "bridged_schemes": {
+    "Ensembl": 1190,
+    "CAS": 4
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "sawgraph",
+   "direct": 9,
+   "bridged": 1,
+   "either": 10,
+   "only_via_connector": 1,
+   "connectors": {
+    "ubergraph": 1
+   },
+   "direct_schemes": {
+    "NCBITaxon": 8,
+    "CAS": 1
+   },
+   "bridged_schemes": {
+    "CHEBI": 1
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "sockg",
+   "direct": 8,
+   "bridged": 7,
+   "either": 15,
+   "only_via_connector": 7,
+   "connectors": {
+    "ubergraph": 7
+   },
+   "direct_schemes": {
+    "CAS": 8
+   },
+   "bridged_schemes": {
+    "CHEBI": 7
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "spoke-genelab",
+   "direct": 1479,
+   "bridged": 1453,
+   "either": 2932,
+   "only_via_connector": 1453,
+   "connectors": {
+    "wikidata": 1453
+   },
+   "direct_schemes": {
+    "Entrez": 1472,
+    "NCBITaxon": 7
+   },
+   "bridged_schemes": {
+    "Ensembl": 1453
+   }
+  },
+  {
+   "from": "biobricks-aopwiki",
+   "to": "spoke-okn",
+   "direct": 3066,
+   "bridged": 2852,
+   "either": 3162,
+   "only_via_connector": 96,
+   "connectors": {
+    "wikidata": 2764,
+    "ubergraph": 88
+   },
+   "direct_schemes": {
+    "Entrez": 1393,
+    "Ensembl": 1385,
+    "CHEBI": 99,
+    "PubChem_CID": 87,
+    "ChEMBL": 75,
+    "DrugBank": 27
+   },
+   "bridged_schemes": {
+    "CAS": 88,
+    "Ensembl": 8
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "biobricks-aopwiki",
+   "direct": 510,
+   "bridged": 504,
+   "either": 520,
+   "only_via_connector": 10,
+   "connectors": {
+    "ubergraph": 333,
+    "wikidata": 171
+   },
+   "direct_schemes": {
+    "CAS": 339,
+    "Entrez": 171
+   },
+   "bridged_schemes": {
+    "CAS": 10
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "biobricks-mesh",
+   "direct": 6924,
+   "bridged": 0,
+   "either": 6924,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 6924
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "biobricks-tox21",
+   "direct": 8730,
+   "bridged": 0,
+   "either": 8730,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 8730
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "biobricks-toxcast",
+   "direct": 8997,
+   "bridged": 0,
+   "either": 8997,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 8997
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "biohealth",
+   "direct": 46,
+   "bridged": 0,
+   "either": 46,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "UMLS": 46
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "biomarkerkg",
+   "direct": 36,
+   "bridged": 0,
+   "either": 36,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 36
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "digcfdekg",
+   "direct": 401,
+   "bridged": 5,
+   "either": 406,
+   "only_via_connector": 5,
+   "connectors": {
+    "ubergraph": 5
+   },
+   "direct_schemes": {
+    "Entrez": 401
+   },
+   "bridged_schemes": {
+    "CAS": 5
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "gene-expression-atlas-okn",
+   "direct": 0,
+   "bridged": 455,
+   "either": 455,
+   "only_via_connector": 455,
+   "connectors": {
+    "wikidata": 455
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Entrez": 455
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "pankgraph",
+   "direct": 0,
+   "bridged": 399,
+   "either": 399,
+   "only_via_connector": 399,
+   "connectors": {
+    "wikidata": 399
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Entrez": 399
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "prokn",
+   "direct": 0,
+   "bridged": 399,
+   "either": 399,
+   "only_via_connector": 399,
+   "connectors": {
+    "wikidata": 399
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Entrez": 399
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "rdkg",
+   "direct": 363,
+   "bridged": 14,
+   "either": 377,
+   "only_via_connector": 14,
+   "connectors": {
+    "ubergraph": 14
+   },
+   "direct_schemes": {
+    "Entrez": 363
+   },
+   "bridged_schemes": {
+    "CAS": 14
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "sawgraph",
+   "direct": 44,
+   "bridged": 0,
+   "either": 44,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 44
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "sockg",
+   "direct": 68,
+   "bridged": 0,
+   "either": 68,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 68
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "spoke-genelab",
+   "direct": 424,
+   "bridged": 0,
+   "either": 424,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 424
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "spoke-okn",
+   "direct": 393,
+   "bridged": 1105,
+   "either": 1107,
+   "only_via_connector": 714,
+   "connectors": {
+    "ubergraph": 714,
+    "wikidata": 391
+   },
+   "direct_schemes": {
+    "Entrez": 393
+   },
+   "bridged_schemes": {
+    "CAS": 714
+   }
+  },
+  {
+   "from": "biobricks-ice",
+   "to": "ubergraph",
+   "direct": 0,
+   "bridged": 1,
+   "either": 1,
+   "only_via_connector": 1,
+   "connectors": {
+    "wikidata": 1
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 1
+   }
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "biobricks-aopwiki",
+   "direct": 26,
+   "bridged": 27,
+   "either": 29,
+   "only_via_connector": 3,
+   "connectors": {
+    "ubergraph": 27
+   },
+   "direct_schemes": {
+    "CAS": 26
+   },
+   "bridged_schemes": {
+    "CAS": 3
+   }
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "biobricks-ice",
+   "direct": 6924,
+   "bridged": 0,
+   "either": 6924,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 6924
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "biobricks-tox21",
+   "direct": 1103,
+   "bridged": 0,
+   "either": 1103,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 1103
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "biobricks-toxcast",
+   "direct": 1146,
+   "bridged": 0,
+   "either": 1146,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 1146
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "digcfdekg",
+   "direct": 0,
+   "bridged": 2,
+   "either": 2,
+   "only_via_connector": 2,
+   "connectors": {
+    "ubergraph": 2
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 2
+   }
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "rdkg",
+   "direct": 0,
+   "bridged": 2,
+   "either": 2,
+   "only_via_connector": 2,
+   "connectors": {
+    "ubergraph": 2
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 2
+   }
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "sawgraph",
+   "direct": 6,
+   "bridged": 0,
+   "either": 6,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 6
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "sockg",
+   "direct": 5,
+   "bridged": 0,
+   "either": 5,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 5
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-mesh",
+   "to": "spoke-okn",
+   "direct": 0,
+   "bridged": 87,
+   "either": 87,
+   "only_via_connector": 87,
+   "connectors": {
+    "ubergraph": 87
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 87
+   }
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "biobricks-aopwiki",
+   "direct": 285,
+   "bridged": 275,
+   "either": 287,
+   "only_via_connector": 2,
+   "connectors": {
+    "ubergraph": 275
+   },
+   "direct_schemes": {
+    "CAS": 285
+   },
+   "bridged_schemes": {
+    "CAS": 2
+   }
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "biobricks-ice",
+   "direct": 8730,
+   "bridged": 0,
+   "either": 8730,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 8730
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "biobricks-mesh",
+   "direct": 1103,
+   "bridged": 0,
+   "either": 1103,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 1103
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "biobricks-toxcast",
+   "direct": 8723,
+   "bridged": 0,
+   "either": 8723,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 8723
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "digcfdekg",
+   "direct": 0,
+   "bridged": 5,
+   "either": 5,
+   "only_via_connector": 5,
+   "connectors": {
+    "ubergraph": 5
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 5
+   }
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "rdkg",
+   "direct": 0,
+   "bridged": 7,
+   "either": 7,
+   "only_via_connector": 7,
+   "connectors": {
+    "ubergraph": 7
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 7
+   }
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "sawgraph",
+   "direct": 11,
+   "bridged": 0,
+   "either": 11,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 11
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "sockg",
+   "direct": 55,
+   "bridged": 0,
+   "either": 55,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 55
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-tox21",
+   "to": "spoke-okn",
+   "direct": 0,
+   "bridged": 481,
+   "either": 481,
+   "only_via_connector": 481,
+   "connectors": {
+    "ubergraph": 481
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 481
+   }
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "biobricks-aopwiki",
+   "direct": 290,
+   "bridged": 279,
+   "either": 292,
+   "only_via_connector": 2,
+   "connectors": {
+    "ubergraph": 279
+   },
+   "direct_schemes": {
+    "CAS": 290
+   },
+   "bridged_schemes": {
+    "CAS": 2
+   }
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "biobricks-ice",
+   "direct": 8997,
+   "bridged": 0,
+   "either": 8997,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 8997
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "biobricks-mesh",
+   "direct": 1146,
+   "bridged": 0,
+   "either": 1146,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 1146
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "biobricks-tox21",
+   "direct": 8723,
+   "bridged": 0,
+   "either": 8723,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 8723
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "digcfdekg",
+   "direct": 0,
+   "bridged": 5,
+   "either": 5,
+   "only_via_connector": 5,
+   "connectors": {
+    "ubergraph": 5
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 5
+   }
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "rdkg",
+   "direct": 0,
+   "bridged": 9,
+   "either": 9,
+   "only_via_connector": 9,
+   "connectors": {
+    "ubergraph": 9
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 9
+   }
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "sawgraph",
+   "direct": 34,
+   "bridged": 0,
+   "either": 34,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 34
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "sockg",
+   "direct": 59,
+   "bridged": 0,
+   "either": 59,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 59
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biobricks-toxcast",
+   "to": "spoke-okn",
+   "direct": 0,
+   "bridged": 497,
+   "either": 497,
+   "only_via_connector": 497,
+   "connectors": {
+    "ubergraph": 497
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 497
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "biobricks-ice",
+   "direct": 46,
+   "bridged": 0,
+   "either": 46,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "UMLS": 46
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "biomarkerkg",
+   "direct": 0,
+   "bridged": 871,
+   "either": 871,
+   "only_via_connector": 871,
+   "connectors": {
+    "ubergraph": 871
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 871
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "climatemodelskg",
+   "direct": 168,
+   "bridged": 0,
+   "either": 168,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 168
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "digcfdekg",
+   "direct": 0,
+   "bridged": 260,
+   "either": 260,
+   "only_via_connector": 260,
+   "connectors": {
+    "ubergraph": 260
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 260
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "gene-expression-atlas-okn",
+   "direct": 0,
+   "bridged": 294,
+   "either": 294,
+   "only_via_connector": 294,
+   "connectors": {
+    "ubergraph": 294
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 294
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "medical-device-kg",
+   "direct": 80,
+   "bridged": 0,
+   "either": 80,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 80
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "nasa-gesdisc-kg",
+   "direct": 38,
+   "bridged": 0,
+   "either": 38,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 38
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "nde",
+   "direct": 0,
+   "bridged": 3007,
+   "either": 3007,
+   "only_via_connector": 3007,
+   "connectors": {
+    "ubergraph": 3007
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 3007
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "nestkg",
+   "direct": 0,
+   "bridged": 13,
+   "either": 13,
+   "only_via_connector": 13,
+   "connectors": {
+    "ubergraph": 13
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 13
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "oard-kg",
+   "direct": 0,
+   "bridged": 5928,
+   "either": 5928,
+   "only_via_connector": 5928,
+   "connectors": {
+    "ubergraph": 5928
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 5928
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "prokn",
+   "direct": 0,
+   "bridged": 1738,
+   "either": 1738,
+   "only_via_connector": 1738,
+   "connectors": {
+    "ubergraph": 1738
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 1738
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "rdkg",
+   "direct": 0,
+   "bridged": 12693,
+   "either": 12693,
+   "only_via_connector": 12693,
+   "connectors": {
+    "ubergraph": 12693
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 12693
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "ruralkg",
+   "direct": 246,
+   "bridged": 0,
+   "either": 246,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 246
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "scales",
+   "direct": 17,
+   "bridged": 0,
+   "either": 17,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 17
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "securechainkg",
+   "direct": 10,
+   "bridged": 0,
+   "either": 10,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 10
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "spatialkg",
+   "direct": 38,
+   "bridged": 0,
+   "either": 38,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 38
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "spoke-genelab",
+   "direct": 0,
+   "bridged": 35,
+   "either": 35,
+   "only_via_connector": 35,
+   "connectors": {
+    "ubergraph": 35
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UMLS": 35
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "spoke-okn",
+   "direct": 106,
+   "bridged": 190,
+   "either": 296,
+   "only_via_connector": 190,
+   "connectors": {
+    "wikidata": 190
+   },
+   "direct_schemes": {
+    "LABEL": 106
+   },
+   "bridged_schemes": {
+    "UMLS": 190
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "sudokn",
+   "direct": 211,
+   "bridged": 0,
+   "either": 211,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 211
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biohealth",
+   "to": "ubergraph",
+   "direct": 13566,
+   "bridged": 6493,
+   "either": 15555,
+   "only_via_connector": 1989,
+   "connectors": {
+    "wikidata": 6493
+   },
+   "direct_schemes": {
+    "UMLS": 13566
+   },
+   "bridged_schemes": {
+    "UMLS": 1989
+   }
+  },
+  {
+   "from": "biohealth",
+   "to": "wildlifekn",
+   "direct": 105,
+   "bridged": 0,
+   "either": 105,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 105
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "biobricks-aopwiki",
+   "direct": 178,
+   "bridged": 86,
+   "either": 178,
+   "only_via_connector": 0,
+   "connectors": {
+    "wikidata": 86
+   },
+   "direct_schemes": {
+    "Entrez": 86,
+    "UniProt": 92
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "biobricks-ice",
+   "direct": 36,
+   "bridged": 0,
+   "either": 36,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 36
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 870,
+   "either": 870,
+   "only_via_connector": 870,
+   "connectors": {
+    "ubergraph": 870
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MONDO": 834,
+    "UBERON": 36
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "digcfdekg",
+   "direct": 317,
+   "bridged": 136,
+   "either": 445,
+   "only_via_connector": 128,
+   "connectors": {
+    "ubergraph": 136
+   },
+   "direct_schemes": {
+    "MONDO": 117,
+    "Entrez": 200
+   },
+   "bridged_schemes": {
+    "MONDO": 128
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "gene-expression-atlas-okn",
+   "direct": 56,
+   "bridged": 405,
+   "either": 461,
+   "only_via_connector": 405,
+   "connectors": {
+    "ubergraph": 212,
+    "wikidata": 193
+   },
+   "direct_schemes": {
+    "UBERON": 27,
+    "MONDO": 21,
+    "CL": 8
+   },
+   "bridged_schemes": {
+    "MONDO": 212,
+    "Entrez": 193
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "nde",
+   "direct": 601,
+   "bridged": 84,
+   "either": 632,
+   "only_via_connector": 31,
+   "connectors": {
+    "ubergraph": 84
+   },
+   "direct_schemes": {
+    "MONDO": 601
+   },
+   "bridged_schemes": {
+    "MONDO": 31
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "nestkg",
+   "direct": 243,
+   "bridged": 0,
+   "either": 243,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "UniProt": 230,
+    "MONDO": 13
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "oard-kg",
+   "direct": 290,
+   "bridged": 0,
+   "either": 290,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 290
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "pankgraph",
+   "direct": 0,
+   "bridged": 198,
+   "either": 198,
+   "only_via_connector": 198,
+   "connectors": {
+    "wikidata": 198
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Entrez": 198
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "prokn",
+   "direct": 501,
+   "bridged": 617,
+   "either": 993,
+   "only_via_connector": 492,
+   "connectors": {
+    "ubergraph": 418,
+    "wikidata": 199
+   },
+   "direct_schemes": {
+    "MONDO": 263,
+    "UniProt": 238
+   },
+   "bridged_schemes": {
+    "MONDO": 293,
+    "Entrez": 199
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "rdkg",
+   "direct": 926,
+   "bridged": 71,
+   "either": 948,
+   "only_via_connector": 22,
+   "connectors": {
+    "ubergraph": 71
+   },
+   "direct_schemes": {
+    "MONDO": 754,
+    "Entrez": 167,
+    "UBERON": 3,
+    "CL": 2
+   },
+   "bridged_schemes": {
+    "MONDO": 22
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "spoke-genelab",
+   "direct": 206,
+   "bridged": 0,
+   "either": 206,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 200,
+    "UBERON": 6
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "spoke-okn",
+   "direct": 191,
+   "bridged": 297,
+   "either": 298,
+   "only_via_connector": 107,
+   "connectors": {
+    "wikidata": 190,
+    "ubergraph": 107
+   },
+   "direct_schemes": {
+    "Entrez": 191
+   },
+   "bridged_schemes": {
+    "MONDO": 107
+   }
+  },
+  {
+   "from": "biomarkerkg",
+   "to": "ubergraph",
+   "direct": 70,
+   "bridged": 0,
+   "either": 70,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 70
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "climatemodelskg",
+   "to": "biohealth",
+   "direct": 168,
+   "bridged": 0,
+   "either": 168,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 168
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "climatemodelskg",
+   "to": "medical-device-kg",
+   "direct": 30,
+   "bridged": 0,
+   "either": 30,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 30
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "climatemodelskg",
+   "to": "nasa-gesdisc-kg",
+   "direct": 591,
+   "bridged": 0,
+   "either": 591,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 591
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "climatemodelskg",
+   "to": "ruralkg",
+   "direct": 7,
+   "bridged": 0,
+   "either": 7,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 7
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "climatemodelskg",
+   "to": "spatialkg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "climatemodelskg",
+   "to": "sudokn",
+   "direct": 60,
+   "bridged": 0,
+   "either": 60,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 60
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "digcfdekg",
+   "to": "biobricks-aopwiki",
+   "direct": 1446,
+   "bridged": 1461,
+   "either": 1475,
+   "only_via_connector": 29,
+   "connectors": {
+    "wikidata": 1461
+   },
+   "direct_schemes": {
+    "Entrez": 1446
+   },
+   "bridged_schemes": {
+    "Entrez": 29
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "biobricks-ice",
+   "direct": 401,
+   "bridged": 5,
+   "either": 406,
+   "only_via_connector": 5,
+   "connectors": {
+    "ubergraph": 5
+   },
+   "direct_schemes": {
+    "Entrez": 401
+   },
+   "bridged_schemes": {
+    "CHEBI": 5
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "biobricks-mesh",
+   "direct": 0,
+   "bridged": 2,
+   "either": 2,
+   "only_via_connector": 2,
+   "connectors": {
+    "ubergraph": 2
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 2
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "biobricks-tox21",
+   "direct": 0,
+   "bridged": 5,
+   "either": 5,
+   "only_via_connector": 5,
+   "connectors": {
+    "ubergraph": 5
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 5
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "biobricks-toxcast",
+   "direct": 0,
+   "bridged": 5,
+   "either": 5,
+   "only_via_connector": 5,
+   "connectors": {
+    "ubergraph": 5
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 5
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 260,
+   "either": 260,
+   "only_via_connector": 260,
+   "connectors": {
+    "ubergraph": 260
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "HP": 58,
+    "MONDO": 202
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "biomarkerkg",
+   "direct": 317,
+   "bridged": 136,
+   "either": 453,
+   "only_via_connector": 136,
+   "connectors": {
+    "ubergraph": 136
+   },
+   "direct_schemes": {
+    "MONDO": 117,
+    "Entrez": 200
+   },
+   "bridged_schemes": {
+    "Orphanet": 136
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "gene-expression-atlas-okn",
+   "direct": 40,
+   "bridged": 20104,
+   "either": 20144,
+   "only_via_connector": 20104,
+   "connectors": {
+    "wikidata": 20043,
+    "ubergraph": 61
+   },
+   "direct_schemes": {
+    "Orphanet": 21,
+    "EFO": 8,
+    "HP": 1,
+    "MONDO": 10
+   },
+   "bridged_schemes": {
+    "Entrez": 20043,
+    "MONDO": 55,
+    "Orphanet": 6
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "nde",
+   "direct": 171,
+   "bridged": 455,
+   "either": 613,
+   "only_via_connector": 442,
+   "connectors": {
+    "ubergraph": 455
+   },
+   "direct_schemes": {
+    "MONDO": 158,
+    "HP": 13
+   },
+   "bridged_schemes": {
+    "Orphanet": 428,
+    "MONDO": 14
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "nestkg",
+   "direct": 2,
+   "bridged": 3,
+   "either": 5,
+   "only_via_connector": 3,
+   "connectors": {
+    "ubergraph": 3
+   },
+   "direct_schemes": {
+    "MONDO": 2
+   },
+   "bridged_schemes": {
+    "Orphanet": 3
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "oard-kg",
+   "direct": 100,
+   "bridged": 561,
+   "either": 661,
+   "only_via_connector": 561,
+   "connectors": {
+    "ubergraph": 561
+   },
+   "direct_schemes": {
+    "HP": 63,
+    "MONDO": 37
+   },
+   "bridged_schemes": {
+    "Orphanet": 561
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "pankgraph",
+   "direct": 18,
+   "bridged": 37757,
+   "either": 37775,
+   "only_via_connector": 37757,
+   "connectors": {
+    "wikidata": 37757
+   },
+   "direct_schemes": {
+    "GO": 18
+   },
+   "bridged_schemes": {
+    "Entrez": 37757
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "prokn",
+   "direct": 452,
+   "bridged": 36492,
+   "either": 36778,
+   "only_via_connector": 36326,
+   "connectors": {
+    "wikidata": 36074,
+    "ubergraph": 418
+   },
+   "direct_schemes": {
+    "Orphanet": 360,
+    "HP": 20,
+    "EFO": 25,
+    "MONDO": 47
+   },
+   "bridged_schemes": {
+    "Entrez": 36074,
+    "MONDO": 120,
+    "Orphanet": 132
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "rdkg",
+   "direct": 10207,
+   "bridged": 1522,
+   "either": 11511,
+   "only_via_connector": 1304,
+   "connectors": {
+    "ubergraph": 1497,
+    "wikidata": 25
+   },
+   "direct_schemes": {
+    "Entrez": 9219,
+    "MONDO": 180,
+    "Orphanet": 746,
+    "HP": 62
+   },
+   "bridged_schemes": {
+    "Orphanet": 1293,
+    "MONDO": 7,
+    "Entrez": 4
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "spoke-genelab",
+   "direct": 28556,
+   "bridged": 0,
+   "either": 28556,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 28556
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "digcfdekg",
+   "to": "spoke-okn",
+   "direct": 16320,
+   "bridged": 16097,
+   "either": 16364,
+   "only_via_connector": 44,
+   "connectors": {
+    "wikidata": 16054,
+    "ubergraph": 43
+   },
+   "direct_schemes": {
+    "Entrez": 16320
+   },
+   "bridged_schemes": {
+    "MONDO": 43,
+    "Entrez": 1
+   }
+  },
+  {
+   "from": "digcfdekg",
+   "to": "ubergraph",
+   "direct": 26,
+   "bridged": 0,
+   "either": 26,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 26
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "dreamkg",
+   "to": "medical-device-kg",
+   "direct": 231,
+   "bridged": 0,
+   "either": 231,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 231
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "dreamkg",
+   "to": "ruralkg",
+   "direct": 127,
+   "bridged": 0,
+   "either": 127,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 127
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "dreamkg",
+   "to": "scales",
+   "direct": 235,
+   "bridged": 0,
+   "either": 235,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 235
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "dreamkg",
+   "to": "spoke-okn",
+   "direct": 235,
+   "bridged": 0,
+   "either": 235,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 235
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "dreamkg",
+   "to": "sudokn",
+   "direct": 171,
+   "bridged": 0,
+   "either": 171,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 171
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "biobricks-aopwiki",
+   "direct": 1362,
+   "bridged": 1496,
+   "either": 1516,
+   "only_via_connector": 154,
+   "connectors": {
+    "wikidata": 1496
+   },
+   "direct_schemes": {
+    "Ensembl": 1355,
+    "NCBITaxon": 7
+   },
+   "bridged_schemes": {
+    "Ensembl": 154
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "biobricks-ice",
+   "direct": 0,
+   "bridged": 487,
+   "either": 487,
+   "only_via_connector": 487,
+   "connectors": {
+    "wikidata": 487
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Ensembl": 487
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 281,
+   "either": 281,
+   "only_via_connector": 281,
+   "connectors": {
+    "ubergraph": 281
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UBERON": 237,
+    "MONDO": 31,
+    "HP": 13
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "biomarkerkg",
+   "direct": 56,
+   "bridged": 426,
+   "either": 482,
+   "only_via_connector": 426,
+   "connectors": {
+    "wikidata": 214,
+    "ubergraph": 212
+   },
+   "direct_schemes": {
+    "UBERON": 27,
+    "MONDO": 21,
+    "CL": 8
+   },
+   "bridged_schemes": {
+    "EFO": 196,
+    "Ensembl": 214,
+    "Orphanet": 15,
+    "DOID": 1
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "digcfdekg",
+   "direct": 40,
+   "bridged": 21941,
+   "either": 21981,
+   "only_via_connector": 21941,
+   "connectors": {
+    "wikidata": 21880,
+    "ubergraph": 61
+   },
+   "direct_schemes": {
+    "Orphanet": 21,
+    "EFO": 8,
+    "HP": 1,
+    "MONDO": 10
+   },
+   "bridged_schemes": {
+    "Ensembl": 21880,
+    "MONDO": 6,
+    "EFO": 51,
+    "Orphanet": 4
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "nde",
+   "direct": 35,
+   "bridged": 311,
+   "either": 341,
+   "only_via_connector": 306,
+   "connectors": {
+    "ubergraph": 311
+   },
+   "direct_schemes": {
+    "MONDO": 24,
+    "NCBITaxon": 6,
+    "HP": 3,
+    "NCIT": 1,
+    "DOID": 1
+   },
+   "bridged_schemes": {
+    "EFO": 270,
+    "Orphanet": 34,
+    "DOID": 1,
+    "MONDO": 1
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "nestkg",
+   "direct": 1,
+   "bridged": 11,
+   "either": 12,
+   "only_via_connector": 11,
+   "connectors": {
+    "ubergraph": 11
+   },
+   "direct_schemes": {
+    "MONDO": 1
+   },
+   "bridged_schemes": {
+    "EFO": 11
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "oard-kg",
+   "direct": 21,
+   "bridged": 155,
+   "either": 176,
+   "only_via_connector": 155,
+   "connectors": {
+    "ubergraph": 155
+   },
+   "direct_schemes": {
+    "HP": 14,
+    "MONDO": 7
+   },
+   "bridged_schemes": {
+    "EFO": 119,
+    "Orphanet": 35,
+    "DOID": 1
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "pankgraph",
+   "direct": 38804,
+   "bridged": 0,
+   "either": 38804,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Ensembl": 38804
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "prokn",
+   "direct": 19467,
+   "bridged": 82,
+   "either": 19484,
+   "only_via_connector": 17,
+   "connectors": {
+    "ubergraph": 82
+   },
+   "direct_schemes": {
+    "Ensembl": 19121,
+    "EFO": 288,
+    "MONDO": 24,
+    "Orphanet": 28,
+    "HP": 6
+   },
+   "bridged_schemes": {
+    "Orphanet": 11,
+    "MONDO": 3,
+    "EFO": 2,
+    "DOID": 1
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "rdkg",
+   "direct": 74,
+   "bridged": 9582,
+   "either": 9652,
+   "only_via_connector": 9578,
+   "connectors": {
+    "wikidata": 9180,
+    "ubergraph": 402
+   },
+   "direct_schemes": {
+    "MONDO": 28,
+    "UBERON": 19,
+    "HP": 14,
+    "Orphanet": 3,
+    "CL": 10
+   },
+   "bridged_schemes": {
+    "Ensembl": 9180,
+    "EFO": 357,
+    "MONDO": 5,
+    "Orphanet": 32,
+    "DOID": 4
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "spoke-genelab",
+   "direct": 39,
+   "bridged": 64873,
+   "either": 64912,
+   "only_via_connector": 64873,
+   "connectors": {
+    "wikidata": 64873
+   },
+   "direct_schemes": {
+    "NCBITaxon": 8,
+    "UBERON": 27,
+    "CL": 4
+   },
+   "bridged_schemes": {
+    "Ensembl": 64873
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "spoke-okn",
+   "direct": 15132,
+   "bridged": 16422,
+   "either": 16639,
+   "only_via_connector": 1507,
+   "connectors": {
+    "wikidata": 16411,
+    "ubergraph": 11
+   },
+   "direct_schemes": {
+    "Ensembl": 15132
+   },
+   "bridged_schemes": {
+    "Ensembl": 1496,
+    "MONDO": 11
+   }
+  },
+  {
+   "from": "gene-expression-atlas-okn",
+   "to": "ubergraph",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "geoconnex",
+   "to": "nikg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "geoconnex",
+   "to": "ruralkg",
+   "direct": 3222,
+   "bridged": 0,
+   "either": 3222,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3222
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "geoconnex",
+   "to": "sockg",
+   "direct": 49,
+   "bridged": 0,
+   "either": 49,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "state_FIPS": 18,
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "geoconnex",
+   "to": "spatialkg",
+   "direct": 3165,
+   "bridged": 0,
+   "either": 3165,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3114,
+    "state_FIPS": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "geoconnex",
+   "to": "spoke-okn",
+   "direct": 3236,
+   "bridged": 0,
+   "either": 3236,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3184,
+    "state_FIPS": 52
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "biohealth",
+   "direct": 80,
+   "bridged": 0,
+   "either": 80,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 80
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "climatemodelskg",
+   "direct": 30,
+   "bridged": 0,
+   "either": 30,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 30
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "dreamkg",
+   "direct": 231,
+   "bridged": 0,
+   "either": 231,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 231
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "nasa-gesdisc-kg",
+   "direct": 11,
+   "bridged": 0,
+   "either": 11,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 11
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "ruralkg",
+   "direct": 5147,
+   "bridged": 0,
+   "either": 5147,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 5145,
+    "LABEL": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "scales",
+   "direct": 19089,
+   "bridged": 0,
+   "either": 19089,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 19089
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "spoke-okn",
+   "direct": 19563,
+   "bridged": 0,
+   "either": 19563,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 19563
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "sudokn",
+   "direct": 11547,
+   "bridged": 0,
+   "either": 11547,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 11183,
+    "LABEL": 364
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "medical-device-kg",
+   "to": "wildlifekn",
+   "direct": 1,
+   "bridged": 0,
+   "either": 1,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 1
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nasa-gesdisc-kg",
+   "to": "biohealth",
+   "direct": 38,
+   "bridged": 0,
+   "either": 38,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 38
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nasa-gesdisc-kg",
+   "to": "climatemodelskg",
+   "direct": 591,
+   "bridged": 0,
+   "either": 591,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 591
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nasa-gesdisc-kg",
+   "to": "medical-device-kg",
+   "direct": 11,
+   "bridged": 0,
+   "either": 11,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 11
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nasa-gesdisc-kg",
+   "to": "ruralkg",
+   "direct": 3,
+   "bridged": 0,
+   "either": 3,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 3
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nasa-gesdisc-kg",
+   "to": "securechainkg",
+   "direct": 1,
+   "bridged": 0,
+   "either": 1,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 1
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nasa-gesdisc-kg",
+   "to": "sudokn",
+   "direct": 20,
+   "bridged": 0,
+   "either": 20,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 20
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nde",
+   "to": "biobricks-aopwiki",
+   "direct": 62,
+   "bridged": 0,
+   "either": 62,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "NCBITaxon": 62
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nde",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 2998,
+   "either": 2998,
+   "only_via_connector": 2998,
+   "connectors": {
+    "ubergraph": 2998
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MONDO": 2753,
+    "HP": 245
+   }
+  },
+  {
+   "from": "nde",
+   "to": "biomarkerkg",
+   "direct": 601,
+   "bridged": 87,
+   "either": 688,
+   "only_via_connector": 87,
+   "connectors": {
+    "ubergraph": 87
+   },
+   "direct_schemes": {
+    "MONDO": 601
+   },
+   "bridged_schemes": {
+    "DOID": 71,
+    "NCIT": 16
+   }
+  },
+  {
+   "from": "nde",
+   "to": "digcfdekg",
+   "direct": 171,
+   "bridged": 453,
+   "either": 613,
+   "only_via_connector": 442,
+   "connectors": {
+    "ubergraph": 453
+   },
+   "direct_schemes": {
+    "MONDO": 158,
+    "HP": 13
+   },
+   "bridged_schemes": {
+    "MONDO": 414,
+    "DOID": 20,
+    "NCIT": 8
+   }
+  },
+  {
+   "from": "nde",
+   "to": "gene-expression-atlas-okn",
+   "direct": 35,
+   "bridged": 311,
+   "either": 346,
+   "only_via_connector": 311,
+   "connectors": {
+    "ubergraph": 311
+   },
+   "direct_schemes": {
+    "MONDO": 24,
+    "NCBITaxon": 6,
+    "HP": 3,
+    "NCIT": 1,
+    "DOID": 1
+   },
+   "bridged_schemes": {
+    "MONDO": 306,
+    "DOID": 4,
+    "NCIT": 1
+   }
+  },
+  {
+   "from": "nde",
+   "to": "nestkg",
+   "direct": 13,
+   "bridged": 4,
+   "either": 17,
+   "only_via_connector": 4,
+   "connectors": {
+    "ubergraph": 4
+   },
+   "direct_schemes": {
+    "MONDO": 13
+   },
+   "bridged_schemes": {
+    "DOID": 3,
+    "NCIT": 1
+   }
+  },
+  {
+   "from": "nde",
+   "to": "oard-kg",
+   "direct": 1141,
+   "bridged": 82,
+   "either": 1223,
+   "only_via_connector": 82,
+   "connectors": {
+    "ubergraph": 82
+   },
+   "direct_schemes": {
+    "MONDO": 889,
+    "HP": 252
+   },
+   "bridged_schemes": {
+    "DOID": 67,
+    "NCIT": 15
+   }
+  },
+  {
+   "from": "nde",
+   "to": "prokn",
+   "direct": 820,
+   "bridged": 1212,
+   "either": 1661,
+   "only_via_connector": 841,
+   "connectors": {
+    "ubergraph": 1212
+   },
+   "direct_schemes": {
+    "MONDO": 756,
+    "HP": 57,
+    "NCIT": 7
+   },
+   "bridged_schemes": {
+    "MONDO": 756,
+    "DOID": 75,
+    "NCIT": 10
+   }
+  },
+  {
+   "from": "nde",
+   "to": "rdkg",
+   "direct": 3158,
+   "bridged": 449,
+   "either": 3464,
+   "only_via_connector": 306,
+   "connectors": {
+    "ubergraph": 449
+   },
+   "direct_schemes": {
+    "MONDO": 2907,
+    "HP": 251
+   },
+   "bridged_schemes": {
+    "DOID": 229,
+    "NCIT": 45,
+    "MONDO": 32
+   }
+  },
+  {
+   "from": "nde",
+   "to": "sawgraph",
+   "direct": 37,
+   "bridged": 0,
+   "either": 37,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "NCBITaxon": 37
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nde",
+   "to": "spoke-genelab",
+   "direct": 7,
+   "bridged": 0,
+   "either": 7,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "NCBITaxon": 7
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nde",
+   "to": "spoke-okn",
+   "direct": 43,
+   "bridged": 160,
+   "either": 203,
+   "only_via_connector": 160,
+   "connectors": {
+    "ubergraph": 160
+   },
+   "direct_schemes": {
+    "NCBITaxon": 23,
+    "DOID": 20
+   },
+   "bridged_schemes": {
+    "MONDO": 160
+   }
+  },
+  {
+   "from": "nde",
+   "to": "ubergraph",
+   "direct": 284,
+   "bridged": 0,
+   "either": 284,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 284
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nestkg",
+   "to": "biobricks-aopwiki",
+   "direct": 1412,
+   "bridged": 0,
+   "either": 1412,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "UniProt": 1412
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nestkg",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 13,
+   "either": 13,
+   "only_via_connector": 13,
+   "connectors": {
+    "ubergraph": 13
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MONDO": 13
+   }
+  },
+  {
+   "from": "nestkg",
+   "to": "biomarkerkg",
+   "direct": 243,
+   "bridged": 0,
+   "either": 243,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "UniProt": 230,
+    "MONDO": 13
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nestkg",
+   "to": "digcfdekg",
+   "direct": 2,
+   "bridged": 3,
+   "either": 4,
+   "only_via_connector": 2,
+   "connectors": {
+    "ubergraph": 3
+   },
+   "direct_schemes": {
+    "MONDO": 2
+   },
+   "bridged_schemes": {
+    "MONDO": 2
+   }
+  },
+  {
+   "from": "nestkg",
+   "to": "gene-expression-atlas-okn",
+   "direct": 1,
+   "bridged": 11,
+   "either": 12,
+   "only_via_connector": 11,
+   "connectors": {
+    "ubergraph": 11
+   },
+   "direct_schemes": {
+    "MONDO": 1
+   },
+   "bridged_schemes": {
+    "MONDO": 11
+   }
+  },
+  {
+   "from": "nestkg",
+   "to": "nde",
+   "direct": 13,
+   "bridged": 4,
+   "either": 14,
+   "only_via_connector": 1,
+   "connectors": {
+    "ubergraph": 4
+   },
+   "direct_schemes": {
+    "MONDO": 13
+   },
+   "bridged_schemes": {
+    "MONDO": 1
+   }
+  },
+  {
+   "from": "nestkg",
+   "to": "oard-kg",
+   "direct": 4,
+   "bridged": 0,
+   "either": 4,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 4
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nestkg",
+   "to": "prokn",
+   "direct": 16731,
+   "bridged": 10,
+   "either": 16740,
+   "only_via_connector": 9,
+   "connectors": {
+    "ubergraph": 10
+   },
+   "direct_schemes": {
+    "UniProt": 16729,
+    "MONDO": 2
+   },
+   "bridged_schemes": {
+    "MONDO": 9
+   }
+  },
+  {
+   "from": "nestkg",
+   "to": "rdkg",
+   "direct": 12,
+   "bridged": 3,
+   "either": 12,
+   "only_via_connector": 0,
+   "connectors": {
+    "ubergraph": 3
+   },
+   "direct_schemes": {
+    "MONDO": 12
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nestkg",
+   "to": "spoke-okn",
+   "direct": 0,
+   "bridged": 3,
+   "either": 3,
+   "only_via_connector": 3,
+   "connectors": {
+    "ubergraph": 3
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MONDO": 3
+   }
+  },
+  {
+   "from": "nikg",
+   "to": "geoconnex",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nikg",
+   "to": "ruralkg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nikg",
+   "to": "spatialkg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "nikg",
+   "to": "spoke-okn",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "oard-kg",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 6019,
+   "either": 6019,
+   "only_via_connector": 6019,
+   "connectors": {
+    "ubergraph": 6019
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "HP": 4228,
+    "MONDO": 1791
+   }
+  },
+  {
+   "from": "oard-kg",
+   "to": "biomarkerkg",
+   "direct": 290,
+   "bridged": 0,
+   "either": 290,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 290
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "oard-kg",
+   "to": "digcfdekg",
+   "direct": 100,
+   "bridged": 558,
+   "either": 644,
+   "only_via_connector": 544,
+   "connectors": {
+    "ubergraph": 558
+   },
+   "direct_schemes": {
+    "HP": 63,
+    "MONDO": 37
+   },
+   "bridged_schemes": {
+    "MONDO": 544
+   }
+  },
+  {
+   "from": "oard-kg",
+   "to": "gene-expression-atlas-okn",
+   "direct": 21,
+   "bridged": 155,
+   "either": 176,
+   "only_via_connector": 155,
+   "connectors": {
+    "ubergraph": 155
+   },
+   "direct_schemes": {
+    "HP": 14,
+    "MONDO": 7
+   },
+   "bridged_schemes": {
+    "MONDO": 155
+   }
+  },
+  {
+   "from": "oard-kg",
+   "to": "nde",
+   "direct": 1141,
+   "bridged": 80,
+   "either": 1169,
+   "only_via_connector": 28,
+   "connectors": {
+    "ubergraph": 80
+   },
+   "direct_schemes": {
+    "MONDO": 889,
+    "HP": 252
+   },
+   "bridged_schemes": {
+    "MONDO": 28
+   }
+  },
+  {
+   "from": "oard-kg",
+   "to": "nestkg",
+   "direct": 4,
+   "bridged": 0,
+   "either": 4,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 4
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "oard-kg",
+   "to": "prokn",
+   "direct": 723,
+   "bridged": 581,
+   "either": 1053,
+   "only_via_connector": 330,
+   "connectors": {
+    "ubergraph": 581
+   },
+   "direct_schemes": {
+    "HP": 253,
+    "MONDO": 470
+   },
+   "bridged_schemes": {
+    "MONDO": 330
+   }
+  },
+  {
+   "from": "oard-kg",
+   "to": "rdkg",
+   "direct": 7760,
+   "bridged": 195,
+   "either": 7788,
+   "only_via_connector": 28,
+   "connectors": {
+    "ubergraph": 195
+   },
+   "direct_schemes": {
+    "HP": 5746,
+    "MONDO": 2014
+   },
+   "bridged_schemes": {
+    "MONDO": 28
+   }
+  },
+  {
+   "from": "oard-kg",
+   "to": "spoke-okn",
+   "direct": 0,
+   "bridged": 40,
+   "either": 40,
+   "only_via_connector": 40,
+   "connectors": {
+    "ubergraph": 40
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MONDO": 40
+   }
+  },
+  {
+   "from": "oard-kg",
+   "to": "ubergraph",
+   "direct": 212,
+   "bridged": 0,
+   "either": 212,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 212
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "pankgraph",
+   "to": "biobricks-aopwiki",
+   "direct": 1470,
+   "bridged": 1447,
+   "either": 1485,
+   "only_via_connector": 15,
+   "connectors": {
+    "wikidata": 1447
+   },
+   "direct_schemes": {
+    "Ensembl": 1470
+   },
+   "bridged_schemes": {
+    "Ensembl": 15
+   }
+  },
+  {
+   "from": "pankgraph",
+   "to": "biobricks-ice",
+   "direct": 0,
+   "bridged": 399,
+   "either": 399,
+   "only_via_connector": 399,
+   "connectors": {
+    "wikidata": 399
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Ensembl": 399
+   }
+  },
+  {
+   "from": "pankgraph",
+   "to": "biomarkerkg",
+   "direct": 0,
+   "bridged": 198,
+   "either": 198,
+   "only_via_connector": 198,
+   "connectors": {
+    "wikidata": 198
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Ensembl": 198
+   }
+  },
+  {
+   "from": "pankgraph",
+   "to": "digcfdekg",
+   "direct": 18,
+   "bridged": 37771,
+   "either": 37789,
+   "only_via_connector": 37771,
+   "connectors": {
+    "wikidata": 37771
+   },
+   "direct_schemes": {
+    "GO": 18
+   },
+   "bridged_schemes": {
+    "Ensembl": 37771
+   }
+  },
+  {
+   "from": "pankgraph",
+   "to": "gene-expression-atlas-okn",
+   "direct": 38804,
+   "bridged": 0,
+   "either": 38804,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Ensembl": 38804
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "pankgraph",
+   "to": "prokn",
+   "direct": 38052,
+   "bridged": 0,
+   "either": 38052,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Ensembl": 37835,
+    "dbSNP": 214,
+    "GO": 3
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "pankgraph",
+   "to": "rdkg",
+   "direct": 134,
+   "bridged": 9078,
+   "either": 9212,
+   "only_via_connector": 9078,
+   "connectors": {
+    "wikidata": 9078
+   },
+   "direct_schemes": {
+    "GO": 134
+   },
+   "bridged_schemes": {
+    "Ensembl": 9078
+   }
+  },
+  {
+   "from": "pankgraph",
+   "to": "spoke-genelab",
+   "direct": 0,
+   "bridged": 28335,
+   "either": 28335,
+   "only_via_connector": 28335,
+   "connectors": {
+    "wikidata": 28335
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Ensembl": 28335
+   }
+  },
+  {
+   "from": "pankgraph",
+   "to": "spoke-okn",
+   "direct": 16314,
+   "bridged": 16076,
+   "either": 16327,
+   "only_via_connector": 13,
+   "connectors": {
+    "wikidata": 16076
+   },
+   "direct_schemes": {
+    "Ensembl": 16314
+   },
+   "bridged_schemes": {
+    "Ensembl": 13
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "biobricks-aopwiki",
+   "direct": 3268,
+   "bridged": 1446,
+   "either": 3282,
+   "only_via_connector": 14,
+   "connectors": {
+    "wikidata": 1446
+   },
+   "direct_schemes": {
+    "Ensembl": 1468,
+    "UniProt": 1800
+   },
+   "bridged_schemes": {
+    "HGNC": 8,
+    "Ensembl": 6
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "biobricks-ice",
+   "direct": 0,
+   "bridged": 399,
+   "either": 399,
+   "only_via_connector": 399,
+   "connectors": {
+    "wikidata": 399
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Ensembl": 398,
+    "HGNC": 1
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 1717,
+   "either": 1717,
+   "only_via_connector": 1717,
+   "connectors": {
+    "ubergraph": 1717
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MONDO": 1468,
+    "HP": 249
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "biomarkerkg",
+   "direct": 501,
+   "bridged": 672,
+   "either": 1173,
+   "only_via_connector": 672,
+   "connectors": {
+    "ubergraph": 473,
+    "wikidata": 199
+   },
+   "direct_schemes": {
+    "MONDO": 263,
+    "UniProt": 238
+   },
+   "bridged_schemes": {
+    "EFO": 335,
+    "Orphanet": 81,
+    "Ensembl": 199,
+    "NCIT": 57
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "digcfdekg",
+   "direct": 452,
+   "bridged": 36492,
+   "either": 36935,
+   "only_via_connector": 36483,
+   "connectors": {
+    "wikidata": 36070,
+    "ubergraph": 422
+   },
+   "direct_schemes": {
+    "Orphanet": 360,
+    "HP": 20,
+    "EFO": 25,
+    "MONDO": 47
+   },
+   "bridged_schemes": {
+    "Ensembl": 35787,
+    "EFO": 128,
+    "HGNC": 283,
+    "MONDO": 270,
+    "Orphanet": 4,
+    "NCIT": 11
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "gene-expression-atlas-okn",
+   "direct": 19467,
+   "bridged": 83,
+   "either": 19550,
+   "only_via_connector": 83,
+   "connectors": {
+    "ubergraph": 83
+   },
+   "direct_schemes": {
+    "Ensembl": 19121,
+    "EFO": 288,
+    "MONDO": 24,
+    "Orphanet": 28,
+    "HP": 6
+   },
+   "bridged_schemes": {
+    "MONDO": 74,
+    "EFO": 3,
+    "Orphanet": 4,
+    "NCIT": 2
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "nde",
+   "direct": 820,
+   "bridged": 1274,
+   "either": 2044,
+   "only_via_connector": 1224,
+   "connectors": {
+    "ubergraph": 1274
+   },
+   "direct_schemes": {
+    "MONDO": 756,
+    "HP": 57,
+    "NCIT": 7
+   },
+   "bridged_schemes": {
+    "EFO": 723,
+    "Orphanet": 401,
+    "NCIT": 57,
+    "MONDO": 38,
+    "DOID": 5
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "nestkg",
+   "direct": 16731,
+   "bridged": 11,
+   "either": 16742,
+   "only_via_connector": 11,
+   "connectors": {
+    "ubergraph": 11
+   },
+   "direct_schemes": {
+    "UniProt": 16729,
+    "MONDO": 2
+   },
+   "bridged_schemes": {
+    "EFO": 10,
+    "NCIT": 1
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "oard-kg",
+   "direct": 723,
+   "bridged": 621,
+   "either": 1344,
+   "only_via_connector": 621,
+   "connectors": {
+    "ubergraph": 621
+   },
+   "direct_schemes": {
+    "MONDO": 470,
+    "HP": 253
+   },
+   "bridged_schemes": {
+    "Orphanet": 316,
+    "EFO": 272,
+    "NCIT": 33
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "pankgraph",
+   "direct": 38052,
+   "bridged": 0,
+   "either": 38052,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Ensembl": 37835,
+    "dbSNP": 214,
+    "GO": 3
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "prokn",
+   "to": "rdkg",
+   "direct": 3265,
+   "bridged": 11452,
+   "either": 14526,
+   "only_via_connector": 11261,
+   "connectors": {
+    "wikidata": 9097,
+    "ubergraph": 2355
+   },
+   "direct_schemes": {
+    "MONDO": 2901,
+    "HP": 274,
+    "Orphanet": 90
+   },
+   "bridged_schemes": {
+    "Ensembl": 9049,
+    "Orphanet": 1282,
+    "NCIT": 53,
+    "EFO": 804,
+    "HGNC": 48,
+    "MONDO": 20,
+    "DOID": 5
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "spoke-genelab",
+   "direct": 0,
+   "bridged": 26761,
+   "either": 26761,
+   "only_via_connector": 26761,
+   "connectors": {
+    "wikidata": 26761
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Ensembl": 26513,
+    "HGNC": 248
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "spoke-okn",
+   "direct": 16284,
+   "bridged": 16130,
+   "either": 16507,
+   "only_via_connector": 223,
+   "connectors": {
+    "wikidata": 16072,
+    "ubergraph": 58
+   },
+   "direct_schemes": {
+    "Ensembl": 16140,
+    "InChIKey": 143,
+    "DOID": 1
+   },
+   "bridged_schemes": {
+    "HGNC": 143,
+    "Ensembl": 22,
+    "MONDO": 58
+   }
+  },
+  {
+   "from": "prokn",
+   "to": "ubergraph",
+   "direct": 222,
+   "bridged": 0,
+   "either": 222,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 222
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "rdkg",
+   "to": "biobricks-aopwiki",
+   "direct": 1321,
+   "bridged": 1195,
+   "either": 1323,
+   "only_via_connector": 2,
+   "connectors": {
+    "wikidata": 1191,
+    "ubergraph": 4
+   },
+   "direct_schemes": {
+    "Entrez": 1193,
+    "DrugBank": 124,
+    "CHEBI": 4
+   },
+   "bridged_schemes": {
+    "Entrez": 1,
+    "HGNC": 1
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "biobricks-ice",
+   "direct": 363,
+   "bridged": 14,
+   "either": 377,
+   "only_via_connector": 14,
+   "connectors": {
+    "ubergraph": 14
+   },
+   "direct_schemes": {
+    "Entrez": 363
+   },
+   "bridged_schemes": {
+    "CHEBI": 14
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "biobricks-mesh",
+   "direct": 0,
+   "bridged": 2,
+   "either": 2,
+   "only_via_connector": 2,
+   "connectors": {
+    "ubergraph": 2
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 2
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "biobricks-tox21",
+   "direct": 0,
+   "bridged": 7,
+   "either": 7,
+   "only_via_connector": 7,
+   "connectors": {
+    "ubergraph": 7
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 7
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "biobricks-toxcast",
+   "direct": 0,
+   "bridged": 9,
+   "either": 9,
+   "only_via_connector": 9,
+   "connectors": {
+    "ubergraph": 9
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 9
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 13623,
+   "either": 13623,
+   "only_via_connector": 13623,
+   "connectors": {
+    "ubergraph": 13623
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MONDO": 9052,
+    "HP": 4517,
+    "UBERON": 54
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "biomarkerkg",
+   "direct": 926,
+   "bridged": 72,
+   "either": 998,
+   "only_via_connector": 72,
+   "connectors": {
+    "ubergraph": 72
+   },
+   "direct_schemes": {
+    "MONDO": 754,
+    "Entrez": 167,
+    "UBERON": 3,
+    "CL": 2
+   },
+   "bridged_schemes": {
+    "Orphanet": 72
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "digcfdekg",
+   "direct": 10207,
+   "bridged": 1520,
+   "either": 11715,
+   "only_via_connector": 1508,
+   "connectors": {
+    "ubergraph": 1495,
+    "wikidata": 25
+   },
+   "direct_schemes": {
+    "Entrez": 9219,
+    "MONDO": 180,
+    "Orphanet": 746,
+    "HP": 62
+   },
+   "bridged_schemes": {
+    "MONDO": 1459,
+    "Orphanet": 24,
+    "HGNC": 25
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "gene-expression-atlas-okn",
+   "direct": 74,
+   "bridged": 8717,
+   "either": 8791,
+   "only_via_connector": 8717,
+   "connectors": {
+    "wikidata": 8315,
+    "ubergraph": 402
+   },
+   "direct_schemes": {
+    "UBERON": 19,
+    "HP": 14,
+    "MONDO": 28,
+    "Orphanet": 3,
+    "CL": 10
+   },
+   "bridged_schemes": {
+    "Entrez": 8315,
+    "MONDO": 394,
+    "Orphanet": 8
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "nde",
+   "direct": 3158,
+   "bridged": 451,
+   "either": 3499,
+   "only_via_connector": 341,
+   "connectors": {
+    "ubergraph": 451
+   },
+   "direct_schemes": {
+    "MONDO": 2907,
+    "HP": 251
+   },
+   "bridged_schemes": {
+    "MONDO": 161,
+    "Orphanet": 180
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "nestkg",
+   "direct": 12,
+   "bridged": 3,
+   "either": 15,
+   "only_via_connector": 3,
+   "connectors": {
+    "ubergraph": 3
+   },
+   "direct_schemes": {
+    "MONDO": 12
+   },
+   "bridged_schemes": {
+    "Orphanet": 3
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "oard-kg",
+   "direct": 7760,
+   "bridged": 203,
+   "either": 7963,
+   "only_via_connector": 203,
+   "connectors": {
+    "ubergraph": 203
+   },
+   "direct_schemes": {
+    "HP": 5746,
+    "MONDO": 2014
+   },
+   "bridged_schemes": {
+    "Orphanet": 203
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "pankgraph",
+   "direct": 134,
+   "bridged": 9077,
+   "either": 9211,
+   "only_via_connector": 9077,
+   "connectors": {
+    "wikidata": 9077
+   },
+   "direct_schemes": {
+    "GO": 134
+   },
+   "bridged_schemes": {
+    "Entrez": 9077
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "prokn",
+   "direct": 3265,
+   "bridged": 11407,
+   "either": 13549,
+   "only_via_connector": 10284,
+   "connectors": {
+    "wikidata": 9097,
+    "ubergraph": 2310
+   },
+   "direct_schemes": {
+    "MONDO": 2901,
+    "HP": 274,
+    "Orphanet": 90
+   },
+   "bridged_schemes": {
+    "Entrez": 9097,
+    "MONDO": 1074,
+    "Orphanet": 113
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "ruralkg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "DrugBank": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "rdkg",
+   "to": "spoke-genelab",
+   "direct": 9038,
+   "bridged": 2,
+   "either": 9040,
+   "only_via_connector": 2,
+   "connectors": {
+    "wikidata": 2
+   },
+   "direct_schemes": {
+    "Entrez": 9034,
+    "UBERON": 3,
+    "CL": 1
+   },
+   "bridged_schemes": {
+    "HGNC": 2
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "spoke-okn",
+   "direct": 8527,
+   "bridged": 8520,
+   "either": 8695,
+   "only_via_connector": 168,
+   "connectors": {
+    "wikidata": 8354,
+    "ubergraph": 166
+   },
+   "direct_schemes": {
+    "Entrez": 8475,
+    "DrugBank": 43,
+    "CHEBI": 9
+   },
+   "bridged_schemes": {
+    "MONDO": 166,
+    "HGNC": 2
+   }
+  },
+  {
+   "from": "rdkg",
+   "to": "ubergraph",
+   "direct": 1418,
+   "bridged": 0,
+   "either": 1418,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 1418
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "biohealth",
+   "direct": 246,
+   "bridged": 0,
+   "either": 246,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 246
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "climatemodelskg",
+   "direct": 7,
+   "bridged": 0,
+   "either": 7,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 7
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "dreamkg",
+   "direct": 127,
+   "bridged": 0,
+   "either": 127,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 127
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "geoconnex",
+   "direct": 3222,
+   "bridged": 0,
+   "either": 3222,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3222
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "medical-device-kg",
+   "direct": 5147,
+   "bridged": 0,
+   "either": 5147,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 5145,
+    "LABEL": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "nasa-gesdisc-kg",
+   "direct": 3,
+   "bridged": 0,
+   "either": 3,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 3
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "nikg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "rdkg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "DrugBank": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "scales",
+   "direct": 5367,
+   "bridged": 0,
+   "either": 5367,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 5327,
+    "LABEL": 40
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "securechainkg",
+   "direct": 5,
+   "bridged": 0,
+   "either": 5,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 5
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "sockg",
+   "direct": 31,
+   "bridged": 0,
+   "either": 31,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "spatialkg",
+   "direct": 3155,
+   "bridged": 0,
+   "either": 3155,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3104,
+    "LABEL": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "spoke-okn",
+   "direct": 8628,
+   "bridged": 0,
+   "either": 8628,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3196,
+    "ZIP5": 5420,
+    "LABEL": 12
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ruralkg",
+   "to": "sudokn",
+   "direct": 4095,
+   "bridged": 0,
+   "either": 4095,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 4032,
+    "LABEL": 63
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sawgraph",
+   "to": "biobricks-aopwiki",
+   "direct": 9,
+   "bridged": 1,
+   "either": 9,
+   "only_via_connector": 0,
+   "connectors": {
+    "ubergraph": 1
+   },
+   "direct_schemes": {
+    "NCBITaxon": 8,
+    "CAS": 1
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sawgraph",
+   "to": "biobricks-ice",
+   "direct": 44,
+   "bridged": 0,
+   "either": 44,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 44
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sawgraph",
+   "to": "biobricks-mesh",
+   "direct": 6,
+   "bridged": 0,
+   "either": 6,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 6
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sawgraph",
+   "to": "biobricks-tox21",
+   "direct": 11,
+   "bridged": 0,
+   "either": 11,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 11
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sawgraph",
+   "to": "biobricks-toxcast",
+   "direct": 34,
+   "bridged": 0,
+   "either": 34,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 34
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sawgraph",
+   "to": "nde",
+   "direct": 37,
+   "bridged": 0,
+   "either": 37,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "NCBITaxon": 37
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sawgraph",
+   "to": "spoke-okn",
+   "direct": 0,
+   "bridged": 13,
+   "either": 13,
+   "only_via_connector": 13,
+   "connectors": {
+    "ubergraph": 13
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CAS": 13
+   }
+  },
+  {
+   "from": "scales",
+   "to": "biohealth",
+   "direct": 17,
+   "bridged": 0,
+   "either": 17,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 17
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "scales",
+   "to": "dreamkg",
+   "direct": 235,
+   "bridged": 0,
+   "either": 235,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 235
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "scales",
+   "to": "medical-device-kg",
+   "direct": 19089,
+   "bridged": 0,
+   "either": 19089,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 19089
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "scales",
+   "to": "ruralkg",
+   "direct": 5367,
+   "bridged": 0,
+   "either": 5367,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 5327,
+    "LABEL": 40
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "scales",
+   "to": "spoke-okn",
+   "direct": 40912,
+   "bridged": 0,
+   "either": 40912,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 40911,
+    "LABEL": 1
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "scales",
+   "to": "sudokn",
+   "direct": 13450,
+   "bridged": 0,
+   "either": 13450,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 13450
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "securechainkg",
+   "to": "biohealth",
+   "direct": 10,
+   "bridged": 0,
+   "either": 10,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 10
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "securechainkg",
+   "to": "nasa-gesdisc-kg",
+   "direct": 1,
+   "bridged": 0,
+   "either": 1,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 1
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "securechainkg",
+   "to": "ruralkg",
+   "direct": 5,
+   "bridged": 0,
+   "either": 5,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 5
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "securechainkg",
+   "to": "sudokn",
+   "direct": 58,
+   "bridged": 0,
+   "either": 58,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 58
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "biobricks-aopwiki",
+   "direct": 8,
+   "bridged": 7,
+   "either": 8,
+   "only_via_connector": 0,
+   "connectors": {
+    "ubergraph": 7
+   },
+   "direct_schemes": {
+    "CAS": 8
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "biobricks-ice",
+   "direct": 68,
+   "bridged": 0,
+   "either": 68,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 68
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "biobricks-mesh",
+   "direct": 5,
+   "bridged": 0,
+   "either": 5,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 5
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "biobricks-tox21",
+   "direct": 55,
+   "bridged": 0,
+   "either": 55,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 55
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "biobricks-toxcast",
+   "direct": 59,
+   "bridged": 0,
+   "either": 59,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "CAS": 59
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "geoconnex",
+   "direct": 49,
+   "bridged": 0,
+   "either": 49,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "state_FIPS": 18,
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "ruralkg",
+   "direct": 31,
+   "bridged": 0,
+   "either": 31,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "spatialkg",
+   "direct": 49,
+   "bridged": 0,
+   "either": 49,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "state_FIPS": 18,
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sockg",
+   "to": "spoke-okn",
+   "direct": 49,
+   "bridged": 17,
+   "either": 66,
+   "only_via_connector": 17,
+   "connectors": {
+    "ubergraph": 17
+   },
+   "direct_schemes": {
+    "state_FIPS": 18,
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {
+    "CAS": 17
+   }
+  },
+  {
+   "from": "spatialkg",
+   "to": "biohealth",
+   "direct": 38,
+   "bridged": 0,
+   "either": 38,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 38
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "climatemodelskg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "geoconnex",
+   "direct": 3165,
+   "bridged": 0,
+   "either": 3165,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3114,
+    "state_FIPS": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "nikg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "ruralkg",
+   "direct": 3155,
+   "bridged": 0,
+   "either": 3155,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3104,
+    "LABEL": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "sockg",
+   "direct": 49,
+   "bridged": 0,
+   "either": 49,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "state_FIPS": 18,
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "spoke-okn",
+   "direct": 3146,
+   "bridged": 0,
+   "either": 3146,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3095,
+    "state_FIPS": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "sudokn",
+   "direct": 51,
+   "bridged": 0,
+   "either": 51,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spatialkg",
+   "to": "wildlifekn",
+   "direct": 62,
+   "bridged": 0,
+   "either": 62,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 62
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "biobricks-aopwiki",
+   "direct": 1479,
+   "bridged": 1453,
+   "either": 1494,
+   "only_via_connector": 15,
+   "connectors": {
+    "wikidata": 1453
+   },
+   "direct_schemes": {
+    "Entrez": 1472,
+    "NCBITaxon": 7
+   },
+   "bridged_schemes": {
+    "Entrez": 15
+   }
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "biobricks-ice",
+   "direct": 424,
+   "bridged": 0,
+   "either": 424,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 424
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "biohealth",
+   "direct": 0,
+   "bridged": 32,
+   "either": 32,
+   "only_via_connector": 32,
+   "connectors": {
+    "ubergraph": 32
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "UBERON": 32
+   }
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "biomarkerkg",
+   "direct": 206,
+   "bridged": 0,
+   "either": 206,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 200,
+    "UBERON": 6
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "digcfdekg",
+   "direct": 28556,
+   "bridged": 0,
+   "either": 28556,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "Entrez": 28556
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "gene-expression-atlas-okn",
+   "direct": 39,
+   "bridged": 63112,
+   "either": 63151,
+   "only_via_connector": 63112,
+   "connectors": {
+    "wikidata": 63112
+   },
+   "direct_schemes": {
+    "NCBITaxon": 8,
+    "UBERON": 27,
+    "CL": 4
+   },
+   "bridged_schemes": {
+    "Entrez": 63112
+   }
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "nde",
+   "direct": 7,
+   "bridged": 0,
+   "either": 7,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "NCBITaxon": 7
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "pankgraph",
+   "direct": 0,
+   "bridged": 28331,
+   "either": 28331,
+   "only_via_connector": 28331,
+   "connectors": {
+    "wikidata": 28331
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Entrez": 28331
+   }
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "prokn",
+   "direct": 0,
+   "bridged": 26762,
+   "either": 26762,
+   "only_via_connector": 26762,
+   "connectors": {
+    "wikidata": 26762
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "Entrez": 26762
+   }
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "rdkg",
+   "direct": 9038,
+   "bridged": 2,
+   "either": 9039,
+   "only_via_connector": 1,
+   "connectors": {
+    "wikidata": 2
+   },
+   "direct_schemes": {
+    "Entrez": 9034,
+    "UBERON": 3,
+    "CL": 1
+   },
+   "bridged_schemes": {
+    "Entrez": 1
+   }
+  },
+  {
+   "from": "spoke-genelab",
+   "to": "spoke-okn",
+   "direct": 16328,
+   "bridged": 16051,
+   "either": 16331,
+   "only_via_connector": 3,
+   "connectors": {
+    "wikidata": 16051
+   },
+   "direct_schemes": {
+    "Entrez": 16326,
+    "NCBITaxon": 2
+   },
+   "bridged_schemes": {
+    "Entrez": 3
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "biobricks-aopwiki",
+   "direct": 3066,
+   "bridged": 2857,
+   "either": 3068,
+   "only_via_connector": 2,
+   "connectors": {
+    "wikidata": 2764,
+    "ubergraph": 93
+   },
+   "direct_schemes": {
+    "Entrez": 1393,
+    "Ensembl": 1385,
+    "CHEBI": 99,
+    "PubChem_CID": 87,
+    "ChEMBL": 75,
+    "DrugBank": 27
+   },
+   "bridged_schemes": {
+    "Entrez": 1,
+    "Ensembl": 1
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "biobricks-ice",
+   "direct": 393,
+   "bridged": 1118,
+   "either": 1511,
+   "only_via_connector": 1118,
+   "connectors": {
+    "ubergraph": 727,
+    "wikidata": 391
+   },
+   "direct_schemes": {
+    "Entrez": 393
+   },
+   "bridged_schemes": {
+    "CHEBI": 727,
+    "Ensembl": 391
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "biobricks-mesh",
+   "direct": 0,
+   "bridged": 87,
+   "either": 87,
+   "only_via_connector": 87,
+   "connectors": {
+    "ubergraph": 87
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 87
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "biobricks-tox21",
+   "direct": 0,
+   "bridged": 483,
+   "either": 483,
+   "only_via_connector": 483,
+   "connectors": {
+    "ubergraph": 483
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 483
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "biobricks-toxcast",
+   "direct": 0,
+   "bridged": 499,
+   "either": 499,
+   "only_via_connector": 499,
+   "connectors": {
+    "ubergraph": 499
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 499
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "biohealth",
+   "direct": 106,
+   "bridged": 144,
+   "either": 250,
+   "only_via_connector": 144,
+   "connectors": {
+    "wikidata": 144
+   },
+   "direct_schemes": {
+    "LABEL": 106
+   },
+   "bridged_schemes": {
+    "MeSH": 144
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "biomarkerkg",
+   "direct": 191,
+   "bridged": 364,
+   "either": 555,
+   "only_via_connector": 364,
+   "connectors": {
+    "wikidata": 190,
+    "ubergraph": 174
+   },
+   "direct_schemes": {
+    "Entrez": 191
+   },
+   "bridged_schemes": {
+    "Ensembl": 190,
+    "MeSH": 67,
+    "DOID": 107
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "digcfdekg",
+   "direct": 16320,
+   "bridged": 16124,
+   "either": 32444,
+   "only_via_connector": 16124,
+   "connectors": {
+    "wikidata": 16054,
+    "ubergraph": 70
+   },
+   "direct_schemes": {
+    "Entrez": 16320
+   },
+   "bridged_schemes": {
+    "Ensembl": 16054,
+    "DOID": 41,
+    "MeSH": 29
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "dreamkg",
+   "direct": 235,
+   "bridged": 0,
+   "either": 235,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 235
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "gene-expression-atlas-okn",
+   "direct": 15132,
+   "bridged": 15012,
+   "either": 30144,
+   "only_via_connector": 15012,
+   "connectors": {
+    "wikidata": 14993,
+    "ubergraph": 19
+   },
+   "direct_schemes": {
+    "Ensembl": 15132
+   },
+   "bridged_schemes": {
+    "Entrez": 14993,
+    "DOID": 11,
+    "MeSH": 8
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "geoconnex",
+   "direct": 3236,
+   "bridged": 0,
+   "either": 3236,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3184,
+    "state_FIPS": 52
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "medical-device-kg",
+   "direct": 19563,
+   "bridged": 0,
+   "either": 19563,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 19563
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "nde",
+   "direct": 43,
+   "bridged": 265,
+   "either": 292,
+   "only_via_connector": 249,
+   "connectors": {
+    "ubergraph": 265
+   },
+   "direct_schemes": {
+    "NCBITaxon": 23,
+    "DOID": 20
+   },
+   "bridged_schemes": {
+    "DOID": 131,
+    "MeSH": 118
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "nestkg",
+   "direct": 0,
+   "bridged": 4,
+   "either": 4,
+   "only_via_connector": 4,
+   "connectors": {
+    "ubergraph": 4
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "DOID": 3,
+    "MeSH": 1
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "nikg",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "oard-kg",
+   "direct": 0,
+   "bridged": 69,
+   "either": 69,
+   "only_via_connector": 69,
+   "connectors": {
+    "ubergraph": 69
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "DOID": 40,
+    "MeSH": 29
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "pankgraph",
+   "direct": 16314,
+   "bridged": 16074,
+   "either": 32388,
+   "only_via_connector": 16074,
+   "connectors": {
+    "wikidata": 16074
+   },
+   "direct_schemes": {
+    "Ensembl": 16314
+   },
+   "bridged_schemes": {
+    "Entrez": 16074
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "prokn",
+   "direct": 16284,
+   "bridged": 16160,
+   "either": 32444,
+   "only_via_connector": 16160,
+   "connectors": {
+    "wikidata": 16072,
+    "ubergraph": 88
+   },
+   "direct_schemes": {
+    "Ensembl": 16140,
+    "InChIKey": 143,
+    "DOID": 1
+   },
+   "bridged_schemes": {
+    "Entrez": 16072,
+    "MeSH": 33,
+    "DOID": 55
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "rdkg",
+   "direct": 8527,
+   "bridged": 8614,
+   "either": 17140,
+   "only_via_connector": 8613,
+   "connectors": {
+    "wikidata": 8354,
+    "ubergraph": 260
+   },
+   "direct_schemes": {
+    "Entrez": 8475,
+    "DrugBank": 43,
+    "CHEBI": 9
+   },
+   "bridged_schemes": {
+    "Ensembl": 8352,
+    "MeSH": 111,
+    "DOID": 149,
+    "Entrez": 1
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "ruralkg",
+   "direct": 8628,
+   "bridged": 0,
+   "either": 8628,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3196,
+    "ZIP5": 5420,
+    "LABEL": 12
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "sawgraph",
+   "direct": 0,
+   "bridged": 13,
+   "either": 13,
+   "only_via_connector": 13,
+   "connectors": {
+    "ubergraph": 13
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "CHEBI": 13
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "scales",
+   "direct": 40912,
+   "bridged": 0,
+   "either": 40912,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 40911,
+    "LABEL": 1
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "sockg",
+   "direct": 49,
+   "bridged": 17,
+   "either": 66,
+   "only_via_connector": 17,
+   "connectors": {
+    "ubergraph": 17
+   },
+   "direct_schemes": {
+    "state_FIPS": 18,
+    "county_FIPS": 31
+   },
+   "bridged_schemes": {
+    "CHEBI": 17
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "spatialkg",
+   "direct": 3146,
+   "bridged": 0,
+   "either": 3146,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "county_FIPS": 3095,
+    "state_FIPS": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "spoke-genelab",
+   "direct": 16328,
+   "bridged": 16050,
+   "either": 32378,
+   "only_via_connector": 16050,
+   "connectors": {
+    "wikidata": 16050
+   },
+   "direct_schemes": {
+    "Entrez": 16326,
+    "NCBITaxon": 2
+   },
+   "bridged_schemes": {
+    "Ensembl": 16050
+   }
+  },
+  {
+   "from": "spoke-okn",
+   "to": "sudokn",
+   "direct": 13742,
+   "bridged": 0,
+   "either": 13742,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 13742
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "spoke-okn",
+   "to": "ubergraph",
+   "direct": 135,
+   "bridged": 137,
+   "either": 150,
+   "only_via_connector": 15,
+   "connectors": {
+    "wikidata": 137
+   },
+   "direct_schemes": {
+    "MeSH": 135
+   },
+   "bridged_schemes": {
+    "MeSH": 15
+   }
+  },
+  {
+   "from": "sudokn",
+   "to": "biohealth",
+   "direct": 211,
+   "bridged": 0,
+   "either": 211,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 211
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "climatemodelskg",
+   "direct": 60,
+   "bridged": 0,
+   "either": 60,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 60
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "dreamkg",
+   "direct": 171,
+   "bridged": 0,
+   "either": 171,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 171
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "medical-device-kg",
+   "direct": 11547,
+   "bridged": 0,
+   "either": 11547,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 11183,
+    "LABEL": 364
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "nasa-gesdisc-kg",
+   "direct": 20,
+   "bridged": 0,
+   "either": 20,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 20
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "ruralkg",
+   "direct": 4095,
+   "bridged": 0,
+   "either": 4095,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 4032,
+    "LABEL": 63
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "scales",
+   "direct": 13450,
+   "bridged": 0,
+   "either": 13450,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 13450
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "securechainkg",
+   "direct": 58,
+   "bridged": 0,
+   "either": 58,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 58
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "spatialkg",
+   "direct": 51,
+   "bridged": 0,
+   "either": 51,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 51
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "sudokn",
+   "to": "spoke-okn",
+   "direct": 13742,
+   "bridged": 0,
+   "either": 13742,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "ZIP5": 13742
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "biobricks-ice",
+   "direct": 0,
+   "bridged": 1,
+   "either": 1,
+   "only_via_connector": 1,
+   "connectors": {
+    "wikidata": 1
+   },
+   "direct_schemes": {},
+   "bridged_schemes": {
+    "MeSH": 1
+   }
+  },
+  {
+   "from": "ubergraph",
+   "to": "biohealth",
+   "direct": 13566,
+   "bridged": 5552,
+   "either": 19118,
+   "only_via_connector": 5552,
+   "connectors": {
+    "wikidata": 5552
+   },
+   "direct_schemes": {
+    "UMLS": 13566
+   },
+   "bridged_schemes": {
+    "MeSH": 5552
+   }
+  },
+  {
+   "from": "ubergraph",
+   "to": "biomarkerkg",
+   "direct": 70,
+   "bridged": 0,
+   "either": 70,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 70
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "digcfdekg",
+   "direct": 26,
+   "bridged": 0,
+   "either": 26,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 26
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "gene-expression-atlas-okn",
+   "direct": 2,
+   "bridged": 0,
+   "either": 2,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 2
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "nde",
+   "direct": 284,
+   "bridged": 0,
+   "either": 284,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 284
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "oard-kg",
+   "direct": 212,
+   "bridged": 0,
+   "either": 212,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 212
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "prokn",
+   "direct": 222,
+   "bridged": 0,
+   "either": 222,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 222
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "rdkg",
+   "direct": 1418,
+   "bridged": 0,
+   "either": 1418,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "MONDO": 1418
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "ubergraph",
+   "to": "spoke-okn",
+   "direct": 135,
+   "bridged": 167,
+   "either": 302,
+   "only_via_connector": 167,
+   "connectors": {
+    "wikidata": 167
+   },
+   "direct_schemes": {
+    "MeSH": 135
+   },
+   "bridged_schemes": {
+    "UMLS": 167
+   }
+  },
+  {
+   "from": "wildlifekn",
+   "to": "biohealth",
+   "direct": 105,
+   "bridged": 0,
+   "either": 105,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 105
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "wildlifekn",
+   "to": "medical-device-kg",
+   "direct": 1,
+   "bridged": 0,
+   "either": 1,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 1
+   },
+   "bridged_schemes": {}
+  },
+  {
+   "from": "wildlifekn",
+   "to": "spatialkg",
+   "direct": 62,
+   "bridged": 0,
+   "either": 62,
+   "only_via_connector": 0,
+   "connectors": {},
+   "direct_schemes": {
+    "LABEL": 62
+   },
+   "bridged_schemes": {}
+  }
+ ],
+ "graphs": {
+  "biobricks-aopwiki": {
+   "keys": 12714,
+   "schemes": {
+    "UniProt": 7842,
+    "CAS": 391,
+    "Ensembl": 1478,
+    "CHEBI": 415,
+    "Entrez": 1480,
+    "DrugBank": 206,
+    "PubChem_CID": 403,
+    "NCBITaxon": 166,
+    "ChEMBL": 333
+   }
+  },
+  "biobricks-ice": {
+   "keys": 199127,
+   "schemes": {
+    "CAS": 198562,
+    "Entrez": 510,
+    "UMLS": 55
+   }
+  },
+  "biobricks-mesh": {
+   "keys": 67043,
+   "schemes": {
+    "CAS": 67043
+   }
+  },
+  "biobricks-tox21": {
+   "keys": 8747,
+   "schemes": {
+    "CAS": 8747
+   }
+  },
+  "biobricks-toxcast": {
+   "keys": 9117,
+   "schemes": {
+    "CAS": 9117
+   }
+  },
+  "biohealth": {
+   "keys": 497480,
+   "schemes": {
+    "LABEL": 250754,
+    "UMLS": 246723,
+    "PubChem_CID": 3
+   }
+  },
+  "biomarkerkg": {
+   "keys": 1420,
+   "schemes": {
+    "MONDO": 912,
+    "UniProt": 244,
+    "Entrez": 201,
+    "UBERON": 50,
+    "CL": 12,
+    "PubChem_CID": 1
+   }
+  },
+  "climatemodelskg": {
+   "keys": 48432,
+   "schemes": {
+    "LABEL": 48431,
+    "dbSNP": 1
+   }
+  },
+  "digcfdekg": {
+   "keys": 45809,
+   "schemes": {
+    "Entrez": 41373,
+    "EFO": 1687,
+    "MONDO": 226,
+    "Orphanet": 2313,
+    "HP": 65,
+    "OBA": 91,
+    "GO": 38,
+    "PR": 3,
+    "NCIT": 2,
+    "CHEBI": 9,
+    "PATO": 1,
+    "NBO": 1
+   }
+  },
+  "dreamkg": {
+   "keys": 235,
+   "schemes": {
+    "ZIP5": 235
+   }
+  },
+  "gene-expression-atlas-okn": {
+   "keys": 284454,
+   "schemes": {
+    "Ensembl": 281467,
+    "Reactome": 1483,
+    "MONDO": 37,
+    "UBERON": 362,
+    "EFO": 594,
+    "PO": 165,
+    "CL": 223,
+    "BTO": 11,
+    "HANCESTRO": 10,
+    "GO": 2,
+    "Orphanet": 52,
+    "HP": 14,
+    "FBBT": 6,
+    "FBDV": 3,
+    "NCBITaxon": 9,
+    "NCIT": 2,
+    "PATO": 7,
+    "FMA": 1,
+    "DOID": 4,
+    "WBLS": 2
+   }
+  },
+  "geoconnex": {
+   "keys": 3299,
+   "schemes": {
+    "county_FIPS": 3243,
+    "state_FIPS": 56
+   }
+  },
+  "hydrologykg": {
+   "keys": 106138,
+   "schemes": {
+    "S2_L13": 106138
+   }
+  },
+  "medical-device-kg": {
+   "keys": 48030,
+   "schemes": {
+    "LABEL": 23713,
+    "ZIP5": 24317
+   }
+  },
+  "nasa-gesdisc-kg": {
+   "keys": 1352,
+   "schemes": {
+    "LABEL": 1351,
+    "CAS": 1
+   }
+  },
+  "nde": {
+   "keys": 6420,
+   "schemes": {
+    "NCBITaxon": 1807,
+    "MONDO": 3364,
+    "HP": 258,
+    "NCIT": 703,
+    "DOID": 288
+   }
+  },
+  "nestkg": {
+   "keys": 16781,
+   "schemes": {
+    "UniProt": 16767,
+    "MONDO": 14
+   }
+  },
+  "nikg": {
+   "keys": 2,
+   "schemes": {
+    "county_FIPS": 2
+   }
+  },
+  "oard-kg": {
+   "keys": 8793,
+   "schemes": {
+    "HP": 6496,
+    "MONDO": 2297
+   }
+  },
+  "pankgraph": {
+   "keys": 115583,
+   "schemes": {
+    "Ensembl": 78687,
+    "dbSNP": 19448,
+    "GO": 17448
+   }
+  },
+  "prokn": {
+   "keys": 518970,
+   "schemes": {
+    "UniProt": 100585,
+    "InChIKey": 304376,
+    "Ensembl": 38001,
+    "dbSNP": 68695,
+    "HP": 275,
+    "Orphanet": 2192,
+    "MONDO": 3191,
+    "EFO": 1147,
+    "HGNC": 328,
+    "SNOMEDCT": 86,
+    "GO": 4,
+    "NCIT": 82,
+    "DOID": 5,
+    "MP": 2,
+    "CHEBI": 1
+   }
+  },
+  "rdkg": {
+   "keys": 48213,
+   "schemes": {
+    "MONDO": 22176,
+    "HP": 11708,
+    "Orphanet": 2660,
+    "Entrez": 9293,
+    "DrugBank": 2074,
+    "GO": 151,
+    "UBERON": 75,
+    "HGNC": 33,
+    "CHEBI": 21,
+    "CL": 21,
+    "OMIM": 1
+   }
+  },
+  "ruralkg": {
+   "keys": 13013,
+   "schemes": {
+    "county_FIPS": 3234,
+    "LABEL": 4352,
+    "ZIP5": 5420,
+    "DrugBank": 7
+   }
+  },
+  "sawgraph": {
+   "keys": 274,
+   "schemes": {
+    "NCBITaxon": 160,
+    "CAS": 114
+   }
+  },
+  "scales": {
+   "keys": 41006,
+   "schemes": {
+    "ZIP5": 40918,
+    "LABEL": 88
+   }
+  },
+  "securechainkg": {
+   "keys": 67,
+   "schemes": {
+    "LABEL": 67
+   }
+  },
+  "sockg": {
+   "keys": 1198,
+   "schemes": {
+    "S2_L13": 1069,
+    "county_FIPS": 31,
+    "CAS": 80,
+    "state_FIPS": 18
+   }
+  },
+  "spatialkg": {
+   "keys": 3283,
+   "schemes": {
+    "county_FIPS": 3114,
+    "LABEL": 118,
+    "state_FIPS": 51
+   }
+  },
+  "spoke-genelab": {
+   "keys": 139823,
+   "schemes": {
+    "Entrez": 139719,
+    "NCBITaxon": 55,
+    "UBERON": 42,
+    "CL": 7
+   }
+  },
+  "spoke-okn": {
+   "keys": 118358,
+   "schemes": {
+    "ZIP5": 42724,
+    "Ensembl": 16316,
+    "Entrez": 16346,
+    "NCBITaxon": 34570,
+    "county_FIPS": 3196,
+    "MeSH": 165,
+    "PubChem_CID": 762,
+    "CHEBI": 935,
+    "InChIKey": 762,
+    "LABEL": 1426,
+    "ChEMBL": 747,
+    "DrugBank": 175,
+    "DOID": 180,
+    "state_FIPS": 52,
+    "ENVO": 2
+   }
+  },
+  "sudokn": {
+   "keys": 47387,
+   "schemes": {
+    "LABEL": 31497,
+    "ZIP5": 15890
+   }
+  },
+  "ubergraph": {
+   "keys": 43521,
+   "schemes": {
+    "UMLS": 32462,
+    "MeSH": 9467,
+    "MONDO": 1592
+   }
+  },
+  "ufokn": {
+   "keys": 97087,
+   "schemes": {
+    "S2_L13": 97087
+   }
+  },
+  "wildlifekn": {
+   "keys": 498,
+   "schemes": {
+    "LABEL": 498
+   }
+  }
+ },
+ "connectors": {
+  "wikidata": 334580,
+  "ubergraph": 173255
+ },
+ "compute_seconds": 9.34
+}

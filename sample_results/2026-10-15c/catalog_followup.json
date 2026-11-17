@@ -1,0 +1,686 @@
+{
+ "run": "2026-10-15c",
+ "catalog_verified_on": "2026-11-09",
+ "checked_at": "2026-11-16T21:37:12+00:00",
+ "summary": {
+  "found_outside_catalog_at_run": 40,
+  "added_since": 10,
+  "added_with_same_count": 8,
+  "still_missing": 30,
+  "still_refused": 13
+ },
+ "rows": [
+  {
+   "pair": [
+    "scales",
+    "sudokn"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "ZIP5": 13450
+   },
+   "via": {},
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "I7-company-iri-scales-sudokn",
+     "shared_key": "SUDOKN_company_IRI",
+     "count": 100,
+     "verified_on": "2026-10-13"
+    }
+   ],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nde",
+    "rdkg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "MONDO": 2907,
+    "HP": 251
+   },
+   "via": {
+    "ubergraph": 451
+   },
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "A32-mondo-nde-rdkg",
+     "shared_key": "MONDO",
+     "count": 2907,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "biobricks-mesh",
+    "biobricks-tox21"
+   ],
+   "at_run": "new",
+   "computed": {
+    "CAS": 1103
+   },
+   "via": {},
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "M8-cas-mesh-tox21",
+     "shared_key": "CAS",
+     "count": 1103,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "nde",
+    "prokn"
+   ],
+   "at_run": "new",
+   "computed": {
+    "MONDO": 756,
+    "HP": 57,
+    "NCIT": 7
+   },
+   "via": {
+    "ubergraph": 1274
+   },
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "A33-mondo-nde-prokn",
+     "shared_key": "MONDO",
+     "count": 756,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "biobricks-aopwiki",
+    "biobricks-tox21"
+   ],
+   "at_run": "new",
+   "computed": {
+    "CAS": 285
+   },
+   "via": {
+    "ubergraph": 280
+   },
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "E4-cas-aopwiki-tox21",
+     "shared_key": "CAS",
+     "count": 285,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "digcfdekg",
+    "nde"
+   ],
+   "at_run": "new",
+   "computed": {
+    "MONDO": 158,
+    "HP": 13
+   },
+   "via": {
+    "ubergraph": 455
+   },
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "A34-mondo-digcfdekg-nde",
+     "shared_key": "MONDO",
+     "count": 158,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "biobricks-tox21",
+    "sockg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "CAS": 55
+   },
+   "via": {},
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "ET5-cas-tox21-sockg",
+     "shared_key": "CAS",
+     "count": 55,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "biobricks-tox21",
+    "sawgraph"
+   ],
+   "at_run": "new",
+   "computed": {
+    "CAS": 11
+   },
+   "via": {},
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "ET6-cas-sawgraph-tox21",
+     "shared_key": "CAS",
+     "count": 11,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "biobricks-aopwiki",
+    "sockg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "CAS": 8
+   },
+   "via": {
+    "ubergraph": 7
+   },
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "ET7-cas-aopwiki-sockg",
+     "shared_key": "CAS",
+     "count": 8,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": "same count"
+  },
+  {
+   "pair": [
+    "biobricks-mesh",
+    "rdkg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {},
+   "via": {
+    "ubergraph": 2
+   },
+   "now": "verified",
+   "catalog_entries_now": [
+    {
+     "id": "A35-mesh-mondo-mesh-rdkg-via-babel",
+     "shared_key": "disease id -> MeSH (bridged)",
+     "count": 7934,
+     "verified_on": "2026-10-14"
+    },
+    {
+     "id": "M9-mesh-rdkg-exposure-mesh",
+     "shared_key": "MeSH",
+     "count": 474,
+     "verified_on": "2026-10-14"
+    }
+   ],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "ruralkg",
+    "sudokn"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "ZIP5": 4032
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "geoconnex",
+    "ruralkg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "county_FIPS": 3222
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "ruralkg",
+    "spatialkg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "county_FIPS": 3104
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-aopwiki",
+    "pankgraph"
+   ],
+   "at_run": "new",
+   "computed": {
+    "Ensembl": 1470
+   },
+   "via": {
+    "wikidata": 1447
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-aopwiki",
+    "digcfdekg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "Entrez": 1446
+   },
+   "via": {
+    "wikidata": 1461
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-aopwiki",
+    "biobricks-ice"
+   ],
+   "at_run": "new",
+   "computed": {
+    "CAS": 339,
+    "Entrez": 171
+   },
+   "via": {
+    "ubergraph": 343,
+    "wikidata": 171
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-ice",
+    "spoke-genelab"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "Entrez": 424
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-ice",
+    "digcfdekg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "Entrez": 401
+   },
+   "via": {
+    "ubergraph": 5
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "dreamkg",
+    "sudokn"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "ZIP5": 171
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-aopwiki",
+    "nde"
+   ],
+   "at_run": "new",
+   "computed": {
+    "NCBITaxon": 62
+   },
+   "via": {},
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "geoconnex",
+    "sockg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "county_FIPS": 31,
+    "state_FIPS": 18
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nde",
+    "sawgraph"
+   ],
+   "at_run": "new",
+   "computed": {
+    "NCBITaxon": 37
+   },
+   "via": {},
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-ice",
+    "biomarkerkg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "Entrez": 36
+   },
+   "via": {},
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "ruralkg",
+    "sockg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "county_FIPS": 31
+   },
+   "via": {},
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nde",
+    "nestkg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "MONDO": 13
+   },
+   "via": {
+    "ubergraph": 4
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nestkg",
+    "rdkg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "MONDO": 12
+   },
+   "via": {
+    "ubergraph": 3
+   },
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-aopwiki",
+    "sawgraph"
+   ],
+   "at_run": "new",
+   "computed": {
+    "NCBITaxon": 8,
+    "CAS": 1
+   },
+   "via": {
+    "ubergraph": 1
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nde",
+    "spoke-genelab"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "NCBITaxon": 7
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nestkg",
+    "oard-kg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "MONDO": 4
+   },
+   "via": {},
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "digcfdekg",
+    "nestkg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "MONDO": 2
+   },
+   "via": {
+    "ubergraph": 3
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "geoconnex",
+    "nikg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "county_FIPS": 2
+   },
+   "via": {},
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nikg",
+    "ruralkg"
+   ],
+   "at_run": "new",
+   "computed": {
+    "county_FIPS": 2
+   },
+   "via": {},
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "gene-expression-atlas-okn",
+    "nestkg"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {
+    "MONDO": 1
+   },
+   "via": {
+    "ubergraph": 11
+   },
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-ice",
+    "gene-expression-atlas-okn"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {},
+   "via": {
+    "wikidata": 487
+   },
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-ice",
+    "prokn"
+   ],
+   "at_run": "new",
+   "computed": {},
+   "via": {
+    "wikidata": 399
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "sawgraph",
+    "spoke-okn"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {},
+   "via": {
+    "ubergraph": 13
+   },
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-tox21",
+    "digcfdekg"
+   ],
+   "at_run": "new",
+   "computed": {},
+   "via": {
+    "ubergraph": 5
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-toxcast",
+    "digcfdekg"
+   ],
+   "at_run": "new",
+   "computed": {},
+   "via": {
+    "ubergraph": 5
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "nestkg",
+    "spoke-okn"
+   ],
+   "at_run": "contradicts_refusal",
+   "computed": {},
+   "via": {
+    "ubergraph": 4
+   },
+   "now": "known_non_join",
+   "catalog_entries_now": [],
+   "agreement": null
+  },
+  {
+   "pair": [
+    "biobricks-mesh",
+    "digcfdekg"
+   ],
+   "at_run": "new",
+   "computed": {},
+   "via": {
+    "ubergraph": 2
+   },
+   "now": "unknown",
+   "catalog_entries_now": [],
+   "agreement": null
+  }
+ ]
+}
