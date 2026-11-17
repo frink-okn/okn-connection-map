@@ -1,0 +1,47 @@
+# GitHub Pages: publish the sample run as a public demo.
+# URL once enabled: https://frink-okn.github.io/okn-connection-map/
+# Landing page: sample_results/2026-10-15c/index.html
+# It links to report.html, explorer.html and join_paths_demo.html
+# in the same folder, so the whole demo is one static folder.
+# Enable once in the repo: Settings > Pages > Build and deployment
+# > Source: GitHub Actions. Then push, or run this workflow manually.
+name: Deploy demo to GitHub Pages
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "sample_results/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check demo files are present
+        run: |
+          test -f sample_results/2026-10-15c/index.html
+          test -f sample_results/2026-10-15c/report.html
+          test -f sample_results/2026-10-15c/explorer.html
+          test -f sample_results/2026-10-15c/join_paths_demo.html
+          ls -lh sample_results/2026-10-15c/*.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: sample_results/2026-10-15c
+      - id: deployment
+        uses: actions/deploy-pages@v4

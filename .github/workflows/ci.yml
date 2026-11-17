@@ -1,0 +1,38 @@
+# CI: run the offline test suite on every push and pull request.
+# No live FRINK calls. The tests use only the included sample run.
+# This is why the install step matters: `python -m unittest discover`
+# fails with ModuleNotFoundError unless the package is installed first
+# (or PYTHONPATH=src is set). Verified locally: 16 tests, 0.034s.
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package
+        run: pip install -e .
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Smoke test the CLI
+        run: |
+          ocm --version
+          ocm --help
+          ocm paths --help

@@ -15,7 +15,7 @@ Choose **one** of the three routes below. Each ends with the same check.
    ```
 3. Get the code. With Git:
    ```bat
-   git clone https://github.com/OWNER/okn-connection-map.git
+   git clone https://github.com/frink-okn/okn-connection-map.git
    ```
    Without Git: on the repository's GitHub page, click the green **Code** button, then **Download ZIP**, unzip it into this folder, and rename the folder to `okn-connection-map`.
 4. Create a separate environment and install:
@@ -47,7 +47,7 @@ Choose **one** of the three routes below. Each ends with the same check.
 1. Check that you have Python 3.9 or newer: `python3 --version`. On macOS, if Python is missing, install it from python.org or run `xcode-select --install`.
 2. Open **Terminal**, then:
    ```bash
-   git clone https://github.com/OWNER/okn-connection-map.git
+   git clone https://github.com/frink-okn/okn-connection-map.git
    cd okn-connection-map
    python3 -m venv .venv
    source .venv/bin/activate

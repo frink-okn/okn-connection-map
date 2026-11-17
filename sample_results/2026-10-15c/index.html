@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>okn-connection-map — live demo, 15 October 2026 run</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:860px;margin:0 auto;padding:32px 20px 64px;color:#1a1a1a;line-height:1.55}
+  h1{font-size:30px;line-height:1.2;margin:0 0 8px}
+  p.lede{font-size:18px;color:#333;margin:0 0 24px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:24px 0}
+  .card{border:1px solid #d8dee6;border-radius:12px;padding:18px}
+  .card h2{font-size:18px;margin:0 0 6px}
+  .card p{margin:0 0 12px;color:#333}
+  a{color:#0b5fff}
+  a.button{display:inline-block;background:#0b5fff;color:#fff;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+  .num{font-size:28px;font-weight:700}
+  table{border-collapse:collapse;width:100%;margin:16px 0}
+  td,th{border-bottom:1px solid #e3e8ef;padding:8px 6px;text-align:left;vertical-align:top}
+  .muted{color:#555;font-size:14px}
+  code{background:#f1f3f5;padding:2px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>okn-connection-map</h1>
+<p class="lede">Find out where the Proto-OKN knowledge graphs connect. Computed from the data, with evidence, and served to AI agents.</p>
+<p>This is the live demo from the run of 15 October 2026. It uses the sample results already in this repository. Nothing here needs a login, and nothing here changes any OKN service.</p>
+
+<div class="cards">
+  <div class="card">
+    <h2>1. Report</h2>
+    <p>The federation-wide findings. What the catalog reproduces, and what it misses.</p>
+    <a class="button" href="report.html">Open report.html</a>
+  </div>
+  <div class="card">
+    <h2>2. Explorer</h2>
+    <p>Pick one graph and see everything it reaches.</p>
+    <a class="button" href="explorer.html">Open explorer.html</a>
+  </div>
+  <div class="card">
+    <h2>3. Join paths</h2>
+    <p>Pick any two graphs. See what MCP-OKN answers today, beside what the data support, with evidence.</p>
+    <a class="button" href="join_paths_demo.html">Open join_paths_demo.html</a>
+  </div>
+</div>
+
+<h2>What this run found</h2>
+<table>
+  <tr><td><span class="num">117 of 122</span></td><td>stored crosswalks the map reproduces, of those it could test</td></tr>
+  <tr><td><span class="num">76 of 85</span></td><td>catalog counts the map agrees with within 5% (62 exactly)</td></tr>
+  <tr><td><span class="num">40</span></td><td>connected pairs the catalog did not answer: 16 refused with “do not retry”, 24 “unknown”</td></tr>
+  <tr><td><span class="num">34 of 34</span></td><td>sampled identifiers re-checked live on 11 November 2026, found in both graphs</td></tr>
+</table>
+
+<h2>Three examples to try first</h2>
+<table>
+  <tr><th>Pair</th><th>What MCP-OKN says today</th><th>What the data show</th></tr>
+  <tr><td>NDE × rdkg</td><td>Was “do not retry”; verified since 14 October</td><td>2,907 shared diseases (MONDO)</td></tr>
+  <tr><td>GeoConnex × RuralKG</td><td>“do not retry”, based on a note about S2 cells</td><td>3,222 shared US counties (FIPS)</td></tr>
+  <tr><td>AOP-Wiki × ICE</td><td>“unknown”</td><td>339 shared chemicals (CAS) and 171 shared genes</td></tr>
+</table>
+<p>Try the third example in the join paths demo. It is the one where the map computed 339 independently, the same number the catalog stores inside another entry.</p>
+
+<h2>Try it yourself</h2>
+<p><code>git clone https://github.com/frink-okn/okn-connection-map.git</code><br>
+<code>pip install -e .</code><br>
+<code>ocm use-sample</code><br>
+<code>ocm paths geoconnex ruralkg</code></p>
+<p>Full instructions are in the <a href="https://github.com/frink-okn/okn-connection-map">README on GitHub</a>. The MCP server is <code>ocm mcp</code>, with tools <code>find_join_paths</code>, <code>connections_of</code>, and <code>list_graphs</code>.</p>
+
+<p class="muted">Run: 15 October 2026. Catalog used for that run: 26 September 2026. Follow-up against the catalog of 9 November 2026: maintainers have since added 10 of the 40 connections, 8 at exactly the count this tool computed. 30 are still missing, 13 still refused. Source code and documentation: github.com/frink-okn/okn-connection-map. License: BSD 3-Clause. Authors: Saminur Islam and Rada Chirkova, NC State Computer Science.</p>
+</body>
+</html>

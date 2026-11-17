@@ -1,6 +1,14 @@
 # okn-connection-map
 
+[![CI](https://github.com/frink-okn/okn-connection-map/actions/workflows/ci.yml/badge.svg)](https://github.com/frink-okn/okn-connection-map/actions/workflows/ci.yml)
+[![Demo](https://github.com/frink-okn/okn-connection-map/actions/workflows/pages.yml/badge.svg)](https://frink-okn.github.io/okn-connection-map/)
+[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/frink-okn/okn-connection-map/blob/master/LICENSE)
+[![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://github.com/frink-okn/okn-connection-map/blob/master/pyproject.toml)
+[![Version: 0.2.0](https://img.shields.io/badge/Version-0.2.0-green.svg)](https://github.com/frink-okn/okn-connection-map/releases/tag/v0.2.0)
+
 **Find out where the Proto-OKN knowledge graphs connect: computed from the data, with evidence, and served to AI agents.**
+
+**Live demo (no install needed): https://frink-okn.github.io/okn-connection-map/** — the report, explorer, and join-path demo from the 15 October 2026 sample run. Enable it once in Settings > Pages > Source: GitHub Actions, then push.
 
 `okn-connection-map` reads the identifiers each graph in the [Proto-OKN](https://www.proto-okn.net/) / FRINK federation actually holds. Examples are disease codes, gene IDs, chemical numbers, ZIP codes and county codes. It then works out which graphs share them, either directly or through a mapping graph such as Ubergraph. The result is checked against the hand-curated crosswalk catalog that [MCP-OKN](https://github.com/sbl-sdsc/mcp-okn) uses to tell AI agents which graphs can be joined. Every connection comes with evidence you can re-check against the live federation. The same answers are available to any AI agent through a small MCP tool, `find_join_paths`.
 
@@ -90,7 +98,7 @@ No programming experience is needed: copy each block into a terminal. On Windows
 
 Windows:
 ```bat
-git clone https://github.com/OWNER/okn-connection-map.git
+git clone https://github.com/frink-okn/okn-connection-map.git
 cd okn-connection-map
 python -m venv .venv
 .venv\Scripts\activate
@@ -98,7 +106,7 @@ pip install -e .
 ```
 macOS / Linux:
 ```bash
-git clone https://github.com/OWNER/okn-connection-map.git
+git clone https://github.com/frink-okn/okn-connection-map.git
 cd okn-connection-map
 python3 -m venv .venv
 source .venv/bin/activate
