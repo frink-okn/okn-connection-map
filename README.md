@@ -90,7 +90,7 @@ No programming experience is needed: copy each block into a terminal. On Windows
 
 Windows:
 ```bat
-git clone https://github.com/OWNER/okn-connection-map.git
+git clone https://github.com/frink-okn/okn-connection-map.git
 cd okn-connection-map
 python -m venv .venv
 .venv\Scripts\activate
@@ -98,7 +98,7 @@ pip install -e .
 ```
 macOS / Linux:
 ```bash
-git clone https://github.com/OWNER/okn-connection-map.git
+git clone https://github.com/frink-okn/okn-connection-map.git
 cd okn-connection-map
 python3 -m venv .venv
 source .venv/bin/activate
